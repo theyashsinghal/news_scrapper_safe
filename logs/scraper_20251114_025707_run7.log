@@ -1,0 +1,154 @@
+2025-11-14 02:20:12,793 - INFO - Initializing database connection at: news_articles.db
+2025-11-14 02:20:12,794 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-14 02:20:12,794 - INFO - --- Starting new scraping job ---
+2025-11-14 02:20:12,794 - INFO - Creating new robust session with 3 retries on 5xx errors.
+2025-11-14 02:20:12,794 - INFO - Proxy is DISABLED.
+2025-11-14 02:20:12,794 - INFO - Attempting to initialize Selenium driver for this run...
+2025-11-14 02:20:12,794 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-14 02:20:19,919 - INFO - Selenium driver initialized successfully.
+2025-11-14 02:20:19,919 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-14 02:20:20,310 - INFO - Found 27 articles in BBC RSS feed. Processing up to 7.
+2025-11-14 02:20:20,310 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cglgj08erywo?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:20,310 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:20,549 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:20,608 - INFO - Duplicate article skipped: Epstein email says Andrew had photo taken with Virginia Giuffre from BBC
+2025-11-14 02:20:21,151 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3rj0d97ynvo?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:21,151 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:21,197 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:21,230 - INFO - Duplicate article skipped: What we know about the latest Epstein emails referencing Trump from BBC
+2025-11-14 02:20:22,412 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gpkerdn9qo?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:22,412 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:22,444 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:22,474 - INFO - Duplicate article skipped: Germany agrees new military service plan to boost troop numbers from BBC
+2025-11-14 02:20:23,374 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz917nvj7qeo?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:23,374 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:23,404 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:23,436 - INFO - Duplicate article skipped: Trump celebrates as Democrats face fallout from end of shutdown from BBC
+2025-11-14 02:20:24,760 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxnerkx5pgo?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:24,760 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:24,863 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:24,893 - INFO - Duplicate article skipped: Israel receives body Hamas says belongs to hostage from BBC
+2025-11-14 02:20:25,974 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c17p1nwy7q8o?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:25,974 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:26,015 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:26,050 - INFO - Duplicate article skipped: Sudan conflict: Marco Rubio calls for international action to cut weapons supplies to RSF from BBC
+2025-11-14 02:20:27,197 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd679n9lnx5o?at_medium=RSS&at_campaign=rss
+2025-11-14 02:20:27,197 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:20:27,226 - INFO - [BBC] Success with 'requests_browser'. Found content.
+2025-11-14 02:20:27,258 - INFO - Duplicate article skipped: Steam Machine: Valve rivals Xbox and PlayStation with new console from BBC
+2025-11-14 02:20:27,833 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-14 02:20:27,979 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 7.
+2025-11-14 02:20:27,979 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/russia-ukraine-war-moscow-launches-missiles-drones-overnight-every-district-in-kyiv-under-massive-attack/articleshow/125313481.cms
+2025-11-14 02:20:27,980 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:22:28,049 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:22:28,049 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/europe/russia-ukraine-war-moscow-launches-missiles-drones-overnight-every-district-in-kyiv-under-massive-attack/articleshow/125313481.cms. Falling back to RSS description.
+2025-11-14 02:22:28,051 - INFO - Saved article: Russia-Ukraine war: Moscow launches missiles, drones overnight; every district in Kyiv under 'massive' attack from Times of India
+2025-11-14 02:22:29,344 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/jeff-bezoss-blue-origin-sends-nasas-satellites-to-mars-lands-first-booster/articleshow/125313190.cms
+2025-11-14 02:22:29,344 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:24:29,418 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:24:29,418 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/science/jeff-bezoss-blue-origin-sends-nasas-satellites-to-mars-lands-first-booster/articleshow/125313190.cms. Falling back to RSS description.
+2025-11-14 02:24:29,420 - INFO - Saved article: Jeff Bezos's Blue Origin sends Nasa's satellites to Mars, lands first booster from Times of India
+2025-11-14 02:24:30,197 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/bomb-threats-in-california-sunny-hill-high-school-fullerton-union-high-school-troy-high-school-and-fern-drive-elementary-school-under-lockdown/articleshow/125312973.cms
+2025-11-14 02:24:30,197 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:26:30,298 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:26:30,298 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/bomb-threats-in-california-sunny-hill-high-school-fullerton-union-high-school-troy-high-school-and-fern-drive-elementary-school-under-lockdown/articleshow/125312973.cms. Falling back to RSS description.
+2025-11-14 02:26:30,299 - INFO - Saved article: Bomb threats in California: Sunny Hill High School, Fullerton Union High School, Troy High School, and Fern Drive Elementary School under lockdown from Times of India
+2025-11-14 02:26:31,789 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/kai-cenat-becomes-first-streamer-ever-to-hit-20-million-followers-on-twitch/articleshow/125310045.cms
+2025-11-14 02:26:31,789 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:28:31,890 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:28:31,891 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/kai-cenat-becomes-first-streamer-ever-to-hit-20-million-followers-on-twitch/articleshow/125310045.cms. Falling back to RSS description.
+2025-11-14 02:28:31,891 - INFO - Duplicate article skipped: Kai Cenat becomes first streamer ever to hit 20 million followers on Twitch from Times of India
+2025-11-14 02:28:33,081 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/who-is-adamn-killa-tiktoker-who-went-viral-after-chicago-police-held-him-for-saying-arrest-me-daddy/articleshow/125311460.cms
+2025-11-14 02:28:33,081 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:30:33,182 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:30:33,182 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/who-is-adamn-killa-tiktoker-who-went-viral-after-chicago-police-held-him-for-saying-arrest-me-daddy/articleshow/125311460.cms. Falling back to RSS description.
+2025-11-14 02:30:33,182 - INFO - Duplicate article skipped: Who is Adamn Killa? TikToker who went viral after Chicago police held him for saying Arrest Me Daddy from Times of India
+2025-11-14 02:30:34,451 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-and-allie-beth-stuckey-spark-big-drama-as-new-words-on-charlie-kirk-assassination-go-viral/articleshow/125312420.cms
+2025-11-14 02:30:34,451 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:32:34,547 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:32:34,547 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-and-allie-beth-stuckey-spark-big-drama-as-new-words-on-charlie-kirk-assassination-go-viral/articleshow/125312420.cms. Falling back to RSS description.
+2025-11-14 02:32:34,547 - INFO - Duplicate article skipped: Candace Owens and Allie Beth Stuckey spark big drama as new words on Charlie Kirk assassination go viral from Times of India
+2025-11-14 02:32:35,357 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/americans-are-smarter-than-indians-maga-activists-indian-iq-rant-sparks-backlash/articleshow/125310004.cms
+2025-11-14 02:32:35,357 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:34:35,386 - ERROR - [Times of India] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:34:35,387 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/americans-are-smarter-than-indians-maga-activists-indian-iq-rant-sparks-backlash/articleshow/125310004.cms. Falling back to RSS description.
+2025-11-14 02:34:35,387 - INFO - Duplicate article skipped: ‘Americans are smarter than Indians’: MAGA activist’s Indian IQ rant sparks backlash from Times of India
+2025-11-14 02:34:36,601 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-14 02:34:36,678 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 7.
+2025-11-14 02:34:36,678 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/state-sanctioned-fuel-smuggling-cost-libya-20bn-over-three-years-report
+2025-11-14 02:34:36,678 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:36,703 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:36,738 - INFO - Duplicate article skipped: State-sanctioned fuel smuggling cost Libya $20bn over three years – report | Libya | The Guardian from The Guardian
+2025-11-14 02:34:38,067 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/13/british-american-tobacco-africa-zambia-uk
+2025-11-14 02:34:38,067 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:38,094 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:38,130 - INFO - Duplicate article skipped: ‘Utter hypocrisy’: tobacco firm lobbied against rules in Africa that are law in UK | Global development | The Guardian from The Guardian
+2025-11-14 02:34:38,692 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/french-algerian-writer-boualem-sansal-pardoned-and-to-be-released-from-prison
+2025-11-14 02:34:38,692 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:38,717 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:38,751 - INFO - Duplicate article skipped: French-Algerian writer Boualem Sansal pardoned and to be released from prison | Algeria | The Guardian from The Guardian
+2025-11-14 02:34:40,230 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/sudan-north-darfur-aid-malnutrition-rsf-el-fasher-tawila
+2025-11-14 02:34:40,230 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:40,283 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:40,326 - INFO - Duplicate article skipped: Dire warnings over aid and hunger following RSF’s capture of Sudanese city | Sudan | The Guardian from The Guardian
+2025-11-14 02:34:41,216 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/12/city-of-libraries-chinguetti-mauritania-sahara-unesco-preservation
+2025-11-14 02:34:41,216 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:41,252 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:41,290 - INFO - Duplicate article skipped: The man on a mission to save Mauritania’s ‘city of libraries’ from encroaching desert sands | Mauritania | The Guardian from The Guardian
+2025-11-14 02:34:41,806 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/13/cop30-live-calls-for-just-transition-plan-grow-as-report-warns-world-on-track-for-26c-of-heating
+2025-11-14 02:34:41,806 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:42,040 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:42,128 - INFO - Duplicate article skipped: Cop30: ‘We will exterminate ourselves’ if we keep extracting fossil fuels, activists say – as it happened | Cop30 | The Guardian from The Guardian
+2025-11-14 02:34:42,903 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/13/canada-arctic-spy-threats-russia-china
+2025-11-14 02:34:42,903 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-14 02:34:42,925 - INFO - [The Guardian] Success with 'requests_browser'. Found content.
+2025-11-14 02:34:42,959 - INFO - Duplicate article skipped: Canada says Russia and China are ramping up spy efforts in Arctic region | Canada | The Guardian from The Guardian
+2025-11-14 02:34:43,630 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-14 02:34:43,728 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 7.
+2025-11-14 02:34:43,728 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/gujarat/pradhan-inaugurates-ahmedabad-international-book-festival-urges-youth-to-cultivate-reading-habit/article70275532.ece
+2025-11-14 02:34:43,728 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:36:43,829 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:36:43,829 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/gujarat/pradhan-inaugurates-ahmedabad-international-book-festival-urges-youth-to-cultivate-reading-habit/article70275532.ece. Falling back to RSS description.
+2025-11-14 02:36:43,831 - INFO - Saved article: Pradhan inaugurates Ahmedabad International Book Festival, urges youth to cultivate reading habit from The Hindu
+2025-11-14 02:36:44,948 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/childrens-day-schools-must-speak-the-childs-language-and-not-the-more-remote-standard-language/article70244314.ece
+2025-11-14 02:36:44,948 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:38:45,049 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:38:45,049 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/karnataka/childrens-day-schools-must-speak-the-childs-language-and-not-the-more-remote-standard-language/article70244314.ece. Falling back to RSS description.
+2025-11-14 02:38:45,050 - INFO - Saved article: Children’s Day: Schools must speak the child’s language and not the more remote ‘standard’ language from The Hindu
+2025-11-14 02:38:45,594 - INFO - [The Hindu] Article: https://www.thehindu.com/elections/bihar-assembly/bihar-election-results-2025-live-update/article70276906.ece
+2025-11-14 02:38:45,594 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:40:45,605 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:40:45,605 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/elections/bihar-assembly/bihar-election-results-2025-live-update/article70276906.ece. Falling back to RSS description.
+2025-11-14 02:40:45,607 - INFO - Saved article: Bihar Assembly election 2025 results LIVE updates: Counting of votes to begin at 8 a.m. with postal ballots from The Hindu
+2025-11-14 02:40:46,424 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/nhai-to-open-elevated-corridor-on-chennai-bengaluru-national-highway/article70275342.ece
+2025-11-14 02:40:46,424 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:42:46,458 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:42:46,458 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/nhai-to-open-elevated-corridor-on-chennai-bengaluru-national-highway/article70275342.ece. Falling back to RSS description.
+2025-11-14 02:42:46,460 - INFO - Saved article: NHAI to open elevated corridor on Chennai-Bengaluru National Highway from The Hindu
+2025-11-14 02:42:47,198 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/down-the-corridors-in-the-engines-of-digital-india/article70272689.ece
+2025-11-14 02:42:47,198 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:44:47,299 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:44:47,299 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/down-the-corridors-in-the-engines-of-digital-india/article70272689.ece. Falling back to RSS description.
+2025-11-14 02:44:47,300 - INFO - Saved article: Down the corridors in the engines of digital India from The Hindu
+2025-11-14 02:44:47,923 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/motorists-complain-of-poor-lighting-on-omr-tnrdc-to-install-lights/article70275531.ece
+2025-11-14 02:44:47,923 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:46:47,924 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:46:47,924 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/chennai/motorists-complain-of-poor-lighting-on-omr-tnrdc-to-install-lights/article70275531.ece. Falling back to RSS description.
+2025-11-14 02:46:47,926 - INFO - Saved article: Motorists complain of poor lighting on OMR; TNRDC to install lights from The Hindu
+2025-11-14 02:46:48,752 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/ajit-pawar-offered-to-resign-over-pune-land-deal-alleged-shiv-sena-ubt-leader/article70276287.ece
+2025-11-14 02:46:48,752 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-14 02:48:48,761 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser': HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)
+2025-11-14 02:48:48,761 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/maharashtra/ajit-pawar-offered-to-resign-over-pune-land-deal-alleged-shiv-sena-ubt-leader/article70276287.ece. Falling back to RSS description.
+2025-11-14 02:48:48,762 - INFO - Saved article: Ajit Pawar offered to resign over Pune land deal, alleged Shiv Sena (UBT) leader from The Hindu
+2025-11-14 02:48:50,205 - INFO - Starting scrape for Reuters RSS feed: https://feeds.reuters.com/reuters/worldNews
+2025-11-14 02:48:50,303 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3d5bd9bf70>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-14 02:48:52,404 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3d5bab8190>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-14 02:48:56,502 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3d5bead6c0>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)")': /reuters/worldNews
+2025-11-14 02:48:56,586 - ERROR - Failed to fetch Reuters RSS feed: HTTPSConnectionPool(host='feeds.reuters.com', port=443): Max retries exceeded with url: /reuters/worldNews (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f3d5bead7e0>: Failed to resolve 'feeds.reuters.com' ([Errno -2] Name or service not known)"))
+2025-11-14 02:48:56,587 - INFO - Scraped: 7 BBC, 7 Times of India, 7 The Guardian, 7 The Hindu, 0 Reuters articles. (Total saved: 28)
+2025-11-14 02:48:56,587 - INFO - Shutting down Selenium driver for this run.
+2025-11-14 02:50:56,688 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)")': /session/0cdf223457ca837f497a4dbdd83d5105
+2025-11-14 02:52:56,776 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)")': /session/0cdf223457ca837f497a4dbdd83d5105
+2025-11-14 02:54:56,872 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=59759): Read timed out. (read timeout=120)")': /session/0cdf223457ca837f497a4dbdd83d5105
+2025-11-14 02:57:06,970 - INFO - --- Scraping job finished ---
+2025-11-14 02:57:06,970 - INFO - --- Scraper service stopped and database connection closed. ---
