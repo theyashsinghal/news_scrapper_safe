@@ -3,7 +3,7 @@
 #
 # How many articles to get from each source (e.g., 25)
 # This is a 'max' value. If a feed only has 20 articles, it will get 20.
-MAX_ARTICLES_PER_SOURCE = 10
+MAX_ARTICLES_PER_SOURCE = 5
 #
 # --- NEW: PROXY CONFIGURATION ---
 # Set 'use_proxies' to True to route all requests (Requests & Selenium)
@@ -243,6 +243,7 @@ def save_article(source, title, url, summary, image_url):
     Cleans data before saving.
     
     --- NEW: This function is now thread-safe ---
+    --- MODIFIED: Returns True on success, False on skip/error ---
     """
     try:
         # --- MORE ROBUST CLEANING ---
@@ -272,11 +273,14 @@ def save_article(source, title, url, summary, image_url):
         # --- Lock is automatically released here ---
             
         logging.info(f"Saved article: {title} from {source}")
+        return True # <-- Return True on successful save
     except sqlite3.IntegrityError:
         # This is expected if the article URL is already in the DB
         logging.info(f"Duplicate article skipped: {title} from {source}")
+        return False # <-- Return False on duplicate
     except Exception as e:
         logging.error(f"Error saving article: {e}")
+        return False # <-- Return False on error
 
 # --- RE-ARCHITECTED: Generic Scraper Function with Strategy Loop ---
 def scrape_source(session, selenium_driver, source_config, proxies_dict):
@@ -423,8 +427,11 @@ def scrape_source(session, selenium_driver, source_config, proxies_dict):
                         summary = "No content available"
 
                 # 6. Save
-                save_article(name, final_title, article_url, summary, image_url)
-                articles_saved.append(final_title)
+                # --- MODIFIED: Check return value before appending ---
+                was_saved = save_article(name, final_title, article_url, summary, image_url)
+                if was_saved:
+                    articles_saved.append(final_title)
+                # ----------------------------------------------------
                 
                 time.sleep(random.uniform(0.5, 1.5)) # Politeness delay between *articles*
 
