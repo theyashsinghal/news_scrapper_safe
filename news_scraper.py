@@ -143,7 +143,7 @@ def create_selenium_driver():
         # ------------------------------------
         
         # --- TIMEOUT FIX: Increase timeout to 60 seconds ---
-        driver.set_page_load_timeout(60) # 60 second timeout
+        driver.set_page_load_timeout(20) # 20 second timeout
         logging.info("Selenium driver initialized successfully.")
         return driver
     except WebDriverException as e:
