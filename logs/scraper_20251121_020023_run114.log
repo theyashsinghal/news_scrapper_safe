@@ -1,0 +1,171 @@
+2025-11-21 01:55:23,213 - INFO - Initializing database connection at: news_articles.db
+2025-11-21 01:55:23,213 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-11-21 01:55:23,213 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-11-21 01:55:23,213 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-11-21 01:55:23,213 - INFO - Proxy is DISABLED.
+2025-11-21 01:55:23,213 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-11-21 01:55:23,214 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-11-21 01:55:23,214 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-21 01:55:23,214 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-11-21 01:55:23,215 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-11-21 01:55:23,215 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-11-21 01:55:23,215 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-11-21 01:55:23,516 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-11-21 01:55:23,517 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2025/nov/20/keir-starmer-defends-south-africa-g20-budget
+2025-11-21 01:55:23,517 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:23,528 - INFO - Found 37 articles in BBC RSS feed. Processing up to 10.
+2025-11-21 01:55:23,528 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly1ypqlle0o?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:23,528 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:23,563 - INFO - [The Guardian] Success with 'requests_browser'. Found content (646 words).
+2025-11-21 01:55:23,601 - INFO - Duplicate article skipped: Keir Starmer defends trip to South Africa for G20 summit as budget looms | Keir Starmer | The Guardian from The Guardian
+2025-11-21 01:55:23,903 - INFO - [BBC] Success with 'requests_browser'. Found content (676 words).
+2025-11-21 01:55:23,965 - INFO - Duplicate article skipped: Zelensky to speak to Trump after US proposes Russia-Ukraine peace plan from BBC
+2025-11-21 01:55:24,534 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/20/south-africa-says-us-boycott-of-g20-is-coercion-by-absentia
+2025-11-21 01:55:24,535 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:24,662 - INFO - [The Guardian] Success with 'requests_browser'. Found content (765 words).
+2025-11-21 01:55:24,674 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c93x3er4l9zo?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:24,674 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:24,711 - INFO - Duplicate article skipped: US in talks to attend G20 summit after initial boycott, South Africa says | G20 | The Guardian from The Guardian
+2025-11-21 01:55:24,761 - INFO - [BBC] Success with 'requests_browser'. Found content (310 words).
+2025-11-21 01:55:24,799 - INFO - Duplicate article skipped: Dick Cheney: Bush lauds ex-vice-president as 'thinker and listener' at funeral from BBC
+2025-11-21 01:55:25,643 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/20/nigerian-court-convicts-biafran-separatist-leader-on-terrorism-charges-nnamdi-kanu
+2025-11-21 01:55:25,643 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:25,687 - INFO - [The Guardian] Success with 'requests_browser'. Found content (554 words).
+2025-11-21 01:55:25,721 - INFO - Selenium driver initialized successfully.
+2025-11-21 01:55:25,726 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-11-21 01:55:25,728 - INFO - Selenium driver initialized successfully.
+2025-11-21 01:55:25,728 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-11-21 01:55:25,744 - INFO - Duplicate article skipped: Biafran separatist leader sentenced to life on terrorism charges by Nigerian court | Nigeria | The Guardian from The Guardian
+2025-11-21 01:55:25,913 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-11-21 01:55:25,913 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-may-see-another-cyclone-next-week/article70304118.ece
+2025-11-21 01:55:25,913 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:26,213 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce9d9p5jrjgo?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:26,213 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:26,225 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-11-21 01:55:26,225 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/hegseth-meets-nigerian-nsa-pentagon-talks-follow-trumps-guns-a-blazing-threat-tensions-rise/articleshow/125474925.cms
+2025-11-21 01:55:26,225 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:26,257 - INFO - [BBC] Success with 'requests_browser'. Found content (519 words).
+2025-11-21 01:55:26,293 - INFO - Duplicate article skipped: COP30 evacuated after fire breaks out from BBC
+2025-11-21 01:55:26,516 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2025/nov/19/new-drug-could-be-breakthrough-killer-tb-tuberculosis-sorfequiline
+2025-11-21 01:55:26,516 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:26,568 - INFO - [The Guardian] Success with 'requests_browser'. Found content (589 words).
+2025-11-21 01:55:26,619 - INFO - Duplicate article skipped: New drug could be a breakthrough in treatment for killer TB, trial suggests | Global health | The Guardian from The Guardian
+2025-11-21 01:55:26,880 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly2y40lj5go?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:26,881 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:26,930 - INFO - [BBC] Success with 'requests_browser'. Found content (1007 words).
+2025-11-21 01:55:26,988 - INFO - Duplicate article skipped: Trump signs bill ordering release of Jeffrey Epstein files from BBC
+2025-11-21 01:55:27,498 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/nov/18/congo-basin-rainforest-africa-research-funding-aoe
+2025-11-21 01:55:27,498 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:27,539 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgzge16vkdo?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:27,539 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:27,545 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1040 words).
+2025-11-21 01:55:27,635 - INFO - Duplicate article skipped: The rainforest the world forgot: the Congo basin is the second largest on Earth, so why is it being neglected? | Global development | The Guardian from The Guardian
+2025-11-21 01:55:27,657 - INFO - [BBC] Success with 'requests_browser'. Found content (389 words).
+2025-11-21 01:55:27,699 - INFO - Duplicate article skipped: More than 250 arrested in Charlotte as immigration crackdown escalates from BBC
+2025-11-21 01:55:28,272 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly4ypj92j9o?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:28,272 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:28,334 - INFO - [BBC] Success with 'requests_browser'. Found content (468 words).
+2025-11-21 01:55:28,396 - INFO - Duplicate article skipped: Spain's attorney general convicted in controversial leak case from BBC
+2025-11-21 01:55:28,479 - INFO - [The Guardian] Article: https://www.theguardian.com/artanddesign/2025/nov/21/frida-kahlo-self-portrait-sells-547-million-new-auction-record-female-artist
+2025-11-21 01:55:28,480 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:28,536 - INFO - [The Guardian] Success with 'requests_browser'. Found content (559 words).
+2025-11-21 01:55:28,603 - INFO - Saved article: Frida Kahlo self-portrait sells for $54.7m to set new auction record for a female artist | Frida Kahlo | The Guardian from The Guardian
+2025-11-21 01:55:29,449 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62e27j69q9o?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:29,449 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:29,618 - INFO - [BBC] Success with 'requests_browser'. Found content (796 words).
+2025-11-21 01:55:29,720 - INFO - Duplicate article skipped: Israeli strikes in Gaza kill 25 Palestinians, health ministry says from BBC
+2025-11-21 01:55:30,092 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/live/2025/nov/20/cop30-live-news-updates-belem-brazil-president-lula
+2025-11-21 01:55:30,093 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:30,228 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj3z38e6v45o?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:30,228 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:30,513 - INFO - [BBC] Success with 'requests_browser'. Found content (610 words).
+2025-11-21 01:55:30,967 - INFO - Duplicate article skipped: Nnamdi Kanu: Nigerian separatist leader sentenced to life for terrorism from BBC
+2025-11-21 01:55:31,216 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:31,555 - INFO - [The Guardian] Success with 'requests_browser'. Found content (3839 words).
+2025-11-21 01:55:31,631 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2kpkq90ygno?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:31,631 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:31,894 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (259 words).
+2025-11-21 01:55:31,969 - INFO - [BBC] Success with 'requests_browser'. Found content (376 words).
+2025-11-21 01:55:32,061 - INFO - Duplicate article skipped: Cop30 conference centre evacuated as fire breaks out – as it happened | Cop30 | The Guardian from The Guardian
+2025-11-21 01:55:32,318 - INFO - Duplicate article skipped: Paris court blocks auction of earliest-known calculator from BBC
+2025-11-21 01:55:32,353 - INFO - Saved article: Andhra Pradesh may see another cyclone next week - The Hindu from The Hindu
+2025-11-21 01:55:32,681 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/nov/20/senate-report-cia-assassination-plots-gerald-ford
+2025-11-21 01:55:32,681 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:32,826 - INFO - [The Guardian] Success with 'requests_browser'. Found content (977 words).
+2025-11-21 01:55:32,845 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c70901djjw8o?at_medium=RSS&at_campaign=rss
+2025-11-21 01:55:32,846 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:33,059 - INFO - [BBC] Success with 'requests_browser'. Found content (423 words).
+2025-11-21 01:55:33,082 - INFO - Duplicate article skipped: Documents reveal Gerald Ford’s effort to block report on CIA assassination plots | CIA | The Guardian from The Guardian
+2025-11-21 01:55:33,265 - INFO - Duplicate article skipped: Police arrest alleged mastermind of Mexican mayor's murder from BBC
+2025-11-21 01:55:33,369 - INFO - [The Hindu] Article: https://www.thehindu.com/data/the-caste-and-class-factors-in-the-ndas-victory-in-bihar/article70302796.ece
+2025-11-21 01:55:33,372 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:34,101 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/20/brazilian-president-fossil-fuel-transition-roadmap-g20-summit
+2025-11-21 01:55:34,101 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:34,279 - INFO - [The Guardian] Success with 'requests_browser'. Found content (755 words).
+2025-11-21 01:55:34,497 - INFO - Duplicate article skipped: Brazilian president will take fossil fuel phase-out plan to G20 summit | Brazil | The Guardian from The Guardian
+2025-11-21 01:55:35,776 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/nov/20/ottawa-canada-goldfish
+2025-11-21 01:55:35,776 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-11-21 01:55:35,864 - INFO - [The Guardian] Success with 'requests_browser'. Found content (440 words).
+2025-11-21 01:55:36,005 - INFO - Duplicate article skipped: Ottawa officials to cull ‘mindblowing’ influx of thousands of goldfish in pond | Canada | The Guardian from The Guardian
+2025-11-21 01:55:39,858 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:40,281 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (934 words).
+2025-11-21 01:55:40,700 - INFO - Saved article: The caste and class factors in the NDA’s victory in Bihar - The Hindu from The Hindu
+2025-11-21 01:55:41,878 - INFO - [The Hindu] Article: https://www.thehindu.com/data/how-welfare-delivery-shaped-but-did-not-decide-bihars-elections/article70302781.ece
+2025-11-21 01:55:41,878 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:44,687 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:44,966 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1177 words).
+2025-11-21 01:55:45,105 - INFO - Saved article: How welfare delivery shaped, but did not decide, Bihar’s elections - The Hindu from The Hindu
+2025-11-21 01:55:46,525 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/integrated-child-development-services-programme-a-50-year-lifeline/article70300534.ece
+2025-11-21 01:55:46,527 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:48,957 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:49,017 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (2194 words).
+2025-11-21 01:55:49,103 - INFO - Saved article: Integrated Child Development Services programme: A 50-year lifeline - The Hindu from The Hindu
+2025-11-21 01:55:49,772 - INFO - [The Hindu] Article: https://www.thehindu.com/society/r-k-narayan-mysore-home-museum-inspired-new-novel-author-sita-bhaskar/article70293833.ece
+2025-11-21 01:55:49,773 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:50,820 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:50,871 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (805 words).
+2025-11-21 01:55:50,926 - INFO - Saved article: Rebooting R.K. Narayan for the new-age reader - The Hindu from The Hindu
+2025-11-21 01:55:52,213 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/once-there-was-a-red-card/article70299683.ece
+2025-11-21 01:55:52,213 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:53,258 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:53,323 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1823 words).
+2025-11-21 01:55:53,404 - INFO - Saved article: Once there was a red card - The Hindu from The Hindu
+2025-11-21 01:55:54,280 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/bombay-high-court-raps-maharashtra-over-melghat-malnutrition-deaths/article70304405.ece
+2025-11-21 01:55:54,280 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:55,138 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:55,318 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (785 words).
+2025-11-21 01:55:55,406 - INFO - Saved article: Bombay High Court raps Maharashtra over Melghat malnutrition deaths - The Hindu from The Hindu
+2025-11-21 01:55:56,532 - INFO - [The Hindu] Article: https://www.thehindu.com/business/ge-aerospace-to-invest-14-million-in-its-pune-manufacturing-facility/article70304647.ece
+2025-11-21 01:55:56,532 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:57,421 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:57,471 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (291 words).
+2025-11-21 01:55:57,552 - INFO - Saved article: GE Aerospace to invest $14 million in its Pune manufacturing facility - The Hindu from The Hindu
+2025-11-21 01:55:58,540 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rajasthan/another-official-on-sir-duty-dies-in-rajasthan/article70304371.ece
+2025-11-21 01:55:58,540 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:55:59,447 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:55:59,531 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (265 words).
+2025-11-21 01:55:59,638 - INFO - Saved article: Another official on SIR duty dies in Rajasthan - The Hindu from The Hindu
+2025-11-21 01:56:00,984 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/whenrajaji-congress-legislators-of-madras-presidency-favoured-two-nation-theory/article70302628.ece
+2025-11-21 01:56:00,984 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:56:01,971 - INFO - [The Hindu] Page content loaded.
+2025-11-21 01:56:02,149 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (952 words).
+2025-11-21 01:56:02,253 - INFO - Saved article: When Rajaji, Congress legislators of Madras Presidency favoured two-nation theory - The Hindu from The Hindu
+2025-11-21 01:56:03,534 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-11-21 01:56:03,701 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-11-21 01:57:26,305 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/hegseth-meets-nigerian-nsa-pentagon-talks-follow-trumps-guns-a-blazing-threat-tensions-rise/articleshow/125474925.cms: HTTPConnectionPool(host='localhost', port=59621): Read timed out. (read timeout=120)
+2025-11-21 01:57:26,305 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/hegseth-meets-nigerian-nsa-pentagon-talks-follow-trumps-guns-a-blazing-threat-tensions-rise/articleshow/125474925.cms. Falling back to RSS description.
+2025-11-21 01:57:26,307 - INFO - Saved article: Hegseth meets Nigerian NSA: Pentagon talks follow Trump’s ‘guns-a-blazing’ threat; tensions rise from Times of India
+2025-11-21 01:57:26,814 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/fire-disrupts-cop30-in-brazil-belem-venue-evacuated-key-climate-talks-stalled/articleshow/125474638.cms
+2025-11-21 01:57:26,815 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 01:59:26,915 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/rest-of-world/fire-disrupts-cop30-in-brazil-belem-venue-evacuated-key-climate-talks-stalled/articleshow/125474638.cms: HTTPConnectionPool(host='localhost', port=59621): Read timed out. (read timeout=120)
+2025-11-21 01:59:26,915 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/rest-of-world/fire-disrupts-cop30-in-brazil-belem-venue-evacuated-key-climate-talks-stalled/articleshow/125474638.cms. Falling back to RSS description.
+2025-11-21 01:59:26,917 - INFO - Saved article: Fire disrupts COP30 in Brazil: Belem venue evacuated; key climate talks stalled from Times of India
+2025-11-21 01:59:27,879 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-drops-explosive-claim-on-charlie-kirks-assassination-with-shocking-twist-about-tyler-robinson-fingerprints/articleshow/125447651.cms
+2025-11-21 01:59:27,879 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-11-21 02:00:23,215 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2025-11-21 02:00:23,215 - ERROR - A thread has timed out and will be abandoned.
+2025-11-21 02:00:23,216 - INFO - Shutting down thread pool (wait=False)...
+2025-11-21 02:00:23,216 - INFO - Scraped: 10 The Hindu, 1 The Guardian, 0 BBC, 1 Timed_Out_Jobs articles. (Total saved: 11)
+2025-11-21 02:00:23,216 - INFO - --- Scraping job finished ---
+2025-11-21 02:00:23,216 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-11-21 02:00:23,216 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
