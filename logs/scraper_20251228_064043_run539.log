@@ -1,0 +1,237 @@
+2025-12-28 06:38:53,116 - INFO - Initializing database connection at: news_articles.db
+2025-12-28 06:38:53,116 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2025-12-28 06:38:53,117 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2025-12-28 06:38:53,117 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2025-12-28 06:38:53,117 - INFO - Proxy is DISABLED.
+2025-12-28 06:38:53,117 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2025-12-28 06:38:53,117 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2025-12-28 06:38:53,118 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-28 06:38:53,118 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2025-12-28 06:38:53,119 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2025-12-28 06:38:53,119 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2025-12-28 06:38:53,119 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2025-12-28 06:38:53,334 - INFO - Found 29 articles in BBC RSS feed. Processing up to 10.
+2025-12-28 06:38:53,334 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy7vly6gm76o?at_medium=RSS&at_campaign=rss
+2025-12-28 06:38:53,334 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:53,346 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2025-12-28 06:38:53,346 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/28/central-african-republic-goes-to-polls-as-president-seeks-third-term
+2025-12-28 06:38:53,346 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:53,389 - INFO - [The Guardian] Success with 'requests_browser'. Found content (637 words).
+2025-12-28 06:38:53,421 - INFO - Saved article: Central African Republic goes to polls as president seeks third term | Central African Republic | The Guardian from The Guardian
+2025-12-28 06:38:53,669 - INFO - [BBC] Success with 'requests_browser'. Found content (974 words).
+2025-12-28 06:38:53,702 - INFO - Saved article: War-torn Myanmar voting in widely criticised 'sham' election from BBC
+2025-12-28 06:38:54,183 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/27/guinea-junta-leader-mamady-doumbouya-frontrunner-president-election
+2025-12-28 06:38:54,183 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:54,353 - INFO - [The Guardian] Success with 'requests_browser'. Found content (681 words).
+2025-12-28 06:38:54,386 - INFO - Duplicate article skipped: Opposition anger as Guinea’s junta leader is frontrunner to be elected president | Guinea | The Guardian from The Guardian
+2025-12-28 06:38:55,172 - INFO - [BBC] Article: https://www.bbc.com/news/videos/cwyv4gwyxxwo?at_medium=RSS&at_campaign=rss
+2025-12-28 06:38:55,172 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:55,242 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 70 words).
+2025-12-28 06:38:55,242 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/cwyv4gwyxxwo?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2025-12-28 06:38:55,243 - INFO - Saved article: BBC visits Myanmar polling station as civil war rages on from BBC
+2025-12-28 06:38:55,862 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/israel-first-country-to-recognise-somaliland-sovereign-state
+2025-12-28 06:38:55,862 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:55,969 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1dzvpg1341o?at_medium=RSS&at_campaign=rss
+2025-12-28 06:38:55,969 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:56,015 - INFO - [BBC] Success with 'requests_browser'. Found content (680 words).
+2025-12-28 06:38:56,047 - INFO - Duplicate article skipped: Zelensky says Russia 'doesn't want peace', ahead of Florida meeting with Trump from BBC
+2025-12-28 06:38:56,251 - INFO - [The Guardian] Success with 'requests_browser'. Found content (760 words).
+2025-12-28 06:38:56,283 - INFO - Duplicate article skipped: Israel becomes first country to recognise Somaliland as sovereign state | Somaliland | The Guardian from The Guardian
+2025-12-28 06:38:56,808 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/british-egyptian-activist-alaa-abd-el-fattah-arrives-in-uk-after-travel-ban-lifted
+2025-12-28 06:38:56,808 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:56,999 - INFO - [The Guardian] Success with 'requests_browser'. Found content (667 words).
+2025-12-28 06:38:57,039 - INFO - Duplicate article skipped: British-Egyptian activist Alaa Abd el-Fattah arrives in UK after travel ban lifted | Egypt | The Guardian from The Guardian
+2025-12-28 06:38:57,505 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0q5je8048xo?at_medium=RSS&at_campaign=rss
+2025-12-28 06:38:57,505 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:57,548 - INFO - [BBC] Success with 'requests_browser'. Found content (597 words).
+2025-12-28 06:38:57,579 - INFO - Duplicate article skipped: Thailand-Cambodia ceasefire begins after weeks of deadly clashes from BBC
+2025-12-28 06:38:58,149 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/26/trump-supporters-nigeria-airstrikes
+2025-12-28 06:38:58,149 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:58,198 - INFO - [The Guardian] Success with 'requests_browser'. Found content (853 words).
+2025-12-28 06:38:58,237 - INFO - Duplicate article skipped: Trump supporters hail US strikes in Nigeria as ‘amazing Christmas present’ | Republicans | The Guardian from The Guardian
+2025-12-28 06:38:58,469 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0je0l55zq3o?at_medium=RSS&at_campaign=rss
+2025-12-28 06:38:58,469 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:58,514 - INFO - [BBC] Success with 'requests_browser'. Found content (247 words).
+2025-12-28 06:38:58,544 - INFO - Duplicate article skipped: New York snowstorm sparks travel chaos from BBC
+2025-12-28 06:38:59,340 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/venezuela-political-prisoner-release
+2025-12-28 06:38:59,341 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:59,480 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqxq59np394o?at_medium=RSS&at_campaign=rss
+2025-12-28 06:38:59,480 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:38:59,491 - INFO - [The Guardian] Success with 'requests_browser'. Found content (540 words).
+2025-12-28 06:38:59,545 - INFO - Duplicate article skipped: Venezuela says it released 99 people detained for 2024 election protests | Venezuela | The Guardian from The Guardian
+2025-12-28 06:38:59,561 - INFO - [BBC] Success with 'requests_browser'. Found content (278 words).
+2025-12-28 06:38:59,590 - INFO - Duplicate article skipped: Nine arrested in Italy for allegedly raising millions for Hamas from BBC
+2025-12-28 06:39:00,222 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/weather-tracker-deep-freeze-canada-us-records-warmest-christmas
+2025-12-28 06:39:00,222 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:00,555 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj69j8l918do?at_medium=RSS&at_campaign=rss
+2025-12-28 06:39:00,555 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:00,607 - INFO - [BBC] Success with 'requests_browser'. Found content (758 words).
+2025-12-28 06:39:00,641 - INFO - Duplicate article skipped: US launches strikes against Islamic State in Nigeria from BBC
+2025-12-28 06:39:00,656 - INFO - [The Guardian] Success with 'requests_browser'. Found content (361 words).
+2025-12-28 06:39:00,691 - INFO - Duplicate article skipped: Weather tracker: Deep freeze grips Canada as US records warmest Christmas | Canada | The Guardian from The Guardian
+2025-12-28 06:39:01,629 - INFO - Selenium driver initialized successfully.
+2025-12-28 06:39:01,629 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2025-12-28 06:39:01,629 - INFO - Selenium driver initialized successfully.
+2025-12-28 06:39:01,629 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2025-12-28 06:39:01,644 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c157e9dddwwo?at_medium=RSS&at_campaign=rss
+2025-12-28 06:39:01,644 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:01,682 - INFO - [BBC] Success with 'requests_browser'. Found content (289 words).
+2025-12-28 06:39:01,708 - INFO - Duplicate article skipped: Two dead in 50-vehicle pile up on Japan highway from BBC
+2025-12-28 06:39:01,852 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2025/dec/25/they-are-scared-of-us-now-how-one-tropical-forest-turned-the-tide-on-loggers
+2025-12-28 06:39:01,852 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:02,010 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1079 words).
+2025-12-28 06:39:02,040 - INFO - Duplicate article skipped: ‘They’re scared of us now’: how co-investment in a tropical forest saw off loggers | Panama | The Guardian from The Guardian
+2025-12-28 06:39:02,092 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2025-12-28 06:39:02,092 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/congress-leaders-pull-up-pinarayi-on-bengaluru-demolition-remark-but-get-rapped-by-aicc/article70444449.ece
+2025-12-28 06:39:02,092 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:02,271 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2025-12-28 06:39:02,271 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/flying-india-to-the-uae-two-new-airline-launch-could-make-tickets-cheaper/articleshow/126212860.cms
+2025-12-28 06:39:02,271 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:02,292 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9d9znp22pyo?at_medium=RSS&at_campaign=rss
+2025-12-28 06:39:02,292 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:02,339 - INFO - [BBC] Success with 'requests_browser'. Found content (396 words).
+2025-12-28 06:39:02,373 - INFO - Duplicate article skipped: Two killed in suspected Palestinian ramming and knife attack in Israel from BBC
+2025-12-28 06:39:03,333 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx25387dj8no?at_medium=RSS&at_campaign=rss
+2025-12-28 06:39:03,333 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:03,387 - INFO - [BBC] Success with 'requests_browser'. Found content (386 words).
+2025-12-28 06:39:03,426 - INFO - Duplicate article skipped: Homs: Deadly explosion during Friday prayers inside Syrian mosque from BBC
+2025-12-28 06:39:03,448 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/25/cape-froward-new-national-park-patagonia-chile
+2025-12-28 06:39:03,448 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:03,620 - INFO - [The Guardian] Success with 'requests_browser'. Found content (939 words).
+2025-12-28 06:39:03,681 - INFO - Duplicate article skipped: ‘It’s the wildest place I have walked’: new national park will join up Chile’s 2,800km wildlife corridor | Chile | The Guardian from The Guardian
+2025-12-28 06:39:04,827 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/24/honduras-nasry-tito-asfura-declared-president-donald-trump-backed
+2025-12-28 06:39:04,828 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2025-12-28 06:39:05,319 - INFO - [The Guardian] Success with 'requests_browser'. Found content (577 words).
+2025-12-28 06:39:05,565 - INFO - Duplicate article skipped: Trump-backed candidate Asfura declared new president of Honduras | Honduras | The Guardian from The Guardian
+2025-12-28 06:39:05,618 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:05,833 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (157 words).
+2025-12-28 06:39:06,053 - INFO - Saved article: Congress leaders pull up Pinarayi on Bengaluru demolition remark, but get rapped by AICC - The Hindu from The Hindu
+2025-12-28 06:39:06,755 - INFO - [The Hindu] Article: https://www.thehindu.com/business/pm-office-directs-coal-india-to-list-all-subsidiaries-by-2030/article70445641.ece
+2025-12-28 06:39:06,755 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:09,155 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:09,380 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (382 words).
+2025-12-28 06:39:09,488 - INFO - Saved article: PM Office directs Coal India to list all subsidiaries by 2030 - The Hindu from The Hindu
+2025-12-28 06:39:10,303 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/kogilu-layout-eviction-congress-leaders-react-strongly-to-pinarayis-remarks/article70444041.ece
+2025-12-28 06:39:10,303 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:14,000 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:14,188 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (209 words).
+2025-12-28 06:39:14,456 - INFO - Saved article: Kogilu Layout eviction: Congress leaders react strongly to Pinarayi’s remarks - The Hindu from The Hindu
+2025-12-28 06:39:15,722 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bihar/goods-train-derail-in-bihar-rail-traffic-disrupted-updates/article70445684.ece
+2025-12-28 06:39:15,722 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:17,897 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:17,984 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (102 words).
+2025-12-28 06:39:18,068 - INFO - Saved article: 8 wagons of goods train derail in Bihar, rail traffic disrupted - The Hindu from The Hindu
+2025-12-28 06:39:19,032 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Coimbatore/ukkadam-athupalam-flyover-in-coimbatore-to-be-named-after-former-union-minister-c-subramaniam-stalin/article70445576.ece
+2025-12-28 06:39:19,032 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:20,113 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:20,191 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (130 words).
+2025-12-28 06:39:20,269 - INFO - Saved article: Ukkadam-Athupalam flyover in Coimbatore to be named after former Union Minister C. Subramaniam: Stalin - The Hindu from The Hindu
+2025-12-28 06:39:21,223 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/manipur/two-arrested-arms-and-ammunition-seized-in-manipur/article70445637.ece
+2025-12-28 06:39:21,224 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:24,995 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:25,114 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (110 words).
+2025-12-28 06:39:25,183 - INFO - Saved article: Two arrested, arms and ammunition seized in Manipur - The Hindu from The Hindu
+2025-12-28 06:39:26,304 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/unnao-rape-case-sc-to-hear-cbis-plea-against-hc-order-suspending-sengars-life-sentence-on-december-29/article70445613.ece
+2025-12-28 06:39:26,304 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:27,245 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:27,421 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (348 words).
+2025-12-28 06:39:27,479 - INFO - Saved article: Unnao rape case: SC to hear CBI's plea against HC order suspending Sengar's life sentence on December 29 - The Hindu from The Hindu
+2025-12-28 06:39:28,590 - INFO - [The Hindu] Article: https://www.thehindu.com/photos/in-frames-visual-vignettes/article70445558.ece
+2025-12-28 06:39:28,590 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:29,501 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:29,602 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1244 words).
+2025-12-28 06:39:29,676 - INFO - Saved article: In Frames: Visual vignettes - The Hindu from The Hindu
+2025-12-28 06:39:30,887 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Delhi/delhi-breaths-very-poor-air-minimum-temperature-63-celsius/article70445592.ece
+2025-12-28 06:39:30,887 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:32,516 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:32,589 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (165 words).
+2025-12-28 06:39:32,665 - INFO - Saved article: Delhi breaths 'very poor' air; minimum temperature 6.3° Celsius - The Hindu from The Hindu
+2025-12-28 06:39:33,884 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/nine-up-men-stranded-in-kyrgyzstan-after-job-fraud-return-to-pilibhit/article70445587.ece
+2025-12-28 06:39:33,885 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:39:34,631 - INFO - [The Hindu] Page content loaded.
+2025-12-28 06:39:34,685 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (405 words).
+2025-12-28 06:39:34,758 - INFO - Duplicate article skipped: Nine UP men stranded in Kyrgyzstan after job fraud return to Pilibhit - The Hindu from The Hindu
+2025-12-28 06:39:36,066 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-28 06:39:36,181 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2025-12-28 06:40:02,306 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/flying-india-to-the-uae-two-new-airline-launch-could-make-tickets-cheaper/articleshow/126212860.cms: Message: timeout: Timed out receiving message from renderer: 59.818
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x555cc118a19a <unknown>
+#1 0x555cc0c07c4b <unknown>
+#2 0x555cc0befcf3 <unknown>
+#3 0x555cc0bef9d6 <unknown>
+#4 0x555cc0bed897 <unknown>
+#5 0x555cc0bee1af <unknown>
+#6 0x555cc0bfc970 <unknown>
+#7 0x555cc0c16017 <unknown>
+#8 0x555cc0c1c6cb <unknown>
+#9 0x555cc0bee8d8 <unknown>
+#10 0x555cc0c15dc3 <unknown>
+#11 0x555cc0ca4f60 <unknown>
+#12 0x555cc0c4bc42 <unknown>
+#13 0x555cc0c4c8f1 <unknown>
+#14 0x555cc1152f39 <unknown>
+#15 0x555cc1155e7d <unknown>
+#16 0x555cc113bc81 <unknown>
+#17 0x555cc1156a5b <unknown>
+#18 0x555cc1122a50 <unknown>
+#19 0x555cc1177aa8 <unknown>
+#20 0x555cc1177c79 <unknown>
+#21 0x555cc11894f3 <unknown>
+#22 0x7f2f5f69caa4 <unknown>
+#23 0x7f2f5f729c6c <unknown>
+
+2025-12-28 06:40:02,306 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/flying-india-to-the-uae-two-new-airline-launch-could-make-tickets-cheaper/articleshow/126212860.cms. Falling back to RSS description.
+2025-12-28 06:40:02,309 - INFO - Saved article: Flying India to the UAE? Two new airline launch could make tickets cheaper from Times of India
+2025-12-28 06:40:03,289 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/what-will-change-in-the-uae-from-january-2026-new-rules-every-resident-must-know-to-avoid-fines/articleshow/126212645.cms
+2025-12-28 06:40:03,290 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:04,211 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:04,319 - INFO - [Times of India] Success with 'selenium_browser'. Found content (867 words).
+2025-12-28 06:40:04,368 - INFO - Saved article: What will change in the UAE From January 2026? New rules every resident must know to avoid fines | World News - The Times of India from Times of India
+2025-12-28 06:40:05,062 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/gas-line-explosion-rocks-california-video-shows-debris-clouds-filling-the-sky-residents-report-jet-like-roar/articleshow/126212539.cms
+2025-12-28 06:40:05,062 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:05,896 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:06,013 - INFO - [Times of India] Success with 'selenium_browser'. Found content (395 words).
+2025-12-28 06:40:06,075 - INFO - Saved article: Gas line explosion rocks California: Video shows debris clouds filling the sky; residents report 'jet-like' roar - The Times of India from Times of India
+2025-12-28 06:40:07,341 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/first-election-since-2021-coup-myanmar-is-voting-after-5-years-amid-civil-war-why-stakes-are-high/articleshow/126212479.cms
+2025-12-28 06:40:07,341 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:08,064 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:08,221 - INFO - [Times of India] Success with 'selenium_browser'. Found content (980 words).
+2025-12-28 06:40:08,306 - INFO - Saved article: First election since 2021 coup: Myanmar is voting after 5 years amid civil war — why stakes are high - The Times of India from Times of India
+2025-12-28 06:40:09,574 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/faze-clan-situation-explained-creator-exits-financial-disputes-and-new-group-rumors/articleshow/126208939.cms
+2025-12-28 06:40:09,574 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:21,976 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-12-28 06:40:22,132 - INFO - [Times of India] Success with 'selenium_browser'. Found content (494 words).
+2025-12-28 06:40:22,214 - INFO - Duplicate article skipped: FaZe Clan situation explained: Creator exits, financial disputes, and new group rumors - The Times of India from Times of India
+2025-12-28 06:40:23,702 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/influencer-melissa-mae-carlton-announces-heartbreaking-death-of-daughter-molly-after-losing-daughter-abigail/articleshow/126211062.cms
+2025-12-28 06:40:23,702 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:24,370 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:24,509 - INFO - [Times of India] Success with 'selenium_browser'. Found content (395 words).
+2025-12-28 06:40:24,560 - INFO - Duplicate article skipped: Influencer Melissa Mae Carlton announces heartbreaking death of daughter Molly after losing daughter Abigail - The Times of India from Times of India
+2025-12-28 06:40:25,214 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/why-do-faze-clan-members-exit-adin-ross-explains-ownership-fight-and-rejected-20-percent-contracts/articleshow/126195698.cms
+2025-12-28 06:40:25,214 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:25,935 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:26,046 - INFO - [Times of India] Success with 'selenium_browser'. Found content (452 words).
+2025-12-28 06:40:26,112 - INFO - Duplicate article skipped: Why did FaZe Clan members exit? Adin Ross explains ownership fight and rejected 20 percent contracts - The Times of India from Times of India
+2025-12-28 06:40:26,664 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/kai-cenat-confirms-split-with-gigi-alayah-as-emotional-post-signals-end-of-their-relationship/articleshow/126210989.cms
+2025-12-28 06:40:26,664 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:27,481 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:27,639 - INFO - [Times of India] Success with 'selenium_browser'. Found content (418 words).
+2025-12-28 06:40:27,692 - INFO - Saved article: Kai Cenat confirms split with Gigi Alayah as emotional post signals end of their relationship - The Times of India from Times of India
+2025-12-28 06:40:28,826 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/who-is-nick-shirley-youtuber-accused-of-exposing-minnesota-daycare-fraud-in-trending-investigation/articleshow/126211101.cms
+2025-12-28 06:40:28,826 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:29,728 - INFO - [Times of India] Page content loaded.
+2025-12-28 06:40:29,875 - INFO - [Times of India] Success with 'selenium_browser'. Found content (488 words).
+2025-12-28 06:40:29,922 - INFO - Saved article: Who is Nick Shirley? YouTuber accused of exposing Minnesota daycare fraud in trending investigation - The Times of India from Times of India
+2025-12-28 06:40:31,096 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/new-york-to-require-warning-labels-on-tiktok-and-other-social-apps-over-youth-mental-health/articleshow/126209084.cms
+2025-12-28 06:40:31,096 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2025-12-28 06:40:42,453 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2025-12-28 06:40:42,623 - INFO - [Times of India] Success with 'selenium_browser'. Found content (479 words).
+2025-12-28 06:40:42,708 - INFO - Saved article: New York to require warning labels on TikTok and other social apps over youth mental health - The Times of India from Times of India
+2025-12-28 06:40:43,555 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2025-12-28 06:40:43,775 - INFO - [Times of India] (Thread) driver.quit() successful.
+2025-12-28 06:40:43,775 - INFO - Shutting down thread pool (wait=False)...
+2025-12-28 06:40:43,775 - INFO - Scraped: 2 BBC, 1 The Guardian, 7 Times of India, 9 The Hindu articles. (Total saved: 19)
+2025-12-28 06:40:43,776 - INFO - --- Scraping job finished ---
+2025-12-28 06:40:43,782 - INFO - --- Scraper service stopped and database connection closed. ---
+2025-12-28 06:40:43,782 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
