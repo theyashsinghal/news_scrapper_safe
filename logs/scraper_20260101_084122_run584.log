@@ -1,0 +1,206 @@
+2026-01-01 08:36:22,914 - INFO - Initializing database connection at: news_articles.db
+2026-01-01 08:36:22,914 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-01 08:36:22,914 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-01 08:36:22,914 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-01 08:36:22,914 - INFO - Proxy is DISABLED.
+2026-01-01 08:36:22,915 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-01 08:36:22,915 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-01 08:36:22,915 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-01 08:36:22,915 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-01 08:36:22,916 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-01 08:36:22,916 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-01 08:36:22,916 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-01 08:36:23,020 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-01 08:36:23,020 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/31/guinea-junta-chief-mamady-doumbouya-elected-president-after-opposition-boycott
+2026-01-01 08:36:23,020 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:23,048 - INFO - [The Guardian] Success with 'requests_browser'. Found content (399 words).
+2026-01-01 08:36:23,085 - INFO - Duplicate article skipped: Guinea’s junta chief elected president after opposition boycott | Guinea | The Guardian from The Guardian
+2026-01-01 08:36:23,140 - INFO - Found 30 articles in BBC RSS feed. Processing up to 10.
+2026-01-01 08:36:23,140 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cddg7100ym2o?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:23,140 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:23,342 - INFO - [BBC] Success with 'requests_browser'. Found content (705 words).
+2026-01-01 08:36:23,379 - INFO - Duplicate article skipped: Zelensky says peace deal is 90% ready in New Year address from BBC
+2026-01-01 08:36:24,333 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/saudi-arabia-uae-tension-future-yemen-boiling-point
+2026-01-01 08:36:24,333 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:24,363 - INFO - [The Guardian] Success with 'requests_browser'. Found content (932 words).
+2026-01-01 08:36:24,427 - INFO - Duplicate article skipped: Tensions between Saudis and Emiratis over future of Yemen reach boiling point | Yemen | The Guardian from The Guardian
+2026-01-01 08:36:24,692 - INFO - [BBC] Article: https://www.bbc.com/news/videos/czdqp29gz51o?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:24,692 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:24,738 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 67 words).
+2026-01-01 08:36:24,738 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/czdqp29gz51o?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2026-01-01 08:36:24,739 - INFO - Duplicate article skipped: What are Russians hoping for in 2026, asks Steve Rosenberg from BBC
+2026-01-01 08:36:25,245 - INFO - [The Guardian] Article: https://www.theguardian.com/sport/2025/dec/29/anthony-joshua-injured-car-crash-nigeria
+2026-01-01 08:36:25,245 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:25,267 - INFO - [The Guardian] Success with 'requests_browser'. Found content (739 words).
+2026-01-01 08:36:25,302 - INFO - Duplicate article skipped: Anthony Joshua’s camp confirm two of his close friends died in Nigeria car crash | Anthony Joshua | The Guardian from The Guardian
+2026-01-01 08:36:25,893 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/more-than-3000-migrants-died-spain-figure-down
+2026-01-01 08:36:25,893 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:25,913 - INFO - [The Guardian] Success with 'requests_browser'. Found content (434 words).
+2026-01-01 08:36:25,948 - INFO - Duplicate article skipped: More than 3,000 migrants died trying to reach Spain in 2025 | Spain | The Guardian from The Guardian
+2026-01-01 08:36:26,229 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxpk7r8w9yo?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:26,229 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:26,264 - INFO - [BBC] Success with 'requests_browser'. Found content (923 words).
+2026-01-01 08:36:26,301 - INFO - Duplicate article skipped: China's plan to boost birth rates with condom tax and cheaper childcare from BBC
+2026-01-01 08:36:26,859 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/28/central-african-republic-goes-to-polls-as-president-seeks-third-term
+2026-01-01 08:36:26,859 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:26,881 - INFO - [The Guardian] Success with 'requests_browser'. Found content (637 words).
+2026-01-01 08:36:26,895 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2d7g8krj2po?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:26,895 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:26,916 - INFO - Duplicate article skipped: Central African Republic goes to polls as president seeks third term | Central African Republic | The Guardian from The Guardian
+2026-01-01 08:36:26,932 - INFO - [BBC] Success with 'requests_browser'. Found content (336 words).
+2026-01-01 08:36:26,961 - INFO - Duplicate article skipped: Iran protesters try to break into government building as unrest continues from BBC
+2026-01-01 08:36:27,964 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/military-drone-strike-venezuela-trump-maduro
+2026-01-01 08:36:27,964 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:27,985 - INFO - [The Guardian] Success with 'requests_browser'. Found content (679 words).
+2026-01-01 08:36:28,022 - INFO - Duplicate article skipped: Trump’s shadow war in Venezuela grows, but country’s strongman leader still clings to power | Venezuela | The Guardian from The Guardian
+2026-01-01 08:36:28,110 - INFO - [BBC] Article: https://www.bbc.com/news/videos/c4glvg5yrlyo?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:28,110 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:28,156 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 65 words).
+2026-01-01 08:36:28,157 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/c4glvg5yrlyo?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2026-01-01 08:36:28,158 - INFO - Saved article: Zohran Mamdani sworn in as first Muslim New York City Mayor from BBC
+2026-01-01 08:36:28,571 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/brazil-ex-president-jair-bolsonaro-hiccups-treatment
+2026-01-01 08:36:28,571 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:28,594 - INFO - [The Guardian] Success with 'requests_browser'. Found content (309 words).
+2026-01-01 08:36:28,655 - INFO - Duplicate article skipped: Jair Bolsonaro undergoes second procedure to treat persistent hiccups | Jair Bolsonaro | The Guardian from The Guardian
+2026-01-01 08:36:28,704 - INFO - [BBC] Article: https://www.bbc.com/news/videos/ckgkn1xexnno?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:28,704 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:28,752 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 70 words).
+2026-01-01 08:36:28,752 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/ckgkn1xexnno?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2026-01-01 08:36:28,754 - INFO - Saved article: Watch: Historic Amsterdam church engulfed by fire on New Year's Eve from BBC
+2026-01-01 08:36:29,756 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/mexico-train-derailment-oaxaca
+2026-01-01 08:36:29,756 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:29,779 - INFO - [The Guardian] Success with 'requests_browser'. Found content (355 words).
+2026-01-01 08:36:29,814 - INFO - Duplicate article skipped: At least 13 people killed and 98 injured in train derailment in Mexico | Mexico | The Guardian from The Guardian
+2026-01-01 08:36:30,115 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yvdw77j04o?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:30,115 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:30,155 - INFO - [BBC] Success with 'requests_browser'. Found content (370 words).
+2026-01-01 08:36:30,194 - INFO - Saved article: Anthony Joshua discharged from hospital after Nigeria car crash from BBC
+2026-01-01 08:36:30,872 - INFO - Selenium driver initialized successfully.
+2026-01-01 08:36:30,872 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-01 08:36:30,873 - INFO - Selenium driver initialized successfully.
+2026-01-01 08:36:30,874 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-01 08:36:30,987 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-01 08:36:30,987 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/dense-fog-blankets-hyderabad-on-new-year-morning-imd-explains-why/article70459687.ece
+2026-01-01 08:36:30,987 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:36:31,050 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crlere3x28lo?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:31,051 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:31,075 - INFO - [BBC] Success with 'requests_browser'. Found content (675 words).
+2026-01-01 08:36:31,112 - INFO - Duplicate article skipped: Bulgaria joins the euro after rocky path to new currency from BBC
+2026-01-01 08:36:31,169 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-01 08:36:31,169 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/something-very-special-live-jesus-portrait-auctioned-at-trumps-mar-a-lago-new-year-bash-why-it-stood-out/articleshow/126283250.cms
+2026-01-01 08:36:31,169 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:36:31,244 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/29/trump-venezuela-facility-strike
+2026-01-01 08:36:31,244 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:31,278 - INFO - [The Guardian] Success with 'requests_browser'. Found content (498 words).
+2026-01-01 08:36:31,322 - INFO - Duplicate article skipped: US struck ‘big facility’ in Venezuela, Trump claimed without offering details | Donald Trump | The Guardian from The Guardian
+2026-01-01 08:36:32,581 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn8jlm07nz4o?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:32,582 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:32,647 - INFO - [BBC] Success with 'requests_browser'. Found content (311 words).
+2026-01-01 08:36:32,684 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/venezuela-political-prisoner-release
+2026-01-01 08:36:32,684 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:32,718 - INFO - Duplicate article skipped: Disney World cast member hurt stopping 180-kg fake boulder from hitting audience from BBC
+2026-01-01 08:36:32,754 - INFO - [The Guardian] Success with 'requests_browser'. Found content (540 words).
+2026-01-01 08:36:32,886 - INFO - Duplicate article skipped: Venezuela says it released 99 people detained for 2024 election protests | Venezuela | The Guardian from The Guardian
+2026-01-01 08:36:33,543 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clye3xz52e5o?at_medium=RSS&at_campaign=rss
+2026-01-01 08:36:33,543 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 08:36:33,650 - INFO - [BBC] Success with 'requests_browser'. Found content (462 words).
+2026-01-01 08:36:33,760 - INFO - Duplicate article skipped: Sydney sends message of peace for New Year's after Bondi attack from BBC
+2026-01-01 08:36:39,369 - INFO - [The Hindu] Page content loaded.
+2026-01-01 08:36:39,669 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (190 words).
+2026-01-01 08:36:39,874 - INFO - Saved article: Dense fog blankets Hyderabad on New Year morning; IMD explains why - The Hindu from The Hindu
+2026-01-01 08:36:39,980 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:36:40,715 - INFO - [Times of India] Success with 'selenium_browser'. Found content (510 words).
+2026-01-01 08:36:40,895 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Tiruchirapalli/gatekeeper-deployed-at-level-crossing-between-pudukottai-and-tirumayam-attacked-one-arrested/article70459656.ece
+2026-01-01 08:36:40,895 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:36:41,257 - INFO - Saved article: 'Something very special': Live Jesus portrait auctioned at Trump's Mar-a-Lago New Year bash — why it stood out - The Times of India from Times of India
+2026-01-01 08:36:42,215 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/impossible-to-intercept-russia-releases-video-showing-deployment-of-nuclear-capable-oreshnik-missiles-in-belarus-watch/articleshow/126283897.cms
+2026-01-01 08:36:42,215 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:42,237 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/europe/impossible-to-intercept-russia-releases-video-showing-deployment-of-nuclear-capable-oreshnik-missiles-in-belarus-watch/articleshow/126283897.cms: Message: timeout: Timed out receiving message from renderer: 59.925
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x557a9a84819a <unknown>
+#1 0x557a9a2c5c4b <unknown>
+#2 0x557a9a2adcf3 <unknown>
+#3 0x557a9a2ad9d6 <unknown>
+#4 0x557a9a2ab897 <unknown>
+#5 0x557a9a2ac1af <unknown>
+#6 0x557a9a2ba970 <unknown>
+#7 0x557a9a2d4017 <unknown>
+#8 0x557a9a2da6cb <unknown>
+#9 0x557a9a2ac8d8 <unknown>
+#10 0x557a9a2d3dc3 <unknown>
+#11 0x557a9a362f60 <unknown>
+#12 0x557a9a309c42 <unknown>
+#13 0x557a9a30a8f1 <unknown>
+#14 0x557a9a810f39 <unknown>
+#15 0x557a9a813e7d <unknown>
+#16 0x557a9a7f9c81 <unknown>
+#17 0x557a9a814a5b <unknown>
+#18 0x557a9a7e0a50 <unknown>
+#19 0x557a9a835aa8 <unknown>
+#20 0x557a9a835c79 <unknown>
+#21 0x557a9a8474f3 <unknown>
+#22 0x7f1287a9caa4 <unknown>
+#23 0x7f1287b29c6c <unknown>
+
+2026-01-01 08:37:42,238 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/europe/impossible-to-intercept-russia-releases-video-showing-deployment-of-nuclear-capable-oreshnik-missiles-in-belarus-watch/articleshow/126283897.cms. Falling back to RSS description.
+2026-01-01 08:37:42,240 - INFO - Saved article: ‘Impossible to intercept’: Russia releases video showing deployment of nuclear-capable Oreshnik missiles in Belarus- Watch from Times of India
+2026-01-01 08:37:43,421 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/massive-protests-in-iran-widespread-shutdowns-govt-building-attacked-10-key-points/articleshow/126281765.cms
+2026-01-01 08:37:43,421 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:44,210 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:44,335 - INFO - [Times of India] Success with 'selenium_browser'. Found content (910 words).
+2026-01-01 08:37:44,394 - INFO - Duplicate article skipped: Massive protests in Iran: Widespread shutdowns; govt building attacked - 10 key points - The Times of India from Times of India
+2026-01-01 08:37:45,823 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/meet-the-first-babies-of-2026-uae-welcomes-the-new-year-with-tiny-stars-born-at-midnight/articleshow/126283236.cms
+2026-01-01 08:37:45,823 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:47,606 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:47,797 - INFO - [Times of India] Success with 'selenium_browser'. Found content (594 words).
+2026-01-01 08:37:47,862 - INFO - Duplicate article skipped: Meet the first babies of 2026: UAE welcomes the new year with tiny stars born at midnight | World News - The Times of India from Times of India
+2026-01-01 08:37:49,333 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/ukraine-drone-plot-against-putin-us-intelligence-rejects-russian-claim-what-the-cia-says/articleshow/126282399.cms
+2026-01-01 08:37:49,333 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:50,286 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:50,424 - INFO - [Times of India] Success with 'selenium_browser'. Found content (385 words).
+2026-01-01 08:37:50,494 - INFO - Saved article: Ukraine drone plot against Putin: US intelligence rejects Russian claim - What the CIA says - The Times of India from Times of India
+2026-01-01 08:37:51,861 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-announces-petrol-and-diesel-prices-for-january-2026/articleshow/126282610.cms
+2026-01-01 08:37:51,861 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:52,538 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:52,639 - INFO - [Times of India] Success with 'selenium_browser'. Found content (186 words).
+2026-01-01 08:37:52,729 - INFO - Saved article: UAE announces petrol and diesel prices for January 2026 | World News - The Times of India from Times of India
+2026-01-01 08:37:53,874 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/is-hasanabi-serious-about-quitting-twitch-streaming-in-2026-his-latest-rant-suggests-mounting-frustration/articleshow/126280890.cms
+2026-01-01 08:37:53,874 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:54,635 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:54,731 - INFO - [Times of India] Success with 'selenium_browser'. Found content (362 words).
+2026-01-01 08:37:54,803 - INFO - Duplicate article skipped: Is HasanAbi serious about quitting Twitch streaming in 2026? His latest rant suggests mounting frustration - The Times of India from Times of India
+2026-01-01 08:37:56,069 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/one-step-ahead-of-my-haters-candace-owens-stirs-buzz-with-viral-video-referencing-charlie-kirk-and-erika-kirk/articleshow/126280843.cms
+2026-01-01 08:37:56,070 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:57,130 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:57,267 - INFO - [Times of India] Success with 'selenium_browser'. Found content (411 words).
+2026-01-01 08:37:57,328 - INFO - Duplicate article skipped: “One step ahead of my haters”: Candace Owens stirs buzz with viral video referencing Charlie Kirk and Erika Kirk - The Times of India from Times of India
+2026-01-01 08:37:58,562 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/what-is-youtuber-nick-shirley-exposing-minnesota-daycare-fund-fraud-claims-raise-somalia-group-controversy-and-federal-investigation/articleshow/126280768.cms
+2026-01-01 08:37:58,562 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:37:59,868 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:37:59,977 - INFO - [Times of India] Success with 'selenium_browser'. Found content (465 words).
+2026-01-01 08:38:00,037 - INFO - Saved article: What is YouTuber Nick Shirley exposing? Minnesota daycare fund fraud claims raise Somalia group controversy and federal investigation - The Times of India from Times of India
+2026-01-01 08:38:01,312 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/jeez-so-eerie-perez-hilton-reacts-to-disturbing-claims-about-nick-reiner-before-parents-killings/articleshow/126280659.cms
+2026-01-01 08:38:01,312 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:38:02,594 - INFO - [Times of India] Page content loaded.
+2026-01-01 08:38:02,776 - INFO - [Times of India] Success with 'selenium_browser'. Found content (419 words).
+2026-01-01 08:38:02,837 - INFO - Saved article: “Jeez. So eerie”: Perez Hilton reacts to disturbing claims about Nick Reiner before parents’ killings - The Times of India from Times of India
+2026-01-01 08:38:04,332 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-01 08:38:04,580 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-01-01 08:38:40,919 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/cities/Tiruchirapalli/gatekeeper-deployed-at-level-crossing-between-pudukottai-and-tirumayam-attacked-one-arrested/article70459656.ece: HTTPConnectionPool(host='localhost', port=52997): Read timed out. (read timeout=120)
+2026-01-01 08:38:40,919 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/Tiruchirapalli/gatekeeper-deployed-at-level-crossing-between-pudukottai-and-tirumayam-attacked-one-arrested/article70459656.ece. Falling back to RSS description.
+2026-01-01 08:38:40,921 - INFO - Saved article: Gatekeeper deployed at level crossing between Pudukottai and Tirumayam attacked, one arrested from The Hindu
+2026-01-01 08:38:41,783 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/lokpal-scraps-controversial-tender-to-buy-seven-bmw-cars/article70459765.ece
+2026-01-01 08:38:41,783 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:40:41,815 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/lokpal-scraps-controversial-tender-to-buy-seven-bmw-cars/article70459765.ece: HTTPConnectionPool(host='localhost', port=52997): Read timed out. (read timeout=120)
+2026-01-01 08:40:41,815 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/lokpal-scraps-controversial-tender-to-buy-seven-bmw-cars/article70459765.ece. Falling back to RSS description.
+2026-01-01 08:40:41,817 - INFO - Saved article: Lokpal scraps controversial tender to buy seven BMW cars from The Hindu
+2026-01-01 08:40:42,772 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/key-events-that-defined-indian-diplomacy-in-2025/article70450050.ece
+2026-01-01 08:40:42,772 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 08:41:22,916 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2026-01-01 08:41:22,916 - ERROR - A thread has timed out and will be abandoned.
+2026-01-01 08:41:22,916 - INFO - Shutting down thread pool (wait=False)...
+2026-01-01 08:41:22,916 - INFO - Scraped: 6 Times of India, 3 BBC, 0 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 9)
+2026-01-01 08:41:22,916 - INFO - --- Scraping job finished ---
+2026-01-01 08:41:22,917 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-01 08:41:22,917 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
