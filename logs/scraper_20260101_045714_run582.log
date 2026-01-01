@@ -1,0 +1,173 @@
+2026-01-01 04:52:14,510 - INFO - Initializing database connection at: news_articles.db
+2026-01-01 04:52:14,511 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-01 04:52:14,511 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-01 04:52:14,511 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-01 04:52:14,511 - INFO - Proxy is DISABLED.
+2026-01-01 04:52:14,511 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-01 04:52:14,512 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-01 04:52:14,512 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-01 04:52:14,512 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-01 04:52:14,515 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-01 04:52:14,515 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-01 04:52:14,516 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-01 04:52:14,599 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-01 04:52:14,599 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/31/guinea-junta-chief-mamady-doumbouya-elected-president-after-opposition-boycott
+2026-01-01 04:52:14,599 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:14,623 - INFO - [The Guardian] Success with 'requests_browser'. Found content (399 words).
+2026-01-01 04:52:14,657 - INFO - Duplicate article skipped: Guinea’s junta chief elected president after opposition boycott | Guinea | The Guardian from The Guardian
+2026-01-01 04:52:14,760 - INFO - Found 27 articles in BBC RSS feed. Processing up to 10.
+2026-01-01 04:52:14,761 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0q4e4e4ldyo?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:14,761 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:14,919 - INFO - [BBC] Success with 'requests_browser'. Found content (1041 words).
+2026-01-01 04:52:14,963 - INFO - Duplicate article skipped: EU's top diplomat rejects Russian claims of Ukrainian attack on government sites from BBC
+2026-01-01 04:52:15,631 - INFO - [BBC] Article: https://www.bbc.com/news/videos/czdqp29gz51o?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:15,631 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:15,694 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 67 words).
+2026-01-01 04:52:15,694 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/czdqp29gz51o?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2026-01-01 04:52:15,694 - INFO - Duplicate article skipped: What are Russians hoping for in 2026, asks Steve Rosenberg from BBC
+2026-01-01 04:52:15,748 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/saudi-arabia-uae-tension-future-yemen-boiling-point
+2026-01-01 04:52:15,748 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:16,135 - INFO - Selenium driver initialized successfully.
+2026-01-01 04:52:16,135 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-01 04:52:16,136 - INFO - Selenium driver initialized successfully.
+2026-01-01 04:52:16,136 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-01 04:52:16,219 - INFO - [The Guardian] Success with 'requests_browser'. Found content (932 words).
+2026-01-01 04:52:16,267 - INFO - Duplicate article skipped: Tensions between Saudis and Emiratis over future of Yemen reach boiling point | Yemen | The Guardian from The Guardian
+2026-01-01 04:52:16,271 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-01 04:52:16,271 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/is-hasanabi-serious-about-quitting-twitch-streaming-in-2026-his-latest-rant-suggests-mounting-frustration/articleshow/126280890.cms
+2026-01-01 04:52:16,271 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:16,536 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-01 04:52:16,536 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/bjps-ascent-to-power-in-telangana-inevitable-bandi-sanjay/article70457696.ece
+2026-01-01 04:52:16,536 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:16,601 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czxpk7r8w9yo?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:16,601 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:16,644 - INFO - [BBC] Success with 'requests_browser'. Found content (923 words).
+2026-01-01 04:52:16,717 - INFO - Duplicate article skipped: China's plan to boost birth rates with condom tax and cheaper childcare from BBC
+2026-01-01 04:52:17,424 - INFO - [The Guardian] Article: https://www.theguardian.com/sport/2025/dec/29/anthony-joshua-injured-car-crash-nigeria
+2026-01-01 04:52:17,424 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:17,556 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn8jlm07nz4o?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:17,556 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:17,622 - INFO - [BBC] Success with 'requests_browser'. Found content (311 words).
+2026-01-01 04:52:17,675 - INFO - [The Guardian] Success with 'requests_browser'. Found content (739 words).
+2026-01-01 04:52:17,718 - INFO - Duplicate article skipped: Disney World cast member hurt stopping 180-kg fake boulder from hitting audience from BBC
+2026-01-01 04:52:17,780 - INFO - Duplicate article skipped: Anthony Joshua’s camp confirm two of his close friends died in Nigeria car crash | Anthony Joshua | The Guardian from The Guardian
+2026-01-01 04:52:18,294 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crlere3x28lo?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:18,294 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:18,385 - INFO - [BBC] Success with 'requests_browser'. Found content (675 words).
+2026-01-01 04:52:18,508 - INFO - Duplicate article skipped: Bulgaria joins the euro after rocky path to new currency from BBC
+2026-01-01 04:52:18,917 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/more-than-3000-migrants-died-spain-figure-down
+2026-01-01 04:52:18,917 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:19,483 - INFO - [The Guardian] Success with 'requests_browser'. Found content (434 words).
+2026-01-01 04:52:19,635 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2d7g8krj2po?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:19,635 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:19,702 - INFO - Duplicate article skipped: More than 3,000 migrants died trying to reach Spain in 2025 | Spain | The Guardian from The Guardian
+2026-01-01 04:52:19,769 - INFO - [BBC] Success with 'requests_browser'. Found content (337 words).
+2026-01-01 04:52:19,938 - INFO - Duplicate article skipped: Iran protesters try to break into government building as unrest continues from BBC
+2026-01-01 04:52:20,333 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/28/central-african-republic-goes-to-polls-as-president-seeks-third-term
+2026-01-01 04:52:20,333 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:20,550 - INFO - [The Guardian] Success with 'requests_browser'. Found content (637 words).
+2026-01-01 04:52:20,647 - INFO - Duplicate article skipped: Central African Republic goes to polls as president seeks third term | Central African Republic | The Guardian from The Guardian
+2026-01-01 04:52:21,225 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:21,343 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clye3xz52e5o?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:21,343 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:21,450 - INFO - [BBC] Success with 'requests_browser'. Found content (462 words).
+2026-01-01 04:52:21,549 - INFO - Duplicate article skipped: Sydney sends message of peace for New Year's after Bondi attack from BBC
+2026-01-01 04:52:21,619 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/military-drone-strike-venezuela-trump-maduro
+2026-01-01 04:52:21,620 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:21,629 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (218 words).
+2026-01-01 04:52:21,830 - INFO - [The Guardian] Success with 'requests_browser'. Found content (679 words).
+2026-01-01 04:52:21,979 - INFO - Saved article: BJP’s ascent to power in Telangana inevitable: Bandi Sanjay - The Hindu from The Hindu
+2026-01-01 04:52:22,003 - INFO - Duplicate article skipped: Trump’s shadow war in Venezuela grows, but country’s strongman leader still clings to power | Venezuela | The Guardian from The Guardian
+2026-01-01 04:52:22,142 - INFO - [BBC] Article: https://www.bbc.com/news/articles/crrnlw4rxeyo?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:22,142 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:22,204 - INFO - [BBC] Success with 'requests_browser'. Found content (476 words).
+2026-01-01 04:52:22,358 - INFO - Duplicate article skipped: Teen hiker who died after falling 150 metres from California's Mt Baldy identified from BBC
+2026-01-01 04:52:23,327 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn9zl309dz8o?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:23,327 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:23,367 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Mangalore/n-vinay-hegde-chancellor-of-nitte-deemed-to-be-university-passes-away-in-mangaluru/article70459349.ece
+2026-01-01 04:52:23,367 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:23,486 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/brazil-ex-president-jair-bolsonaro-hiccups-treatment
+2026-01-01 04:52:23,486 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:23,492 - INFO - [BBC] Success with 'requests_browser'. Found content (372 words).
+2026-01-01 04:52:23,625 - INFO - Duplicate article skipped: Machu Picchu train crash leaves one dead and dozens injured from BBC
+2026-01-01 04:52:24,016 - INFO - [The Guardian] Success with 'requests_browser'. Found content (309 words).
+2026-01-01 04:52:24,144 - INFO - Duplicate article skipped: Jair Bolsonaro undergoes second procedure to treat persistent hiccups | Jair Bolsonaro | The Guardian from The Guardian
+2026-01-01 04:52:24,396 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1evp7weyv2o?at_medium=RSS&at_campaign=rss
+2026-01-01 04:52:24,396 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:24,494 - INFO - [BBC] Success with 'requests_browser'. Found content (1209 words).
+2026-01-01 04:52:24,570 - INFO - Duplicate article skipped: Israel to bar 37 aid groups as UK and EU warn of impact in Gaza from BBC
+2026-01-01 04:52:24,736 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/mexico-train-derailment-oaxaca
+2026-01-01 04:52:24,736 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:25,269 - INFO - [The Guardian] Success with 'requests_browser'. Found content (355 words).
+2026-01-01 04:52:25,371 - INFO - Duplicate article skipped: At least 13 people killed and 98 injured in train derailment in Mexico | Mexico | The Guardian from The Guardian
+2026-01-01 04:52:26,055 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/29/trump-venezuela-facility-strike
+2026-01-01 04:52:26,055 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:26,079 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:26,328 - INFO - [The Guardian] Success with 'requests_browser'. Found content (498 words).
+2026-01-01 04:52:26,420 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (200 words).
+2026-01-01 04:52:26,787 - INFO - Duplicate article skipped: US struck ‘big facility’ in Venezuela, Trump claimed without offering details | Donald Trump | The Guardian from The Guardian
+2026-01-01 04:52:26,940 - INFO - Saved article: N. Vinay Hegde, Chancellor of Nitte (Deemed-to-be-University), passes away in Mangaluru - The Hindu from The Hindu
+2026-01-01 04:52:27,625 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/26/venezuela-political-prisoner-release
+2026-01-01 04:52:27,625 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-01 04:52:27,678 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bihar/wanted-maoist-killed-in-encounter-with-security-forces-in-bihar/article70459364.ece
+2026-01-01 04:52:27,678 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:27,836 - INFO - [The Guardian] Success with 'requests_browser'. Found content (540 words).
+2026-01-01 04:52:27,961 - INFO - Duplicate article skipped: Venezuela says it released 99 people detained for 2024 election protests | Venezuela | The Guardian from The Guardian
+2026-01-01 04:52:29,534 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:29,877 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (232 words).
+2026-01-01 04:52:30,388 - INFO - Saved article: Wanted Maoist killed in encounter with security forces in Bihar - The Hindu from The Hindu
+2026-01-01 04:52:31,631 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/goa/fire-hit-goa-nightclub-was-built-illegally-on-salt-pan-operated-without-licence-probe-report/article70459315.ece
+2026-01-01 04:52:31,631 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:32,725 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:32,806 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (831 words).
+2026-01-01 04:52:32,888 - INFO - Duplicate article skipped: Fire-hit Goa nightclub was built illegally on salt pan, operated without licence: Probe report - The Hindu from The Hindu
+2026-01-01 04:52:34,108 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/goa/goa-nightclub-fire-arpora-sarpanch-disqualified-then-panchayat-secretary-sacked-from-government-service/article70459308.ece
+2026-01-01 04:52:34,108 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:35,215 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:35,354 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (293 words).
+2026-01-01 04:52:35,433 - INFO - Duplicate article skipped: Goa nightclub fire: Arpora sarpanch disqualified, then panchayat secretary sacked from government service - The Hindu from The Hindu
+2026-01-01 04:52:36,598 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/farmer-son-arrested-for-growing-ganja-saplings-in-tirupattur/article70456869.ece
+2026-01-01 04:52:36,598 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:37,668 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:37,776 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (219 words).
+2026-01-01 04:52:37,865 - INFO - Duplicate article skipped: Farmer, son arrested for growing ganja saplings in Tirupattur - The Hindu from The Hindu
+2026-01-01 04:52:39,245 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/cctv-surveillance-network-upgraded-in-villupuram/article70455971.ece
+2026-01-01 04:52:39,245 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:42,229 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:42,305 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (257 words).
+2026-01-01 04:52:42,396 - INFO - Duplicate article skipped: CCTV surveillance network upgraded in Villupuram - The Hindu from The Hindu
+2026-01-01 04:52:43,733 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/state-names-awardees-of-police-pathakams/article70458157.ece
+2026-01-01 04:52:43,733 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:44,860 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:44,936 - WARNING - [The Hindu] FAILED with 'selenium_browser' (content was too short: 75 words).
+2026-01-01 04:52:44,936 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/telangana/state-names-awardees-of-police-pathakams/article70458157.ece. Falling back to RSS description.
+2026-01-01 04:52:44,937 - INFO - Duplicate article skipped: State names awardees of Police Pathakams from The Hindu
+2026-01-01 04:52:46,196 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/many-units-in-kondapur-industrial-park-set-for-opening/article70457910.ece
+2026-01-01 04:52:46,196 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:47,146 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:47,216 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (178 words).
+2026-01-01 04:52:47,291 - INFO - Duplicate article skipped: Many units in Kondapur Industrial Park set for opening - The Hindu from The Hindu
+2026-01-01 04:52:48,299 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/houses-for-poor-in-telangana-took-shape-in-2025/article70457282.ece
+2026-01-01 04:52:48,299 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:52:50,296 - INFO - [The Hindu] Page content loaded.
+2026-01-01 04:52:50,340 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (323 words).
+2026-01-01 04:52:50,390 - INFO - Duplicate article skipped: Houses for poor in Telangana took shape in 2025 - The Hindu from The Hindu
+2026-01-01 04:52:51,876 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-01 04:52:52,009 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-01-01 04:54:16,367 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/is-hasanabi-serious-about-quitting-twitch-streaming-in-2026-his-latest-rant-suggests-mounting-frustration/articleshow/126280890.cms: HTTPConnectionPool(host='localhost', port=42839): Read timed out. (read timeout=120)
+2026-01-01 04:54:16,367 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/is-hasanabi-serious-about-quitting-twitch-streaming-in-2026-his-latest-rant-suggests-mounting-frustration/articleshow/126280890.cms. Falling back to RSS description.
+2026-01-01 04:54:16,370 - INFO - Saved article: Is HasanAbi serious about quitting Twitch streaming in 2026? His latest rant suggests mounting frustration from Times of India
+2026-01-01 04:54:17,531 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/one-step-ahead-of-my-haters-candace-owens-stirs-buzz-with-viral-video-referencing-charlie-kirk-and-erika-kirk/articleshow/126280843.cms
+2026-01-01 04:54:17,531 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:56:17,633 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/one-step-ahead-of-my-haters-candace-owens-stirs-buzz-with-viral-video-referencing-charlie-kirk-and-erika-kirk/articleshow/126280843.cms: HTTPConnectionPool(host='localhost', port=42839): Read timed out. (read timeout=120)
+2026-01-01 04:56:17,633 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/one-step-ahead-of-my-haters-candace-owens-stirs-buzz-with-viral-video-referencing-charlie-kirk-and-erika-kirk/articleshow/126280843.cms. Falling back to RSS description.
+2026-01-01 04:56:17,635 - INFO - Saved article: “One step ahead of my haters”: Candace Owens stirs buzz with viral video referencing Charlie Kirk and Erika Kirk from Times of India
+2026-01-01 04:56:18,980 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/what-is-youtuber-nick-shirley-exposing-minnesota-daycare-fund-fraud-claims-raise-somalia-group-controversy-and-federal-investigation/articleshow/126280768.cms
+2026-01-01 04:56:18,980 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-01 04:57:14,516 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2026-01-01 04:57:14,516 - ERROR - A thread has timed out and will be abandoned.
+2026-01-01 04:57:14,516 - INFO - Shutting down thread pool (wait=False)...
+2026-01-01 04:57:14,516 - INFO - Scraped: 3 The Hindu, 0 BBC, 0 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 3)
+2026-01-01 04:57:14,516 - INFO - --- Scraping job finished ---
+2026-01-01 04:57:14,516 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-01 04:57:14,516 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
