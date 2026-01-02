@@ -1,0 +1,171 @@
+2026-01-02 18:37:24,322 - INFO - Initializing database connection at: news_articles.db
+2026-01-02 18:37:24,322 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-02 18:37:24,322 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-02 18:37:24,322 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-02 18:37:24,322 - INFO - Proxy is DISABLED.
+2026-01-02 18:37:24,323 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-02 18:37:24,323 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-02 18:37:24,323 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-02 18:37:24,323 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-02 18:37:24,327 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-02 18:37:24,327 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-02 18:37:24,327 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-02 18:37:24,525 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-02 18:37:24,525 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-02 18:37:24,525 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:24,548 - INFO - Found 31 articles in BBC RSS feed. Processing up to 10.
+2026-01-02 18:37:24,548 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cq6v41jg9jzo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:24,548 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:24,558 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-02 18:37:24,607 - INFO - Saved article: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-02 18:37:24,828 - INFO - [BBC] Success with 'requests_browser'. Found content (793 words).
+2026-01-02 18:37:24,866 - INFO - Saved article: Sparklers on champagne bottles likely cause of deadly Swiss bar fire from BBC
+2026-01-02 18:37:25,757 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2026/jan/01/cremation-pyre-in-africa-thought-to-be-worlds-oldest-containing-adult-remains
+2026-01-02 18:37:25,757 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:25,780 - INFO - [The Guardian] Success with 'requests_browser'. Found content (653 words).
+2026-01-02 18:37:25,811 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c07xn220gdeo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:25,814 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:25,816 - INFO - Duplicate article skipped: Cremation pyre in Africa thought to be world’s oldest containing adult remains | Anthropology | The Guardian from The Guardian
+2026-01-02 18:37:25,842 - INFO - [BBC] Success with 'requests_browser'. Found content (767 words).
+2026-01-02 18:37:25,875 - INFO - Duplicate article skipped: Swiss ski resort fire: Families of missing teens desperate for news from BBC
+2026-01-02 18:37:26,977 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0q4z33pnnyo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:26,977 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:27,005 - INFO - [BBC] Success with 'requests_browser'. Found content (807 words).
+2026-01-02 18:37:27,022 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/01/us-aid-cuts-conditions-un-humanitarian-pledge-ocha
+2026-01-02 18:37:27,022 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:27,044 - INFO - Duplicate article skipped: Iran: Trump warns US will intervene if Iran kills protesters from BBC
+2026-01-02 18:37:27,061 - INFO - [The Guardian] Success with 'requests_browser'. Found content (631 words).
+2026-01-02 18:37:27,097 - INFO - Duplicate article skipped: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts | Aid | The Guardian from The Guardian
+2026-01-02 18:37:27,845 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/31/guinea-junta-chief-mamady-doumbouya-elected-president-after-opposition-boycott
+2026-01-02 18:37:27,845 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:27,865 - INFO - [The Guardian] Success with 'requests_browser'. Found content (399 words).
+2026-01-02 18:37:27,897 - INFO - Duplicate article skipped: Guinea’s junta chief elected president after opposition boycott | Guinea | The Guardian from The Guardian
+2026-01-02 18:37:27,944 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2k0101enyo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:27,945 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:27,972 - INFO - [BBC] Success with 'requests_browser'. Found content (364 words).
+2026-01-02 18:37:28,009 - INFO - Duplicate article skipped: Zelensky names spy chief to head presidential office from BBC
+2026-01-02 18:37:28,756 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cjrz34qdr9no?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:28,756 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:28,787 - INFO - [BBC] Success with 'requests_browser'. Found content (1132 words).
+2026-01-02 18:37:28,826 - INFO - Duplicate article skipped: Yemen clashes bring Saudi and UAE-backed forces into confrontation from BBC
+2026-01-02 18:37:29,172 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/saudi-arabia-uae-tension-future-yemen-boiling-point
+2026-01-02 18:37:29,172 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:29,199 - INFO - [The Guardian] Success with 'requests_browser'. Found content (932 words).
+2026-01-02 18:37:29,274 - INFO - Duplicate article skipped: Tensions between Saudis and Emiratis over future of Yemen reach boiling point | Yemen | The Guardian from The Guardian
+2026-01-02 18:37:30,022 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y2jrdnnqyo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:30,022 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:30,048 - INFO - [BBC] Success with 'requests_browser'. Found content (449 words).
+2026-01-02 18:37:30,086 - INFO - Saved article: Anthony Joshua's driver charged over Nigeria crash that killed two from BBC
+2026-01-02 18:37:30,331 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/venezuela-maduro-open-to-talks-drug-trafficking-maduro
+2026-01-02 18:37:30,331 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:30,753 - INFO - [The Guardian] Success with 'requests_browser'. Found content (647 words).
+2026-01-02 18:37:30,804 - INFO - Duplicate article skipped: Maduro urges Trump to abandon ‘illegal warmongering’ and start ‘serious talks’ | Venezuela | The Guardian from The Guardian
+2026-01-02 18:37:30,842 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c70lw7w89epo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:30,842 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:30,877 - INFO - [BBC] Success with 'requests_browser'. Found content (527 words).
+2026-01-02 18:37:30,921 - INFO - Duplicate article skipped: US slashes proposed tariffs on Italian pasta imports from BBC
+2026-01-02 18:37:31,557 - INFO - Selenium driver initialized successfully.
+2026-01-02 18:37:31,558 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-02 18:37:31,558 - INFO - Selenium driver initialized successfully.
+2026-01-02 18:37:31,559 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-02 18:37:31,648 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/military-drone-strike-venezuela-trump-maduro
+2026-01-02 18:37:31,648 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:31,663 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-02 18:37:31,663 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/lying-propagandists-elon-musk-accuses-legacy-media-of-targeting-him-over-nazi-salute-while-ignoring-zohran-mamdani/articleshow/126310616.cms
+2026-01-02 18:37:31,663 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:31,703 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cew81lpqvzeo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:31,703 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:31,714 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-02 18:37:31,714 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tn-dominates-third-tranche-of-ecms-in-jobs-investments/article70464925.ece
+2026-01-02 18:37:31,714 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:31,732 - INFO - [The Guardian] Success with 'requests_browser'. Found content (679 words).
+2026-01-02 18:37:31,794 - INFO - Duplicate article skipped: Trump’s shadow war in Venezuela grows, but country’s strongman leader still clings to power | Venezuela | The Guardian from The Guardian
+2026-01-02 18:37:31,805 - INFO - [BBC] Success with 'requests_browser'. Found content (483 words).
+2026-01-02 18:37:31,866 - INFO - Duplicate article skipped: Russia accuses Ukraine of killing 27 people in New Year attack in occupied Kherson region from BBC
+2026-01-02 18:37:33,166 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/brazil-ex-president-jair-bolsonaro-hiccups-treatment
+2026-01-02 18:37:33,166 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:33,191 - INFO - [The Guardian] Success with 'requests_browser'. Found content (309 words).
+2026-01-02 18:37:33,243 - INFO - Duplicate article skipped: Jair Bolsonaro undergoes second procedure to treat persistent hiccups | Jair Bolsonaro | The Guardian from The Guardian
+2026-01-02 18:37:33,338 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj9rjwpvmpzo?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:33,338 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:33,449 - INFO - [BBC] Success with 'requests_browser'. Found content (629 words).
+2026-01-02 18:37:33,555 - INFO - Duplicate article skipped: China's BYD overtakes Tesla as world's top EV seller from BBC
+2026-01-02 18:37:33,810 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/29/mexico-train-derailment-oaxaca
+2026-01-02 18:37:33,810 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:33,925 - INFO - [The Guardian] Success with 'requests_browser'. Found content (355 words).
+2026-01-02 18:37:34,078 - INFO - Duplicate article skipped: At least 13 people killed and 98 injured in train derailment in Mexico | Mexico | The Guardian from The Guardian
+2026-01-02 18:37:34,749 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2025/dec/29/trump-venezuela-facility-strike
+2026-01-02 18:37:34,749 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:34,762 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clynvkwglx4o?at_medium=RSS&at_campaign=rss
+2026-01-02 18:37:34,763 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-02 18:37:34,936 - INFO - [The Guardian] Success with 'requests_browser'. Found content (498 words).
+2026-01-02 18:37:35,033 - INFO - [BBC] Success with 'requests_browser'. Found content (348 words).
+2026-01-02 18:37:35,315 - INFO - Duplicate article skipped: US struck ‘big facility’ in Venezuela, Trump claimed without offering details | Donald Trump | The Guardian from The Guardian
+2026-01-02 18:37:35,364 - INFO - Duplicate article skipped: Seven dead, dozens missing after boat bound for Canary Islands capsizes in Gambia from BBC
+2026-01-02 18:37:35,630 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:35,947 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (182 words).
+2026-01-02 18:37:36,177 - INFO - Saved article: T.N. dominates third tranche of ECMS in jobs, investments - The Hindu from The Hindu
+2026-01-02 18:37:36,800 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/indias-deep-dive-into-the-frozen-frontier/article70461345.ece
+2026-01-02 18:37:36,800 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:39,745 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:40,140 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (747 words).
+2026-01-02 18:37:40,694 - INFO - Saved article: India’s deep dive into the frozen frontier - The Hindu from The Hindu
+2026-01-02 18:37:41,224 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/two-staffers-injured-in-blast-at-old-age-home/article70465372.ece
+2026-01-02 18:37:41,224 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:44,556 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:44,911 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (176 words).
+2026-01-02 18:37:45,090 - INFO - Saved article: Two staffers injured in blast at old-age home - The Hindu from The Hindu
+2026-01-02 18:37:45,966 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/historic-bell-set-to-ring-again-at-172-year-old-church-in-secunderabad/article70463755.ece
+2026-01-02 18:37:45,966 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:47,999 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:48,045 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (640 words).
+2026-01-02 18:37:48,115 - INFO - Saved article: Historic bell set to ring again at 172-year-old church in Secunderabad - The Hindu from The Hindu
+2026-01-02 18:37:48,815 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/migrant-worker-falls-to-death-at-technopark/article70465358.ece
+2026-01-02 18:37:48,815 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:49,840 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:49,919 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (81 words).
+2026-01-02 18:37:50,008 - INFO - Saved article: Migrant worker falls to death at Technopark - The Hindu from The Hindu
+2026-01-02 18:37:51,125 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/row-over-nod-for-new-year-event-at-convention-centre/article70464694.ece
+2026-01-02 18:37:51,126 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:54,362 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:54,601 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (334 words).
+2026-01-02 18:37:54,677 - INFO - Saved article: Row over nod for New Year event at convention centre - The Hindu from The Hindu
+2026-01-02 18:37:55,701 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/theyyam-to-light-up-thiruvananthapuram-during-assembly-book-festival/article70465353.ece
+2026-01-02 18:37:55,701 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:37:58,189 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:37:58,481 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (305 words).
+2026-01-02 18:37:58,554 - INFO - Saved article: Theyyam to light up Thiruvananthapuram during Assembly book festival - The Hindu from The Hindu
+2026-01-02 18:37:59,555 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/government-to-help-teachers-use-ai-will-ease-open-schooling-framework/article70464141.ece
+2026-01-02 18:37:59,555 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:38:00,059 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:38:00,106 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (400 words).
+2026-01-02 18:38:00,175 - INFO - Saved article: Government to help teachers use AI; will ease open schooling framework - The Hindu from The Hindu
+2026-01-02 18:38:00,842 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/satheesan-promises-help-for-nine-year-old-receive-prosthetic-arm/article70464803.ece
+2026-01-02 18:38:00,842 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:38:01,662 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:38:01,729 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (145 words).
+2026-01-02 18:38:01,812 - INFO - Saved article: Satheesan promises to help child receive prosthetic arm - The Hindu from The Hindu
+2026-01-02 18:38:02,764 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/new-153-acre-lung-space-proposed-for-bengaluru-in-the-name-of-basavanna/article70465312.ece
+2026-01-02 18:38:02,764 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:38:03,667 - INFO - [The Hindu] Page content loaded.
+2026-01-02 18:38:03,739 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (324 words).
+2026-01-02 18:38:03,815 - INFO - Saved article: New 153-acre lung space proposed for Bengaluru in the name of Basavanna - The Hindu from The Hindu
+2026-01-02 18:38:04,585 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-02 18:38:04,741 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-01-02 18:39:31,678 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/lying-propagandists-elon-musk-accuses-legacy-media-of-targeting-him-over-nazi-salute-while-ignoring-zohran-mamdani/articleshow/126310616.cms: HTTPConnectionPool(host='localhost', port=51973): Read timed out. (read timeout=120)
+2026-01-02 18:39:31,678 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/lying-propagandists-elon-musk-accuses-legacy-media-of-targeting-him-over-nazi-salute-while-ignoring-zohran-mamdani/articleshow/126310616.cms. Falling back to RSS description.
+2026-01-02 18:39:31,679 - INFO - Saved article: ‘Lying..’: Musk accuses legacy media of targeting him over ‘Nazi salute’ while ignoring Mamdani from Times of India
+2026-01-02 18:39:32,926 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/what-really-happened-between-dan-crenshaw-and-shawn-ryan-congressman-accuses-podcaster-of-canceling-the-interview-at-last-minute/articleshow/126311175.cms
+2026-01-02 18:39:32,927 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:41:33,028 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/what-really-happened-between-dan-crenshaw-and-shawn-ryan-congressman-accuses-podcaster-of-canceling-the-interview-at-last-minute/articleshow/126311175.cms: HTTPConnectionPool(host='localhost', port=51973): Read timed out. (read timeout=120)
+2026-01-02 18:41:33,028 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/what-really-happened-between-dan-crenshaw-and-shawn-ryan-congressman-accuses-podcaster-of-canceling-the-interview-at-last-minute/articleshow/126311175.cms. Falling back to RSS description.
+2026-01-02 18:41:33,032 - INFO - Saved article: What really happened between Dan Crenshaw and Shawn Ryan? Congressman accuses podcaster of canceling the interview at last minute from Times of India
+2026-01-02 18:41:33,787 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/know-where-to-aim-iran-warns-trump-over-threat-violent-protests-rock-tehran/articleshow/126310526.cms
+2026-01-02 18:41:33,788 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-02 18:42:24,327 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2026-01-02 18:42:24,327 - ERROR - A thread has timed out and will be abandoned.
+2026-01-02 18:42:24,327 - INFO - Shutting down thread pool (wait=False)...
+2026-01-02 18:42:24,327 - INFO - Scraped: 2 BBC, 10 The Hindu, 1 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 13)
+2026-01-02 18:42:24,327 - INFO - --- Scraping job finished ---
+2026-01-02 18:42:24,328 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-02 18:42:24,328 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
