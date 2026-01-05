@@ -1,0 +1,237 @@
+2026-01-05 14:31:00,951 - INFO - Initializing database connection at: news_articles.db
+2026-01-05 14:31:00,951 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-05 14:31:00,951 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-05 14:31:00,951 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-05 14:31:00,951 - INFO - Proxy is DISABLED.
+2026-01-05 14:31:00,952 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-05 14:31:00,952 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-05 14:31:00,952 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-05 14:31:00,953 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-05 14:31:00,953 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-05 14:31:00,955 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-05 14:31:00,957 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-05 14:31:01,206 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-05 14:31:01,206 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-05 14:31:01,206 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:01,439 - INFO - Found 27 articles in BBC RSS feed. Processing up to 10.
+2026-01-05 14:31:01,439 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgnxvp477eo?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:01,439 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:01,597 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-05 14:31:01,626 - INFO - Duplicate article skipped: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-05 14:31:01,863 - INFO - [BBC] Success with 'requests_browser'. Found content (1081 words).
+2026-01-05 14:31:01,897 - INFO - Duplicate article skipped: Trump warns new Venezuelan leader as Maduro set to appear in court from BBC
+2026-01-05 14:31:02,534 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g0zg974v1o?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:02,534 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:02,581 - INFO - [BBC] Success with 'requests_browser'. Found content (611 words).
+2026-01-05 14:31:02,614 - INFO - Duplicate article skipped: 'We need Greenland': Trump repeats threat to annex Danish territory from BBC
+2026-01-05 14:31:02,858 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2026/jan/01/cremation-pyre-in-africa-thought-to-be-worlds-oldest-containing-adult-remains
+2026-01-05 14:31:02,859 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:02,897 - INFO - [The Guardian] Success with 'requests_browser'. Found content (653 words).
+2026-01-05 14:31:02,928 - INFO - Duplicate article skipped: Cremation pyre in Africa thought to be world’s oldest containing adult remains | Anthropology | The Guardian from The Guardian
+2026-01-05 14:31:04,006 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c78v6z7597yo?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:04,006 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:04,049 - INFO - [BBC] Success with 'requests_browser'. Found content (545 words).
+2026-01-05 14:31:04,080 - INFO - Duplicate article skipped: Ten found guilty of cyber-bullying Brigitte Macron from BBC
+2026-01-05 14:31:04,377 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/01/us-aid-cuts-conditions-un-humanitarian-pledge-ocha
+2026-01-05 14:31:04,377 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:04,417 - INFO - [The Guardian] Success with 'requests_browser'. Found content (631 words).
+2026-01-05 14:31:04,449 - INFO - Duplicate article skipped: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts | Aid | The Guardian from The Guardian
+2026-01-05 14:31:05,185 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/31/guinea-junta-chief-mamady-doumbouya-elected-president-after-opposition-boycott
+2026-01-05 14:31:05,185 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:05,322 - INFO - [The Guardian] Success with 'requests_browser'. Found content (399 words).
+2026-01-05 14:31:05,351 - INFO - Duplicate article skipped: Guinea’s junta chief elected president after opposition boycott | Guinea | The Guardian from The Guardian
+2026-01-05 14:31:05,468 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj9r0eyw0jno?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:05,468 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:05,512 - INFO - [BBC] Success with 'requests_browser'. Found content (425 words).
+2026-01-05 14:31:05,544 - INFO - Duplicate article skipped: Thirty-two Cubans killed during US attack on Venezuela from BBC
+2026-01-05 14:31:06,424 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/saudi-arabia-uae-tension-future-yemen-boiling-point
+2026-01-05 14:31:06,424 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:06,577 - INFO - [The Guardian] Success with 'requests_browser'. Found content (932 words).
+2026-01-05 14:31:06,616 - INFO - Duplicate article skipped: Tensions between Saudis and Emiratis over future of Yemen reach boiling point | Yemen | The Guardian from The Guardian
+2026-01-05 14:31:06,925 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yvxnlw1pzo?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:06,925 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:06,980 - INFO - [BBC] Success with 'requests_browser'. Found content (666 words).
+2026-01-05 14:31:07,044 - INFO - Duplicate article skipped: From Caracas 'fort' to New York court: Maduro's capture in pictures and maps from BBC
+2026-01-05 14:31:07,258 - INFO - [The Guardian] Article: https://www.theguardian.com/world/live/2026/jan/05/venezuela-live-updates-trump-us-interim-president-collaborate
+2026-01-05 14:31:07,258 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:07,374 - INFO - [The Guardian] Success with 'requests_browser'. Found content (2769 words).
+2026-01-05 14:31:07,454 - INFO - Duplicate article skipped: Venezuela live updates: Nicolás Maduro arrives at Manhattan court | Venezuela | The Guardian from The Guardian
+2026-01-05 14:31:08,369 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c70lw9x581no?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:08,369 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:08,417 - INFO - [BBC] Success with 'requests_browser'. Found content (821 words).
+2026-01-05 14:31:08,450 - INFO - Duplicate article skipped: South Korea's Lee Jae Myung meets China's Xi as he seeks a reset in ties from BBC
+2026-01-05 14:31:08,565 - INFO - [The Guardian] Article: https://www.theguardian.com/business/2026/jan/05/oil-price-dips-venezuela
+2026-01-05 14:31:08,566 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:08,719 - INFO - [The Guardian] Success with 'requests_browser'. Found content (765 words).
+2026-01-05 14:31:08,764 - INFO - Duplicate article skipped: US energy stocks rise as Trump vows to unlock Venezuela oil | Oil | The Guardian from The Guardian
+2026-01-05 14:31:09,431 - INFO - Selenium driver initialized successfully.
+2026-01-05 14:31:09,432 - INFO - Selenium driver initialized successfully.
+2026-01-05 14:31:09,432 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-05 14:31:09,432 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-05 14:31:09,441 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/05/nicolas-maduro-venezuela-new-york-court
+2026-01-05 14:31:09,442 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:09,486 - INFO - [The Guardian] Success with 'requests_browser'. Found content (832 words).
+2026-01-05 14:31:09,529 - INFO - Duplicate article skipped: Nicolás Maduro to appear in New York court on drugs and weapons charges | Nicolás Maduro | The Guardian from The Guardian
+2026-01-05 14:31:09,529 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3vel0xvlvgo?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:09,529 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:09,572 - INFO - [BBC] Success with 'requests_browser'. Found content (538 words).
+2026-01-05 14:31:09,602 - INFO - Duplicate article skipped: Crans-Montana: Police identify all 40 victims of Swiss bar fire from BBC
+2026-01-05 14:31:09,619 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-05 14:31:09,619 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/dcc-bank-employees-stage-protest-in-belagavi-savadi-supporters-in-athani/article70474399.ece
+2026-01-05 14:31:09,619 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:09,680 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-05 14:31:09,680 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/i-dont-shy-away-uk-pm-keir-starmer-dodges-condemning-trumps-venezuela-strike-had-attacked-putin-for-ukraine-war/articleshow/126351738.cms
+2026-01-05 14:31:09,680 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:10,208 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8d0q16zvzgo?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:10,208 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:10,259 - INFO - [BBC] Success with 'requests_browser'. Found content (350 words).
+2026-01-05 14:31:10,305 - INFO - Duplicate article skipped: Tokyo fish auction sees bluefin tuna fetching record $3.2m from BBC
+2026-01-05 14:31:10,768 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/05/our-minerals-could-be-used-to-annex-us-why-canada-doesnt-want-us-mining
+2026-01-05 14:31:10,768 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:10,818 - INFO - [The Guardian] Success with 'requests_browser'. Found content (747 words).
+2026-01-05 14:31:10,873 - INFO - Duplicate article skipped: ‘Our minerals could be used to annex us’: why Canada doesn’t want US mining | Canada | The Guardian from The Guardian
+2026-01-05 14:31:11,269 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c78v984ywgeo?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:11,269 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:11,314 - INFO - [BBC] Success with 'requests_browser'. Found content (352 words).
+2026-01-05 14:31:11,364 - INFO - Duplicate article skipped: Berlin power cut: Activist group says it was behind fire that cut electricity supply from BBC
+2026-01-05 14:31:11,729 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2026/jan/05/venezuela-attack-embolden-china-russia-uk-labour-emily-thornberry
+2026-01-05 14:31:11,729 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:11,785 - INFO - [The Guardian] Success with 'requests_browser'. Found content (631 words).
+2026-01-05 14:31:11,862 - INFO - Duplicate article skipped: Venezuela attack could embolden China and Russia, says Emily Thornberry | Foreign policy | The Guardian from The Guardian
+2026-01-05 14:31:12,440 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czx1rpxzyx9o?at_medium=RSS&at_campaign=rss
+2026-01-05 14:31:12,440 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-05 14:31:12,552 - INFO - [BBC] Success with 'requests_browser'. Found content (839 words).
+2026-01-05 14:31:12,642 - INFO - Duplicate article skipped: World leaders react to US capture of Venezuelan leader Nicolás Maduro from BBC
+2026-01-05 14:31:22,531 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:22,647 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (642 words).
+2026-01-05 14:31:22,800 - INFO - Saved article: DCC Bank employees stage protest in Belagavi, Savadi supporters in Athani - The Hindu from The Hindu
+2026-01-05 14:31:23,836 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/skill-training-scholarships-given-to-students-minister/article70473985.ece
+2026-01-05 14:31:23,837 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:24,664 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:24,816 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (229 words).
+2026-01-05 14:31:24,929 - INFO - Saved article: Skill training, scholarships given to students: Minister - The Hindu from The Hindu
+2026-01-05 14:31:25,527 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/value-based-education-essential-for-national-unity-and-harmony-governor/article70473458.ece
+2026-01-05 14:31:25,528 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:26,028 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:26,067 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (443 words).
+2026-01-05 14:31:26,126 - INFO - Saved article: Value-based education essential for national unity and harmony: Governor - The Hindu from The Hindu
+2026-01-05 14:31:27,234 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/chhattisgarh/eleven-year-old-girl-sexually-assaulted-and-murdered-in-chhattisgarh-accused-held/article70474110.ece
+2026-01-05 14:31:27,235 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:27,878 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:27,948 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (299 words).
+2026-01-05 14:31:28,010 - INFO - Saved article: Eleven-year-old girl sexually assaulted and murdered in Chhattisgarh, accused held - The Hindu from The Hindu
+2026-01-05 14:31:28,849 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/particularly-vulnerable-tribal-groups-forest-based-tribal-issues-discussed-at-mysuru-workshop/article70474225.ece
+2026-01-05 14:31:28,849 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:29,562 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:29,633 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (177 words).
+2026-01-05 14:31:29,704 - INFO - Saved article: Particularly Vulnerable Tribal Groups, forest-based tribal issues discussed at meeting in Mysuru - The Hindu from The Hindu
+2026-01-05 14:31:30,289 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/building-card-digi-door-pin-features-of-k-smart-to-help-avoid-hassles-of-address-change-after-delimitation/article70474244.ece
+2026-01-05 14:31:30,289 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:30,757 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:30,794 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (342 words).
+2026-01-05 14:31:30,859 - INFO - Saved article: Building card, Digi Door PIN features of K-Smart to help avoid hassles of address change after delimitation - The Hindu from The Hindu
+2026-01-05 14:31:31,627 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/stalin-wishes-dmk-mp-kanimozhi-on-her-birthday/article70474314.ece
+2026-01-05 14:31:31,627 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:32,213 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:32,345 - WARNING - [The Hindu] FAILED with 'selenium_browser' (content was too short: 64 words).
+2026-01-05 14:31:32,346 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/stalin-wishes-dmk-mp-kanimozhi-on-her-birthday/article70474314.ece. Falling back to RSS description.
+2026-01-05 14:31:32,348 - INFO - Saved article: Stalin wishes DMK MP Kanimozhi on her birthday from The Hindu
+2026-01-05 14:31:32,996 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/man-murders-son-in-mudigere-taluk/article70474292.ece
+2026-01-05 14:31:32,996 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:33,461 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:33,499 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (128 words).
+2026-01-05 14:31:33,556 - INFO - Saved article: Man murders son in Mudigere taluk - The Hindu from The Hindu
+2026-01-05 14:31:34,493 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/tigers-venturing-out-of-forests-will-be-captured-and-relocated-to-other-forests-karnataka-chief-minister/article70474036.ece
+2026-01-05 14:31:34,493 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:35,044 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:35,091 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (314 words).
+2026-01-05 14:31:35,155 - INFO - Saved article: Tigers venturing out of forests will be captured and relocated to other forests: Karnataka Chief Minister - The Hindu from The Hindu
+2026-01-05 14:31:36,162 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tripura/tripura-closes-all-schools-due-to-extreme-cold/article70474540.ece
+2026-01-05 14:31:36,162 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:31:36,978 - INFO - [The Hindu] Page content loaded.
+2026-01-05 14:31:37,031 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (165 words).
+2026-01-05 14:31:37,096 - INFO - Saved article: Tripura closes all schools due to extreme cold - The Hindu from The Hindu
+2026-01-05 14:31:37,653 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-05 14:31:37,725 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-01-05 14:32:09,702 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/uk/i-dont-shy-away-uk-pm-keir-starmer-dodges-condemning-trumps-venezuela-strike-had-attacked-putin-for-ukraine-war/articleshow/126351738.cms: Message: timeout: Timed out receiving message from renderer: 59.877
+  (Session info: chrome=143.0.7499.109)
+Stacktrace:
+#0 0x55a1d6cf119a <unknown>
+#1 0x55a1d676ec4b <unknown>
+#2 0x55a1d6756cf3 <unknown>
+#3 0x55a1d67569d6 <unknown>
+#4 0x55a1d6754897 <unknown>
+#5 0x55a1d67551af <unknown>
+#6 0x55a1d6763970 <unknown>
+#7 0x55a1d677d017 <unknown>
+#8 0x55a1d67836cb <unknown>
+#9 0x55a1d67558d8 <unknown>
+#10 0x55a1d677cdc3 <unknown>
+#11 0x55a1d680bf60 <unknown>
+#12 0x55a1d67b2c42 <unknown>
+#13 0x55a1d67b38f1 <unknown>
+#14 0x55a1d6cb9f39 <unknown>
+#15 0x55a1d6cbce7d <unknown>
+#16 0x55a1d6ca2c81 <unknown>
+#17 0x55a1d6cbda5b <unknown>
+#18 0x55a1d6c89a50 <unknown>
+#19 0x55a1d6cdeaa8 <unknown>
+#20 0x55a1d6cdec79 <unknown>
+#21 0x55a1d6cf04f3 <unknown>
+#22 0x7f673e69caa4 <unknown>
+#23 0x7f673e729c6c <unknown>
+
+2026-01-05 14:32:09,702 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/uk/i-dont-shy-away-uk-pm-keir-starmer-dodges-condemning-trumps-venezuela-strike-had-attacked-putin-for-ukraine-war/articleshow/126351738.cms. Falling back to RSS description.
+2026-01-05 14:32:09,702 - INFO - Duplicate article skipped: 'I don't shy away': UK PM Keir Starmer dodges condemning Trump's Venezuela strike; had attacked Putin for Ukraine war from Times of India
+2026-01-05 14:32:10,436 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-vp-jd-vances-house-attacked-windows-smashed-at-ohio-residence-suspect-in-custody/articleshow/126352612.cms
+2026-01-05 14:32:10,436 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:11,773 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:11,906 - INFO - [Times of India] Success with 'selenium_browser'. Found content (296 words).
+2026-01-05 14:32:11,961 - INFO - Saved article: US VP JD Vance's house attacked: Windows smashed at Ohio residence; suspect in custody - The Times of India from Times of India
+2026-01-05 14:32:13,216 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/indians-only-succeed-when-they-invade-us-influencer-on-indians-earning-highest-in-germany/articleshow/126354941.cms
+2026-01-05 14:32:13,216 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:14,298 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:14,434 - INFO - [Times of India] Success with 'selenium_browser'. Found content (358 words).
+2026-01-05 14:32:14,533 - INFO - Saved article: 'Indians only succeed when they invade': US influencer on Indians earning highest in Germany - The Times of India from Times of India
+2026-01-05 14:32:15,552 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/why-zack-asmongold-comments-about-white-liberal-women-triggered-massive-backlash-internet-reacts-after-streamers-comments-go-viral/articleshow/126353786.cms
+2026-01-05 14:32:15,552 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:26,986 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2026-01-05 14:32:27,113 - INFO - [Times of India] Success with 'selenium_browser'. Found content (387 words).
+2026-01-05 14:32:27,178 - INFO - Saved article: Why Zack “Asmongold” comments about white liberal women triggered massive backlash? Internet reacts after streamer’s comments go viral - The Times of India from Times of India
+2026-01-05 14:32:28,221 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/court-convicts-10-people-for-claiming-frances-first-lady-brigitte-macron-was-a-man/articleshow/126354888.cms
+2026-01-05 14:32:28,221 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:29,249 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:29,374 - INFO - [Times of India] Success with 'selenium_browser'. Found content (437 words).
+2026-01-05 14:32:29,422 - INFO - Saved article: Court convicts 10 people for claiming France’s first lady Brigitte Macron was a man | World News - The Times of India from Times of India
+2026-01-05 14:32:30,358 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/random-musing-the-real-trump-doctrine/articleshow/126354669.cms
+2026-01-05 14:32:30,358 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:31,049 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:31,163 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1043 words).
+2026-01-05 14:32:31,212 - INFO - Saved article: Random Musing: The real Trump Doctrine | World News - The Times of India from Times of India
+2026-01-05 14:32:32,268 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/what-really-happens-when-astronauts-cry-in-space/articleshow/126353258.cms
+2026-01-05 14:32:32,268 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:33,202 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:33,299 - INFO - [Times of India] Success with 'selenium_browser'. Found content (693 words).
+2026-01-05 14:32:33,335 - INFO - Saved article: What really happens when astronauts cry in space | - The Times of India from Times of India
+2026-01-05 14:32:33,983 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/elon-musks-spacex-launch-starts-2026-by-putting-italys-new-eye-in-orbit/articleshow/126353464.cms
+2026-01-05 14:32:33,983 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:34,661 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:34,751 - INFO - [Times of India] Success with 'selenium_browser'. Found content (588 words).
+2026-01-05 14:32:34,800 - INFO - Saved article: Elon Musk’s SpaceX launch starts 2026 by putting Italy’s new eye in orbit | - The Times of India from Times of India
+2026-01-05 14:32:35,434 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/no-leniency-irans-judiciary-green-lights-crackdown-against-rioters-trumps-threat-looms/articleshow/126353881.cms
+2026-01-05 14:32:35,434 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:36,423 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:36,533 - INFO - [Times of India] Success with 'selenium_browser'. Found content (584 words).
+2026-01-05 14:32:36,582 - INFO - Saved article: ‘No leniency’: Iran’s judiciary green lights crackdown against ‘rioters’; Trump’s threat looms - The Times of India from Times of India
+2026-01-05 14:32:37,356 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/marco-rubio-or-jd-vance-venezuela-strike-fuels-2028-presidential-buzz-who-did-trump-choose/articleshow/126352544.cms
+2026-01-05 14:32:37,356 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-05 14:32:38,025 - INFO - [Times of India] Page content loaded.
+2026-01-05 14:32:38,142 - INFO - [Times of India] Success with 'selenium_browser'. Found content (258 words).
+2026-01-05 14:32:38,194 - INFO - Saved article: Marco Rubio or JD Vance? Venezuela strike fuels 2028 presidential buzz — who did Trump choose? - The Times of India from Times of India
+2026-01-05 14:32:39,427 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-05 14:32:39,554 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-01-05 14:32:39,554 - INFO - Shutting down thread pool (wait=False)...
+2026-01-05 14:32:39,554 - INFO - Scraped: 10 The Hindu, 9 Times of India, 0 The Guardian, 0 BBC articles. (Total saved: 19)
+2026-01-05 14:32:39,555 - INFO - --- Scraping job finished ---
+2026-01-05 14:32:39,561 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-05 14:32:39,561 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
