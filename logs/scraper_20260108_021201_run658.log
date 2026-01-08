@@ -1,0 +1,137 @@
+2026-01-08 02:07:01,001 - INFO - Initializing database connection at: news_articles.db
+2026-01-08 02:07:01,002 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-08 02:07:01,002 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-08 02:07:01,002 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-08 02:07:01,002 - INFO - Proxy is DISABLED.
+2026-01-08 02:07:01,002 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-08 02:07:01,003 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-08 02:07:01,003 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-08 02:07:01,003 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-08 02:07:01,004 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-08 02:07:01,004 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-08 02:07:01,009 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-08 02:07:01,196 - INFO - Found 29 articles in BBC RSS feed. Processing up to 10.
+2026-01-08 02:07:01,197 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y2v8ngl14o?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:01,197 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:01,337 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-08 02:07:01,337 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-08 02:07:01,337 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:01,424 - INFO - [BBC] Success with 'requests_browser'. Found content (1077 words).
+2026-01-08 02:07:01,465 - INFO - Duplicate article skipped: US seizes two 'ghost fleet' tankers linked to Venezuelan oil from BBC
+2026-01-08 02:07:01,483 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-08 02:07:01,516 - INFO - Duplicate article skipped: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-08 02:07:02,276 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly39pgmvrzo?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:02,276 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:02,320 - INFO - [BBC] Success with 'requests_browser'. Found content (810 words).
+2026-01-08 02:07:02,357 - INFO - Duplicate article skipped: Trump actively discussing potentially buying Greenland, White House says from BBC
+2026-01-08 02:07:02,406 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2026/jan/01/cremation-pyre-in-africa-thought-to-be-worlds-oldest-containing-adult-remains
+2026-01-08 02:07:02,406 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:02,439 - INFO - [The Guardian] Success with 'requests_browser'. Found content (653 words).
+2026-01-08 02:07:02,475 - INFO - Duplicate article skipped: Cremation pyre in Africa thought to be world’s oldest containing adult remains | Anthropology | The Guardian from The Guardian
+2026-01-08 02:07:03,471 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/01/us-aid-cuts-conditions-un-humanitarian-pledge-ocha
+2026-01-08 02:07:03,472 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:03,505 - INFO - [The Guardian] Success with 'requests_browser'. Found content (631 words).
+2026-01-08 02:07:03,541 - INFO - Duplicate article skipped: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts | Aid | The Guardian from The Guardian
+2026-01-08 02:07:03,807 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgx8w4pgk0o?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:03,807 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:03,843 - INFO - [BBC] Success with 'requests_browser'. Found content (972 words).
+2026-01-08 02:07:03,891 - INFO - Saved article: Greenlanders express fear and indignation as Trump eyes territory from BBC
+2026-01-08 02:07:05,013 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/31/guinea-junta-chief-mamady-doumbouya-elected-president-after-opposition-boycott
+2026-01-08 02:07:05,014 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:05,104 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8e5d9j66l0o?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:05,105 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:05,118 - INFO - [The Guardian] Success with 'requests_browser'. Found content (399 words).
+2026-01-08 02:07:05,154 - INFO - Duplicate article skipped: Guinea’s junta chief elected president after opposition boycott | Guinea | The Guardian from The Guardian
+2026-01-08 02:07:05,179 - INFO - [BBC] Success with 'requests_browser'. Found content (813 words).
+2026-01-08 02:07:05,217 - INFO - Duplicate article skipped: Venezuela's interim leader sacks man in charge of Maduro's guard from BBC
+2026-01-08 02:07:06,260 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgk8jv4r8nmo?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:06,260 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:06,290 - INFO - [BBC] Success with 'requests_browser'. Found content (453 words).
+2026-01-08 02:07:06,335 - INFO - Saved article: Russian attacks leave two regions with widespread blackouts, Ukraine says from BBC
+2026-01-08 02:07:06,575 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/30/saudi-arabia-uae-tension-future-yemen-boiling-point
+2026-01-08 02:07:06,575 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:06,618 - INFO - [The Guardian] Success with 'requests_browser'. Found content (932 words).
+2026-01-08 02:07:06,711 - INFO - Duplicate article skipped: Tensions between Saudis and Emiratis over future of Yemen reach boiling point | Yemen | The Guardian from The Guardian
+2026-01-08 02:07:07,303 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0ke5lx6kyno?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:07,303 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:07,335 - INFO - [BBC] Success with 'requests_browser'. Found content (390 words).
+2026-01-08 02:07:07,375 - INFO - Saved article: Nick Reiner's lawyer removes himself from murder case from BBC
+2026-01-08 02:07:07,583 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2026/jan/07/donald-trump-venezuela-greenland-oil-childcare-us-politics-live
+2026-01-08 02:07:07,583 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:07,828 - INFO - [The Guardian] Success with 'requests_browser'. Found content (2070 words).
+2026-01-08 02:07:07,931 - INFO - Duplicate article skipped: Democrats slam Trump’s justification for immigration agent killing woman during ICE raid and call for investigation – live | US immigration | The Guardian from The Guardian
+2026-01-08 02:07:08,458 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c86v3y45pyyo?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:08,458 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:08,495 - INFO - [BBC] Success with 'requests_browser'. Found content (464 words).
+2026-01-08 02:07:08,544 - INFO - Duplicate article skipped: Rare mountain gorilla twins born in DR Congo's Virunga National Park from BBC
+2026-01-08 02:07:09,107 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/07/russia-submarine-escort-shadow-fleet-tanker-us-sanctions
+2026-01-08 02:07:09,108 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:09,149 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1050 words).
+2026-01-08 02:07:09,199 - INFO - Duplicate article skipped: US seizes Russian-flagged oil tanker in Atlantic after two-week pursuit | US foreign policy | The Guardian from The Guardian
+2026-01-08 02:07:09,337 - INFO - Selenium driver initialized successfully.
+2026-01-08 02:07:09,337 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-08 02:07:09,338 - INFO - Selenium driver initialized successfully.
+2026-01-08 02:07:09,338 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-08 02:07:09,462 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-08 02:07:09,462 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/schoolgirl-gangraped-in-kanpur-youtuber-nabbed-hunt-on-for-cop/article70484968.ece
+2026-01-08 02:07:09,462 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:07:09,558 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-08 02:07:09,558 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-raises-new-questions-about-charlie-kirk-after-revealing-a-never-before-seen-image-with-no-visible-blood/articleshow/126402110.cms
+2026-01-08 02:07:09,558 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:07:09,829 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9dv5zdl7ydo?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:09,829 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:09,862 - INFO - [BBC] Success with 'requests_browser'. Found content (383 words).
+2026-01-08 02:07:09,910 - INFO - Saved article: Spencer Pratt: Reality TV star announces run for LA mayor from BBC
+2026-01-08 02:07:10,245 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/07/trump-maduro-diosdado-cabello
+2026-01-08 02:07:10,246 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:10,302 - INFO - [The Guardian] Success with 'requests_browser'. Found content (988 words).
+2026-01-08 02:07:10,364 - INFO - Duplicate article skipped: US reportedly warns Maduro ally Diosdado Cabello he could be next | Venezuela | The Guardian from The Guardian
+2026-01-08 02:07:10,915 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/jan/07/us-venezuela-south-america-mineral-wealth-rare-earths-oil
+2026-01-08 02:07:10,915 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:10,951 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy59kxl2xwzo?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:10,951 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:10,996 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1350 words).
+2026-01-08 02:07:11,097 - INFO - [BBC] Success with 'requests_browser'. Found content (250 words).
+2026-01-08 02:07:11,162 - INFO - Duplicate article skipped: US attack on Venezuela will decide direction of South America’s vast mineral wealth | Oil | The Guardian from The Guardian
+2026-01-08 02:07:11,191 - INFO - Saved article: Trump calls for US military spending to rise more than 50% to $1.5tn from BBC
+2026-01-08 02:07:11,759 - INFO - [The Guardian] Article: https://www.theguardian.com/business/2026/jan/07/oil-prices-fall-after-trump-says-venezuela-will-send-up-to-50m-barrels-to-us
+2026-01-08 02:07:11,759 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:11,870 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1129 words).
+2026-01-08 02:07:12,092 - INFO - Duplicate article skipped: Venezuela to continue supplying oil to US ‘indefinitely’, White House says | Oil | The Guardian from The Guardian
+2026-01-08 02:07:12,467 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy59k13e7eqo?at_medium=RSS&at_campaign=rss
+2026-01-08 02:07:12,467 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 02:07:12,534 - INFO - [BBC] Success with 'requests_browser'. Found content (441 words).
+2026-01-08 02:07:12,620 - INFO - Duplicate article skipped: Hundreds of flights cancelled as big freeze grips western Europe from BBC
+2026-01-08 02:07:17,416 - INFO - [The Hindu] Page content loaded.
+2026-01-08 02:07:17,878 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (361 words).
+2026-01-08 02:07:18,243 - INFO - Saved article: Schoolgirl gangraped in Kanpur; YouTuber nabbed, hunt on for cop - The Hindu from The Hindu
+2026-01-08 02:07:19,271 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/kondapalli-railway-station-to-be-developed-with-10-crore/article70482603.ece
+2026-01-08 02:07:19,271 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:09:09,659 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-raises-new-questions-about-charlie-kirk-after-revealing-a-never-before-seen-image-with-no-visible-blood/articleshow/126402110.cms: HTTPConnectionPool(host='localhost', port=37491): Read timed out. (read timeout=120)
+2026-01-08 02:09:09,659 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/candace-owens-raises-new-questions-about-charlie-kirk-after-revealing-a-never-before-seen-image-with-no-visible-blood/articleshow/126402110.cms. Falling back to RSS description.
+2026-01-08 02:09:09,660 - INFO - Duplicate article skipped: Candace Owens raises new questions about Charlie Kirk after revealing a never before seen image with no visible blood from Times of India
+2026-01-08 02:09:10,681 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/is-the-daily-wire-using-candace-owens-past-to-stay-relevant-podcaster-melissa-witte-blasts-the-network-as-a-sad-psycho-ex/articleshow/126404360.cms
+2026-01-08 02:09:10,681 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:09:19,366 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/andhra-pradesh/kondapalli-railway-station-to-be-developed-with-10-crore/article70482603.ece: HTTPConnectionPool(host='localhost', port=43495): Read timed out. (read timeout=120)
+2026-01-08 02:09:19,366 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/andhra-pradesh/kondapalli-railway-station-to-be-developed-with-10-crore/article70482603.ece. Falling back to RSS description.
+2026-01-08 02:09:19,368 - INFO - Saved article: Kondapalli railway station to be developed with ₹10 crore from The Hindu
+2026-01-08 02:09:20,316 - INFO - [The Hindu] Article: https://www.thehindu.com/data/us-tariff-impact-india-is-finding-newer-markets-strengthening-old-trade-routes-to-compensate/article70481926.ece
+2026-01-08 02:09:20,316 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:11:10,781 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us-streamers/is-the-daily-wire-using-candace-owens-past-to-stay-relevant-podcaster-melissa-witte-blasts-the-network-as-a-sad-psycho-ex/articleshow/126404360.cms: HTTPConnectionPool(host='localhost', port=37491): Read timed out. (read timeout=120)
+2026-01-08 02:11:10,781 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us-streamers/is-the-daily-wire-using-candace-owens-past-to-stay-relevant-podcaster-melissa-witte-blasts-the-network-as-a-sad-psycho-ex/articleshow/126404360.cms. Falling back to RSS description.
+2026-01-08 02:11:10,782 - INFO - Saved article: Is the Daily Wire using Candace Owens’ past to stay relevant? Podcaster Melissa Witte blasts the network as a “sad, psycho ex” from Times of India
+2026-01-08 02:11:12,053 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/clavicular-rejects-mrbeasts-10-offer-refuses-to-go-pr-and-fake-his-personality-for-fame/articleshow/126404417.cms
+2026-01-08 02:11:12,054 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:11:20,417 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/data/us-tariff-impact-india-is-finding-newer-markets-strengthening-old-trade-routes-to-compensate/article70481926.ece: HTTPConnectionPool(host='localhost', port=43495): Read timed out. (read timeout=120)
+2026-01-08 02:11:20,417 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/data/us-tariff-impact-india-is-finding-newer-markets-strengthening-old-trade-routes-to-compensate/article70481926.ece. Falling back to RSS description.
+2026-01-08 02:11:20,419 - INFO - Saved article: U.S. tariff impact: India is finding newer markets, strengthening old trade routes to compensate from The Hindu
+2026-01-08 02:11:21,077 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/all-set-for-amaravati-avakaya-festival-in-vijayawada-from-january-8/article70483274.ece
+2026-01-08 02:11:21,078 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 02:12:01,010 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2026-01-08 02:12:01,010 - ERROR - A thread has timed out and will be abandoned.
+2026-01-08 02:12:01,010 - ERROR - A thread has timed out and will be abandoned.
+2026-01-08 02:12:01,010 - INFO - Shutting down thread pool (wait=False)...
+2026-01-08 02:12:01,010 - INFO - Scraped: 5 BBC, 0 The Guardian, 2 Timed_Out_Jobs articles. (Total saved: 5)
+2026-01-08 02:12:01,010 - INFO - --- Scraping job finished ---
+2026-01-08 02:12:01,010 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-08 02:12:01,010 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
