@@ -1,0 +1,132 @@
+2026-01-08 10:31:22,739 - INFO - Initializing database connection at: news_articles.db
+2026-01-08 10:31:22,739 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-08 10:31:22,739 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-08 10:31:22,739 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-08 10:31:22,740 - INFO - Proxy is DISABLED.
+2026-01-08 10:31:22,740 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-08 10:31:22,740 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-08 10:31:22,740 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-08 10:31:22,741 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-08 10:31:22,741 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-08 10:31:22,741 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-08 10:31:22,741 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-08 10:31:22,875 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-08 10:31:22,875 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/08/questions-targeting-impact-us-airstrikes-in-nigeria
+2026-01-08 10:31:22,876 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:22,974 - INFO - Found 30 articles in BBC RSS feed. Processing up to 10.
+2026-01-08 10:31:22,974 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0jvnl4j1n4o?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:22,974 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:23,041 - INFO - [The Guardian] Success with 'requests_browser'. Found content (795 words).
+2026-01-08 10:31:23,079 - INFO - Duplicate article skipped: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria | Nigeria | The Guardian from The Guardian
+2026-01-08 10:31:23,259 - INFO - [BBC] Success with 'requests_browser'. Found content (1050 words).
+2026-01-08 10:31:23,298 - INFO - Duplicate article skipped: US immigration officer fatally shoots woman in Minneapolis from BBC
+2026-01-08 10:31:23,923 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-08 10:31:23,923 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:23,943 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-08 10:31:23,977 - INFO - Duplicate article skipped: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-08 10:31:24,700 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y2v8ngl14o?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:24,700 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:24,730 - INFO - [BBC] Success with 'requests_browser'. Found content (1077 words).
+2026-01-08 10:31:24,767 - INFO - Duplicate article skipped: US seizes two 'ghost fleet' tankers linked to Venezuelan oil from BBC
+2026-01-08 10:31:24,888 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2026/jan/01/cremation-pyre-in-africa-thought-to-be-worlds-oldest-containing-adult-remains
+2026-01-08 10:31:24,888 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:24,911 - INFO - [The Guardian] Success with 'requests_browser'. Found content (653 words).
+2026-01-08 10:31:24,947 - INFO - Duplicate article skipped: Cremation pyre in Africa thought to be world’s oldest containing adult remains | Anthropology | The Guardian from The Guardian
+2026-01-08 10:31:25,902 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgm4y0ewe93o?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:25,902 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:25,931 - INFO - [BBC] Success with 'requests_browser'. Found content (990 words).
+2026-01-08 10:31:25,968 - INFO - Duplicate article skipped: Footage shows violent clashes as Iran protests spread to more areas from BBC
+2026-01-08 10:31:26,307 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/01/us-aid-cuts-conditions-un-humanitarian-pledge-ocha
+2026-01-08 10:31:26,307 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:26,464 - INFO - [The Guardian] Success with 'requests_browser'. Found content (631 words).
+2026-01-08 10:31:26,499 - INFO - Duplicate article skipped: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts | Aid | The Guardian from The Guardian
+2026-01-08 10:31:26,862 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp80ln97py5o?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:26,862 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:26,887 - INFO - [BBC] Success with 'requests_browser'. Found content (352 words).
+2026-01-08 10:31:26,922 - INFO - Duplicate article skipped: Trump withdraws US from key climate treaty and dozens of other groups from BBC
+2026-01-08 10:31:27,333 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2025/dec/31/guinea-junta-chief-mamady-doumbouya-elected-president-after-opposition-boycott
+2026-01-08 10:31:27,333 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:27,496 - INFO - [The Guardian] Success with 'requests_browser'. Found content (399 words).
+2026-01-08 10:31:27,529 - INFO - Duplicate article skipped: Guinea’s junta chief elected president after opposition boycott | Guinea | The Guardian from The Guardian
+2026-01-08 10:31:28,039 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy4q8e88n2vo?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:28,039 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:28,070 - INFO - [BBC] Success with 'requests_browser'. Found content (659 words).
+2026-01-08 10:31:28,133 - INFO - Duplicate article skipped: Chen Zhi: Cambodia extradites alleged scam mastermind to China after arrest from BBC
+2026-01-08 10:31:28,662 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/08/venezuela-oil-deal-rodriguez-trump-vance-claims-us-control
+2026-01-08 10:31:28,662 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:28,683 - INFO - [The Guardian] Success with 'requests_browser'. Found content (537 words).
+2026-01-08 10:31:28,719 - INFO - Duplicate article skipped: Venezuela open to oil deal, says Rodríguez, as Vance claims US ‘controls’ country’s resources | Venezuela | The Guardian from The Guardian
+2026-01-08 10:31:29,526 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgk8jv4r8nmo?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:29,527 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:29,551 - INFO - [BBC] Success with 'requests_browser'. Found content (469 words).
+2026-01-08 10:31:29,585 - INFO - Duplicate article skipped: One million without heat and water after Russian strikes, Ukraine says from BBC
+2026-01-08 10:31:30,080 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/live/2026/jan/07/donald-trump-venezuela-greenland-oil-childcare-us-politics-live
+2026-01-08 10:31:30,080 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:30,278 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1730 words).
+2026-01-08 10:31:30,367 - INFO - Duplicate article skipped: Democrats slam Trump’s justification for immigration agent killing woman during ICE raid and call for investigation – as it happened | US immigration | The Guardian from The Guardian
+2026-01-08 10:31:30,623 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy4q898dkwxo?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:30,623 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:30,645 - INFO - [BBC] Success with 'requests_browser'. Found content (481 words).
+2026-01-08 10:31:30,676 - INFO - Duplicate article skipped: Heatwave hits Australia as officials warn of 'catastrophic' fire risk from BBC
+2026-01-08 10:31:31,198 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8x94lz0gevo?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:31,198 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:31,226 - INFO - [BBC] Success with 'requests_browser'. Found content (770 words).
+2026-01-08 10:31:31,264 - INFO - Duplicate article skipped: Australia PM announces royal commission into Bondi shooting from BBC
+2026-01-08 10:31:31,360 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/07/russia-submarine-escort-shadow-fleet-tanker-us-sanctions
+2026-01-08 10:31:31,360 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:31,389 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1050 words).
+2026-01-08 10:31:31,434 - INFO - Duplicate article skipped: US seizes Russian-flagged oil tanker in Atlantic after two-week pursuit | US foreign policy | The Guardian from The Guardian
+2026-01-08 10:31:32,265 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgk8jv4r8nmo?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:32,265 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:32,289 - INFO - [BBC] Success with 'requests_browser'. Found content (469 words).
+2026-01-08 10:31:32,315 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/07/trump-maduro-diosdado-cabello
+2026-01-08 10:31:32,315 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:32,329 - INFO - Duplicate article skipped: One million without heat and water after Russian strikes, Ukraine says from BBC
+2026-01-08 10:31:32,346 - INFO - [The Guardian] Success with 'requests_browser'. Found content (988 words).
+2026-01-08 10:31:32,380 - INFO - Duplicate article skipped: US reportedly warns Maduro ally Diosdado Cabello he could be next | Venezuela | The Guardian from The Guardian
+2026-01-08 10:31:33,068 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgez1drnzxdo?at_medium=RSS&at_campaign=rss
+2026-01-08 10:31:33,069 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:33,092 - INFO - [BBC] Success with 'requests_browser'. Found content (451 words).
+2026-01-08 10:31:33,126 - INFO - Duplicate article skipped: Australia to deport British man over alleged neo-Nazi links from BBC
+2026-01-08 10:31:33,175 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/jan/07/us-venezuela-south-america-mineral-wealth-rare-earths-oil
+2026-01-08 10:31:33,176 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-08 10:31:33,340 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1350 words).
+2026-01-08 10:31:33,396 - INFO - Duplicate article skipped: US attack on Venezuela will decide direction of South America’s vast mineral wealth | Oil | The Guardian from The Guardian
+2026-01-08 10:31:38,258 - INFO - Selenium driver initialized successfully.
+2026-01-08 10:31:38,259 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-08 10:31:38,260 - INFO - Selenium driver initialized successfully.
+2026-01-08 10:31:38,260 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-08 10:31:38,335 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-08 10:31:38,336 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/sekhar-goes-viral-elon-musk-explains-the-indian-inspiration-behind-his-sons-name/articleshow/126411288.cms
+2026-01-08 10:31:38,336 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 10:31:38,361 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-08 10:31:38,361 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/chhattisgarh/three-district-courts-in-chhattisgarh-get-bomb-threat-searches-on/article70486030.ece
+2026-01-08 10:31:38,362 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 10:33:38,373 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/chhattisgarh/three-district-courts-in-chhattisgarh-get-bomb-threat-searches-on/article70486030.ece: HTTPConnectionPool(host='localhost', port=39951): Read timed out. (read timeout=120)
+2026-01-08 10:33:38,373 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/chhattisgarh/three-district-courts-in-chhattisgarh-get-bomb-threat-searches-on/article70486030.ece. Falling back to RSS description.
+2026-01-08 10:33:38,375 - INFO - Saved article: Three district courts in Chhattisgarh get bomb threat; searches on from The Hindu
+2026-01-08 10:33:38,430 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/sekhar-goes-viral-elon-musk-explains-the-indian-inspiration-behind-his-sons-name/articleshow/126411288.cms: HTTPConnectionPool(host='localhost', port=33401): Read timed out. (read timeout=120)
+2026-01-08 10:33:38,430 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/sekhar-goes-viral-elon-musk-explains-the-indian-inspiration-behind-his-sons-name/articleshow/126411288.cms. Falling back to RSS description.
+2026-01-08 10:33:38,432 - INFO - Saved article: ‘Sekhar’ goes viral: Elon Musk explains the Indian inspiration behind his son’s name from Times of India
+2026-01-08 10:33:39,105 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/tn-assembly-election-special-voter-camps-in-chennai-on-january-10-and-11/article70485601.ece
+2026-01-08 10:33:39,105 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 10:33:39,223 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/dubai-to-plant-20000-trees-across-the-city-to-mark-20-years-of-sheikh-mohammeds-leadership/articleshow/126410407.cms
+2026-01-08 10:33:39,223 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 10:35:39,156 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/cities/chennai/tn-assembly-election-special-voter-camps-in-chennai-on-january-10-and-11/article70485601.ece: HTTPConnectionPool(host='localhost', port=39951): Read timed out. (read timeout=120)
+2026-01-08 10:35:39,156 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/chennai/tn-assembly-election-special-voter-camps-in-chennai-on-january-10-and-11/article70485601.ece. Falling back to RSS description.
+2026-01-08 10:35:39,158 - INFO - Saved article: Special voter registration camps in Chennai on January 10 and 11 from The Hindu
+2026-01-08 10:35:39,324 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/dubai-to-plant-20000-trees-across-the-city-to-mark-20-years-of-sheikh-mohammeds-leadership/articleshow/126410407.cms: HTTPConnectionPool(host='localhost', port=33401): Read timed out. (read timeout=120)
+2026-01-08 10:35:39,325 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/dubai-to-plant-20000-trees-across-the-city-to-mark-20-years-of-sheikh-mohammeds-leadership/articleshow/126410407.cms. Falling back to RSS description.
+2026-01-08 10:35:39,326 - INFO - Saved article: Dubai to plant 20,000 trees across the city to mark 20 years of Sheikh Mohammed’s leadership from Times of India
+2026-01-08 10:35:40,622 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/telangana-received-16478-cr-from-sale-of-land-and-property-between-2014-15-and-2023-24-cag/article70485923.ece
+2026-01-08 10:35:40,622 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 10:35:40,634 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/gen-z-uprising-in-pakistan-phd-students-article-challenges-those-in-power-why-it-was-taken-down/articleshow/126409692.cms
+2026-01-08 10:35:40,634 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-08 10:36:22,742 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2026-01-08 10:36:22,742 - ERROR - A thread has timed out and will be abandoned.
+2026-01-08 10:36:22,742 - ERROR - A thread has timed out and will be abandoned.
+2026-01-08 10:36:22,742 - INFO - Shutting down thread pool (wait=False)...
+2026-01-08 10:36:22,742 - INFO - Scraped: 0 The Guardian, 0 BBC, 2 Timed_Out_Jobs articles. (Total saved: 0)
+2026-01-08 10:36:22,742 - INFO - --- Scraping job finished ---
+2026-01-08 10:36:22,742 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-08 10:36:22,742 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
