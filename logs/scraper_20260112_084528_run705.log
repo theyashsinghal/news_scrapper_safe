@@ -1,0 +1,167 @@
+2026-01-12 08:40:28,092 - INFO - Initializing database connection at: news_articles.db
+2026-01-12 08:40:28,092 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-12 08:40:28,092 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-12 08:40:28,092 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-12 08:40:28,092 - INFO - Proxy is DISABLED.
+2026-01-12 08:40:28,093 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-12 08:40:28,093 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-12 08:40:28,093 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-12 08:40:28,093 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-12 08:40:28,094 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-12 08:40:28,094 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-12 08:40:28,094 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-12 08:40:28,297 - INFO - Found 26 articles in BBC RSS feed. Processing up to 10.
+2026-01-12 08:40:28,298 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm2jek15m8no?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:28,298 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:28,320 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-12 08:40:28,320 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/09/the-gambia-female-genital-mutilation-fgm-supreme-court-case-overturn-ban
+2026-01-12 08:40:28,320 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:28,363 - INFO - [The Guardian] Success with 'requests_browser'. Found content (850 words).
+2026-01-12 08:40:28,405 - INFO - Duplicate article skipped: Attempt to overturn the Gambia’s ban on FGM heard by supreme court | Global development | The Guardian from The Guardian
+2026-01-12 08:40:28,521 - INFO - [BBC] Success with 'requests_browser'. Found content (1139 words).
+2026-01-12 08:40:28,561 - INFO - Duplicate article skipped: Iran warns it will retaliate if US attacks, as hundreds killed in protests from BBC
+2026-01-12 08:40:29,313 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2kv2gn62vo?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:29,313 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:29,319 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/08/questions-targeting-impact-us-airstrikes-in-nigeria
+2026-01-12 08:40:29,319 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:29,364 - INFO - [The Guardian] Success with 'requests_browser'. Found content (795 words).
+2026-01-12 08:40:29,402 - INFO - Duplicate article skipped: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria | Nigeria | The Guardian from The Guardian
+2026-01-12 08:40:29,409 - INFO - [BBC] Success with 'requests_browser'. Found content (807 words).
+2026-01-12 08:40:29,447 - INFO - Duplicate article skipped: Trump tells Cuba to 'make a deal, before it is too late' from BBC
+2026-01-12 08:40:30,102 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-12 08:40:30,102 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:30,126 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-12 08:40:30,159 - INFO - Duplicate article skipped: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-12 08:40:30,563 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgpnwnqygro?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:30,563 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:30,599 - INFO - [BBC] Success with 'requests_browser'. Found content (856 words).
+2026-01-12 08:40:30,637 - INFO - Duplicate article skipped: Thousands march and dozens arrested in Minneapolis protests against ICE from BBC
+2026-01-12 08:40:31,209 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2026/jan/01/cremation-pyre-in-africa-thought-to-be-worlds-oldest-containing-adult-remains
+2026-01-12 08:40:31,209 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:31,237 - INFO - [The Guardian] Success with 'requests_browser'. Found content (653 words).
+2026-01-12 08:40:31,274 - INFO - Duplicate article skipped: Cremation pyre in Africa thought to be world’s oldest containing adult remains | Anthropology | The Guardian from The Guardian
+2026-01-12 08:40:31,512 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c75xdg2p36lo?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:31,512 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:31,543 - INFO - [BBC] Success with 'requests_browser'. Found content (503 words).
+2026-01-12 08:40:31,581 - INFO - Duplicate article skipped: One dead and 300 buildings destroyed in Australia bushfires from BBC
+2026-01-12 08:40:31,974 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/01/us-aid-cuts-conditions-un-humanitarian-pledge-ocha
+2026-01-12 08:40:31,974 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:32,003 - INFO - [The Guardian] Success with 'requests_browser'. Found content (631 words).
+2026-01-12 08:40:32,038 - INFO - Duplicate article skipped: US ‘adapt, shrink or die’ terms for $2bn aid pot will mean UN bowing down to Washington, say experts | Aid | The Guardian from The Guardian
+2026-01-12 08:40:32,388 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c74vnxlvl40o?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:32,388 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:32,417 - INFO - [BBC] Success with 'requests_browser'. Found content (330 words).
+2026-01-12 08:40:32,478 - INFO - Duplicate article skipped: Thousands of tourists stranded in Lapland as cold grounds flights from BBC
+2026-01-12 08:40:32,598 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/12/donald-trump-threatens-block-exxonmobil-venezuela
+2026-01-12 08:40:32,598 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:32,623 - INFO - [The Guardian] Success with 'requests_browser'. Found content (472 words).
+2026-01-12 08:40:32,658 - INFO - Duplicate article skipped: Trump threatens to block ExxonMobil from Venezuela after CEO calls country ‘uninvestable’ | Trump administration | The Guardian from The Guardian
+2026-01-12 08:40:33,558 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gr7nlx421o?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:33,558 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:33,572 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/11/trump-tells-cuba-to-make-a-deal-or-face-the-consequences
+2026-01-12 08:40:33,572 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:33,594 - INFO - [BBC] Success with 'requests_browser'. Found content (354 words).
+2026-01-12 08:40:33,630 - INFO - Duplicate article skipped: Bride and groom killed by gas explosion day after Pakistan wedding from BBC
+2026-01-12 08:40:33,642 - INFO - [The Guardian] Success with 'requests_browser'. Found content (683 words).
+2026-01-12 08:40:33,687 - INFO - Duplicate article skipped: Trump tells Cuba to ‘make a deal’ or face the consequences | Cuba | The Guardian from The Guardian
+2026-01-12 08:40:34,615 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/11/ice-death-costa-rica-randall-gamboa-esquivel
+2026-01-12 08:40:34,615 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:34,645 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1029 words).
+2026-01-12 08:40:34,691 - INFO - Duplicate article skipped: Family seeks answers after ICE deported man to Costa Rica in vegetative state | ICE (US Immigration and Customs Enforcement) | The Guardian from The Guardian
+2026-01-12 08:40:35,129 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgn5g90lggo?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:35,129 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:35,168 - INFO - [BBC] Success with 'requests_browser'. Found content (353 words).
+2026-01-12 08:40:35,206 - INFO - Duplicate article skipped: Khartoum: Sudan's government return to capital after nearly 3 years of war from BBC
+2026-01-12 08:40:35,825 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/10/us-citizens-venezuela-paramilitaries
+2026-01-12 08:40:35,825 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:35,851 - INFO - [The Guardian] Success with 'requests_browser'. Found content (454 words).
+2026-01-12 08:40:35,888 - INFO - Duplicate article skipped: US urges its citizens to flee Venezuela amid reports of paramilitaries | Trump administration | The Guardian from The Guardian
+2026-01-12 08:40:36,007 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly95x9qe4ko?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:36,007 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:36,037 - INFO - [BBC] Success with 'requests_browser'. Found content (537 words).
+2026-01-12 08:40:36,074 - INFO - Duplicate article skipped: Bob Weir, Grateful Dead co-founder, dies aged 78 from BBC
+2026-01-12 08:40:36,646 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly9597r4qpo?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:36,646 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:36,679 - INFO - [BBC] Success with 'requests_browser'. Found content (467 words).
+2026-01-12 08:40:36,716 - INFO - Duplicate article skipped: US military strikes Islamic State group targets in Syria, officials say from BBC
+2026-01-12 08:40:37,235 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/10/nicaraguan-authorities-arrests-dozens-for-reportedly-supporting-maduro-capture
+2026-01-12 08:40:37,235 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:37,265 - INFO - [The Guardian] Success with 'requests_browser'. Found content (324 words).
+2026-01-12 08:40:37,291 - INFO - Selenium driver initialized successfully.
+2026-01-12 08:40:37,292 - INFO - Selenium driver initialized successfully.
+2026-01-12 08:40:37,292 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-12 08:40:37,302 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-12 08:40:37,305 - INFO - Duplicate article skipped: Nicaraguan authorities arrest dozens for reportedly supporting Maduro capture | Nicaragua | The Guardian from The Guardian
+2026-01-12 08:40:37,318 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2p84xleg2o?at_medium=RSS&at_campaign=rss
+2026-01-12 08:40:37,318 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-12 08:40:37,353 - INFO - [BBC] Success with 'requests_browser'. Found content (394 words).
+2026-01-12 08:40:37,401 - INFO - Duplicate article skipped: Last Kurdish forces leave Aleppo after ceasefire deal reached from BBC
+2026-01-12 08:40:37,421 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-12 08:40:37,421 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/surge-in-cyber-crime-and-drunk-driving-lead-to-12-jump-in-number-of-inmates-in-telangana-prisons/article70500494.ece
+2026-01-12 08:40:37,421 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:40:37,435 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-12 08:40:37,435 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/oman-to-create-60000-jobs-to-boost-careers-in-2026-are-you-ready-to-apply/articleshow/126478326.cms
+2026-01-12 08:40:37,435 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:40:41,945 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:40:42,156 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (731 words).
+2026-01-12 08:40:42,350 - INFO - Saved article: Surge in cyber crime and drunk driving lead to 12% jump in number of inmates in Telangana prisons - The Hindu from The Hindu
+2026-01-12 08:40:42,905 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/haryana/haryana-human-rights-commission-raps-hansi-authorities-for-slacking-in-sewer-deaths-probe/article70500618.ece
+2026-01-12 08:40:42,905 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:40:46,369 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:40:46,666 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (474 words).
+2026-01-12 08:40:46,990 - INFO - Saved article: Haryana Human Rights Commission raps Hansi authorities for slacking in sewer deaths probe - The Hindu from The Hindu
+2026-01-12 08:40:47,563 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jammu-and-kashmir/jawan-killed-as-fire-breaks-out-in-bsf-camp-building-in-jk/article70500614.ece
+2026-01-12 08:40:47,563 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:40:49,088 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:40:49,466 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (98 words).
+2026-01-12 08:40:49,713 - INFO - Saved article: Jawan killed as fire breaks out in BSF camp building in J&K - The Hindu from The Hindu
+2026-01-12 08:40:51,052 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/kerala-cm-pinarayi-vijayan-leads-ldfs-protest-against-central-policies-calls-it-fight-for-survival/article70500565.ece
+2026-01-12 08:40:51,053 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:40:53,736 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:40:54,108 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (619 words).
+2026-01-12 08:40:54,261 - INFO - Saved article: Kerala CM Pinarayi Vijayan leads LDF’s protest against Central policies, calls it ‘fight for survival’ - The Hindu from The Hindu
+2026-01-12 08:40:55,211 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jana-nayagan-production-house-moves-supreme-court/article70500528.ece
+2026-01-12 08:40:55,211 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:40:58,803 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:40:59,016 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (491 words).
+2026-01-12 08:40:59,231 - INFO - Saved article: Jana Nayagan production house moves Supreme Court - The Hindu from The Hindu
+2026-01-12 08:41:00,472 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/punjab/two-shooters-five-others-arrested-in-punjab-for-aap-sarpanch-murder-case/article70500562.ece
+2026-01-12 08:41:00,472 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:41:02,417 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:41:02,487 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (232 words).
+2026-01-12 08:41:02,599 - INFO - Saved article: Two shooters, five others arrested in Punjab for AAP sarpanch murder case - The Hindu from The Hindu
+2026-01-12 08:41:03,417 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rajasthan/air-india-flight-diverted-to-jaipur-due-to-medical-emergency/article70500551.ece
+2026-01-12 08:41:03,417 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:41:05,211 - INFO - [The Hindu] Page content loaded.
+2026-01-12 08:41:05,382 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (104 words).
+2026-01-12 08:41:05,597 - INFO - Saved article: Air India flight diverted to Jaipur due to medical emergency - The Hindu from The Hindu
+2026-01-12 08:41:06,776 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/bmc-elections-2026-full-schedule-date-voting-time-results/article70500428.ece
+2026-01-12 08:41:06,776 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:42:37,535 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/oman-to-create-60000-jobs-to-boost-careers-in-2026-are-you-ready-to-apply/articleshow/126478326.cms: HTTPConnectionPool(host='localhost', port=42109): Read timed out. (read timeout=120)
+2026-01-12 08:42:37,535 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/oman-to-create-60000-jobs-to-boost-careers-in-2026-are-you-ready-to-apply/articleshow/126478326.cms. Falling back to RSS description.
+2026-01-12 08:42:37,538 - INFO - Saved article: Oman to create 60,000 jobs to boost careers in 2026: Are you ready to apply? from Times of India
+2026-01-12 08:42:38,551 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/kuwait-extends-newborn-registration-window-to-120-days-for-civil-ids/articleshow/126478222.cms
+2026-01-12 08:42:38,551 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:43:06,877 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/maharashtra/bmc-elections-2026-full-schedule-date-voting-time-results/article70500428.ece: HTTPConnectionPool(host='localhost', port=37129): Read timed out. (read timeout=120)
+2026-01-12 08:43:06,877 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/maharashtra/bmc-elections-2026-full-schedule-date-voting-time-results/article70500428.ece. Falling back to RSS description.
+2026-01-12 08:43:06,879 - INFO - Saved article: Mumbai BMC elections 2026: Full schedule, voting time and results from The Hindu
+2026-01-12 08:43:07,571 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/mizoram/at-145-mizoram-recorded-six-year-high-tb-deaths-in-2025/article70500526.ece
+2026-01-12 08:43:07,571 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:44:38,646 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/kuwait-extends-newborn-registration-window-to-120-days-for-civil-ids/articleshow/126478222.cms: HTTPConnectionPool(host='localhost', port=42109): Read timed out. (read timeout=120)
+2026-01-12 08:44:38,646 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/kuwait-extends-newborn-registration-window-to-120-days-for-civil-ids/articleshow/126478222.cms. Falling back to RSS description.
+2026-01-12 08:44:38,648 - INFO - Saved article: Kuwait extends newborn registration window to 120 days for Civil IDs from Times of India
+2026-01-12 08:44:40,113 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/dubais-rta-opens-phase-i-of-hessa-street-4-lanes-new-cycling-routes-and-bridges-less-traffic-and-what-drivers-should-know/articleshow/126477152.cms
+2026-01-12 08:44:40,113 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:45:07,672 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/mizoram/at-145-mizoram-recorded-six-year-high-tb-deaths-in-2025/article70500526.ece: HTTPConnectionPool(host='localhost', port=37129): Read timed out. (read timeout=120)
+2026-01-12 08:45:07,672 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/mizoram/at-145-mizoram-recorded-six-year-high-tb-deaths-in-2025/article70500526.ece. Falling back to RSS description.
+2026-01-12 08:45:07,674 - INFO - Saved article: At 145, Mizoram recorded six-year high TB deaths in 2025 from The Hindu
+2026-01-12 08:45:08,313 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/inter-state-cyber-fraud-racket-busted-people-from-bihar-kerala-odisha-arrested/article70500467.ece
+2026-01-12 08:45:08,313 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-12 08:45:28,095 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2026-01-12 08:45:28,095 - ERROR - A thread has timed out and will be abandoned.
+2026-01-12 08:45:28,095 - ERROR - A thread has timed out and will be abandoned.
+2026-01-12 08:45:28,095 - INFO - Shutting down thread pool (wait=False)...
+2026-01-12 08:45:28,095 - INFO - Scraped: 0 BBC, 0 The Guardian, 2 Timed_Out_Jobs articles. (Total saved: 0)
+2026-01-12 08:45:28,095 - INFO - --- Scraping job finished ---
+2026-01-12 08:45:28,095 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-12 08:45:28,095 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
