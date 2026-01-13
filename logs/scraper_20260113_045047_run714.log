@@ -1,0 +1,162 @@
+2026-01-13 04:45:47,495 - INFO - Initializing database connection at: news_articles.db
+2026-01-13 04:45:47,496 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-13 04:45:47,496 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-13 04:45:47,496 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-13 04:45:47,496 - INFO - Proxy is DISABLED.
+2026-01-13 04:45:47,496 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-13 04:45:47,497 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-13 04:45:47,497 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-13 04:45:47,497 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-13 04:45:47,498 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-13 04:45:47,498 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-13 04:45:47,501 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-13 04:45:47,714 - INFO - Found 37 articles in BBC RSS feed. Processing up to 10.
+2026-01-13 04:45:47,715 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgp70ynx1po?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:47,715 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:47,718 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-13 04:45:47,718 - INFO - [The Guardian] Article: https://www.theguardian.com/books/2026/jan/12/chimamanda-ngozi-adichie-accuses-lagos-hospital-negligence-son-death
+2026-01-13 04:45:47,718 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:47,763 - INFO - [The Guardian] Success with 'requests_browser'. Found content (537 words).
+2026-01-13 04:45:47,799 - INFO - Duplicate article skipped: Author Chimamanda Ngozi Adichie accuses Lagos hospital of negligence after son’s death | Chimamanda Ngozi Adichie | The Guardian from The Guardian
+2026-01-13 04:45:47,882 - INFO - [BBC] Success with 'requests_browser'. Found content (1148 words).
+2026-01-13 04:45:47,931 - INFO - Duplicate article skipped: Iran protests: Eyewitnesses describe deadly crackdown across country from BBC
+2026-01-13 04:45:48,744 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/09/the-gambia-female-genital-mutilation-fgm-supreme-court-case-overturn-ban
+2026-01-13 04:45:48,744 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:48,777 - INFO - [The Guardian] Success with 'requests_browser'. Found content (850 words).
+2026-01-13 04:45:48,817 - INFO - Duplicate article skipped: Attempt to overturn the Gambia’s ban on FGM heard by supreme court | Global development | The Guardian from The Guardian
+2026-01-13 04:45:49,306 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyev0kpk77o?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:49,306 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:49,349 - INFO - [BBC] Success with 'requests_browser'. Found content (402 words).
+2026-01-13 04:45:49,398 - INFO - Saved article: Trump announces 25% tariff on countries that do business with Iran from BBC
+2026-01-13 04:45:49,780 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/08/questions-targeting-impact-us-airstrikes-in-nigeria
+2026-01-13 04:45:49,780 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:49,809 - INFO - [The Guardian] Success with 'requests_browser'. Found content (795 words).
+2026-01-13 04:45:49,846 - INFO - Duplicate article skipped: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria | Nigeria | The Guardian from The Guardian
+2026-01-13 04:45:50,172 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce9yv4gmn9lo?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:50,172 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:50,226 - INFO - [BBC] Success with 'requests_browser'. Found content (1987 words).
+2026-01-13 04:45:50,268 - INFO - Saved article: How one woman lures foreign recruits to Russia’s front line in Ukraine from BBC
+2026-01-13 04:45:50,688 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-13 04:45:50,689 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:50,717 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-13 04:45:50,751 - INFO - Duplicate article skipped: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-13 04:45:51,331 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3ve572edzqo?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:51,331 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:51,375 - INFO - [BBC] Success with 'requests_browser'. Found content (1385 words).
+2026-01-13 04:45:51,417 - INFO - Saved article: Lyse Doucet: Iran's rulers face biggest challenge since 1979 revolution from BBC
+2026-01-13 04:45:52,234 - INFO - [The Guardian] Article: https://www.theguardian.com/science/2026/jan/01/cremation-pyre-in-africa-thought-to-be-worlds-oldest-containing-adult-remains
+2026-01-13 04:45:52,235 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:52,262 - INFO - [The Guardian] Success with 'requests_browser'. Found content (653 words).
+2026-01-13 04:45:52,300 - INFO - Duplicate article skipped: Cremation pyre in Africa thought to be world’s oldest containing adult remains | Anthropology | The Guardian from The Guardian
+2026-01-13 04:45:52,337 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr7jzpr95yvo?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:52,337 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:52,371 - INFO - [BBC] Success with 'requests_browser'. Found content (415 words).
+2026-01-13 04:45:52,429 - INFO - Duplicate article skipped: Trump to meet Venezuela's María Corina Machado on Thursday from BBC
+2026-01-13 04:45:52,935 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c394xwdve9lo?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:52,935 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:52,973 - INFO - [BBC] Success with 'requests_browser'. Found content (859 words).
+2026-01-13 04:45:53,015 - INFO - Duplicate article skipped: Former Fed chairs condemn criminal investigation into Jerome Powell from BBC
+2026-01-13 04:45:53,485 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/jan/12/us-plan-to-exploit-venezuelas-oil-could-eat-up-13-of-carbon-budget-to-keep-15c-limit
+2026-01-13 04:45:53,485 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:53,519 - INFO - [The Guardian] Success with 'requests_browser'. Found content (579 words).
+2026-01-13 04:45:53,564 - INFO - Duplicate article skipped: US plan to exploit Venezuela’s oil could eat up 13% of carbon budget to keep 1.5C limit | Climate crisis | The Guardian from The Guardian
+2026-01-13 04:45:53,624 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c79re5415n2o?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:53,624 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:53,665 - INFO - [BBC] Success with 'requests_browser'. Found content (599 words).
+2026-01-13 04:45:53,704 - INFO - Duplicate article skipped: Rosita Mabuiango: 'Miracle baby' born in a tree above Mozambique floodwaters dies aged 25 from BBC
+2026-01-13 04:45:54,209 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9wxg4e09jzo?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:54,209 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:54,239 - INFO - [BBC] Success with 'requests_browser'. Found content (446 words).
+2026-01-13 04:45:54,277 - INFO - Saved article: Philippines landfill collapse: Death toll rises to 11 from BBC
+2026-01-13 04:45:54,292 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/12/trump-latin-america-feud-colombia-gustavo-petro
+2026-01-13 04:45:54,292 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:54,322 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1373 words).
+2026-01-13 04:45:54,355 - INFO - Duplicate article skipped: Trump’s other Latin American feud: why Colombia’s Petro is not Maduro | Colombia | The Guardian from The Guardian
+2026-01-13 04:45:55,379 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/12/us-oil-producers-global-supply-glut-venezuela
+2026-01-13 04:45:55,379 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:55,410 - INFO - [The Guardian] Success with 'requests_browser'. Found content (867 words).
+2026-01-13 04:45:55,445 - INFO - Duplicate article skipped: US frackers were already facing a global oil supply glut. Trump’s Venezuelan dream could make it worse | US news | The Guardian from The Guardian
+2026-01-13 04:45:55,578 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgnvqrxl0xo?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:55,578 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:55,629 - INFO - [BBC] Success with 'requests_browser'. Found content (1117 words).
+2026-01-13 04:45:55,675 - INFO - Saved article: How will investigators determine if ICE shooting was justified? from BBC
+2026-01-13 04:45:56,330 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/12/carney-heads-to-beijing-as-trump-america-first-agenda-forces-canada-into-trade-rethink
+2026-01-13 04:45:56,331 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:56,360 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1253 words).
+2026-01-13 04:45:56,396 - INFO - Duplicate article skipped: Carney heads to Beijing as Trump’s America First agenda forces Canada into trade rethink | Canada | The Guardian from The Guardian
+2026-01-13 04:45:56,467 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cjrznw9e243o?at_medium=RSS&at_campaign=rss
+2026-01-13 04:45:56,467 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:56,500 - INFO - [BBC] Success with 'requests_browser'. Found content (391 words).
+2026-01-13 04:45:56,536 - INFO - Saved article: Josh Cavallo: Pioneering gay footballer accuses former club of homophobia from BBC
+2026-01-13 04:45:57,427 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/12/donald-trump-threatens-block-exxonmobil-venezuela
+2026-01-13 04:45:57,427 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 04:45:57,455 - INFO - [The Guardian] Success with 'requests_browser'. Found content (472 words).
+2026-01-13 04:45:57,492 - INFO - Duplicate article skipped: Trump threatens to block ExxonMobil from Venezuela after CEO calls country ‘uninvestable’ | Trump administration | The Guardian from The Guardian
+2026-01-13 04:46:00,690 - INFO - Selenium driver initialized successfully.
+2026-01-13 04:46:00,690 - INFO - Selenium driver initialized successfully.
+2026-01-13 04:46:00,690 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-13 04:46:00,690 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-13 04:46:00,811 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-13 04:46:00,811 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/leave-iran-now-us-warns-its-citizens-as-tensions-rise-over-600-killed-in-protests-key-details/articleshow/126495320.cms
+2026-01-13 04:46:00,811 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:00,890 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-13 04:46:00,891 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/neighbours-to-depose-as-kolkata-police-investigates-ed-searches-at-i-pac-chiefs-residence/article70503941.ece
+2026-01-13 04:46:00,891 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:05,992 - INFO - [The Hindu] Page content loaded.
+2026-01-13 04:46:06,186 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (316 words).
+2026-01-13 04:46:06,324 - INFO - Saved article: Neighbours to depose as Kolkata Police investigates ED searches at I-PAC chief’s residence - The Hindu from The Hindu
+2026-01-13 04:46:07,080 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/former-mp-thomas-kuthiravattam-from-kerala-dies-at-80/article70503958.ece
+2026-01-13 04:46:07,080 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:10,661 - INFO - [The Hindu] Page content loaded.
+2026-01-13 04:46:10,835 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (104 words).
+2026-01-13 04:46:11,189 - INFO - Saved article: Former MP Thomas Kuthiravattam from Kerala dies at 80 - The Hindu from The Hindu
+2026-01-13 04:46:12,008 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/odisha/odisha-moves-to-construct-new-assembly-building-to-double-house-capacity/article70501360.ece
+2026-01-13 04:46:12,008 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:13,344 - INFO - [The Hindu] Page content loaded.
+2026-01-13 04:46:13,593 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (410 words).
+2026-01-13 04:46:13,742 - INFO - Saved article: Odisha moves to construct new Assembly building to double house capacity - The Hindu from The Hindu
+2026-01-13 04:46:14,275 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/bmc-elections-the-rise-of-fluid-alliances-explained/article70502787.ece
+2026-01-13 04:46:14,275 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:16,225 - INFO - [The Hindu] Page content loaded.
+2026-01-13 04:46:16,397 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (780 words).
+2026-01-13 04:46:16,576 - INFO - Saved article: BMC elections: the rise of fluid alliances | Explained - The Hindu from The Hindu
+2026-01-13 04:46:17,541 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/cold-wave-temperature-rajasthan-haryana-gurugram-weather-updates/article70503871.ece
+2026-01-13 04:46:17,541 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:20,571 - INFO - [The Hindu] Page content loaded.
+2026-01-13 04:46:20,771 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1131 words).
+2026-01-13 04:46:20,856 - INFO - Saved article: Cold wave grips North India: Rajasthan and Haryana experience near-zero temperatures, Gurugram hits 0.6°C - The Hindu from The Hindu
+2026-01-13 04:46:21,375 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/youth-congress-slams-centre-for-repealing-mgnrega/article70501765.ece
+2026-01-13 04:46:21,375 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:46:25,315 - INFO - [The Hindu] Page content loaded.
+2026-01-13 04:46:25,516 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (126 words).
+2026-01-13 04:46:25,890 - INFO - Saved article: Youth Congress slams Centre for repealing MGNREGA - The Hindu from The Hindu
+2026-01-13 04:46:27,269 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/byelection-to-onakkoor-ward-held/article70502223.ece
+2026-01-13 04:46:27,270 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:48:00,903 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/leave-iran-now-us-warns-its-citizens-as-tensions-rise-over-600-killed-in-protests-key-details/articleshow/126495320.cms: HTTPConnectionPool(host='localhost', port=52369): Read timed out. (read timeout=120)
+2026-01-13 04:48:00,903 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/leave-iran-now-us-warns-its-citizens-as-tensions-rise-over-600-killed-in-protests-key-details/articleshow/126495320.cms. Falling back to RSS description.
+2026-01-13 04:48:00,905 - INFO - Saved article: 'Leave Iran now': US warns its citizens as tensions rise; over 600 killed in protests — key details from Times of India
+2026-01-13 04:48:01,518 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/the-great-pacific-garbage-patch-is-becoming-home-to-some-aquatic-species/articleshow/126476618.cms
+2026-01-13 04:48:01,518 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:48:27,371 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/kerala/byelection-to-onakkoor-ward-held/article70502223.ece: HTTPConnectionPool(host='localhost', port=51339): Read timed out. (read timeout=120)
+2026-01-13 04:48:27,371 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/kerala/byelection-to-onakkoor-ward-held/article70502223.ece. Falling back to RSS description.
+2026-01-13 04:48:27,373 - INFO - Saved article: Byelection to Onakkoor ward held from The Hindu
+2026-01-13 04:48:28,096 - INFO - [The Hindu] Article: https://www.thehindu.com/data/active-educational-loan-accounts-in-tamil-nadu-declined-drastically-in-last-decade/article70501066.ece
+2026-01-13 04:48:28,097 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:50:01,618 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/science/the-great-pacific-garbage-patch-is-becoming-home-to-some-aquatic-species/articleshow/126476618.cms: HTTPConnectionPool(host='localhost', port=52369): Read timed out. (read timeout=120)
+2026-01-13 04:50:01,618 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/science/the-great-pacific-garbage-patch-is-becoming-home-to-some-aquatic-species/articleshow/126476618.cms. Falling back to RSS description.
+2026-01-13 04:50:01,620 - INFO - Saved article: The Great Pacific Garbage Patch is becoming home to some aquatic species from Times of India
+2026-01-13 04:50:02,418 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/avoid-all-travel-canada-issues-level-4-advisory-lists-countries-canadians-should-not-visit/articleshow/126485519.cms
+2026-01-13 04:50:02,418 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:50:28,198 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/data/active-educational-loan-accounts-in-tamil-nadu-declined-drastically-in-last-decade/article70501066.ece: HTTPConnectionPool(host='localhost', port=51339): Read timed out. (read timeout=120)
+2026-01-13 04:50:28,198 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/data/active-educational-loan-accounts-in-tamil-nadu-declined-drastically-in-last-decade/article70501066.ece. Falling back to RSS description.
+2026-01-13 04:50:28,201 - INFO - Saved article: Active educational loan accounts in Tamil Nadu declined drastically in last decade from The Hindu
+2026-01-13 04:50:28,761 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/four-students-from-state-model-schools-nominated-to-sakura-science-programme/article70501806.ece
+2026-01-13 04:50:28,761 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 04:50:47,502 - CRITICAL - --- TIMEOUT: 2 scrape jobs did not complete in 300s. ---
+2026-01-13 04:50:47,502 - ERROR - A thread has timed out and will be abandoned.
+2026-01-13 04:50:47,502 - ERROR - A thread has timed out and will be abandoned.
+2026-01-13 04:50:47,502 - INFO - Shutting down thread pool (wait=False)...
+2026-01-13 04:50:47,502 - INFO - Scraped: 6 BBC, 0 The Guardian, 2 Timed_Out_Jobs articles. (Total saved: 6)
+2026-01-13 04:50:47,502 - INFO - --- Scraping job finished ---
+2026-01-13 04:50:47,502 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-13 04:50:47,502 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
