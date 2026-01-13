@@ -1,0 +1,171 @@
+2026-01-13 14:31:53,389 - INFO - Initializing database connection at: news_articles.db
+2026-01-13 14:31:53,390 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-13 14:31:53,390 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-13 14:31:53,390 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-13 14:31:53,390 - INFO - Proxy is DISABLED.
+2026-01-13 14:31:53,390 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-13 14:31:53,391 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-13 14:31:53,391 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-13 14:31:53,391 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-13 14:31:53,391 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-13 14:31:53,391 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-13 14:31:53,393 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-13 14:31:53,502 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-13 14:31:53,502 - INFO - [The Guardian] Article: https://www.theguardian.com/business/2026/jan/13/developing-countries-poorer-world-bank-report
+2026-01-13 14:31:53,502 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:53,529 - INFO - Found 38 articles in BBC RSS feed. Processing up to 10.
+2026-01-13 14:31:53,529 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyev0kpk77o?at_medium=RSS&at_campaign=rss
+2026-01-13 14:31:53,529 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:53,543 - INFO - [The Guardian] Success with 'requests_browser'. Found content (483 words).
+2026-01-13 14:31:53,581 - INFO - Saved article: Quarter of developing countries poorer than in 2019, World Bank finds | World Bank | The Guardian from The Guardian
+2026-01-13 14:31:53,860 - INFO - [BBC] Success with 'requests_browser'. Found content (800 words).
+2026-01-13 14:31:53,902 - INFO - Duplicate article skipped: Trump briefed on military and covert options for Iran, sources say from BBC
+2026-01-13 14:31:54,547 - INFO - [The Guardian] Article: https://www.theguardian.com/books/2026/jan/12/chimamanda-ngozi-adichie-accuses-lagos-hospital-negligence-son-death
+2026-01-13 14:31:54,547 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:54,573 - INFO - [The Guardian] Success with 'requests_browser'. Found content (537 words).
+2026-01-13 14:31:54,607 - INFO - Duplicate article skipped: Author Chimamanda Ngozi Adichie accuses Lagos hospital of negligence after son’s death | Chimamanda Ngozi Adichie | The Guardian from The Guardian
+2026-01-13 14:31:55,206 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgp70ynx1po?at_medium=RSS&at_campaign=rss
+2026-01-13 14:31:55,206 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:55,251 - INFO - [BBC] Success with 'requests_browser'. Found content (1148 words).
+2026-01-13 14:31:55,304 - INFO - Duplicate article skipped: Iran protests: Eyewitnesses describe deadly crackdown across country from BBC
+2026-01-13 14:31:55,867 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c041dp0z95yo?at_medium=RSS&at_campaign=rss
+2026-01-13 14:31:55,867 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:55,916 - INFO - [BBC] Success with 'requests_browser'. Found content (779 words).
+2026-01-13 14:31:55,954 - INFO - Duplicate article skipped: Jerome Powell: World central bank chiefs declare support for US Fed chair from BBC
+2026-01-13 14:31:56,081 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/09/the-gambia-female-genital-mutilation-fgm-supreme-court-case-overturn-ban
+2026-01-13 14:31:56,081 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:56,113 - INFO - [The Guardian] Success with 'requests_browser'. Found content (850 words).
+2026-01-13 14:31:56,157 - INFO - Duplicate article skipped: Attempt to overturn the Gambia’s ban on FGM heard by supreme court | Global development | The Guardian from The Guardian
+2026-01-13 14:31:57,051 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/08/questions-targeting-impact-us-airstrikes-in-nigeria
+2026-01-13 14:31:57,051 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:57,081 - INFO - [The Guardian] Success with 'requests_browser'. Found content (795 words).
+2026-01-13 14:31:57,121 - INFO - Duplicate article skipped: Two weeks on, questions linger over targeting and impact of US airstrikes in Nigeria | Nigeria | The Guardian from The Guardian
+2026-01-13 14:31:57,342 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62vnvx2x2po?at_medium=RSS&at_campaign=rss
+2026-01-13 14:31:57,342 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:57,376 - INFO - [BBC] Success with 'requests_browser'. Found content (666 words).
+2026-01-13 14:31:57,412 - INFO - Duplicate article skipped: Marine Le Pen hopeful appeal will allow her to run for French president from BBC
+2026-01-13 14:31:58,488 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/02/anthony-joshuas-driver-charged-with-dangerous-driving-after-fatal-crash-in-nigeria
+2026-01-13 14:31:58,488 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:58,524 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-13 14:31:58,558 - INFO - Duplicate article skipped: Anthony Joshua’s driver charged with dangerous driving after fatal crash in Nigeria | Anthony Joshua | The Guardian from The Guardian
+2026-01-13 14:31:58,575 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cq6vyqq5r0do?at_medium=RSS&at_campaign=rss
+2026-01-13 14:31:58,575 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:58,616 - INFO - [BBC] Success with 'requests_browser'. Found content (498 words).
+2026-01-13 14:31:58,682 - INFO - Saved article: Yoon Suk Yeol: S Korea prosecutors seek death penalty over failed insurrection attempt from BBC
+2026-01-13 14:31:59,060 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/jan/12/us-plan-to-exploit-venezuelas-oil-could-eat-up-13-of-carbon-budget-to-keep-15c-limit
+2026-01-13 14:31:59,060 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:31:59,095 - INFO - [The Guardian] Success with 'requests_browser'. Found content (579 words).
+2026-01-13 14:31:59,147 - INFO - Duplicate article skipped: US plan to exploit Venezuela’s oil could eat up 13% of carbon budget to keep 1.5C limit | Climate crisis | The Guardian from The Guardian
+2026-01-13 14:31:59,961 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce9yv4gmn9lo?at_medium=RSS&at_campaign=rss
+2026-01-13 14:31:59,961 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:00,005 - INFO - [BBC] Success with 'requests_browser'. Found content (1993 words).
+2026-01-13 14:32:00,047 - INFO - Duplicate article skipped: How one woman lures foreign recruits to Russia’s front line in Ukraine from BBC
+2026-01-13 14:32:00,581 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/12/trump-latin-america-feud-colombia-gustavo-petro
+2026-01-13 14:32:00,581 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:00,615 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1373 words).
+2026-01-13 14:32:00,653 - INFO - Duplicate article skipped: Trump’s other Latin American feud: why Colombia’s Petro is not Maduro | Colombia | The Guardian from The Guardian
+2026-01-13 14:32:01,430 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj9r3832j47o?at_medium=RSS&at_campaign=rss
+2026-01-13 14:32:01,431 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:01,437 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/12/us-oil-producers-global-supply-glut-venezuela
+2026-01-13 14:32:01,437 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:01,479 - INFO - [BBC] Success with 'requests_browser'. Found content (712 words).
+2026-01-13 14:32:01,512 - INFO - Duplicate article skipped: Cold and data centres drive up US greenhouse gas emissions from BBC
+2026-01-13 14:32:01,515 - INFO - [The Guardian] Success with 'requests_browser'. Found content (884 words).
+2026-01-13 14:32:01,551 - INFO - Duplicate article skipped: US frackers were already facing a global oil supply glut. Trump’s Venezuelan dream could make it worse | US news | The Guardian from The Guardian
+2026-01-13 14:32:01,813 - INFO - Selenium driver initialized successfully.
+2026-01-13 14:32:01,813 - INFO - Selenium driver initialized successfully.
+2026-01-13 14:32:01,813 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-13 14:32:01,814 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-13 14:32:02,039 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-13 14:32:02,040 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/has-anyone-encountered-ice-in-minneapolis-h-1b-workers-voice-anxiety-on-reddit-after-renee-good-shot-dead-by-federal-agents/articleshow/126506035.cms
+2026-01-13 14:32:02,040 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:32:02,115 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr578g7v082o?at_medium=RSS&at_campaign=rss
+2026-01-13 14:32:02,115 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:02,150 - INFO - [BBC] Success with 'requests_browser'. Found content (490 words).
+2026-01-13 14:32:02,190 - INFO - Duplicate article skipped: Mali's jihadist blockade: Niger revokes licences of tanker drivers who refuse to travel from BBC
+2026-01-13 14:32:02,219 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/12/carney-heads-to-beijing-as-trump-america-first-agenda-forces-canada-into-trade-rethink
+2026-01-13 14:32:02,219 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:02,258 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1253 words).
+2026-01-13 14:32:02,300 - INFO - Duplicate article skipped: Carney heads to Beijing as Trump’s America First agenda forces Canada into trade rethink | Canada | The Guardian from The Guardian
+2026-01-13 14:32:03,087 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/12/donald-trump-threatens-block-exxonmobil-venezuela
+2026-01-13 14:32:03,087 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:03,125 - INFO - [The Guardian] Success with 'requests_browser'. Found content (472 words).
+2026-01-13 14:32:03,178 - INFO - Duplicate article skipped: Trump threatens to block ExxonMobil from Venezuela after CEO calls country ‘uninvestable’ | Trump administration | The Guardian from The Guardian
+2026-01-13 14:32:03,322 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9wxg4e09jzo?at_medium=RSS&at_campaign=rss
+2026-01-13 14:32:03,322 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:03,362 - INFO - [BBC] Success with 'requests_browser'. Found content (446 words).
+2026-01-13 14:32:03,402 - INFO - Duplicate article skipped: Philippines landfill collapse: Death toll rises to 11 from BBC
+2026-01-13 14:32:03,596 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-13 14:32:03,597 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/republic-day-at-home-to-celebrate-ashtalakshmi-states-at-rashtrapati-bhavan/article70505654.ece
+2026-01-13 14:32:03,597 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:32:04,399 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0mk80lyw09o?at_medium=RSS&at_campaign=rss
+2026-01-13 14:32:04,399 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-13 14:32:04,491 - INFO - [BBC] Success with 'requests_browser'. Found content (617 words).
+2026-01-13 14:32:04,649 - INFO - Duplicate article skipped: Hunt for gunman after Corsican exile Alain Orsoni is shot dead at mother's funeral from BBC
+2026-01-13 14:33:00,367 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:00,648 - INFO - [Times of India] Success with 'selenium_browser'. Found content (268 words).
+2026-01-13 14:33:00,833 - INFO - Saved article: 'Has anyone encountered ICE in Minneapolis?’: H-1B workers voice anxiety on Reddit after Renee Good shot dead by federal agents - The Times of India from Times of India
+2026-01-13 14:33:02,157 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/leave-by-march-17-trump-ends-temporary-protected-status-for-somali-nationals-amid-major-ice-crackdown-in-minneapolis/articleshow/126507184.cms
+2026-01-13 14:33:02,157 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:03,123 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:03,261 - INFO - [Times of India] Success with 'selenium_browser'. Found content (275 words).
+2026-01-13 14:33:03,329 - INFO - Saved article: Leave by March 17: Trump ends Temporary Protected Status for Somali nationals amid major ICE crackdown in Minneapolis - The Times of India from Times of India
+2026-01-13 14:33:04,358 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/trump-trolled-for-2018-middle-east-policeman-tweet-amid-iran-tensions-and-fresh-strikes-in-the-region/articleshow/126506636.cms
+2026-01-13 14:33:04,358 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:05,469 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:05,597 - INFO - [Times of India] Success with 'selenium_browser'. Found content (471 words).
+2026-01-13 14:33:05,661 - INFO - Saved article: Trump trolled for 2018 ‘Middle East policeman’ tweet amid Iran tensions and fresh strikes in the region | World News - The Times of India from Times of India
+2026-01-13 14:33:07,140 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/bring-him-back-to-us-court-says-indian-man-francisco-dcosta-wrongfully-deported-was-put-on-flight-after-stay-order/articleshow/126506457.cms
+2026-01-13 14:33:07,140 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:07,979 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:08,127 - INFO - [Times of India] Success with 'selenium_browser'. Found content (329 words).
+2026-01-13 14:33:08,194 - INFO - Saved article: 'Bring him back to US': Court says Indian man Francisco D’Costa wrongfully deported, was put on flight after 'stay' order - The Times of India from Times of India
+2026-01-13 14:33:08,809 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/why-jd-vance-chose-the-minneapolis-ice-shooting-as-his-political-battlefield-but-stayed-silent-on-venezuela/articleshow/126504432.cms
+2026-01-13 14:33:08,809 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:10,089 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:10,247 - INFO - [Times of India] Success with 'selenium_browser'. Found content (622 words).
+2026-01-13 14:33:10,310 - INFO - Saved article: Why JD Vance chose the Minneapolis ICE shooting as his political battlefield but stayed silent on Venezuela - The Times of India from Times of India
+2026-01-13 14:33:11,371 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/etimes/trending/new-bromance-in-town-elon-musk-branded-as-back-on-team-trump-after-pete-hegseths-spacex-visit/articleshow/126504412.cms
+2026-01-13 14:33:11,371 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:12,583 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:12,716 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1224 words).
+2026-01-13 14:33:12,778 - INFO - Saved article: New bromance in town? Elon Musk branded as ‘back on Team Trump’ after Pete Hegseth’s SpaceX visit | - The Times of India from Times of India
+2026-01-13 14:33:13,855 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/canada-double-murder-trial-3-indians-killed-elderly-couple-for-money-gurkaran-singh-came-on-student-visa-never-went-to-college/articleshow/126504833.cms
+2026-01-13 14:33:13,855 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:14,987 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:15,143 - INFO - [Times of India] Success with 'selenium_browser'. Found content (299 words).
+2026-01-13 14:33:15,199 - INFO - Duplicate article skipped: Canada double murder trial: 3 Indians killed elderly couple for money; Gurkaran Singh came on student visa; never went to college - The Times of India from Times of India
+2026-01-13 14:33:16,142 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/disguised-as-civilian-plane-pentagon-anti-drug-strike-raises-questions-did-trump-administration-commit-a-war-crime/articleshow/126504113.cms
+2026-01-13 14:33:16,142 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:17,004 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:17,140 - INFO - [Times of India] Success with 'selenium_browser'. Found content (728 words).
+2026-01-13 14:33:17,214 - INFO - Duplicate article skipped: Disguised as civilian plane: Pentagon anti-drug strike raises questions — did Trump administration commit a war crime? - The Times of India from Times of India
+2026-01-13 14:33:18,160 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/ice-criticism-iran-silence-how-golden-globes-exposed-hollywoods-hypocrisy/articleshow/126502908.cms
+2026-01-13 14:33:18,160 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:18,864 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:19,013 - INFO - [Times of India] Success with 'selenium_browser'. Found content (730 words).
+2026-01-13 14:33:19,081 - INFO - Duplicate article skipped: ICE criticism, Iran silence: How Golden Globes exposed Hollywood's hypocrisy - The Times of India from Times of India
+2026-01-13 14:33:19,694 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/etimes/trending/fire-90-of-hr-tomorrow-viral-tweet-by-amanda-goodall-sparks-corporate-america-meltdown/articleshow/126503147.cms
+2026-01-13 14:33:19,694 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:33:20,851 - INFO - [Times of India] Page content loaded.
+2026-01-13 14:33:20,984 - INFO - [Times of India] Success with 'selenium_browser'. Found content (748 words).
+2026-01-13 14:33:21,110 - INFO - Duplicate article skipped: 'Fire 90% of HR tomorrow': Viral tweet by Amanda Goodall sparks corporate America meltdown | - The Times of India from Times of India
+2026-01-13 14:33:22,172 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-13 14:33:22,493 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-01-13 14:34:03,628 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/republic-day-at-home-to-celebrate-ashtalakshmi-states-at-rashtrapati-bhavan/article70505654.ece: HTTPConnectionPool(host='localhost', port=35919): Read timed out. (read timeout=120)
+2026-01-13 14:34:03,628 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/republic-day-at-home-to-celebrate-ashtalakshmi-states-at-rashtrapati-bhavan/article70505654.ece. Falling back to RSS description.
+2026-01-13 14:34:03,630 - INFO - Saved article: Republic Day ‘At Home’ to celebrate Ashtalakshmi States at Rashtrapati Bhavan from The Hindu
+2026-01-13 14:34:04,737 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/state-school-arts-festival-diary/article70505911.ece
+2026-01-13 14:34:04,737 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:36:04,802 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/kerala/state-school-arts-festival-diary/article70505911.ece: HTTPConnectionPool(host='localhost', port=35919): Read timed out. (read timeout=120)
+2026-01-13 14:36:04,802 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/kerala/state-school-arts-festival-diary/article70505911.ece. Falling back to RSS description.
+2026-01-13 14:36:04,804 - INFO - Saved article: State School Arts Festival diary from The Hindu
+2026-01-13 14:36:05,639 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/air-quality-study-in-kochi-thiruvananthapuram-yet-to-take-off/article70505685.ece
+2026-01-13 14:36:05,639 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-13 14:36:53,394 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2026-01-13 14:36:53,394 - ERROR - A thread has timed out and will be abandoned.
+2026-01-13 14:36:53,394 - INFO - Shutting down thread pool (wait=False)...
+2026-01-13 14:36:53,394 - INFO - Scraped: 1 BBC, 1 The Guardian, 6 Times of India, 1 Timed_Out_Jobs articles. (Total saved: 8)
+2026-01-13 14:36:53,394 - INFO - --- Scraping job finished ---
+2026-01-13 14:36:53,394 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-13 14:36:53,394 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
