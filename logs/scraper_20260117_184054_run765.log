@@ -1,0 +1,192 @@
+2026-01-17 18:35:54,876 - INFO - Initializing database connection at: news_articles.db
+2026-01-17 18:35:54,877 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-17 18:35:54,877 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-17 18:35:54,877 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-17 18:35:54,877 - INFO - Proxy is DISABLED.
+2026-01-17 18:35:54,877 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-17 18:35:54,880 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-17 18:35:54,880 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-17 18:35:54,880 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-17 18:35:54,882 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-17 18:35:54,882 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-17 18:35:54,882 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-17 18:35:55,193 - INFO - Found 37 articles in BBC RSS feed. Processing up to 10.
+2026-01-17 18:35:55,193 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckglee733wno?at_medium=RSS&at_campaign=rss
+2026-01-17 18:35:55,193 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:55,263 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-17 18:35:55,264 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/17/yoweri-museveni-wins-ugandan-election-as-opponent-condemns-fake-result
+2026-01-17 18:35:55,264 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:55,304 - INFO - [The Guardian] Success with 'requests_browser'. Found content (465 words).
+2026-01-17 18:35:55,344 - INFO - Saved article: Yoweri Museveni wins Ugandan election as opponent condemns ‘fake result’ | Uganda | The Guardian from The Guardian
+2026-01-17 18:35:55,373 - INFO - [BBC] Success with 'requests_browser'. Found content (438 words).
+2026-01-17 18:35:55,409 - INFO - Duplicate article skipped: Iran's supreme leader admits thousands killed during recent protests from BBC
+2026-01-17 18:35:56,133 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c07xvv9r422o?at_medium=RSS&at_campaign=rss
+2026-01-17 18:35:56,133 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:56,205 - INFO - [BBC] Success with 'requests_browser'. Found content (940 words).
+2026-01-17 18:35:56,255 - INFO - Duplicate article skipped: Big names on Trump's Gaza peace panel face huge challenges from BBC
+2026-01-17 18:35:56,320 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2026/jan/17/afcon-little-morocco-london-confidence-high
+2026-01-17 18:35:56,320 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:56,356 - INFO - [The Guardian] Success with 'requests_browser'. Found content (686 words).
+2026-01-17 18:35:56,392 - INFO - Duplicate article skipped: Confidence runs high in London’s Little Morocco as Afcon glory beckons | London | The Guardian from The Guardian
+2026-01-17 18:35:57,193 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgprwlplqwo?at_medium=RSS&at_campaign=rss
+2026-01-17 18:35:57,193 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:57,236 - INFO - [BBC] Success with 'requests_browser'. Found content (472 words).
+2026-01-17 18:35:57,277 - INFO - Saved article: US judge restricts ICE response to Minneapolis protesters from BBC
+2026-01-17 18:35:57,816 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/jan/17/twin-baby-mountain-gorilla-virunga-drc-survival-conservation-aoe
+2026-01-17 18:35:57,817 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:57,853 - INFO - [The Guardian] Success with 'requests_browser'. Found content (601 words).
+2026-01-17 18:35:57,889 - INFO - Duplicate article skipped: Rare twins born in DRC raise cautious hope for endangered mountain gorillas | Endangered species | The Guardian from The Guardian
+2026-01-17 18:35:57,896 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2lgxxrxd52o?at_medium=RSS&at_campaign=rss
+2026-01-17 18:35:57,896 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:57,946 - INFO - [BBC] Success with 'requests_browser'. Found content (575 words).
+2026-01-17 18:35:57,987 - INFO - Duplicate article skipped: Uganda election result: Yoweri Museveni beats Bobi Wine to extend 40-year rule from BBC
+2026-01-17 18:35:58,709 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/16/uganda-election-early-results-show-museveni-in-lead-as-violence-reported
+2026-01-17 18:35:58,709 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:58,751 - INFO - [The Guardian] Success with 'requests_browser'. Found content (674 words).
+2026-01-17 18:35:58,800 - INFO - Duplicate article skipped: Uganda’s opposition leader ‘taken by army’ as Museveni nears re-election | Uganda | The Guardian from The Guardian
+2026-01-17 18:35:59,292 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce3k279e53eo?at_medium=RSS&at_campaign=rss
+2026-01-17 18:35:59,292 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:59,334 - INFO - [BBC] Success with 'requests_browser'. Found content (489 words).
+2026-01-17 18:35:59,372 - INFO - Duplicate article skipped: Syrian army moves into east Aleppo after Kurdish forces withdraw from BBC
+2026-01-17 18:35:59,627 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/15/hepatitis-b-vaccines-study-africa-cancel
+2026-01-17 18:35:59,627 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:35:59,689 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1391 words).
+2026-01-17 18:35:59,726 - INFO - Duplicate article skipped: Controversial US study on hepatitis B vaccines in Africa is cancelled | Vaccines and immunisation | The Guardian from The Guardian
+2026-01-17 18:36:00,268 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c74vdgkw1kzo?at_medium=RSS&at_campaign=rss
+2026-01-17 18:36:00,268 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:00,315 - INFO - [BBC] Success with 'requests_browser'. Found content (853 words).
+2026-01-17 18:36:00,352 - INFO - Duplicate article skipped: Paracetamol is safe in pregnancy, says new evidence against Trump autism claims from BBC
+2026-01-17 18:36:00,714 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/16/trump-administration-mistake-college-student-detained
+2026-01-17 18:36:00,715 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:00,757 - INFO - [The Guardian] Success with 'requests_browser'. Found content (758 words).
+2026-01-17 18:36:00,796 - INFO - Duplicate article skipped: Trump administration says deporting college student trying to surprise family was a ‘mistake’ | US immigration | The Guardian from The Guardian
+2026-01-17 18:36:01,165 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czejwl2z80lo?at_medium=RSS&at_campaign=rss
+2026-01-17 18:36:01,165 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:01,204 - INFO - [BBC] Success with 'requests_browser'. Found content (325 words).
+2026-01-17 18:36:01,237 - INFO - Duplicate article skipped: Japanese city mayor apologises for calling colleagues 'human scum' from BBC
+2026-01-17 18:36:01,650 - INFO - Selenium driver initialized successfully.
+2026-01-17 18:36:01,650 - INFO - Selenium driver initialized successfully.
+2026-01-17 18:36:01,650 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-17 18:36:01,650 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-17 18:36:01,839 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-17 18:36:01,839 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Coimbatore/three-migrant-labourers-dead-in-mudslip-at-construction-site-in-the-nilgiris-probe-on/article70518952.ece
+2026-01-17 18:36:01,839 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:01,881 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-17 18:36:01,881 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/its-time-to-look-for-new-leadership-trump-calls-for-end-of-sick-khameneis-regime-is-the-president-renewing-threats-against-iran/articleshow/126623652.cms
+2026-01-17 18:36:01,881 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:01,970 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/16/cia-chief-visits-maduro-successor-as-machado-vows-to-become-venezuelas-president
+2026-01-17 18:36:01,970 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:02,014 - INFO - [The Guardian] Success with 'requests_browser'. Found content (906 words).
+2026-01-17 18:36:02,061 - INFO - Duplicate article skipped: CIA chief visits Maduro successor as Machado vows to become Venezuela’s president | Venezuela | The Guardian from The Guardian
+2026-01-17 18:36:02,259 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9qpy952xvno?at_medium=RSS&at_campaign=rss
+2026-01-17 18:36:02,259 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:02,320 - INFO - [BBC] Success with 'requests_browser'. Found content (961 words).
+2026-01-17 18:36:02,375 - INFO - Duplicate article skipped: Trump threatens new tariffs on countries opposed to Greenland takeover as US lawmakers visit Denmark to ease tensions from BBC
+2026-01-17 18:36:02,765 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/16/brazil-jair-bolsonaro-reduce-sentence-reading-books
+2026-01-17 18:36:02,765 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:02,840 - INFO - [The Guardian] Success with 'requests_browser'. Found content (406 words).
+2026-01-17 18:36:02,908 - INFO - Duplicate article skipped: Brazil’s Bolsonaro finds novel way to reduce 27-year sentence: reading books | Jair Bolsonaro | The Guardian from The Guardian
+2026-01-17 18:36:03,878 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyn0ek5rdpo?at_medium=RSS&at_campaign=rss
+2026-01-17 18:36:03,879 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:03,975 - INFO - [BBC] Success with 'requests_browser'. Found content (424 words).
+2026-01-17 18:36:04,172 - INFO - Duplicate article skipped: Google appeals landmark antitrust verdict over search monopoly from BBC
+2026-01-17 18:36:04,187 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/16/china-canada-partnership-new-global-realities-carney-xi-jinping
+2026-01-17 18:36:04,187 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:04,372 - INFO - [The Guardian] Success with 'requests_browser'. Found content (608 words).
+2026-01-17 18:36:04,544 - INFO - Duplicate article skipped: Canada PM hails strategic partnership with China to adapt to ‘new global realities’ | Canada | The Guardian from The Guardian
+2026-01-17 18:36:05,653 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cnvg70v1z0ro?at_medium=RSS&at_campaign=rss
+2026-01-17 18:36:05,653 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:05,802 - INFO - [BBC] Success with 'requests_browser'. Found content (1444 words).
+2026-01-17 18:36:05,846 - INFO - [The Hindu] Page content loaded.
+2026-01-17 18:36:05,847 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/16/julio-iglesias-denies-sexual-abuse-claims-of-two-former-female-employees
+2026-01-17 18:36:05,847 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-17 18:36:05,961 - INFO - Saved article: Under fire from the sea, Ukrainian families in Odesa try to escape Russian barrage from BBC
+2026-01-17 18:36:06,013 - INFO - [The Guardian] Success with 'requests_browser'. Found content (505 words).
+2026-01-17 18:36:06,112 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (239 words).
+2026-01-17 18:36:06,240 - INFO - Duplicate article skipped: Julio Iglesias denies sexual abuse claims of two former female employees | Spain | The Guardian from The Guardian
+2026-01-17 18:36:06,545 - INFO - Saved article: Three migrant labourers dead in mudslip at construction site in the Nilgiris; probe on - The Hindu from The Hindu
+2026-01-17 18:36:07,451 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/ready-to-associate-with-nss-says-vellappally/article70519841.ece
+2026-01-17 18:36:07,451 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:13,117 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:13,858 - INFO - [The Hindu] Page content loaded.
+2026-01-17 18:36:13,909 - INFO - [Times of India] Success with 'selenium_browser'. Found content (399 words).
+2026-01-17 18:36:14,083 - INFO - Saved article: ‘It’s time to look for new leadership’: Trump calls for end of 'sick' Khamenei's regime — is the president renewing threats against Iran? - The Times of India from Times of India
+2026-01-17 18:36:14,085 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (213 words).
+2026-01-17 18:36:14,151 - INFO - Saved article: Ready to associate with NSS, says Vellappally - The Hindu from The Hindu
+2026-01-17 18:36:15,478 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/vit-observes-thiruvalluvar-day-in-vellore/article70515063.ece
+2026-01-17 18:36:15,478 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:15,516 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/applied-for-h-1b-eight-times-never-selected-in-lottery-nri-man-says-hes-trying-to-move-back-to-india/articleshow/126623879.cms
+2026-01-17 18:36:15,516 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:18,802 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:18,877 - INFO - [The Hindu] Page content loaded.
+2026-01-17 18:36:19,095 - WARNING - [The Hindu] FAILED with 'selenium_browser' (content was too short: 74 words).
+2026-01-17 18:36:19,102 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/vit-observes-thiruvalluvar-day-in-vellore/article70515063.ece. Falling back to RSS description.
+2026-01-17 18:36:19,107 - INFO - Saved article: VIT observes Thiruvalluvar Day in Vellore from The Hindu
+2026-01-17 18:36:19,227 - INFO - [Times of India] Success with 'selenium_browser'. Found content (303 words).
+2026-01-17 18:36:19,353 - INFO - Saved article: 'Applied for H-1B eight times, never selected in lottery': NRI man says he's trying to move back to India - The Times of India from Times of India
+2026-01-17 18:36:20,003 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/arunachal-pradesh/body-of-kerala-tourist-retrieved-from-high-altitude-arunachal-lake/article70518824.ece
+2026-01-17 18:36:20,003 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:20,854 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/board-of-peace-in-chaos-netanyahu-pushes-back-on-donald-trumps-gaza-governing-body-what-irked-israel/articleshow/126622005.cms
+2026-01-17 18:36:20,855 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:24,444 - INFO - [The Hindu] Page content loaded.
+2026-01-17 18:36:24,497 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:24,567 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (270 words).
+2026-01-17 18:36:24,707 - INFO - Saved article: Body of Kerala tourist retrieved from high-altitude Arunachal lake - The Hindu from The Hindu
+2026-01-17 18:36:24,789 - INFO - [Times of India] Success with 'selenium_browser'. Found content (450 words).
+2026-01-17 18:36:24,881 - INFO - Saved article: ‘Board of Peace’ in chaos? Netanyahu pushes back on Donald Trump's Gaza governing body; what irked Israel - The Times of India from Times of India
+2026-01-17 18:36:25,410 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/water-all-the-time-chennai-moves-to-fix-piped-supply/article70519858.ece
+2026-01-17 18:36:25,410 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:25,724 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/dont-take-up-part-time-jobs-fresh-warning-on-social-media-amid-reports-of-ice-detaining-two-indians-from-a-minnesota-restaurant/articleshow/126622012.cms
+2026-01-17 18:36:25,726 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:30,109 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:33,288 - INFO - [Times of India] Success with 'selenium_browser'. Found content (379 words).
+2026-01-17 18:36:33,464 - INFO - Saved article: 'Don't take up part-time jobs': Fresh warning on social media amid reports of ICE detaining two Indians from a Minnesota restaurant - The Times of India from Times of India
+2026-01-17 18:36:34,386 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/this-is-one-of-the-seven-days-ice-agents-reply-in-exchange-with-somali-man-sparks-viral-reaction-video/articleshow/126620622.cms
+2026-01-17 18:36:34,386 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:35,555 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:35,870 - INFO - [Times of India] Success with 'selenium_browser'. Found content (116 words).
+2026-01-17 18:36:35,979 - INFO - Saved article: ‘This is one of the seven days’: ICE agent’s reply in exchange with Somali man sparks viral reaction — video - The Times of India from Times of India
+2026-01-17 18:36:37,399 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-had-months-of-quiet-talks-with-venezuelas-diosdado-cabello-before-and-after-maduro-raid-is-delcy-rodriguezs-position-at-risk/articleshow/126619610.cms
+2026-01-17 18:36:37,399 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:39,102 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:39,287 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1298 words).
+2026-01-17 18:36:39,466 - INFO - Saved article: US had months of quiet talks with Venezuela’s Diosdado Cabello before and after Maduro raid — is Delcy Rodriguez’s position at risk? - The Times of India from Times of India
+2026-01-17 18:36:40,343 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/new-york-heist-gunmen-take-gotta-catch-em-all-too-seriously-pokmon-cards-worth-100000-stolen/articleshow/126620441.cms
+2026-01-17 18:36:40,343 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:41,615 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:41,729 - INFO - [Times of India] Success with 'selenium_browser'. Found content (653 words).
+2026-01-17 18:36:41,794 - INFO - Duplicate article skipped: New York heist: Gunmen take 'gotta catch ’em all' too seriously; Pokémon cards worth $100,000 stolen - The Times of India from Times of India
+2026-01-17 18:36:42,685 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/indian-origin-doctor-arrested-in-ohio-after-10-week-old-infant-son-found-with-broken-bones-dont-know-how-this-happened/articleshow/126620442.cms
+2026-01-17 18:36:42,685 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:44,331 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:44,472 - INFO - [Times of India] Success with 'selenium_browser'. Found content (334 words).
+2026-01-17 18:36:44,533 - INFO - Duplicate article skipped: Indian-origin doctor arrested in Ohio after 10-week-old infant son found with broken bones: 'Don't know how this happened' - The Times of India from Times of India
+2026-01-17 18:36:45,477 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/canada-cosies-up-to-china-mark-carney-strikes-key-deals-with-xi-jinping-why-donald-trump-will-be-furious/articleshow/126617252.cms
+2026-01-17 18:36:45,477 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:46,556 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:46,696 - INFO - [Times of India] Success with 'selenium_browser'. Found content (767 words).
+2026-01-17 18:36:46,776 - INFO - Duplicate article skipped: Canada cosies up to China: Mark Carney strikes key deals with Xi Jinping; why Donald Trump will be furious - The Times of India from Times of India
+2026-01-17 18:36:47,325 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/communication-lost-indonesian-aircraft-with-10-on-board-goes-missing-search-under-way/articleshow/126618895.cms
+2026-01-17 18:36:47,325 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:36:48,816 - INFO - [Times of India] Page content loaded.
+2026-01-17 18:36:48,937 - INFO - [Times of India] Success with 'selenium_browser'. Found content (263 words).
+2026-01-17 18:36:49,049 - INFO - Duplicate article skipped: 'Communication lost': Indonesian aircraft with 10 on board goes missing; search under way - The Times of India from Times of India
+2026-01-17 18:36:50,309 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-17 18:36:50,543 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-01-17 18:38:25,419 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/water-all-the-time-chennai-moves-to-fix-piped-supply/article70519858.ece: HTTPConnectionPool(host='localhost', port=33541): Read timed out. (read timeout=120)
+2026-01-17 18:38:25,419 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/water-all-the-time-chennai-moves-to-fix-piped-supply/article70519858.ece. Falling back to RSS description.
+2026-01-17 18:38:25,421 - INFO - Saved article: Water, all the time: Chennai moves to fix piped supply from The Hindu
+2026-01-17 18:38:26,558 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/father-two-sons-drown-in-lake-while-catching-fish/article70518868.ece
+2026-01-17 18:38:26,558 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:40:26,633 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/tamil-nadu/father-two-sons-drown-in-lake-while-catching-fish/article70518868.ece: HTTPConnectionPool(host='localhost', port=33541): Read timed out. (read timeout=120)
+2026-01-17 18:40:26,633 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/tamil-nadu/father-two-sons-drown-in-lake-while-catching-fish/article70518868.ece. Falling back to RSS description.
+2026-01-17 18:40:26,635 - INFO - Saved article: Father, two sons drown in lake while catching fish from The Hindu
+2026-01-17 18:40:27,669 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/post-sankranti-return-chokes-nh-65-bumper-to-bumper-traffic-as-hyderabad-bound-rush-peaks/article70519462.ece
+2026-01-17 18:40:27,669 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-17 18:40:54,882 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2026-01-17 18:40:54,882 - ERROR - A thread has timed out and will be abandoned.
+2026-01-17 18:40:54,882 - INFO - Shutting down thread pool (wait=False)...
+2026-01-17 18:40:54,882 - INFO - Scraped: 2 BBC, 6 Times of India, 1 The Guardian, 1 Timed_Out_Jobs articles. (Total saved: 9)
+2026-01-17 18:40:54,882 - INFO - --- Scraping job finished ---
+2026-01-17 18:40:54,883 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-17 18:40:54,883 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
