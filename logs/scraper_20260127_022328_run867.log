@@ -1,0 +1,237 @@
+2026-01-27 02:21:31,519 - INFO - Initializing database connection at: news_articles.db
+2026-01-27 02:21:31,520 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-01-27 02:21:31,520 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-01-27 02:21:31,520 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-01-27 02:21:31,520 - INFO - Proxy is DISABLED.
+2026-01-27 02:21:31,520 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-01-27 02:21:31,521 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-01-27 02:21:31,521 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-27 02:21:31,521 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-01-27 02:21:31,522 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-01-27 02:21:31,522 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-01-27 02:21:31,522 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-01-27 02:21:31,717 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-01-27 02:21:31,718 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/26/hundreds-feared-dead-after-attempting-to-cross-mediterranean-amid-cyclone-harry
+2026-01-27 02:21:31,718 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:31,749 - INFO - [The Guardian] Success with 'requests_browser'. Found content (388 words).
+2026-01-27 02:21:31,786 - INFO - Duplicate article skipped: Hundreds feared dead in attempt to cross Mediterranean during cyclone | Italy | The Guardian from The Guardian
+2026-01-27 02:21:31,939 - INFO - Found 32 articles in BBC RSS feed. Processing up to 10.
+2026-01-27 02:21:31,940 - INFO - [BBC] Article: https://www.bbc.com/news/videos/crkr1g5vnveo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:31,940 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:32,286 - WARNING - [BBC] FAILED with 'requests_browser' (content was too short: 78 words).
+2026-01-27 02:21:32,286 - ERROR - [BBC] All scrape strategies failed for https://www.bbc.com/news/videos/crkr1g5vnveo?at_medium=RSS&at_campaign=rss. Falling back to RSS description.
+2026-01-27 02:21:32,289 - INFO - Saved article: 'We're all terrified', Minnesotan tells the BBC in tears from BBC
+2026-01-27 02:21:32,895 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/26/crocodile-warnings-floods-devastate-southern-africa
+2026-01-27 02:21:32,895 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:32,925 - INFO - [The Guardian] Success with 'requests_browser'. Found content (501 words).
+2026-01-27 02:21:32,970 - INFO - Duplicate article skipped: Crocodile warnings as floods devastate southern Africa | Africa | The Guardian from The Guardian
+2026-01-27 02:21:33,727 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5ydvz7nz4mo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:33,727 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:33,779 - INFO - [BBC] Success with 'requests_browser'. Found content (931 words).
+2026-01-27 02:21:33,818 - INFO - Duplicate article skipped: Israel says it has retrieved remains of final Gaza hostage Ran Gvili from BBC
+2026-01-27 02:21:33,906 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/23/guinea-bissau-hepatitis-b-vaccine-study
+2026-01-27 02:21:33,906 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:33,933 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1061 words).
+2026-01-27 02:21:33,969 - INFO - Duplicate article skipped: ‘It’s the sovereignty of the country’: Guinea-Bissau says US vaccine study suspended | Guinea-Bissau | The Guardian from The Guardian
+2026-01-27 02:21:34,545 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp3z8ek7eqyo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:34,545 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:34,573 - INFO - [BBC] Success with 'requests_browser'. Found content (476 words).
+2026-01-27 02:21:34,614 - INFO - Saved article: US winter storm leaves deaths, power outages and flight delays from BBC
+2026-01-27 02:21:34,646 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/jan/22/actionaid-rethink-child-sponsorship-decolonise-funding
+2026-01-27 02:21:34,646 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:34,671 - INFO - [The Guardian] Success with 'requests_browser'. Found content (688 words).
+2026-01-27 02:21:34,707 - INFO - Duplicate article skipped: ActionAid to rethink child sponsorship as part of plan to ‘decolonise’ its work | Global development | The Guardian from The Guardian
+2026-01-27 02:21:35,921 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1m7kde3y3zo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:35,921 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:35,954 - INFO - [BBC] Success with 'requests_browser'. Found content (617 words).
+2026-01-27 02:21:35,990 - INFO - Duplicate article skipped: New Iran videos show bodies piled up in hospital and snipers on roofs from BBC
+2026-01-27 02:21:36,002 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/20/us-diplomats-urged-to-remind-african-leaders-of-us-generosity-despite-usaid-closing
+2026-01-27 02:21:36,002 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:36,028 - INFO - [The Guardian] Success with 'requests_browser'. Found content (797 words).
+2026-01-27 02:21:36,065 - INFO - Duplicate article skipped: Head of US Africa bureau urges staff to highlight US ‘generosity’ despite aid cuts | US foreign policy | The Guardian from The Guardian
+2026-01-27 02:21:36,937 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwyw3ynwe37o?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:36,937 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:36,968 - INFO - [BBC] Success with 'requests_browser'. Found content (452 words).
+2026-01-27 02:21:37,006 - INFO - Saved article: Trump raises US tariffs on South Korea imports to 25% from BBC
+2026-01-27 02:21:37,129 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/26/guyana-opposition-leader-us-extradition
+2026-01-27 02:21:37,129 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:37,150 - INFO - [The Guardian] Success with 'requests_browser'. Found content (416 words).
+2026-01-27 02:21:37,208 - INFO - Duplicate article skipped: Guyanese businessman facing US extradition elected opposition leader | Guyana | The Guardian from The Guardian
+2026-01-27 02:21:37,552 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c24g8v6qr1mo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:37,552 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:37,583 - INFO - [BBC] Success with 'requests_browser'. Found content (729 words).
+2026-01-27 02:21:37,622 - INFO - Saved article: Landmark social media trial to begin over addiction claims from BBC
+2026-01-27 02:21:37,738 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/jan/26/uk-supermarkets-push-for-amazon-soy-safeguards-after-brazil-scraps-ban
+2026-01-27 02:21:37,738 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:37,764 - INFO - [The Guardian] Success with 'requests_browser'. Found content (694 words).
+2026-01-27 02:21:37,801 - INFO - Duplicate article skipped: UK supermarkets push for Amazon soy safeguards after traders abandon ban | Amazon rainforest | The Guardian from The Guardian
+2026-01-27 02:21:38,655 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/26/toronto-snowstorm-record-snowfall-total
+2026-01-27 02:21:38,655 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:38,676 - INFO - [The Guardian] Success with 'requests_browser'. Found content (441 words).
+2026-01-27 02:21:38,709 - INFO - Duplicate article skipped: Toronto digs itself out after largest snowfall in city’s history | Toronto | The Guardian from The Guardian
+2026-01-27 02:21:38,918 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cedweq4lj25o?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:38,918 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:38,943 - INFO - [BBC] Success with 'requests_browser'. Found content (461 words).
+2026-01-27 02:21:38,975 - INFO - Saved article: Former Olympian Ryan Wedding pleads not guilty to drug kingpin charges from BBC
+2026-01-27 02:21:39,670 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c07x003vx0yo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:39,670 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:39,707 - INFO - [BBC] Success with 'requests_browser'. Found content (691 words).
+2026-01-27 02:21:39,743 - INFO - Duplicate article skipped: French MPs take first step towards banning social media for under-15s from BBC
+2026-01-27 02:21:39,843 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/jan/26/gunmen-invade-salamanca-football-match-guanajuato-mexico-crime
+2026-01-27 02:21:39,843 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:39,871 - INFO - [The Guardian] Success with 'requests_browser'. Found content (346 words).
+2026-01-27 02:21:39,908 - INFO - Duplicate article skipped: Gunmen open fire at football match in Mexico, killing at least 11 | Mexico | The Guardian from The Guardian
+2026-01-27 02:21:40,488 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/jan/26/costa-rica-us-deportation
+2026-01-27 02:21:40,488 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:40,504 - INFO - Selenium driver initialized successfully.
+2026-01-27 02:21:40,504 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-01-27 02:21:40,506 - INFO - Selenium driver initialized successfully.
+2026-01-27 02:21:40,506 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-01-27 02:21:40,522 - INFO - [The Guardian] Success with 'requests_browser'. Found content (2060 words).
+2026-01-27 02:21:40,557 - INFO - Duplicate article skipped: ‘They threw us out like baggage’: Russian family deported from US to Costa Rica still in limbo | US immigration | The Guardian from The Guardian
+2026-01-27 02:21:40,648 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-01-27 02:21:40,648 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/fisherfolk-oppose-mamallan-reservoir-project-at-gram-sabhas/article70553666.ece
+2026-01-27 02:21:40,648 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:21:40,747 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c9dv4wlw3yzo?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:40,747 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:40,761 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-01-27 02:21:40,762 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/why-marco-rubio-pretends-to-be-a-mummy-on-air-force-one-inside-trumps-sleepless-flights/articleshow/127586130.cms
+2026-01-27 02:21:40,762 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:21:40,794 - INFO - [BBC] Success with 'requests_browser'. Found content (386 words).
+2026-01-27 02:21:40,833 - INFO - Duplicate article skipped: Nigerian officers to face trial over allegations of a coup against President Bola Tinubu from BBC
+2026-01-27 02:21:41,522 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgy049ypd5o?at_medium=RSS&at_campaign=rss
+2026-01-27 02:21:41,522 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-01-27 02:21:41,571 - INFO - [BBC] Success with 'requests_browser'. Found content (558 words).
+2026-01-27 02:21:41,644 - INFO - Duplicate article skipped: Spain slashes speed limit on popular train route after fault found from BBC
+2026-01-27 02:21:43,090 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:21:43,464 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (128 words).
+2026-01-27 02:21:43,694 - INFO - Saved article: Fisherfolk oppose Mamallan Reservoir project at Gram Sabhas - The Hindu from The Hindu
+2026-01-27 02:21:44,747 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/venezuelas-delcy-rodriguez-has-capitulated-to-us-pressure-tariq-ali/article70553248.ece
+2026-01-27 02:21:44,747 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:21:50,653 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:21:50,968 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (645 words).
+2026-01-27 02:21:51,122 - INFO - Saved article: Venezuela’s Delcy Rodriguez has capitulated to U.S. pressure: Tariq Ali - The Hindu from The Hindu
+2026-01-27 02:21:51,646 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/forest-guard-asks-maharashtra-cabinet-minister-dr-ambedkar-name-during-republic-day-event/article70554368.ece
+2026-01-27 02:21:51,646 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:21:56,718 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:21:56,979 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (489 words).
+2026-01-27 02:21:57,201 - INFO - Duplicate article skipped: ‘Why didn’t you mention Dr. Ambedkar’s name’, angry forest guard asks Maharashtra cabinet Minister during Republic Day event - The Hindu from The Hindu
+2026-01-27 02:21:58,672 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rahul-insulted-northeast-by-not-wearing-gamosa-at-reception-hosted-by-president-bjp/article70554186.ece
+2026-01-27 02:21:58,672 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:05,054 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:05,348 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (701 words).
+2026-01-27 02:22:05,596 - INFO - Duplicate article skipped: Rahul ‘insulted’ northeast by not wearing Gamosa at reception hosted by President: BJP - The Hindu from The Hindu
+2026-01-27 02:22:06,701 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/banking-operations-to-be-hit-on-january-27-unions-strike-seeking-five-day-work-week/article70554166.ece
+2026-01-27 02:22:06,701 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:09,968 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:10,071 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (506 words).
+2026-01-27 02:22:10,157 - INFO - Duplicate article skipped: Banking operations to be hit on January 27 as unions to go on strike seeking five-day work week - The Hindu from The Hindu
+2026-01-27 02:22:11,036 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/sarwat-hussain-digital-media-centre-opened-at-osmania-universitys-journalism-department/article70552608.ece
+2026-01-27 02:22:11,036 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:11,945 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:12,051 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (321 words).
+2026-01-27 02:22:12,134 - INFO - Duplicate article skipped: Sarwat Hussain Digital Media centre opened at Osmania University’s Journalism department - The Hindu from The Hindu
+2026-01-27 02:22:13,077 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/calm-streets-crowded-fairgrounds-official-ceremonies-mark-republic-day-in-hyderabad/article70553742.ece
+2026-01-27 02:22:13,078 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:15,458 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:15,510 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (470 words).
+2026-01-27 02:22:15,570 - INFO - Duplicate article skipped: Calm streets, crowded fairgrounds, official ceremonies mark Republic Day in Hyderabad - The Hindu from The Hindu
+2026-01-27 02:22:16,277 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/speakers-advocate-for-caste-census-at-vizag-symposium/article70553190.ece
+2026-01-27 02:22:16,277 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:18,556 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:18,826 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (208 words).
+2026-01-27 02:22:18,893 - INFO - Duplicate article skipped: Speakers advocate for caste census at Vizag symposium - The Hindu from The Hindu
+2026-01-27 02:22:19,505 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/swr-achieves-gross-revenue-of-6939-crore-in-first-three-quarters/article70553059.ece
+2026-01-27 02:22:19,505 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:21,233 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:21,439 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (480 words).
+2026-01-27 02:22:21,549 - INFO - Duplicate article skipped: SWR achieves gross revenue of ₹6,939 crore in first three quarters - The Hindu from The Hindu
+2026-01-27 02:22:22,848 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/centre-undermining-rural-employment-rights-priyank-kharge/article70553144.ece
+2026-01-27 02:22:22,848 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:25,701 - INFO - [The Hindu] Page content loaded.
+2026-01-27 02:22:25,803 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (468 words).
+2026-01-27 02:22:25,898 - INFO - Duplicate article skipped: Centre undermining rural employment rights: Priyank Kharge - The Hindu from The Hindu
+2026-01-27 02:22:27,146 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-27 02:22:27,307 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-01-27 02:22:40,790 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/why-marco-rubio-pretends-to-be-a-mummy-on-air-force-one-inside-trumps-sleepless-flights/articleshow/127586130.cms: Message: timeout: Timed out receiving message from renderer: 59.862
+  (Session info: chrome=144.0.7559.59)
+Stacktrace:
+#0 0x562a3e0a5c3a <unknown>
+#1 0x562a3dabf969 <unknown>
+#2 0x562a3daa7201 <unknown>
+#3 0x562a3daa6e26 <unknown>
+#4 0x562a3daa494b <unknown>
+#5 0x562a3daa52cf <unknown>
+#6 0x562a3dab4700 <unknown>
+#7 0x562a3dace6f7 <unknown>
+#8 0x562a3dad597b <unknown>
+#9 0x562a3daa5a39 <unknown>
+#10 0x562a3dace48a <unknown>
+#11 0x562a3db5dd98 <unknown>
+#12 0x562a3db06be2 <unknown>
+#13 0x562a3db07991 <unknown>
+#14 0x562a3e06ba99 <unknown>
+#15 0x562a3e06e9b1 <unknown>
+#16 0x562a3e0580a9 <unknown>
+#17 0x562a3e06f56e <unknown>
+#18 0x562a3e03e5e0 <unknown>
+#19 0x562a3e093358 <unknown>
+#20 0x562a3e093528 <unknown>
+#21 0x562a3e0a4fa8 <unknown>
+#22 0x7f2b5069caa4 <unknown>
+#23 0x7f2b50729c6c <unknown>
+
+2026-01-27 02:22:40,790 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/why-marco-rubio-pretends-to-be-a-mummy-on-air-force-one-inside-trumps-sleepless-flights/articleshow/127586130.cms. Falling back to RSS description.
+2026-01-27 02:22:40,792 - INFO - Saved article: Why Marco Rubio pretends to be a ‘mummy’ on Air Force One? Inside Trump’s sleepless flights from Times of India
+2026-01-27 02:22:41,816 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/brandon-paul-breaks-down-after-tiktok-star-mackenzie-paul-dies-at-26-following-three-year-battle-with-acute-myeloid-leukaemia/articleshow/127581603.cms
+2026-01-27 02:22:41,816 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:45,909 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:22:46,077 - INFO - [Times of India] Success with 'selenium_browser'. Found content (435 words).
+2026-01-27 02:22:46,151 - INFO - Saved article: Brandon Paul breaks down after TikTok star MacKenzie Paul dies at 26 following three year battle with acute myeloid leukaemia - The Times of India from Times of India
+2026-01-27 02:22:47,056 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/jessica-daugirdas-dies-at-35-after-sharing-her-three-year-colorectal-cancer-fight-with-followers/articleshow/127579126.cms
+2026-01-27 02:22:47,056 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:48,975 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:22:49,105 - INFO - [Times of India] Success with 'selenium_browser'. Found content (453 words).
+2026-01-27 02:22:49,225 - INFO - Saved article: Jessica Daugirdas dies at 35 after sharing her three-year colorectal cancer fight with followers - The Times of India from Times of India
+2026-01-27 02:22:50,380 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/border-patrol-commander-gregory-bovino-removed-amid-backlash-over-pretti-shooting-kristi-noem-also-said-to-be-at-risk-report/articleshow/127584810.cms
+2026-01-27 02:22:50,381 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:51,078 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:22:51,233 - INFO - [Times of India] Success with 'selenium_browser'. Found content (239 words).
+2026-01-27 02:22:51,286 - INFO - Saved article: Border Patrol commander Gregory Bovino removed amid backlash over Pretti shooting; Kristi Noem also said to be at risk: Report - The Times of India from Times of India
+2026-01-27 02:22:52,425 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/fbi-director-kash-patels-firearm-comment-on-pretti-shooting-sparks-second-amendment-debate-what-is-it/articleshow/127580926.cms
+2026-01-27 02:22:52,425 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:54,651 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:22:54,764 - INFO - [Times of India] Success with 'selenium_browser'. Found content (278 words).
+2026-01-27 02:22:54,832 - INFO - Saved article: FBI director Kash Patel’s firearm comment on Alex Pretti shooting sparks Second Amendment debate — what is it? - The Times of India from Times of India
+2026-01-27 02:22:55,622 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/big-armada-near-iran-trump-says-tehran-wants-to-talk-strike-deal-amid-rising-tensions/articleshow/127577197.cms
+2026-01-27 02:22:55,622 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:56,314 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:22:56,503 - INFO - [Times of India] Success with 'selenium_browser'. Found content (539 words).
+2026-01-27 02:22:56,553 - INFO - Saved article: ‘Big armada’ near Iran: Trump says Tehran 'wants to talk, strike deal' amid rising tensions - The Times of India from Times of India
+2026-01-27 02:22:58,026 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/uk-households-urged-to-stockpile-three-essentials-ahead-of-storm-chandra-power-cut-risk/articleshow/127574703.cms
+2026-01-27 02:22:58,026 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:22:58,599 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:22:58,759 - INFO - [Times of India] Success with 'selenium_browser'. Found content (614 words).
+2026-01-27 02:22:58,818 - INFO - Duplicate article skipped: UK households urged to stockpile three essentials ahead of Storm Chandra power cut risk | World News - The Times of India from Times of India
+2026-01-27 02:22:59,692 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/west-virginia-woman-arrested-in-alleged-trump-assassination-plot-sheriff-says-she-recruit-people-on-social-media/articleshow/127575630.cms
+2026-01-27 02:22:59,692 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:23:00,736 - INFO - [Times of India] Page content loaded.
+2026-01-27 02:23:00,896 - INFO - [Times of India] Success with 'selenium_browser'. Found content (425 words).
+2026-01-27 02:23:00,963 - INFO - Duplicate article skipped: West Virginia woman arrested in alleged Trump assassination plot; sheriff says she recruit people on social media - The Times of India from Times of India
+2026-01-27 02:23:02,150 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/youtuber-whistlindiesel-faces-another-tax-arrest-after-previous-2025-case/articleshow/127575057.cms
+2026-01-27 02:23:02,150 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:23:13,992 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2026-01-27 02:23:14,103 - INFO - [Times of India] Success with 'selenium_browser'. Found content (347 words).
+2026-01-27 02:23:14,177 - INFO - Duplicate article skipped: YouTuber WhistlinDiesel faces another tax arrest after previous 2025 case - The Times of India from Times of India
+2026-01-27 02:23:15,071 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/mrbeast-criticizes-netflix-pay-would-give-alex-honnold-over-500k-for-taipei-101-stunt/articleshow/127572998.cms
+2026-01-27 02:23:15,071 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-01-27 02:23:26,718 - WARNING - [Times of India] Page timed out (10s). No <p> tags found. Proceeding anyway.
+2026-01-27 02:23:26,870 - INFO - [Times of India] Success with 'selenium_browser'. Found content (394 words).
+2026-01-27 02:23:26,954 - INFO - Duplicate article skipped: MrBeast criticizes Netflix pay, would give Alex Honnold over $500K for Taipei 101 stunt - The Times of India from Times of India
+2026-01-27 02:23:27,729 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-01-27 02:23:28,006 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-01-27 02:23:28,006 - INFO - Shutting down thread pool (wait=False)...
+2026-01-27 02:23:28,006 - INFO - Scraped: 6 Times of India, 0 The Guardian, 5 BBC, 2 The Hindu articles. (Total saved: 13)
+2026-01-27 02:23:28,006 - INFO - --- Scraping job finished ---
+2026-01-27 02:23:28,012 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-01-27 02:23:28,012 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
