@@ -1,0 +1,236 @@
+2026-02-05 18:57:56,415 - INFO - Initializing database connection at: news_articles.db
+2026-02-05 18:57:56,415 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-02-05 18:57:56,415 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-02-05 18:57:56,415 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-02-05 18:57:56,416 - INFO - Proxy is DISABLED.
+2026-02-05 18:57:56,416 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-02-05 18:57:56,416 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-02-05 18:57:56,416 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-05 18:57:56,417 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-02-05 18:57:56,417 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-02-05 18:57:56,417 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-05 18:57:56,417 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-02-05 18:57:56,525 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-02-05 18:57:56,526 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/05/nigeria-sends-troops-to-villages-attacked-by-jihadist-fighters
+2026-02-05 18:57:56,526 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:56,641 - INFO - Found 23 articles in BBC RSS feed. Processing up to 10.
+2026-02-05 18:57:56,642 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62np09q7l1o?at_medium=RSS&at_campaign=rss
+2026-02-05 18:57:56,642 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:56,779 - INFO - [BBC] Success with 'requests_browser'. Found content (442 words).
+2026-02-05 18:57:56,840 - INFO - [The Guardian] Success with 'requests_browser'. Found content (523 words).
+2026-02-05 18:57:56,850 - INFO - Saved article: Russia and Ukraine exchange prisoners as peace talks end without breakthrough from BBC
+2026-02-05 18:57:56,873 - INFO - Duplicate article skipped: Nigeria sends troops to villages attacked by jihadist fighters | Nigeria | The Guardian from The Guardian
+2026-02-05 18:57:57,881 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp37v4kyv3eo?at_medium=RSS&at_campaign=rss
+2026-02-05 18:57:57,881 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:57,922 - INFO - [BBC] Success with 'requests_browser'. Found content (954 words).
+2026-02-05 18:57:57,964 - INFO - Saved article: Keir Starmer apologises to Epstein victims for believing Mandelson's 'lies' from BBC
+2026-02-05 18:57:57,978 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/04/gunmen-west-nigeria-attack-red-cross
+2026-02-05 18:57:57,978 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:58,005 - INFO - [The Guardian] Success with 'requests_browser'. Found content (881 words).
+2026-02-05 18:57:58,049 - INFO - Duplicate article skipped: Gunmen kill more than 160 people in attacks on two west Nigeria villages | Nigeria | The Guardian from The Guardian
+2026-02-05 18:57:58,794 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/04/uganda-opposition-leader-bobi-wine-in-hiding-muhoozi-kainerugaba-feud
+2026-02-05 18:57:58,795 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:58,820 - INFO - [The Guardian] Success with 'requests_browser'. Found content (873 words).
+2026-02-05 18:57:58,856 - INFO - Duplicate article skipped: Ugandan opposition leader still in hiding as feud with president’s son escalates | Uganda | The Guardian from The Guardian
+2026-02-05 18:57:59,074 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c368g5l33xzo?at_medium=RSS&at_campaign=rss
+2026-02-05 18:57:59,074 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:59,113 - INFO - [BBC] Success with 'requests_browser'. Found content (370 words).
+2026-02-05 18:57:59,155 - INFO - Duplicate article skipped: Gus Lamont: Suspect identified in disappearance of four-year-old in Australian outback from BBC
+2026-02-05 18:57:59,951 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/04/death-of-nigerian-singer-highlights-crisis-of-preventable-snakebite-fatalities
+2026-02-05 18:57:59,951 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:57:59,974 - INFO - [The Guardian] Success with 'requests_browser'. Found content (734 words).
+2026-02-05 18:58:00,012 - INFO - Duplicate article skipped: Death of Nigerian singer after snakebite highlights crisis of ‘preventable’ fatalities | Global development | The Guardian from The Guardian
+2026-02-05 18:58:00,378 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgez359nd72o?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:00,378 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:00,408 - INFO - [BBC] Success with 'requests_browser'. Found content (471 words).
+2026-02-05 18:58:00,447 - INFO - Duplicate article skipped: Lebanon says Israel sprayed southern villages with concentrated herbicide from BBC
+2026-02-05 18:58:01,098 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1wzrlndzjro?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:01,098 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:01,133 - INFO - [BBC] Success with 'requests_browser'. Found content (504 words).
+2026-02-05 18:58:01,170 - INFO - Duplicate article skipped: Japanese city cancels cherry blossom festival over badly behaved tourists from BBC
+2026-02-05 18:58:01,350 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/04/trump-us-china-russia-democratic-recession-peril-human-rights-watch
+2026-02-05 18:58:01,350 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:01,404 - INFO - [The Guardian] Success with 'requests_browser'. Found content (763 words).
+2026-02-05 18:58:01,441 - INFO - Duplicate article skipped: Trump-led abuses amid ‘democratic recession’ put human rights in peril, HRW report says | Human rights | The Guardian from The Guardian
+2026-02-05 18:58:02,362 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ckgvllk3lx9o?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:02,362 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:02,407 - INFO - [BBC] Success with 'requests_browser'. Found content (884 words).
+2026-02-05 18:58:02,450 - INFO - Duplicate article skipped: Kwara state attack: Dozens of Muslims 'massacred' in Nigeria for refusing to join Boko Haram, says governor from BBC
+2026-02-05 18:58:02,879 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/05/trump-cuba-us-talks
+2026-02-05 18:58:02,879 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:03,273 - INFO - [The Guardian] Success with 'requests_browser'. Found content (529 words).
+2026-02-05 18:58:03,308 - INFO - Saved article: Cuba open to talks with US ‘without pressure’ after months of Trump threats | Cuba | The Guardian from The Guardian
+2026-02-05 18:58:03,356 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c86v8y4ppd9o?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:03,356 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:03,384 - INFO - [BBC] Success with 'requests_browser'. Found content (345 words).
+2026-02-05 18:58:03,425 - INFO - Saved article: Israeli intelligence chief's brother charged with smuggling cigarettes into Gaza from BBC
+2026-02-05 18:58:04,481 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/05/toronto-police-organized-crime-canada
+2026-02-05 18:58:04,481 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:04,504 - INFO - [The Guardian] Success with 'requests_browser'. Found content (622 words).
+2026-02-05 18:58:04,550 - INFO - Saved article: Eight current and former Toronto police arrested in organized crime inquiry | Canada | The Guardian from The Guardian
+2026-02-05 18:58:04,867 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgj2knp4d9o?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:04,867 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:04,902 - INFO - [BBC] Success with 'requests_browser'. Found content (755 words).
+2026-02-05 18:58:04,947 - INFO - Saved article: US and Iran agree to nuclear talks in Oman on Friday from BBC
+2026-02-05 18:58:05,425 - INFO - Selenium driver initialized successfully.
+2026-02-05 18:58:05,425 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-02-05 18:58:05,426 - INFO - Selenium driver initialized successfully.
+2026-02-05 18:58:05,426 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-02-05 18:58:05,477 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/05/nicolas-maduro-alex-saab-caracas-venezuela
+2026-02-05 18:58:05,477 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:05,494 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-02-05 18:58:05,495 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/deeply-disappointing-cops-charged-in-canada-for-working-with-extortion-gang-drug-traffickers-they-leaked-personal-information-to-criminals/articleshow/127946196.cms
+2026-02-05 18:58:05,495 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:05,505 - INFO - [The Guardian] Success with 'requests_browser'. Found content (586 words).
+2026-02-05 18:58:05,544 - INFO - Duplicate article skipped: Maduro’s alleged frontman Alex Saab reportedly detained in Caracas | Venezuela | The Guardian from The Guardian
+2026-02-05 18:58:05,562 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-02-05 18:58:05,562 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/west-bengal/tmcgovt-hikes-monthly-aid-for-women-unveils-scheme-for-unemployed/article70596709.ece
+2026-02-05 18:58:05,562 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:06,212 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/05/el-helicoide-delcy-rodriguez-venezuela
+2026-02-05 18:58:06,212 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:06,247 - INFO - [The Guardian] Success with 'requests_browser'. Found content (944 words).
+2026-02-05 18:58:06,295 - INFO - Duplicate article skipped: Venezuela plan to turn notorious prison into cultural centre scrubs past horrors, critics say | Venezuela | The Guardian from The Guardian
+2026-02-05 18:58:06,393 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c20dq9e3qr7o?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:06,393 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:06,436 - INFO - [BBC] Success with 'requests_browser'. Found content (572 words).
+2026-02-05 18:58:06,488 - INFO - Saved article: South Sudan conflict: MSF says staff missing after air strikes hit hospital in Jonglei from BBC
+2026-02-05 18:58:07,204 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgn2dzwd1do?at_medium=RSS&at_campaign=rss
+2026-02-05 18:58:07,204 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:07,266 - INFO - [BBC] Success with 'requests_browser'. Found content (733 words).
+2026-02-05 18:58:07,295 - INFO - [The Guardian] Article: https://www.theguardian.com/news/audio/2026/feb/04/the-people-betting-on-catastrophic-world-events-podcast
+2026-02-05 18:58:07,295 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-05 18:58:07,349 - INFO - Duplicate article skipped: 55,000 Ukrainian soldiers killed in war with Russia, Zelensky says from BBC
+2026-02-05 18:58:07,483 - INFO - [The Guardian] Success with 'requests_browser'. Found content (320 words).
+2026-02-05 18:58:07,577 - INFO - Duplicate article skipped: The people betting on catastrophic world events – podcast | Business | The Guardian from The Guardian
+2026-02-05 18:58:10,468 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:10,632 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (488 words).
+2026-02-05 18:58:10,971 - INFO - Saved article: TMC govt. hikes monthly aid for women, unveils scheme for unemployed - The Hindu from The Hindu
+2026-02-05 18:58:12,333 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/feminichi-fatima-to-open-81st-rasmi-film-festival-on-february-6/article70596796.ece
+2026-02-05 18:58:12,333 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:14,490 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:14,852 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (178 words).
+2026-02-05 18:58:15,021 - INFO - Saved article: Feminichi Fatima to open 81st Rasmi film festival on February 6 - The Hindu from The Hindu
+2026-02-05 18:58:16,414 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/maharashtra/gadchiroli-maoist-encounter-maoist-camps-destroyed/article70597378.ece
+2026-02-05 18:58:16,414 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:18,609 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:18,659 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (231 words).
+2026-02-05 18:58:18,741 - INFO - Saved article: Maoist killed, C-60 commando injured in encounter in Gadchiroli; two Maoist camps destroyed - The Hindu from The Hindu
+2026-02-05 18:58:19,653 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tn-should-pursue-project-to-link-godavari-and-cauvery-to-address-water-needs-vit-chancellor/article70596192.ece
+2026-02-05 18:58:19,653 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:21,439 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:21,627 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (366 words).
+2026-02-05 18:58:21,725 - INFO - Saved article: T.N. should pursue project to link Godavari and Cauvery to address water needs: VIT Chancellor - The Hindu from The Hindu
+2026-02-05 18:58:22,377 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/punjab/mobile-phone-ban-in-himachal-pradesh-schools-from-march-1/article70596436.ece
+2026-02-05 18:58:22,377 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:23,697 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:23,954 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (282 words).
+2026-02-05 18:58:24,071 - INFO - Saved article: Mobile phone ban in Himachal Pradesh schools from March 1 - The Hindu from The Hindu
+2026-02-05 18:58:24,827 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/global-seminar-on-fireflies-concludes/article70596652.ece
+2026-02-05 18:58:24,827 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:26,116 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:26,158 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (149 words).
+2026-02-05 18:58:26,253 - INFO - Saved article: Global seminar on fireflies concludes - The Hindu from The Hindu
+2026-02-05 18:58:27,348 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/punjab/farmers-stage-protest-againstindia-us-trade-deal-across-punjab/article70596221.ece
+2026-02-05 18:58:27,348 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:28,339 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:28,394 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (157 words).
+2026-02-05 18:58:28,472 - INFO - Saved article: Farmers stage protest against India-U.S. trade deal across Punjab - The Hindu from The Hindu
+2026-02-05 18:58:29,856 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/doctors-use-translation-tools-to-bridge-language-barrier-to-treat-syrian-patients-at-jayadeva-institute/article70596545.ece
+2026-02-05 18:58:29,856 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:30,936 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:30,976 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (249 words).
+2026-02-05 18:58:31,038 - INFO - Saved article: Doctors use translation tools to bridge language barrier to treat Syrian patients at Jayadeva Institute - The Hindu from The Hindu
+2026-02-05 18:58:31,839 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/new-headquarters-for-kerala-media-academy-at-kakkanad/article70597180.ece
+2026-02-05 18:58:31,839 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:33,093 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:33,134 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (137 words).
+2026-02-05 18:58:33,187 - INFO - Saved article: New headquarters for Kerala Media Academy at Kakkanad - The Hindu from The Hindu
+2026-02-05 18:58:34,224 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/autorickshaw-driver-caught-stealing-alleges-assault-police-register-case/article70595820.ece
+2026-02-05 18:58:34,224 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:58:35,256 - INFO - [The Hindu] Page content loaded.
+2026-02-05 18:58:35,296 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (346 words).
+2026-02-05 18:58:35,370 - INFO - Saved article: Autorickshaw driver caught stealing alleges assault; police register case - The Hindu from The Hindu
+2026-02-05 18:58:36,810 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-05 18:58:36,927 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-02-05 18:59:05,509 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/rest-of-world/deeply-disappointing-cops-charged-in-canada-for-working-with-extortion-gang-drug-traffickers-they-leaked-personal-information-to-criminals/articleshow/127946196.cms: Message: timeout: Timed out receiving message from renderer: 59.917
+  (Session info: chrome=144.0.7559.96)
+Stacktrace:
+#0 0x560c15aa7afa <unknown>
+#1 0x560c154c160f <unknown>
+#2 0x560c154a8d11 <unknown>
+#3 0x560c154a8936 <unknown>
+#4 0x560c154a644b <unknown>
+#5 0x560c154a6dcf <unknown>
+#6 0x560c154b62e0 <unknown>
+#7 0x560c154d02b7 <unknown>
+#8 0x560c154d74bb <unknown>
+#9 0x560c154a7539 <unknown>
+#10 0x560c154d004c <unknown>
+#11 0x560c1555f9a3 <unknown>
+#12 0x560c15508842 <unknown>
+#13 0x560c15509631 <unknown>
+#14 0x560c15a6d689 <unknown>
+#15 0x560c15a70581 <unknown>
+#16 0x560c15a59ca9 <unknown>
+#17 0x560c15a7113e <unknown>
+#18 0x560c15a403a0 <unknown>
+#19 0x560c15a94fc8 <unknown>
+#20 0x560c15a9519b <unknown>
+#21 0x560c15aa6e68 <unknown>
+#22 0x7fee1e09caa4 <unknown>
+#23 0x7fee1e129c6c <unknown>
+
+2026-02-05 18:59:05,509 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/rest-of-world/deeply-disappointing-cops-charged-in-canada-for-working-with-extortion-gang-drug-traffickers-they-leaked-personal-information-to-criminals/articleshow/127946196.cms. Falling back to RSS description.
+2026-02-05 18:59:05,512 - INFO - Saved article: 'Deeply disappointing': Cops charged in Canada for working with extortion gang, drug traffickers; they leaked personal information to criminals from Times of India
+2026-02-05 18:59:06,323 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/trump-epstein-files-bill-gates-elonmusk/articleshow/127945470.cms
+2026-02-05 18:59:06,324 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:07,683 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:07,820 - INFO - [Times of India] Success with 'selenium_browser'. Found content (875 words).
+2026-02-05 18:59:07,914 - INFO - Duplicate article skipped: Hammam mein sab…: Why Donald Trump remains untouched by the Epstein files (so far) | World News - The Times of India from Times of India
+2026-02-05 18:59:08,537 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/importing-radical-islam-will-destroy-america-texas-congressman-brandon-gill-warns-of-consequences-like-europe/articleshow/127944248.cms
+2026-02-05 18:59:08,537 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:10,457 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:10,605 - INFO - [Times of India] Success with 'selenium_browser'. Found content (621 words).
+2026-02-05 18:59:10,751 - INFO - Duplicate article skipped: ‘Importing radical Islam will destroy America’: Texas congressman Brandon Gill warns of ‘consequences like Europe’ | World News - The Times of India from Times of India
+2026-02-05 18:59:11,321 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/happy-to-eat-your-share-of-samosas-maga-influencer-slams-pastor-for-speaking-up-for-indians/articleshow/127943630.cms
+2026-02-05 18:59:11,321 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:12,028 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:12,182 - INFO - [Times of India] Success with 'selenium_browser'. Found content (334 words).
+2026-02-05 18:59:12,241 - INFO - Duplicate article skipped: 'Happy to eat your share of samosas': MAGA influencer slams pastor for speaking up for Indians - The Times of India from Times of India
+2026-02-05 18:59:12,749 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/epstein-files-new-email-shows-ghislaine-maxwell-explains-controversial-photo-of-prince-andrew-and-virginia-giuffre/articleshow/127932236.cms
+2026-02-05 18:59:12,753 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:14,099 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:14,262 - INFO - [Times of India] Success with 'selenium_browser'. Found content (707 words).
+2026-02-05 18:59:14,334 - INFO - Duplicate article skipped: Epstein Files: New email shows Ghislaine Maxwell explains controversial photo of Prince Andrew and Virginia Giuffre | World News - The Times of India from Times of India
+2026-02-05 18:59:15,785 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/viral-post-claims-texas-restaurant-offering-jobs-only-to-f-1-students-paying-in-cash/articleshow/127940003.cms
+2026-02-05 18:59:15,785 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:17,069 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:17,197 - INFO - [Times of India] Success with 'selenium_browser'. Found content (395 words).
+2026-02-05 18:59:17,261 - INFO - Duplicate article skipped: Viral post claims Indian restaurant in Texas offering jobs only to F-1 students, paying in cash - The Times of India from Times of India
+2026-02-05 18:59:17,970 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/protego-how-jk-rowling-denied-entry-to-jeffrey-epstein/articleshow/127939910.cms
+2026-02-05 18:59:17,971 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:18,938 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:19,076 - INFO - [Times of India] Success with 'selenium_browser'. Found content (583 words).
+2026-02-05 18:59:19,176 - INFO - Duplicate article skipped: Protego: How JK Rowling denied entry to Jeffrey Epstein | World News - The Times of India from Times of India
+2026-02-05 18:59:20,603 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/shes-been-nasty-to-him-laura-loomer-praises-trump-as-he-helps-savannah-guthrie-amid-mothers-disappearance/articleshow/127938308.cms
+2026-02-05 18:59:20,603 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:22,069 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:22,207 - INFO - [Times of India] Success with 'selenium_browser'. Found content (711 words).
+2026-02-05 18:59:22,303 - INFO - Duplicate article skipped: ‘She’s been nasty to him’: Laura Loomer praises Trump as he helps Savannah Guthrie amid mother’s disappearance - The Times of India from Times of India
+2026-02-05 18:59:23,348 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/not-american-enough-vivek-ramaswamy-faces-backlash-over-daughters-hindu-name-savithri/articleshow/127937279.cms
+2026-02-05 18:59:23,348 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:24,131 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:24,260 - INFO - [Times of India] Success with 'selenium_browser'. Found content (374 words).
+2026-02-05 18:59:24,351 - INFO - Duplicate article skipped: ‘Not American enough’: Vivek Ramaswamy faces backlash over daughter’s 'Hindu' name Savithri | World News - The Times of India from Times of India
+2026-02-05 18:59:25,541 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/why-science-says-ghosts-do-not-exist-the-real-reasons-behind-a-most-human-belief/articleshow/127881692.cms
+2026-02-05 18:59:25,541 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-05 18:59:26,603 - INFO - [Times of India] Page content loaded.
+2026-02-05 18:59:26,723 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1154 words).
+2026-02-05 18:59:26,777 - INFO - Duplicate article skipped: Why science says ghosts do not exist: The real reasons behind a most human belief | - The Times of India from Times of India
+2026-02-05 18:59:27,450 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-05 18:59:27,584 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-02-05 18:59:27,586 - INFO - Shutting down thread pool (wait=False)...
+2026-02-05 18:59:27,586 - INFO - Scraped: 10 The Hindu, 2 The Guardian, 1 Times of India, 5 BBC articles. (Total saved: 18)
+2026-02-05 18:59:27,586 - INFO - --- Scraping job finished ---
+2026-02-05 18:59:27,592 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-02-05 18:59:27,592 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
