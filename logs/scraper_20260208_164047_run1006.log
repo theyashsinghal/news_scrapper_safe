@@ -1,0 +1,236 @@
+2026-02-08 16:38:50,708 - INFO - Initializing database connection at: news_articles.db
+2026-02-08 16:38:50,708 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-02-08 16:38:50,709 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-02-08 16:38:50,709 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-02-08 16:38:50,709 - INFO - Proxy is DISABLED.
+2026-02-08 16:38:50,709 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-02-08 16:38:50,709 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-02-08 16:38:50,709 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-08 16:38:50,710 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-02-08 16:38:50,710 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-02-08 16:38:50,710 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-08 16:38:50,710 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-02-08 16:38:50,891 - INFO - Found 30 articles in BBC RSS feed. Processing up to 10.
+2026-02-08 16:38:50,891 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2y7d2z29xo?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:50,891 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:50,964 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-02-08 16:38:50,964 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/07/sudan-rsf-drone-attack-rahad-kills-displaced-people
+2026-02-08 16:38:50,964 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:51,127 - INFO - [BBC] Success with 'requests_browser'. Found content (636 words).
+2026-02-08 16:38:51,164 - INFO - Duplicate article skipped: Japan's governing party projected to win snap election majority from BBC
+2026-02-08 16:38:51,185 - INFO - [The Guardian] Success with 'requests_browser'. Found content (817 words).
+2026-02-08 16:38:51,224 - INFO - Duplicate article skipped: RSF drone attack kills 24 people fleeing fighting in central Sudan, says doctors group | Sudan | The Guardian from The Guardian
+2026-02-08 16:38:51,922 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/07/businesses-close-protest-malawi-tax-changes-electronic-invoicing-system
+2026-02-08 16:38:51,922 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:52,102 - INFO - [The Guardian] Success with 'requests_browser'. Found content (591 words).
+2026-02-08 16:38:52,132 - INFO - Duplicate article skipped: Thousands of Malawi businesses close in protest over tax changes | Global development | The Guardian from The Guardian
+2026-02-08 16:38:52,614 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2jn4z4eq0o?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:52,615 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:52,669 - INFO - [BBC] Success with 'requests_browser'. Found content (858 words).
+2026-02-08 16:38:52,704 - INFO - Duplicate article skipped: Thailand election 2026: PM claims election victory as early results show conservatives ahead from BBC
+2026-02-08 16:38:52,845 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/feb/06/weather-tracker-storm-leonardo-europe-portugal-spain-northern-africa
+2026-02-08 16:38:52,845 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:52,883 - INFO - [The Guardian] Success with 'requests_browser'. Found content (438 words).
+2026-02-08 16:38:52,914 - INFO - Duplicate article skipped: Weather tracker: Storm Leonardo continues to batter Europe and northern Africa | Europe | The Guardian from The Guardian
+2026-02-08 16:38:53,713 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/05/nigeria-sends-troops-to-villages-attacked-by-jihadist-fighters
+2026-02-08 16:38:53,714 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:53,867 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy7j6xe8862o?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:53,867 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:53,875 - INFO - [The Guardian] Success with 'requests_browser'. Found content (663 words).
+2026-02-08 16:38:53,908 - INFO - Duplicate article skipped: ‘They killed my sons’: chief of Nigerian village where jihadists massacred hundreds recounts night of terror | Nigeria | The Guardian from The Guardian
+2026-02-08 16:38:53,933 - INFO - [BBC] Success with 'requests_browser'. Found content (550 words).
+2026-02-08 16:38:53,967 - INFO - Duplicate article skipped: Vladimir Alexeyev: Russia names three suspects in shooting of general from BBC
+2026-02-08 16:38:54,733 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/04/gunmen-west-nigeria-attack-red-cross
+2026-02-08 16:38:54,733 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:54,776 - INFO - [The Guardian] Success with 'requests_browser'. Found content (881 words).
+2026-02-08 16:38:54,814 - INFO - Duplicate article skipped: Gunmen kill more than 160 people in attacks on two west Nigeria villages | Nigeria | The Guardian from The Guardian
+2026-02-08 16:38:55,324 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce9y99eg0nno?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:55,324 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:55,377 - INFO - [BBC] Success with 'requests_browser'. Found content (621 words).
+2026-02-08 16:38:55,446 - INFO - Duplicate article skipped: Savannah Guthrie says 'we will pay' for mother's safe return from BBC
+2026-02-08 16:38:55,880 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/08/canada-alberta-separatism-join-us
+2026-02-08 16:38:55,880 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:55,918 - INFO - [The Guardian] Success with 'requests_browser'. Found content (798 words).
+2026-02-08 16:38:55,951 - INFO - Duplicate article skipped: Canada is no stranger to separatism but push for Alberta to join US is a new peril | Canada | The Guardian from The Guardian
+2026-02-08 16:38:56,170 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0j5pg0597po?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:56,170 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:56,224 - INFO - [BBC] Success with 'requests_browser'. Found content (479 words).
+2026-02-08 16:38:56,259 - INFO - Duplicate article skipped: South Africa's Wiandre Pretorius: Man named at Madlanga Commission found dead from BBC
+2026-02-08 16:38:56,742 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/feb/07/bermuda-snail-thought-to-be-extinct-now-thrives-after-a-decades-effort
+2026-02-08 16:38:56,743 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:56,911 - INFO - [The Guardian] Success with 'requests_browser'. Found content (436 words).
+2026-02-08 16:38:56,944 - INFO - Duplicate article skipped: Bermuda snail thought to be extinct now thrives after a decade’s effort | Wildlife | The Guardian from The Guardian
+2026-02-08 16:38:57,545 - INFO - [BBC] Article: https://www.bbc.com/sport/articles/c98q5g51z4no?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:57,545 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:57,597 - INFO - [BBC] Success with 'requests_browser'. Found content (918 words).
+2026-02-08 16:38:57,631 - INFO - Duplicate article skipped: Lindsey Vonn crashes out in women's downhill at Winter Olympics as compatriot Breezy Johnson wins gold - BBC Sport from BBC
+2026-02-08 16:38:57,655 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/07/china-overturns-death-sentence-of-canadian-robert-lloyd-schellenberg-in-sign-of-diplomatic-thaw
+2026-02-08 16:38:57,656 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:57,801 - INFO - [The Guardian] Success with 'requests_browser'. Found content (526 words).
+2026-02-08 16:38:57,832 - INFO - Duplicate article skipped: China overturns death sentence of Canadian in sign of diplomatic thaw | China | The Guardian from The Guardian
+2026-02-08 16:38:58,651 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/feb/06/trump-proclamation-us-imports-argentine-beef
+2026-02-08 16:38:58,651 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:58,796 - INFO - [The Guardian] Success with 'requests_browser'. Found content (303 words).
+2026-02-08 16:38:58,802 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cre2egrg5q1o?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:58,807 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:58,828 - INFO - Duplicate article skipped: Trump signs proclamation to increase US imports of beef from Argentina | Donald Trump | The Guardian from The Guardian
+2026-02-08 16:38:58,863 - INFO - [BBC] Success with 'requests_browser'. Found content (539 words).
+2026-02-08 16:38:58,897 - INFO - Duplicate article skipped: 3 Doors Down lead singer Brad Arnold dies at 47 from BBC
+2026-02-08 16:38:59,462 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/06/canada-and-france-open-greenland-consulates-in-show-of-denmark-support
+2026-02-08 16:38:59,462 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:59,614 - INFO - [The Guardian] Success with 'requests_browser'. Found content (352 words).
+2026-02-08 16:38:59,653 - INFO - Duplicate article skipped: Canada and France open Greenland consulates in show of Denmark support | Greenland | The Guardian from The Guardian
+2026-02-08 16:38:59,868 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgl5293n5n9o?at_medium=RSS&at_campaign=rss
+2026-02-08 16:38:59,868 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:38:59,915 - INFO - [BBC] Success with 'requests_browser'. Found content (604 words).
+2026-02-08 16:38:59,945 - INFO - Duplicate article skipped: Italian police arrest protesters after clash in Olympic host city Milan from BBC
+2026-02-08 16:39:00,937 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8e5ee39j47o?at_medium=RSS&at_campaign=rss
+2026-02-08 16:39:00,937 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:39:00,981 - INFO - [BBC] Success with 'requests_browser'. Found content (366 words).
+2026-02-08 16:39:01,017 - INFO - Duplicate article skipped: Washington Post chief executive Will Lewis steps down after mass lay-offs from BBC
+2026-02-08 16:39:02,176 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cg7e981e4n5o?at_medium=RSS&at_campaign=rss
+2026-02-08 16:39:02,176 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-08 16:39:02,221 - INFO - [BBC] Success with 'requests_browser'. Found content (380 words).
+2026-02-08 16:39:02,256 - INFO - Duplicate article skipped: Australia's opposition coalition reunites after row over hate-speech laws from BBC
+2026-02-08 16:39:02,333 - INFO - Selenium driver initialized successfully.
+2026-02-08 16:39:02,333 - INFO - Selenium driver initialized successfully.
+2026-02-08 16:39:02,333 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-02-08 16:39:02,334 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-02-08 16:39:02,506 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-02-08 16:39:02,506 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/failure-to-count-dnts-in-2027-census-could-alienate-over-10-crore-people-gn-devy/article70607271.ece
+2026-02-08 16:39:02,506 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:02,773 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-02-08 16:39:02,773 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/japan-snap-elections-takaichi-led-ldp-projected-to-storm-back-to-power-top-developments/articleshow/128070183.cms
+2026-02-08 16:39:02,773 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:08,035 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:08,684 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (880 words).
+2026-02-08 16:39:09,345 - INFO - Saved article: Failure to count DNTs in 2027 Census could alienate over 10 crore people: G.N. Devy - The Hindu from The Hindu
+2026-02-08 16:39:10,535 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/curtain-falls-on-malappuram-film-fest/article70608300.ece
+2026-02-08 16:39:10,535 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:13,488 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:13,680 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (118 words).
+2026-02-08 16:39:13,935 - INFO - Saved article: Curtain falls on Malappuram Film Fest - The Hindu from The Hindu
+2026-02-08 16:39:14,506 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/pedalling-for-a-greener-tomorrow/article70608328.ece
+2026-02-08 16:39:14,506 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:15,518 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:15,585 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (300 words).
+2026-02-08 16:39:15,656 - INFO - Saved article: Pedalling for a greener tomorrow - The Hindu from The Hindu
+2026-02-08 16:39:17,092 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/iuml-should-clarify-stand-on-tie-up-with-jih-says-govindan/article70608255.ece
+2026-02-08 16:39:17,092 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:17,878 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:17,915 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (308 words).
+2026-02-08 16:39:17,963 - INFO - Saved article: IUML should clarify stand on tie-up with JIH, says Govindan - The Hindu from The Hindu
+2026-02-08 16:39:19,290 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/history-literature-festival-concludes-with-conversations-on-cinema-hyderabad-and-war/article70608164.ece
+2026-02-08 16:39:19,290 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:20,139 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:20,189 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (475 words).
+2026-02-08 16:39:20,253 - INFO - Saved article: History Literature Festival concludes with conversations on cinema, Hyderabad and war - The Hindu from The Hindu
+2026-02-08 16:39:21,126 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/youth-congress-workers-put-up-banners-against-modi-in-bengaluru/article70608362.ece
+2026-02-08 16:39:21,126 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:22,005 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:22,041 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (86 words).
+2026-02-08 16:39:22,103 - INFO - Saved article: Youth Congress workers put up banners against Modi in Bengaluru - The Hindu from The Hindu
+2026-02-08 16:39:23,019 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/manipur/ailing-kuki-zo-mla-airlifted-from-imphal-to-delhi/article70608140.ece
+2026-02-08 16:39:23,019 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:24,148 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:24,275 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (320 words).
+2026-02-08 16:39:24,416 - INFO - Saved article: Ailing Kuki-Zo MLA airlifted from Imphal to Delhi - The Hindu from The Hindu
+2026-02-08 16:39:25,134 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/keralas-people-centric-model-stands-out-in-responsible-tourism-experts/article70608214.ece
+2026-02-08 16:39:25,134 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:26,518 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:26,713 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (260 words).
+2026-02-08 16:39:26,839 - INFO - Saved article: Kerala’s people-centric model stands out in Responsible Tourism: experts - The Hindu from The Hindu
+2026-02-08 16:39:27,790 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/sacrilege-at-tirumala-will-not-be-tolerated-bjp-state-chief/article70608219.ece
+2026-02-08 16:39:27,790 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:29,321 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:29,377 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (194 words).
+2026-02-08 16:39:29,443 - INFO - Saved article: Sacrilege at Tirumala will not be tolerated: BJP State chief - The Hindu from The Hindu
+2026-02-08 16:39:30,418 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttarakhand/cpim-leader-brittas-meets-uttarakhand-gym-owner-deepak-shopkeeper-after-alleged-right-wing-harassment/article70607912.ece
+2026-02-08 16:39:30,418 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:39:31,525 - INFO - [The Hindu] Page content loaded.
+2026-02-08 16:39:31,629 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (230 words).
+2026-02-08 16:39:31,710 - INFO - Saved article: CPI(M) leader Brittas meets Uttarakhand gym owner Deepak, shopkeeper, after alleged right-wing harassment - The Hindu from The Hindu
+2026-02-08 16:39:32,707 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-08 16:39:32,804 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-02-08 16:40:02,781 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/rest-of-world/japan-snap-elections-takaichi-led-ldp-projected-to-storm-back-to-power-top-developments/articleshow/128070183.cms: Message: timeout: Timed out receiving message from renderer: 58.822
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x55f747a7f4ba <unknown>
+#1 0x55f7474e8492 <unknown>
+#2 0x55f7474cfb47 <unknown>
+#3 0x55f7474cf756 <unknown>
+#4 0x55f7474cd271 <unknown>
+#5 0x55f7474cdbff <unknown>
+#6 0x55f7474dd150 <unknown>
+#7 0x55f7474f7147 <unknown>
+#8 0x55f7474fe34b <unknown>
+#9 0x55f7474ce369 <unknown>
+#10 0x55f7474f6eda <unknown>
+#11 0x55f747586a78 <unknown>
+#12 0x55f74752f6a2 <unknown>
+#13 0x55f747530491 <unknown>
+#14 0x55f747a45479 <unknown>
+#15 0x55f747a48391 <unknown>
+#16 0x55f747a31a89 <unknown>
+#17 0x55f747a48f4e <unknown>
+#18 0x55f747a18070 <unknown>
+#19 0x55f747a6cca8 <unknown>
+#20 0x55f747a6ce78 <unknown>
+#21 0x55f747a7e828 <unknown>
+#22 0x7f578dc9caa4 <unknown>
+#23 0x7f578dd29c6c <unknown>
+
+2026-02-08 16:40:02,781 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/rest-of-world/japan-snap-elections-takaichi-led-ldp-projected-to-storm-back-to-power-top-developments/articleshow/128070183.cms. Falling back to RSS description.
+2026-02-08 16:40:02,782 - INFO - Duplicate article skipped: Japan snap elections: PM Sanae Takaichi’s LDP secures majority in lower house from Times of India
+2026-02-08 16:40:03,290 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/thailand-elections-conservative-pm-anutin-charnvirakul-claims-election-victory/articleshow/128076472.cms
+2026-02-08 16:40:03,290 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:27,996 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:28,323 - INFO - [Times of India] Success with 'selenium_browser'. Found content (208 words).
+2026-02-08 16:40:28,432 - INFO - Saved article: Thailand elections: Conservative PM Anutin Charnvirakul claims victory - The Times of India from Times of India
+2026-02-08 16:40:29,656 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/she-nearly-died-18-month-old-girl-was-returned-to-ice-custody-denied-medication-despite-life-threatening-illness-lawsuit-says/articleshow/128076200.cms
+2026-02-08 16:40:29,656 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:30,486 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:30,622 - INFO - [Times of India] Success with 'selenium_browser'. Found content (237 words).
+2026-02-08 16:40:30,676 - INFO - Saved article: ‘She nearly died’: 18-month-old girl returned to ICE custody, denied medication despite life-threatening illness, lawsuit says - The Times of India from Times of India
+2026-02-08 16:40:31,569 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/they-started-beating-me-mexican-immigrant-with-8-skull-fractures-recalls-ice-assault-in-minnesota/articleshow/128075390.cms
+2026-02-08 16:40:31,569 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:32,547 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:32,676 - INFO - [Times of India] Success with 'selenium_browser'. Found content (542 words).
+2026-02-08 16:40:32,760 - INFO - Saved article: ‘They started beating me’: Mexican immigrant with 8 skull fractures recalls ICE assault in Minnesota - The Times of India from Times of India
+2026-02-08 16:40:33,602 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/florida-now-offers-english-only-driving-tests-following-fatal-crash-involving-immigrant-driver/articleshow/128073693.cms
+2026-02-08 16:40:33,602 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:34,925 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:35,038 - INFO - [Times of India] Success with 'selenium_browser'. Found content (379 words).
+2026-02-08 16:40:35,098 - INFO - Saved article: Florida now offers English-only driving tests following fatal crash involving immigrant driver - The Times of India from Times of India
+2026-02-08 16:40:36,348 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/uk-pm-keir-starmers-chief-of-staff-quits-over-appointment-of-peter-mandelson-as-us-ambassador-despite-epstein-ties/articleshow/128074944.cms
+2026-02-08 16:40:36,348 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:37,308 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:37,431 - INFO - [Times of India] Success with 'selenium_browser'. Found content (349 words).
+2026-02-08 16:40:37,485 - INFO - Saved article: UK PM Keir Starmer’s chief of staff quits over appointment of Peter Mandelson as US ambassador despite Epstein ties - The Times of India from Times of India
+2026-02-08 16:40:38,616 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/south-asia/bringing-them-to-justice-bangladesh-seeks-un-help-to-probe-killing-of-student-leader-sharif-osman-hadi/articleshow/128074879.cms
+2026-02-08 16:40:38,616 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:39,580 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:39,713 - INFO - [Times of India] Success with 'selenium_browser'. Found content (427 words).
+2026-02-08 16:40:39,781 - INFO - Saved article: ‘Bringing them to justice’: Bangladesh seeks UN help to probe killing of student leader Sharif Osman Hadi - The Times of India from Times of India
+2026-02-08 16:40:41,037 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/epstein-files-fallout-peter-mandelsons-five-figure-payoff-after-sacking-as-us-ambassador-under-review/articleshow/128074422.cms
+2026-02-08 16:40:41,037 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:42,166 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:42,317 - INFO - [Times of India] Success with 'selenium_browser'. Found content (505 words).
+2026-02-08 16:40:42,370 - INFO - Saved article: Epstein files fallout: Peter Mandelson’s five-figure payoff after sacking as US ambassador under review - The Times of India from Times of India
+2026-02-08 16:40:43,401 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/real-estate/news/i-want-to-drive-housing-prices-up-donald-trump-backs-rising-home-values-despite-affordability-concerns/articleshow/128070621.cms
+2026-02-08 16:40:43,401 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:44,230 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:44,331 - INFO - [Times of India] Success with 'selenium_browser'. Found content (498 words).
+2026-02-08 16:40:44,381 - INFO - Duplicate article skipped: ‘I want to drive housing prices up’: Donald Trump backs rising home values despite affordability concerns - The Times of India from Times of India
+2026-02-08 16:40:44,962 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/unintentionally-hilarious-internet-react-after-robot-falls-during-cardi-bs-lap-dance-in-viral-video/articleshow/128072352.cms
+2026-02-08 16:40:44,962 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-08 16:40:45,723 - INFO - [Times of India] Page content loaded.
+2026-02-08 16:40:45,857 - INFO - [Times of India] Success with 'selenium_browser'. Found content (209 words).
+2026-02-08 16:40:45,926 - INFO - Duplicate article skipped: 'Unintentionally hilarious': Internet react after robot falls during Cardi B’s lap dance in viral video - The Times of India from Times of India
+2026-02-08 16:40:47,112 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-08 16:40:47,271 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-02-08 16:40:47,272 - INFO - Shutting down thread pool (wait=False)...
+2026-02-08 16:40:47,272 - INFO - Scraped: 10 The Hindu, 0 The Guardian, 7 Times of India, 0 BBC articles. (Total saved: 17)
+2026-02-08 16:40:47,272 - INFO - --- Scraping job finished ---
+2026-02-08 16:40:47,279 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-02-08 16:40:47,279 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
