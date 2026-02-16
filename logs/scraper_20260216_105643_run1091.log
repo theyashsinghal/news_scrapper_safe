@@ -1,0 +1,236 @@
+2026-02-16 10:55:08,923 - INFO - Initializing database connection at: news_articles.db
+2026-02-16 10:55:08,923 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-02-16 10:55:08,924 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-02-16 10:55:08,924 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-02-16 10:55:08,924 - INFO - Proxy is DISABLED.
+2026-02-16 10:55:08,924 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-02-16 10:55:08,924 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-02-16 10:55:08,925 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-16 10:55:08,925 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-02-16 10:55:08,929 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-02-16 10:55:08,929 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-16 10:55:08,930 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-02-16 10:55:09,030 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-02-16 10:55:09,030 - INFO - [The Guardian] Article: https://www.theguardian.com/news/audio/2026/feb/16/how-an-undercover-cop-foiled-an-is-plot-to-massacre-britains-jews-podcast
+2026-02-16 10:55:09,030 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:09,038 - INFO - Found 21 articles in BBC RSS feed. Processing up to 10.
+2026-02-16 10:55:09,038 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5yrv2g16e2o?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:09,038 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:09,152 - INFO - [The Guardian] Success with 'requests_browser'. Found content (186 words).
+2026-02-16 10:55:09,203 - INFO - Duplicate article skipped: How an undercover cop foiled an IS plot to massacre Britain’s Jews – podcast | Antisemitism | The Guardian from The Guardian
+2026-02-16 10:55:09,247 - INFO - [BBC] Success with 'requests_browser'. Found content (538 words).
+2026-02-16 10:55:09,287 - INFO - Duplicate article skipped: Savannah Guthrie pleas for Nancy Guthrie release as FBI analyses glove from BBC
+2026-02-16 10:55:10,184 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/14/assailants-kill-raids-northwest-nigeria-villages-residents-say
+2026-02-16 10:55:10,184 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:10,295 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cddn002g6qzo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:10,295 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:10,301 - INFO - [The Guardian] Success with 'requests_browser'. Found content (434 words).
+2026-02-16 10:55:10,342 - INFO - Duplicate article skipped: Assailants kill at least 32 in north-west Nigerian villages, residents say | Nigeria | The Guardian from The Guardian
+2026-02-16 10:55:10,389 - INFO - [BBC] Success with 'requests_browser'. Found content (2339 words).
+2026-02-16 10:55:10,436 - INFO - Duplicate article skipped: Trump's new world order is real and Europe is having to adjust fast from BBC
+2026-02-16 10:55:11,114 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c3rzwe7lr4jo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:11,114 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:11,153 - INFO - [BBC] Success with 'requests_browser'. Found content (423 words).
+2026-02-16 10:55:11,185 - INFO - Duplicate article skipped: Naveed Akram: Bondi Beach shooting accused faces court for the first time from BBC
+2026-02-16 10:55:11,590 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/09/deaths-migrant-boat-capsizes-mediterranean-libya
+2026-02-16 10:55:11,590 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:11,704 - INFO - [The Guardian] Success with 'requests_browser'. Found content (367 words).
+2026-02-16 10:55:11,746 - INFO - Duplicate article skipped: 53 people dead or missing after migrant boat capsizes in Mediterranean | Migration | The Guardian from The Guardian
+2026-02-16 10:55:12,317 - INFO - [The Guardian] Article: https://www.theguardian.com/music/2026/feb/09/ebo-taylor-ghanaian-highlife-pioneer-dies-age-90
+2026-02-16 10:55:12,317 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:12,410 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz7genjx9njo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:12,411 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:12,435 - INFO - [The Guardian] Success with 'requests_browser'. Found content (915 words).
+2026-02-16 10:55:12,475 - INFO - Duplicate article skipped: Ebo Taylor, Ghanaian highlife pioneer and guitarist, dies age 90 | Music | The Guardian from The Guardian
+2026-02-16 10:55:12,490 - INFO - [BBC] Success with 'requests_browser'. Found content (753 words).
+2026-02-16 10:55:12,530 - INFO - Duplicate article skipped: Bondi criticised after saying all Epstein files have been released from BBC
+2026-02-16 10:55:13,074 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4g5380xwqjo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:13,074 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:13,105 - INFO - [BBC] Success with 'requests_browser'. Found content (540 words).
+2026-02-16 10:55:13,169 - INFO - [The Guardian] Article: https://www.theguardian.com/environment/2026/feb/09/weather-tracker-spain-and-portugal-hit-by-third-fatal-storm
+2026-02-16 10:55:13,169 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:13,170 - INFO - Duplicate article skipped: Ukraine's ex-energy minister arrested while attempting to leave country from BBC
+2026-02-16 10:55:13,283 - INFO - [The Guardian] Success with 'requests_browser'. Found content (391 words).
+2026-02-16 10:55:13,331 - INFO - Duplicate article skipped: Weather tracker: Spain and Portugal hit by third deadly storm in two weeks | Flooding | The Guardian from The Guardian
+2026-02-16 10:55:13,874 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly191kz1lpo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:13,874 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:13,917 - INFO - [BBC] Success with 'requests_browser'. Found content (521 words).
+2026-02-16 10:55:13,959 - INFO - Duplicate article skipped: Iran must abandon enriched uranium and not produce more, Netanyahu says from BBC
+2026-02-16 10:55:14,463 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/15/canada-support-tumbler-ridge-school-shooting
+2026-02-16 10:55:14,463 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:14,488 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1120 words).
+2026-02-16 10:55:14,525 - INFO - Duplicate article skipped: ‘People want to help’: Canadians rally round Tumbler Ridge after school shooting | Tumbler Ridge school shooting | The Guardian from The Guardian
+2026-02-16 10:55:15,099 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/15/us-forces-board-second-venezuelalinked-oil-tanker-in-indian-ocean
+2026-02-16 10:55:15,099 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:15,160 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyzen2lgw9o?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:15,160 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:15,187 - INFO - [BBC] Success with 'requests_browser'. Found content (390 words).
+2026-02-16 10:55:15,221 - INFO - Duplicate article skipped: Female Israeli soldiers rescued after being chased by ultra-Orthodox men from BBC
+2026-02-16 10:55:15,244 - INFO - [The Guardian] Success with 'requests_browser'. Found content (372 words).
+2026-02-16 10:55:15,291 - INFO - Duplicate article skipped: US boards second oil tanker in Indian Ocean after it fled Venezuelan raid | Venezuela | The Guardian from The Guardian
+2026-02-16 10:55:16,037 - INFO - [The Guardian] Article: https://www.theguardian.com/news/ng-interactive/2026/feb/15/cuba-crisis-oil-shortage-venezuela-donald-trump-havana
+2026-02-16 10:55:16,037 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:16,152 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1218 words).
+2026-02-16 10:55:16,190 - INFO - Duplicate article skipped: No fuel, no tourists, no cash – this was the week the Cuban crisis got real | Cuba | The Guardian from The Guardian
+2026-02-16 10:55:16,527 - INFO - Selenium driver initialized successfully.
+2026-02-16 10:55:16,527 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-02-16 10:55:16,528 - INFO - Selenium driver initialized successfully.
+2026-02-16 10:55:16,528 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-02-16 10:55:16,579 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cm289we7jzdo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:16,579 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:16,638 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-02-16 10:55:16,638 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/bomb-threat-email-triggers-panic-in-bengaluru-south-district-court/article70638304.ece
+2026-02-16 10:55:16,638 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:16,646 - INFO - [BBC] Success with 'requests_browser'. Found content (677 words).
+2026-02-16 10:55:16,694 - INFO - Duplicate article skipped: What is the dart frog toxin allegedly used to kill Alexei Navalny? from BBC
+2026-02-16 10:55:16,870 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-02-16 10:55:16,870 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/avalanche-derails-swiss-train-80-passengers-on-board-casualties-feared/articleshow/128417501.cms
+2026-02-16 10:55:16,870 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:17,175 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/feb/14/venezuelan-illegally-deported-return-fears
+2026-02-16 10:55:17,175 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:17,202 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1175 words).
+2026-02-16 10:55:17,251 - INFO - Duplicate article skipped: Venezuelan deportee can return to US but fears repeat of ordeal: ‘I’m not over that nightmare yet’ | US immigration | The Guardian from The Guardian
+2026-02-16 10:55:17,997 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0ljzye1zgno?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:17,997 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:18,073 - INFO - [BBC] Success with 'requests_browser'. Found content (455 words).
+2026-02-16 10:55:18,142 - INFO - Duplicate article skipped: Sydney kidnapping: Police appeal for return of man, 85, snatched by mistake from BBC
+2026-02-16 10:55:18,332 - INFO - [The Guardian] Article: https://www.theguardian.com/technology/2026/feb/14/us-military-anthropic-ai-model-claude-venezuela-raid
+2026-02-16 10:55:18,332 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:18,369 - INFO - [The Guardian] Success with 'requests_browser'. Found content (403 words).
+2026-02-16 10:55:18,472 - INFO - Duplicate article skipped: US military used Anthropic’s AI model Claude in Venezuela raid, report says | AI (artificial intelligence) | The Guardian from The Guardian
+2026-02-16 10:55:19,269 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cev7e3m04ngo?at_medium=RSS&at_campaign=rss
+2026-02-16 10:55:19,269 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-16 10:55:19,622 - INFO - [BBC] Success with 'requests_browser'. Found content (421 words).
+2026-02-16 10:55:19,810 - INFO - Saved article: Nigeria warns against enlisting abroad after reports of deaths in Ukraine from BBC
+2026-02-16 10:55:22,948 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:23,341 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (115 words).
+2026-02-16 10:55:23,611 - INFO - Saved article: Bomb threat email triggers panic in Bengaluru South district court - The Hindu from The Hindu
+2026-02-16 10:55:24,458 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:55:24,756 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/ahead-of-budget-session-doctors-urge-tn-government-to-double-staff-strength-in-hospitals/article70638124.ece
+2026-02-16 10:55:24,757 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:25,164 - INFO - [Times of India] Success with 'selenium_browser'. Found content (218 words).
+2026-02-16 10:55:25,614 - INFO - Saved article: Avalanche derails Swiss train: 80 passengers on board; casualties feared - The Times of India from Times of India
+2026-02-16 10:55:26,239 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/who-was-alan-turing-the-man-who-broke-german-codes-in-world-war-ii-but-was-later-treated-as-a-criminal/articleshow/128417308.cms
+2026-02-16 10:55:26,239 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:26,515 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:26,828 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (188 words).
+2026-02-16 10:55:27,008 - INFO - Saved article: Ahead of Budget session, doctors urge T.N. government to double staff strength in hospitals - The Hindu from The Hindu
+2026-02-16 10:55:28,374 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/assam/bhupen-borah-resignation-withdrawal-updates-congress-rahul-gandhi-gaurav-gogoi/article70638350.ece
+2026-02-16 10:55:28,374 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:33,951 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:34,185 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (136 words).
+2026-02-16 10:55:34,313 - INFO - Saved article: Bhupen Borah withdrew resignation after Congress high command’s intervention: AICC Assam in-charge - The Hindu from The Hindu
+2026-02-16 10:55:35,386 - INFO - [The Hindu] Article: https://www.thehindu.com/business/snapdeal-fined-5-lakh-for-selling-toys-violating-bis-standards-ccpa/article70638356.ece
+2026-02-16 10:55:35,386 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:36,219 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:36,402 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (173 words).
+2026-02-16 10:55:36,497 - INFO - Saved article: Snapdeal fined ₹5 lakh for selling toys violating BIS standards: CCPA - The Hindu from The Hindu
+2026-02-16 10:55:37,966 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kargil-war-veteran-shoots-dead-wife-and-son-kills-self-in-up/article70638312.ece
+2026-02-16 10:55:37,966 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:39,370 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:39,457 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (530 words).
+2026-02-16 10:55:39,523 - INFO - Saved article: Kargil war veteran shoots dead wife and son, kills self in Uttar Pradesh - The Hindu from The Hindu
+2026-02-16 10:55:40,136 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/telangana-to-rollout-free-hpv-vaccination-programme-for-girls-aged-14-and-15-at-end-of-february/article70638163.ece
+2026-02-16 10:55:40,136 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:43,063 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:43,167 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (366 words).
+2026-02-16 10:55:43,291 - INFO - Saved article: Telangana to rollout free HPV vaccination programme for girls aged 14 and 15 at end of February - The Hindu from The Hindu
+2026-02-16 10:55:44,310 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tn-assembly-election-dmk-to-insist-on-action-against-manickam-tagore-praveen-chakravarty-before-talks-with-congress/article70638285.ece
+2026-02-16 10:55:44,310 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:51,259 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:51,389 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (504 words).
+2026-02-16 10:55:51,520 - INFO - Saved article: T.N. Assembly election: DMK to insist on action against Manickam Tagore, Praveen Chakravarty before seat-sharing talks with Congress - The Hindu from The Hindu
+2026-02-16 10:55:52,291 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/odisha/odisha-caste-row-ends-children-return-to-anganwadi-centre-consume-food-cooked-by-dalit-employee/article70638260.ece
+2026-02-16 10:55:52,291 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:55,628 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:55,699 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (537 words).
+2026-02-16 10:55:55,815 - INFO - Saved article: Odisha caste row ends; children return to anganwadi centre, consume food cooked by Dalit employee - The Hindu from The Hindu
+2026-02-16 10:55:56,576 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/sabarimala-womens-entry-kerala-law-minister-says-govt-to-seek-balance-between-religious-practices-constitutional-rights-ahead-of-sc-hearing/article70638237.ece
+2026-02-16 10:55:56,576 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:55:59,072 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:55:59,159 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (388 words).
+2026-02-16 10:55:59,274 - INFO - Saved article: Sabarimala women’s entry: Kerala Law Minister says govt to seek ‘balance’ between religious practices, constitutional rights ahead of SC hearing - The Hindu from The Hindu
+2026-02-16 10:55:59,902 - INFO - [The Hindu] Article: https://www.thehindu.com/entertainment/music/ar-rahman-the-wonderment-tour-concert-chennai-valentines-day-chinmayi-rakshita-dhanush-alexander-babu/article70636436.ece
+2026-02-16 10:55:59,902 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:01,106 - INFO - [The Hindu] Page content loaded.
+2026-02-16 10:56:01,318 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1266 words).
+2026-02-16 10:56:01,438 - INFO - Saved article: Love trumps hate: AR Rahman’s ‘The Wonderment Tour’ concert in Chennai champions unity on Valentine’s Day - The Hindu from The Hindu
+2026-02-16 10:56:02,370 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-16 10:56:02,512 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-02-16 10:56:26,259 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/rest-of-world/who-was-alan-turing-the-man-who-broke-german-codes-in-world-war-ii-but-was-later-treated-as-a-criminal/articleshow/128417308.cms: Message: timeout: Timed out receiving message from renderer: 59.950
+  (Session info: chrome=144.0.7559.132)
+Stacktrace:
+#0 0x5617ac04da4a <unknown>
+#1 0x5617aba666a2 <unknown>
+#2 0x5617aba4dd87 <unknown>
+#3 0x5617aba4d996 <unknown>
+#4 0x5617aba4b4a1 <unknown>
+#5 0x5617aba4be2f <unknown>
+#6 0x5617aba5b360 <unknown>
+#7 0x5617aba75357 <unknown>
+#8 0x5617aba7c56b <unknown>
+#9 0x5617aba4c599 <unknown>
+#10 0x5617aba750ec <unknown>
+#11 0x5617abb04b68 <unknown>
+#12 0x5617abaad8b2 <unknown>
+#13 0x5617abaae6a1 <unknown>
+#14 0x5617ac0138a9 <unknown>
+#15 0x5617ac0167b1 <unknown>
+#16 0x5617abfffea9 <unknown>
+#17 0x5617ac01736e <unknown>
+#18 0x5617abfe6410 <unknown>
+#19 0x5617ac03b0c8 <unknown>
+#20 0x5617ac03b29b <unknown>
+#21 0x5617ac04cdb8 <unknown>
+#22 0x7f195f29caa4 <unknown>
+#23 0x7f195f329c6c <unknown>
+
+2026-02-16 10:56:26,259 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/rest-of-world/who-was-alan-turing-the-man-who-broke-german-codes-in-world-war-ii-but-was-later-treated-as-a-criminal/articleshow/128417308.cms. Falling back to RSS description.
+2026-02-16 10:56:26,261 - INFO - Saved article: Who was Alan Turing: The man who broke German codes in World War II but was later treated as a criminal from Times of India
+2026-02-16 10:56:27,165 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-annual-leave-rules-2026-explained-carry-over-to-payouts-4-things-employees-in-emirates-should-know/articleshow/128411738.cms
+2026-02-16 10:56:27,165 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:27,792 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:27,955 - INFO - [Times of India] Success with 'selenium_browser'. Found content (560 words).
+2026-02-16 10:56:28,040 - INFO - Saved article: UAE annual leave rules 2026 explained: Carry over to payouts, 4 things employees in emirates should know - The Times of India from Times of India
+2026-02-16 10:56:28,960 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/pakistan-2-killed-14-injured-in-ied-blast-in-khyber-pakhtunkhwa/articleshow/128417401.cms
+2026-02-16 10:56:28,960 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:29,782 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:29,873 - INFO - [Times of India] Success with 'selenium_browser'. Found content (301 words).
+2026-02-16 10:56:29,937 - INFO - Saved article: Pakistan: 2 killed, 14 injured in IED blast in Khyber Pakhtunkhwa - The Times of India from Times of India
+2026-02-16 10:56:31,252 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/europe/we-naturally-do-not-accept-it-russia-rejects-alexei-navalny-poisoning-charge-by-europeans-nations/articleshow/128416296.cms
+2026-02-16 10:56:31,252 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:31,988 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:32,091 - INFO - [Times of India] Success with 'selenium_browser'. Found content (189 words).
+2026-02-16 10:56:32,144 - INFO - Saved article: 'We naturally do not accept it': Russia rejects Alexei Navalny poisoning charge by Europeans nations - The Times of India from Times of India
+2026-02-16 10:56:32,826 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/blue-shirt-trend-from-kate-middleton-to-meghan-markle-why-the-simple-british-button-down-is-fashions-hottest-status-symbol/articleshow/128410103.cms
+2026-02-16 10:56:32,826 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:33,584 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:33,771 - INFO - [Times of India] Success with 'selenium_browser'. Found content (786 words).
+2026-02-16 10:56:33,872 - INFO - Duplicate article skipped: Blue shirt trend from Kate Middleton to Meghan Markle: Why the simple British button-down is fashion's hottest status symbol right now - The Times of India from Times of India
+2026-02-16 10:56:35,035 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-ramadan-2026-weather-outlook-hotter-days-and-lighter-rain-forecast-for-makkah-and-madinah/articleshow/128414408.cms
+2026-02-16 10:56:35,035 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:35,691 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:35,849 - INFO - [Times of India] Success with 'selenium_browser'. Found content (299 words).
+2026-02-16 10:56:35,919 - INFO - Duplicate article skipped: Saudi Arabia Ramadan 2026 weather outlook: Hotter days and lighter rain forecast for Makkah and Madinah | World News - The Times of India from Times of India
+2026-02-16 10:56:36,660 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/suicide-was-actually-hit-and-run-dubai-police-use-ai-powered-digital-twin-to-crack-case/articleshow/128412079.cms
+2026-02-16 10:56:36,660 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:37,485 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:37,671 - INFO - [Times of India] Success with 'selenium_browser'. Found content (580 words).
+2026-02-16 10:56:37,750 - INFO - Duplicate article skipped: 'Suicide’ was actually hit-and-run: Dubai Police use AI-powered digital twin to crack case | World News - The Times of India from Times of India
+2026-02-16 10:56:38,717 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/why-school-bus-commutes-in-the-uae-are-raising-health-and-learning-concerns/articleshow/128407473.cms
+2026-02-16 10:56:38,717 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:39,611 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:39,761 - INFO - [Times of India] Success with 'selenium_browser'. Found content (770 words).
+2026-02-16 10:56:39,867 - INFO - Duplicate article skipped: Why school bus commutes in the UAE are raising health and learning concerns - The Times of India from Times of India
+2026-02-16 10:56:40,921 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/defence/international/first-of-its-kind-mission-us-airlifts-next-gen-nuclear-reactor-on-c-17-aircraft-watch-how-it-was-done/articleshow/128409063.cms
+2026-02-16 10:56:40,921 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-16 10:56:41,653 - INFO - [Times of India] Page content loaded.
+2026-02-16 10:56:41,756 - INFO - [Times of India] Success with 'selenium_browser'. Found content (626 words).
+2026-02-16 10:56:41,806 - INFO - Duplicate article skipped: First-of-its-kind mission: US airlifts next-gen nuclear reactor on C-17 aircraft — watch how it was done - The Times of India from Times of India
+2026-02-16 10:56:43,104 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-16 10:56:43,348 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-02-16 10:56:43,348 - INFO - Shutting down thread pool (wait=False)...
+2026-02-16 10:56:43,348 - INFO - Scraped: 0 The Guardian, 1 BBC, 5 Times of India, 10 The Hindu articles. (Total saved: 16)
+2026-02-16 10:56:43,348 - INFO - --- Scraping job finished ---
+2026-02-16 10:56:43,353 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-02-16 10:56:43,353 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
