@@ -1,0 +1,317 @@
+2026-02-19 13:20:30,773 - INFO - Initializing database connection at: news_articles.db
+2026-02-19 13:20:30,773 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-02-19 13:20:30,773 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-02-19 13:20:30,773 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-02-19 13:20:30,773 - INFO - Proxy is DISABLED.
+2026-02-19 13:20:30,774 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-02-19 13:20:30,774 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-02-19 13:20:30,774 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-19 13:20:30,774 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-02-19 13:20:30,775 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-02-19 13:20:30,775 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-19 13:20:30,775 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-02-19 13:20:30,963 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-02-19 13:20:30,963 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/19/kenyan-soldiers-russia-ukraine-war-intelligence-report
+2026-02-19 13:20:30,963 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:31,028 - INFO - Found 26 articles in BBC RSS feed. Processing up to 10.
+2026-02-19 13:20:31,028 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx28y8xd1vjo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:31,028 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:31,175 - INFO - [The Guardian] Success with 'requests_browser'. Found content (506 words).
+2026-02-19 13:20:31,232 - INFO - Saved article: More than 1,000 Kenyans lured to fight for Russia in Ukraine war, report says | Kenya | The Guardian from The Guardian
+2026-02-19 13:20:31,479 - INFO - [BBC] Success with 'requests_browser'. Found content (659 words).
+2026-02-19 13:20:31,513 - INFO - Duplicate article skipped: Yoon Suk Yeol: South Korea's ex-president jailed for life over martial law attempt from BBC
+2026-02-19 13:20:32,185 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2026/feb/18/countries-do-not-embrace-ai-left-behind-george-osborne
+2026-02-19 13:20:32,185 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:32,218 - INFO - [The Guardian] Success with 'requests_browser'. Found content (736 words).
+2026-02-19 13:20:32,255 - INFO - Duplicate article skipped: Countries that do not embrace AI could be left behind, says OpenAI’s George Osborne | George Osborne | The Guardian from The Guardian
+2026-02-19 13:20:32,744 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cpqw74d81jqo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:32,744 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:32,788 - INFO - [BBC] Success with 'requests_browser'. Found content (1112 words).
+2026-02-19 13:20:32,825 - INFO - Saved article: Sudan civil war: UN says atrocities are 'hallmarks of genocide' from BBC
+2026-02-19 13:20:32,949 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/17/trim-slugs-to-kenya-authorities-israel-tech-crack-activists-phone-report
+2026-02-19 13:20:32,949 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:32,978 - INFO - [The Guardian] Success with 'requests_browser'. Found content (746 words).
+2026-02-19 13:20:33,018 - INFO - Duplicate article skipped: Kenyan authorities used Israeli tech to crack activist’s phone, report claims | Kenya | The Guardian from The Guardian
+2026-02-19 13:20:33,628 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c204zpz0lyro?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:33,628 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:33,669 - INFO - [BBC] Success with 'requests_browser'. Found content (774 words).
+2026-02-19 13:20:33,703 - INFO - Duplicate article skipped: White House presses Iran to make deal, while ramping up military presence from BBC
+2026-02-19 13:20:34,313 - INFO - [The Guardian] Article: https://www.theguardian.com/news/audio/2026/feb/16/how-an-undercover-cop-foiled-an-is-plot-to-massacre-britains-jews-podcast
+2026-02-19 13:20:34,313 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:34,366 - INFO - [The Guardian] Success with 'requests_browser'. Found content (186 words).
+2026-02-19 13:20:34,401 - INFO - Duplicate article skipped: How an undercover cop foiled an IS plot to massacre Britain’s Jews – podcast | Antisemitism | The Guardian from The Guardian
+2026-02-19 13:20:35,143 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c98g1klxnpxo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:35,143 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:35,192 - INFO - [BBC] Success with 'requests_browser'. Found content (1525 words).
+2026-02-19 13:20:35,229 - INFO - Duplicate article skipped: Hamas is reasserting control in Gaza despite its heavy losses fighting Israel from BBC
+2026-02-19 13:20:35,245 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/14/assailants-kill-raids-northwest-nigeria-villages-residents-say
+2026-02-19 13:20:35,245 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:35,304 - INFO - [The Guardian] Success with 'requests_browser'. Found content (434 words).
+2026-02-19 13:20:35,362 - INFO - Duplicate article skipped: Assailants kill at least 32 in north-west Nigerian villages, residents say | Nigeria | The Guardian from The Guardian
+2026-02-19 13:20:36,289 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c309qqyer8yo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:36,289 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:36,331 - INFO - [BBC] Success with 'requests_browser'. Found content (1058 words).
+2026-02-19 13:20:36,364 - INFO - Duplicate article skipped: Chagos Islands: Do not give away Diego Garcia, Trump tells UK from BBC
+2026-02-19 13:20:36,445 - INFO - [The Guardian] Article: https://www.theguardian.com/law/2026/feb/18/international-criminal-court-icc-judges-trump-sanctions
+2026-02-19 13:20:36,445 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:36,502 - INFO - [The Guardian] Success with 'requests_browser'. Found content (930 words).
+2026-02-19 13:20:36,534 - INFO - Duplicate article skipped: Credit cards cancelled, Google accounts closed: ICC judges on life under Trump sanctions | International criminal court | The Guardian from The Guardian
+2026-02-19 13:20:37,319 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/feb/17/us-military-boats-strikes
+2026-02-19 13:20:37,319 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:37,345 - INFO - [The Guardian] Success with 'requests_browser'. Found content (387 words).
+2026-02-19 13:20:37,374 - INFO - Duplicate article skipped: US says 11 people killed in latest strikes on alleged drug boats | US military | The Guardian from The Guardian
+2026-02-19 13:20:37,513 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg19dp4vxgo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:37,513 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:37,555 - INFO - [BBC] Success with 'requests_browser'. Found content (633 words).
+2026-02-19 13:20:37,589 - INFO - Duplicate article skipped: Eight skiers found dead after California avalanche from BBC
+2026-02-19 13:20:38,017 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/17/perus-president-ousted-in-express-impeachment-after-just-four-months
+2026-02-19 13:20:38,017 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:38,071 - INFO - [The Guardian] Success with 'requests_browser'. Found content (481 words).
+2026-02-19 13:20:38,100 - INFO - Duplicate article skipped: Peru’s president ousted in ‘express impeachment’ after just four months | Peru | The Guardian from The Guardian
+2026-02-19 13:20:38,214 - INFO - [BBC] Article: https://www.bbc.com/news/articles/ce8w266769go?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:38,214 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:38,259 - INFO - [BBC] Success with 'requests_browser'. Found content (803 words).
+2026-02-19 13:20:38,297 - INFO - Saved article: Over 1,000 Kenyans enlisted to fight in Russia-Ukraine war, intelligence report says from BBC
+2026-02-19 13:20:38,727 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/17/mexican-president-challenges-uk-asylum-given-to-woman-accused-of-corruption
+2026-02-19 13:20:38,727 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:38,754 - INFO - [The Guardian] Success with 'requests_browser'. Found content (676 words).
+2026-02-19 13:20:38,784 - INFO - Duplicate article skipped: Mexican president challenges UK asylum given to woman accused of corruption | Mexico | The Guardian from The Guardian
+2026-02-19 13:20:39,494 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gq2k8220go?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:39,494 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:39,535 - INFO - [BBC] Success with 'requests_browser'. Found content (544 words).
+2026-02-19 13:20:39,570 - INFO - Duplicate article skipped: Nancy Guthrie: Desperate hunt for breakthrough turns to Mexico from BBC
+2026-02-19 13:20:39,593 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/16/mexico-disappearances-increase
+2026-02-19 13:20:39,593 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:39,646 - INFO - [The Guardian] Success with 'requests_browser'. Found content (805 words).
+2026-02-19 13:20:39,677 - INFO - Duplicate article skipped: Disappearances in Mexico surge by 200% over 10 years | Mexico | The Guardian from The Guardian
+2026-02-19 13:20:40,520 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clyv80e5dljo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:40,520 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:40,552 - INFO - [BBC] Success with 'requests_browser'. Found content (325 words).
+2026-02-19 13:20:40,581 - INFO - Saved article: Woman accused of using ChatGPT to plan drug murders from BBC
+2026-02-19 13:20:41,834 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdxgnrr11rwo?at_medium=RSS&at_campaign=rss
+2026-02-19 13:20:41,834 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-19 13:20:41,868 - INFO - [BBC] Success with 'requests_browser'. Found content (464 words).
+2026-02-19 13:20:41,900 - INFO - Duplicate article skipped: Danika Mason: Australian presenter apologises for drinking before slurred Winter Olympics report from BBC
+2026-02-19 13:20:51,146 - INFO - Selenium driver initialized successfully.
+2026-02-19 13:20:51,146 - INFO - Selenium driver initialized successfully.
+2026-02-19 13:20:51,146 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-02-19 13:20:51,146 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-02-19 13:20:51,550 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-02-19 13:20:51,550 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/harrison-okene-the-man-who-survived-three-days-under-a-boat-at-the-bottom-of-the-sea/articleshow/128558774.cms
+2026-02-19 13:20:51,550 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:20:52,143 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-02-19 13:20:52,144 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/state-level-meeting-on-census-2027-at-secretariat-on-february-20/article70651992.ece
+2026-02-19 13:20:52,144 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:21:51,568 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/rest-of-world/harrison-okene-the-man-who-survived-three-days-under-a-boat-at-the-bottom-of-the-sea/articleshow/128558774.cms: Message: timeout: Timed out receiving message from renderer: 59.880
+  (Session info: chrome=145.0.7632.75)
+Stacktrace:
+#0 0x558f588f7dba <unknown>
+#1 0x558f58307682 <unknown>
+#2 0x558f582eec47 <unknown>
+#3 0x558f582ee856 <unknown>
+#4 0x558f582ec37b <unknown>
+#5 0x558f582eccff <unknown>
+#6 0x558f582fc1b0 <unknown>
+#7 0x558f58316367 <unknown>
+#8 0x558f5831d54b <unknown>
+#9 0x558f582ed469 <unknown>
+#10 0x558f583160f3 <unknown>
+#11 0x558f583a53c3 <unknown>
+#12 0x558f5834e88f <unknown>
+#13 0x558f5834f651 <unknown>
+#14 0x558f588bc209 <unknown>
+#15 0x558f588bf111 <unknown>
+#16 0x558f588a89c9 <unknown>
+#17 0x558f588bfcde <unknown>
+#18 0x558f5888ed40 <unknown>
+#19 0x558f588e4408 <unknown>
+#20 0x558f588e45d8 <unknown>
+#21 0x558f588f6403 <unknown>
+#22 0x7f2a4c49caa4 <unknown>
+#23 0x7f2a4c529c6c <unknown>
+
+2026-02-19 13:21:51,569 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/rest-of-world/harrison-okene-the-man-who-survived-three-days-under-a-boat-at-the-bottom-of-the-sea/articleshow/128558774.cms. Falling back to RSS description.
+2026-02-19 13:21:51,598 - INFO - Saved article: Harrison Okene: The man who survived three days under a boat at the bottom of the sea from Times of India
+2026-02-19 13:21:52,162 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/andhra-pradesh/state-level-meeting-on-census-2027-at-secretariat-on-february-20/article70651992.ece: Message: timeout: Timed out receiving message from renderer: 58.914
+  (Session info: chrome=145.0.7632.75)
+Stacktrace:
+#0 0x560e6bcecdba <unknown>
+#1 0x560e6b6fc682 <unknown>
+#2 0x560e6b6e3c47 <unknown>
+#3 0x560e6b6e3856 <unknown>
+#4 0x560e6b6e137b <unknown>
+#5 0x560e6b6e1cff <unknown>
+#6 0x560e6b6f11b0 <unknown>
+#7 0x560e6b70b367 <unknown>
+#8 0x560e6b71254b <unknown>
+#9 0x560e6b6e2469 <unknown>
+#10 0x560e6b70b0f3 <unknown>
+#11 0x560e6b79a3c3 <unknown>
+#12 0x560e6b74388f <unknown>
+#13 0x560e6b744651 <unknown>
+#14 0x560e6bcb1209 <unknown>
+#15 0x560e6bcb4111 <unknown>
+#16 0x560e6bc9d9c9 <unknown>
+#17 0x560e6bcb4cde <unknown>
+#18 0x560e6bc83d40 <unknown>
+#19 0x560e6bcd9408 <unknown>
+#20 0x560e6bcd95d8 <unknown>
+#21 0x560e6bceb403 <unknown>
+#22 0x7fa533e9caa4 <unknown>
+#23 0x7fa533f29c6c <unknown>
+
+2026-02-19 13:21:52,162 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/andhra-pradesh/state-level-meeting-on-census-2027-at-secretariat-on-february-20/article70651992.ece. Falling back to RSS description.
+2026-02-19 13:21:52,164 - INFO - Saved article: State-level meeting on Census-2027 at Secretariat on February 20 from The Hindu
+2026-02-19 13:21:52,707 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/from-prince-to-just-andrew-why-king-charles-iii-stripped-off-brothers-royal-titles-epstein-files/articleshow/128556470.cms
+2026-02-19 13:21:52,707 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:21:53,366 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/vairamudi-brahmotsava-at-melkote-from-march-23/article70652015.ece
+2026-02-19 13:21:53,367 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:21:56,968 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:21:57,022 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (310 words).
+2026-02-19 13:21:57,168 - INFO - Saved article: Vairamudi Brahmotsava at Melkote from March 23 - The Hindu from The Hindu
+2026-02-19 13:21:58,024 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/iconic-tusker-padayappa-tests-nerves-in-munnar/article70652143.ece
+2026-02-19 13:21:58,024 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:00,663 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:00,754 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (430 words).
+2026-02-19 13:22:00,834 - INFO - Saved article: Iconic tusker Padayappa tests nerves in Munnar - The Hindu from The Hindu
+2026-02-19 13:22:01,446 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Tiruchirapalli/sterilisation-vaccination-of-community-dogs-intensified-in-perambalur/article70651959.ece
+2026-02-19 13:22:01,446 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:03,005 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:03,049 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (128 words).
+2026-02-19 13:22:03,109 - INFO - Saved article: Tamil Nadu Stray dog sterilisation and vaccination intensified - The Hindu from The Hindu
+2026-02-19 13:22:03,861 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/gulbarga-universitys-43rd-convocation-to-take-place-on-february-24-three-to-receive-honorary-doctorates/article70651883.ece
+2026-02-19 13:22:03,861 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:07,501 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:07,594 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (439 words).
+2026-02-19 13:22:07,677 - INFO - Saved article: Gulbarga University’s 43rd convocation to take place on February 24; three to receive honorary doctorates - The Hindu from The Hindu
+2026-02-19 13:22:08,735 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/programme-in-memory-of-prof-shivarudrappa-in-shivamogga-on-february-21/article70651243.ece
+2026-02-19 13:22:08,735 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:09,412 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:09,477 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (180 words).
+2026-02-19 13:22:09,577 - INFO - Saved article: Programme in memory of Prof. Shivarudrappa in Shivamogga on February 21 - The Hindu from The Hindu
+2026-02-19 13:22:10,386 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/belagavi-brahmin-samaj-trust-complains-against-encroachments/article70651466.ece
+2026-02-19 13:22:10,386 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:11,519 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:11,563 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (280 words).
+2026-02-19 13:22:11,604 - INFO - Saved article: Belagavi: Brahmin Samaj Trust complains against encroachments - The Hindu from The Hindu
+2026-02-19 13:22:12,900 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/congress-slams-death-threat-to-rahul-gandhi-blames-toxic-bjp-rss-discourse/article70651727.ece
+2026-02-19 13:22:12,900 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:13,707 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:13,833 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (386 words).
+2026-02-19 13:22:13,900 - INFO - Saved article: Rahul Gandhi death threat: Congress blames ‘toxic’ BJP-RSS discourse - The Hindu from The Hindu
+2026-02-19 13:22:14,492 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/hubballi-file-special-leave-petition-against-high-court-order-allowing-bike-taxis-say-driver-unions-to-government/article70651969.ece
+2026-02-19 13:22:14,492 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:15,512 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:15,554 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (276 words).
+2026-02-19 13:22:15,629 - INFO - Saved article: Hubballi: File special leave petition against High Court order allowing bike taxis, say driver unions to government - The Hindu from The Hindu
+2026-02-19 13:22:16,883 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/safai-karmacharis-commission-is-for-addressing-civic-workers-grievances-says-chairman/article70651917.ece
+2026-02-19 13:22:16,883 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:17,576 - INFO - [The Hindu] Page content loaded.
+2026-02-19 13:22:17,673 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (257 words).
+2026-02-19 13:22:17,754 - INFO - Saved article: Safai Karmacharis’ Commission is for addressing civic workers’ grievances, says chairman - The Hindu from The Hindu
+2026-02-19 13:22:18,586 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-19 13:22:18,716 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-02-19 13:22:52,725 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/uk/from-prince-to-just-andrew-why-king-charles-iii-stripped-off-brothers-royal-titles-epstein-files/articleshow/128556470.cms: Message: timeout: Timed out receiving message from renderer: 59.959
+  (Session info: chrome=145.0.7632.75)
+Stacktrace:
+#0 0x558f588f7dba <unknown>
+#1 0x558f58307682 <unknown>
+#2 0x558f582eec47 <unknown>
+#3 0x558f582ee856 <unknown>
+#4 0x558f582ec37b <unknown>
+#5 0x558f582eccff <unknown>
+#6 0x558f582fc1b0 <unknown>
+#7 0x558f58316367 <unknown>
+#8 0x558f5831d54b <unknown>
+#9 0x558f582ed469 <unknown>
+#10 0x558f583160f3 <unknown>
+#11 0x558f583a53c3 <unknown>
+#12 0x558f5834e88f <unknown>
+#13 0x558f5834f651 <unknown>
+#14 0x558f588bc209 <unknown>
+#15 0x558f588bf111 <unknown>
+#16 0x558f588a89c9 <unknown>
+#17 0x558f588bfcde <unknown>
+#18 0x558f5888ed40 <unknown>
+#19 0x558f588e4408 <unknown>
+#20 0x558f588e45d8 <unknown>
+#21 0x558f588f6403 <unknown>
+#22 0x7f2a4c49caa4 <unknown>
+#23 0x7f2a4c529c6c <unknown>
+
+2026-02-19 13:22:52,725 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/uk/from-prince-to-just-andrew-why-king-charles-iii-stripped-off-brothers-royal-titles-epstein-files/articleshow/128556470.cms. Falling back to RSS description.
+2026-02-19 13:22:52,728 - INFO - Saved article: From prince to just Andrew, why King Charles III stripped off brother's royal titles from Times of India
+2026-02-19 13:22:54,028 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/we-reported-andrew-when-others-were-anti-monarchy-group-says-they-got-epstein-linked-former-prince-arrested/articleshow/128557622.cms
+2026-02-19 13:22:54,029 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:54,512 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:22:54,624 - INFO - [Times of India] Success with 'selenium_browser'. Found content (321 words).
+2026-02-19 13:22:54,687 - INFO - Saved article: 'We reported Andrew when others were...': Anti-monarchy group says they got Epstein-linked former prince arrested - The Times of India from Times of India
+2026-02-19 13:22:55,291 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/ex-prince-andrew-arrested-what-recent-files-revealed-about-his-ties-with-epstein/articleshow/128555613.cms
+2026-02-19 13:22:55,291 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:56,045 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:22:56,195 - INFO - [Times of India] Success with 'selenium_browser'. Found content (754 words).
+2026-02-19 13:22:56,304 - INFO - Saved article: Ex-prince Andrew Mountbatten-Windsor arrested: What recent files revealed about his ties with Epstein - The Times of India from Times of India
+2026-02-19 13:22:57,024 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/just-bed-and-toilet-no-royal-privileges-for-arrested-ex-prince-andrew-mountbatten-windsor/articleshow/128555634.cms
+2026-02-19 13:22:57,024 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:22:58,653 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:22:58,826 - INFO - [Times of India] Success with 'selenium_browser'. Found content (370 words).
+2026-02-19 13:22:58,889 - INFO - Saved article: ‘Just bed and toilet’: No royal privileges for arrested ex-prince Andrew Mountbatten-Windsor - The Times of India from Times of India
+2026-02-19 13:22:59,932 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/britains-ex-prince-andrew-arrested-over-misconduct-amid-epstein-row/articleshow/128552441.cms
+2026-02-19 13:22:59,932 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:23:01,265 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:23:01,385 - INFO - [Times of India] Success with 'selenium_browser'. Found content (361 words).
+2026-02-19 13:23:01,460 - INFO - Saved article: Andrew Mountbatten-Windsor: Britain's ex-prince Andrew arrested over misconduct amid Epstein row | World News - The Times of India from Times of India
+2026-02-19 13:23:02,521 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/who-is-nick-fuentes-the-white-nationalist-provocateur-even-maga-wont-touch/articleshow/128509642.cms
+2026-02-19 13:23:02,522 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:24:02,531 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/who-is-nick-fuentes-the-white-nationalist-provocateur-even-maga-wont-touch/articleshow/128509642.cms: Message: timeout: Timed out receiving message from renderer: 59.910
+  (Session info: chrome=145.0.7632.75)
+Stacktrace:
+#0 0x558f588f7dba <unknown>
+#1 0x558f58307682 <unknown>
+#2 0x558f582eec47 <unknown>
+#3 0x558f582ee856 <unknown>
+#4 0x558f582ec37b <unknown>
+#5 0x558f582eccff <unknown>
+#6 0x558f582fc1b0 <unknown>
+#7 0x558f58316367 <unknown>
+#8 0x558f5831d54b <unknown>
+#9 0x558f582ed469 <unknown>
+#10 0x558f583160f3 <unknown>
+#11 0x558f583a53c3 <unknown>
+#12 0x558f5834e88f <unknown>
+#13 0x558f5834f651 <unknown>
+#14 0x558f588bc209 <unknown>
+#15 0x558f588bf111 <unknown>
+#16 0x558f588a89c9 <unknown>
+#17 0x558f588bfcde <unknown>
+#18 0x558f5888ed40 <unknown>
+#19 0x558f588e4408 <unknown>
+#20 0x558f588e45d8 <unknown>
+#21 0x558f588f6403 <unknown>
+#22 0x7f2a4c49caa4 <unknown>
+#23 0x7f2a4c529c6c <unknown>
+
+2026-02-19 13:24:02,531 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/who-is-nick-fuentes-the-white-nationalist-provocateur-even-maga-wont-touch/articleshow/128509642.cms. Falling back to RSS description.
+2026-02-19 13:24:02,533 - INFO - Saved article: Who is Nick Fuentes, the ‘white nationalist’ provocateur even MAGA won’t touch? from Times of India
+2026-02-19 13:24:03,741 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/epstein-sent-woman-andrew-sent-confidential-documents-what-uk-police-is-probing-in-ex-british-princes-arrest/articleshow/128553850.cms
+2026-02-19 13:24:03,741 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:24:04,265 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:24:04,384 - INFO - [Times of India] Success with 'selenium_browser'. Found content (304 words).
+2026-02-19 13:24:04,448 - INFO - Saved article: 'Epstein sent woman, Andrew sent confidential documents': What UK Police is probing in ex-British prince's arrest - The Times of India from Times of India
+2026-02-19 13:24:05,729 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/former-royal-prince-andrew-mountbatten-windsor-arrested-amid-epstein-row-what-we-know-so-far/articleshow/128553661.cms
+2026-02-19 13:24:05,729 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:24:06,169 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:24:06,289 - INFO - [Times of India] Success with 'selenium_browser'. Found content (690 words).
+2026-02-19 13:24:06,338 - INFO - Saved article: Former royal prince Andrew Mountbatten-Windsor arrested amid Epstein row: What we know so far - The Times of India from Times of India
+2026-02-19 13:24:07,591 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/satellite-radar-study-claims-vast-underground-structures-beneath-the-giza-pyramid/articleshow/128546086.cms
+2026-02-19 13:24:07,591 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-19 13:24:08,029 - INFO - [Times of India] Page content loaded.
+2026-02-19 13:24:08,137 - INFO - [Times of India] Success with 'selenium_browser'. Found content (490 words).
+2026-02-19 13:24:08,186 - INFO - Saved article: Satellite radar study claims vast underground structures beneath the Giza Pyramid | World News - The Times of India from Times of India
+2026-02-19 13:24:09,344 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-19 13:24:09,656 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-02-19 13:24:09,656 - INFO - Shutting down thread pool (wait=False)...
+2026-02-19 13:24:09,656 - INFO - Scraped: 1 The Guardian, 3 BBC, 10 The Hindu, 10 Times of India articles. (Total saved: 24)
+2026-02-19 13:24:09,656 - INFO - --- Scraping job finished ---
+2026-02-19 13:24:09,663 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-02-19 13:24:09,663 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
