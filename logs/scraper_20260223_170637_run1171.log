@@ -1,0 +1,209 @@
+2026-02-23 17:05:53,117 - INFO - Initializing database connection at: news_articles.db
+2026-02-23 17:05:53,118 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-02-23 17:05:53,118 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-02-23 17:05:53,118 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-02-23 17:05:53,119 - INFO - Proxy is DISABLED.
+2026-02-23 17:05:53,119 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-02-23 17:05:53,119 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-02-23 17:05:53,119 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-23 17:05:53,119 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-02-23 17:05:53,120 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-02-23 17:05:53,120 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-23 17:05:53,120 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-02-23 17:05:53,191 - INFO - Found 41 articles in BBC RSS feed. Processing up to 10.
+2026-02-23 17:05:53,191 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gj20xzw39o?at_medium=RSS&at_campaign=rss
+2026-02-23 17:05:53,191 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:53,230 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-02-23 17:05:53,230 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/robert-mugabe-son-bellarmine-mugabe-charged-with-crimes
+2026-02-23 17:05:53,230 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:53,260 - INFO - [The Guardian] Success with 'requests_browser'. Found content (504 words).
+2026-02-23 17:05:53,306 - INFO - Duplicate article skipped: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting | Zimbabwe | The Guardian from The Guardian
+2026-02-23 17:05:53,342 - INFO - [BBC] Success with 'requests_browser'. Found content (1030 words).
+2026-02-23 17:05:53,385 - INFO - Duplicate article skipped: Four years into its full-scale war in Ukraine, Russia is feeling the effects from BBC
+2026-02-23 17:05:54,687 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgj9p15y87o?at_medium=RSS&at_campaign=rss
+2026-02-23 17:05:54,687 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:54,741 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur
+2026-02-23 17:05:54,741 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:54,772 - INFO - [BBC] Success with 'requests_browser'. Found content (1788 words).
+2026-02-23 17:05:54,820 - INFO - Duplicate article skipped: Resilient Zelensky tells BBC Putin has started WW3 and must be stopped from BBC
+2026-02-23 17:05:54,960 - INFO - [The Guardian] Success with 'requests_browser'. Found content (711 words).
+2026-02-23 17:05:55,021 - INFO - Selenium driver initialized successfully.
+2026-02-23 17:05:55,027 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-02-23 17:05:55,027 - INFO - Selenium driver initialized successfully.
+2026-02-23 17:05:55,031 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-02-23 17:05:55,032 - INFO - Duplicate article skipped: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds | Sudan | The Guardian from The Guardian
+2026-02-23 17:05:55,195 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-02-23 17:05:55,195 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/waiting-for-an-opportunity-to-serve-you-modi-tells-people-of-west-bengal/article70667841.ece
+2026-02-23 17:05:55,195 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:05:55,246 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-02-23 17:05:55,246 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/israeli-mom-political-commentator-says-son-is-certain-about-us-strike-on-iran-refuses-to-study-for-maths-test/articleshow/128721794.cms
+2026-02-23 17:05:55,246 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:05:55,758 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/19/kenyan-soldiers-russia-ukraine-war-intelligence-report
+2026-02-23 17:05:55,758 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:55,965 - INFO - [The Guardian] Success with 'requests_browser'. Found content (601 words).
+2026-02-23 17:05:56,054 - INFO - Duplicate article skipped: More than 1,000 Kenyans lured to fight for Russia in Ukraine war, report says | Kenya | The Guardian from The Guardian
+2026-02-23 17:05:56,217 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c795qgejzpxo?at_medium=RSS&at_campaign=rss
+2026-02-23 17:05:56,218 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:56,293 - INFO - [BBC] Success with 'requests_browser'. Found content (939 words).
+2026-02-23 17:05:56,385 - INFO - Duplicate article skipped: Violence erupts in Mexico after drug lord El Mencho killed from BBC
+2026-02-23 17:05:56,835 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2026/feb/18/countries-do-not-embrace-ai-left-behind-george-osborne
+2026-02-23 17:05:56,835 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:57,173 - INFO - [The Guardian] Success with 'requests_browser'. Found content (736 words).
+2026-02-23 17:05:57,271 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cp32l9w9pgyo?at_medium=RSS&at_campaign=rss
+2026-02-23 17:05:57,277 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:57,338 - INFO - Duplicate article skipped: Countries that do not embrace AI could be left behind, says OpenAI’s George Osborne | George Osborne | The Guardian from The Guardian
+2026-02-23 17:05:57,466 - INFO - [BBC] Success with 'requests_browser'. Found content (835 words).
+2026-02-23 17:05:57,629 - INFO - Duplicate article skipped: Man killed after entering secure perimeter of Trump's Mar-a-Lago residence, Secret Service says from BBC
+2026-02-23 17:05:58,152 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c39wz97y90no?at_medium=RSS&at_campaign=rss
+2026-02-23 17:05:58,156 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:58,282 - INFO - [BBC] Success with 'requests_browser'. Found content (365 words).
+2026-02-23 17:05:58,367 - INFO - Duplicate article skipped: Briton among 19 killed in Nepal bus crash from BBC
+2026-02-23 17:05:58,450 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/17/trim-slugs-to-kenya-authorities-israel-tech-crack-activists-phone-report
+2026-02-23 17:05:58,450 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:58,747 - INFO - [The Guardian] Success with 'requests_browser'. Found content (746 words).
+2026-02-23 17:05:58,908 - INFO - Duplicate article skipped: Kenyan authorities used Israeli tech to crack activist’s phone, report claims | Kenya | The Guardian from The Guardian
+2026-02-23 17:05:59,446 - INFO - [BBC] Article: https://www.bbc.com/news/articles/clygj3421pqo?at_medium=RSS&at_campaign=rss
+2026-02-23 17:05:59,446 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:05:59,519 - INFO - [BBC] Success with 'requests_browser'. Found content (561 words).
+2026-02-23 17:05:59,625 - INFO - Duplicate article skipped: Rob Jetten becomes Netherlands' youngest ever prime minister from BBC
+2026-02-23 17:06:00,151 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr5lrny83dgo?at_medium=RSS&at_campaign=rss
+2026-02-23 17:06:00,151 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:00,297 - INFO - [BBC] Success with 'requests_browser'. Found content (653 words).
+2026-02-23 17:06:00,383 - INFO - Saved article: Australia backs removing Andrew from royal line of succession from BBC
+2026-02-23 17:06:00,405 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/el-mencho-mexican-drug-cartel-boss-killing-violence
+2026-02-23 17:06:00,405 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:00,488 - INFO - [The Guardian] Success with 'requests_browser'. Found content (920 words).
+2026-02-23 17:06:00,621 - INFO - Duplicate article skipped: Killing of Mexican drug cartel boss ‘El Mencho’ triggers wave of violence | Mexico | The Guardian from The Guardian
+2026-02-23 17:06:01,698 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/who-was-el-mencho-drug-cartel-boss-killed-mexico
+2026-02-23 17:06:01,698 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:01,741 - INFO - [The Guardian] Success with 'requests_browser'. Found content (619 words).
+2026-02-23 17:06:01,794 - INFO - Duplicate article skipped: Who was El Mencho, the former police officer who co-founded an ultraviolent cartel in Mexico? | Mexico | The Guardian from The Guardian
+2026-02-23 17:06:01,813 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz9qk9y4d32o?at_medium=RSS&at_campaign=rss
+2026-02-23 17:06:01,813 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:01,874 - INFO - [BBC] Success with 'requests_browser'. Found content (303 words).
+2026-02-23 17:06:02,010 - INFO - Duplicate article skipped: Mugabe South Africa arrest: Robert Mugabe's son Bellarmine charged with attempted murder from BBC
+2026-02-23 17:06:02,808 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/22/mexican-security-forces-reportedly-kill-drug-cartel-boss-el-mencho
+2026-02-23 17:06:02,808 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:02,856 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1132 words).
+2026-02-23 17:06:02,970 - INFO - Duplicate article skipped: Mexican security forces kill drug cartel boss ‘El Mencho’ | Mexico | The Guardian from The Guardian
+2026-02-23 17:06:03,354 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg18588mdko?at_medium=RSS&at_campaign=rss
+2026-02-23 17:06:03,354 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:03,396 - INFO - [BBC] Success with 'requests_browser'. Found content (509 words).
+2026-02-23 17:06:03,438 - INFO - Duplicate article skipped: North Korea: Kim Jong Un re-appointed as general secretary at party congress from BBC
+2026-02-23 17:06:03,500 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/20/floreana-giant-tortoise-reintroduced-to-galapagos-island-after-almost-200-years
+2026-02-23 17:06:03,501 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:03,536 - INFO - [The Guardian] Success with 'requests_browser'. Found content (732 words).
+2026-02-23 17:06:03,577 - INFO - Duplicate article skipped: Floreana giant tortoise reintroduced to Galápagos island after almost 200 years | Galápagos Islands | The Guardian from The Guardian
+2026-02-23 17:06:04,386 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/20/bolivia-evo-morales-public-appearance
+2026-02-23 17:06:04,386 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:04,410 - INFO - [The Guardian] Success with 'requests_browser'. Found content (459 words).
+2026-02-23 17:06:04,447 - INFO - Duplicate article skipped: Bolivia’s ex-leader Evo Morales reappears after months-long unexplained absence | Bolivia | The Guardian from The Guardian
+2026-02-23 17:06:04,562 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cd6zg91l75qo?at_medium=RSS&at_campaign=rss
+2026-02-23 17:06:04,562 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-23 17:06:04,591 - INFO - [BBC] Success with 'requests_browser'. Found content (504 words).
+2026-02-23 17:06:04,631 - INFO - Duplicate article skipped: Cheryl Grimmer: Prosecutors consider reopening cold case disappearance from BBC
+2026-02-23 17:06:07,597 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:07,823 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (482 words).
+2026-02-23 17:06:08,031 - INFO - Saved article: Waiting for an opportunity to serve you, Modi tells people of West Bengal - The Hindu from The Hindu
+2026-02-23 17:06:08,622 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/sbi-new-branch-opened-in-nimmada/article70666707.ece
+2026-02-23 17:06:08,622 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:08,896 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:09,485 - INFO - [Times of India] Success with 'selenium_browser'. Found content (355 words).
+2026-02-23 17:06:09,664 - INFO - Saved article: Israeli mom, political commentator, says son is certain about US strike on Iran, refuses to study for Maths test - The Times of India from Times of India
+2026-02-23 17:06:10,759 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/theyre-too-dumb-to-know-new-york-professor-under-fire-for-racist-remarks-about-black-students/articleshow/128722058.cms
+2026-02-23 17:06:10,759 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:11,836 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:12,010 - INFO - [Times of India] Success with 'selenium_browser'. Found content (394 words).
+2026-02-23 17:06:12,069 - INFO - Saved article: ‘They’re too dumb to know…’: New York professor under fire for racist remarks about black students - The Times of India from Times of India
+2026-02-23 17:06:12,855 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/im-like-you-gavin-newsom-draws-flak-after-addressing-black-voters-on-sat-scores/articleshow/128716387.cms
+2026-02-23 17:06:12,855 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:13,647 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:13,824 - INFO - [Times of India] Success with 'selenium_browser'. Found content (371 words).
+2026-02-23 17:06:13,882 - INFO - Saved article: ‘I’m like you’: Gavin Newsom draws flak after addressing Black voters on SAT scores - The Times of India from Times of India
+2026-02-23 17:06:14,438 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/what-happened-to-chloes-giant-cookies-influencer-jen-hamilton-backs-chloe-sexton-amid-lawsuit-battle/articleshow/128720637.cms
+2026-02-23 17:06:14,438 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:15,151 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:15,315 - INFO - [Times of India] Success with 'selenium_browser'. Found content (507 words).
+2026-02-23 17:06:15,374 - INFO - Saved article: What happened to Chloe’s Giant Cookies? Influencer Jen Hamilton backs Chloe Sexton amid lawsuit battle - The Times of India from Times of India
+2026-02-23 17:06:16,780 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/two-h-1b-lotteries-this-year-immigration-experts-say-its-possible-because-/articleshow/128719633.cms
+2026-02-23 17:06:16,780 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:17,159 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:17,343 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (173 words).
+2026-02-23 17:06:17,476 - INFO - Saved article: SBI new branch opened in Nimmada - The Hindu from The Hindu
+2026-02-23 17:06:18,151 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:18,290 - INFO - [Times of India] Success with 'selenium_browser'. Found content (407 words).
+2026-02-23 17:06:18,389 - INFO - Saved article: Two H-1B lotteries this year? Immigration expert says it's possible because... - The Times of India from Times of India
+2026-02-23 17:06:18,883 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/labour-ministry-changes-norms-for-scholarship-to-children-of-unorganised-workers/article70668141.ece
+2026-02-23 17:06:18,884 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:19,154 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/amid-mounting-iran-tensions-us-orders-nonessential-diplomats-and-their-families-to-leave-lebanon/articleshow/128718257.cms
+2026-02-23 17:06:19,154 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:19,902 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:20,012 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (255 words).
+2026-02-23 17:06:20,155 - INFO - Saved article: Labour Ministry changes norms for scholarship to children of unorganised workers - The Hindu from The Hindu
+2026-02-23 17:06:20,957 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:21,194 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/haryana/idfc-first-bank-fraud-case-flagged-in-haryana-assembly/article70668209.ece
+2026-02-23 17:06:21,194 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:21,656 - INFO - [Times of India] Success with 'selenium_browser'. Found content (325 words).
+2026-02-23 17:06:21,825 - INFO - Saved article: Amid mounting Iran tensions, US orders nonessential diplomats and their families to leave Lebanon - The Times of India from Times of India
+2026-02-23 17:06:22,983 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/epstein-files-obsessed-trump-supporter-heres-what-we-know-about-21yearold-man-who-was-shot-after-entering-maralago/articleshow/128715956.cms
+2026-02-23 17:06:22,983 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:23,184 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:23,352 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (422 words).
+2026-02-23 17:06:23,779 - INFO - Saved article: IDFC First Bank fraud case flagged in Haryana Assembly - The Hindu from The Hindu
+2026-02-23 17:06:24,290 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/maudany-hospitalised/article70668052.ece
+2026-02-23 17:06:24,290 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:25,091 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:25,302 - INFO - [Times of India] Success with 'selenium_browser'. Found content (468 words).
+2026-02-23 17:06:25,389 - INFO - Duplicate article skipped: Epstein files obsessed, Trump supporter? Here's what we know about 21‑year‑old man who was shot after entering Mar‑a‑Lago - The Times of India from Times of India
+2026-02-23 17:06:25,452 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:25,496 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (90 words).
+2026-02-23 17:06:25,569 - INFO - Saved article: Maudany hospitalised - The Hindu from The Hindu
+2026-02-23 17:06:26,179 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/south-asia/did-yunus-try-to-destabilise-dhaka-bangladesh-president-alleges-conspiracy-to-remove-him/articleshow/128710180.cms
+2026-02-23 17:06:26,179 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:26,231 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/proposal-for-no-vehicle-day-in-lakshadweep-put-on-hold/article70667942.ece
+2026-02-23 17:06:26,231 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:27,461 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:27,715 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:27,741 - INFO - [Times of India] Success with 'selenium_browser'. Found content (500 words).
+2026-02-23 17:06:27,870 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (192 words).
+2026-02-23 17:06:27,892 - INFO - Duplicate article skipped: Mohammed Shahabuddin: Did Muhammad Yunus try to 'destabilise' Dhaka? Bangladesh President Mohammed Shahabuddin alleges ‘conspiracy’ to remove him | World News - The Times of India from Times of India
+2026-02-23 17:06:27,980 - INFO - Saved article: Proposal for ‘No Vehicle Day’ in Lakshadweep put on hold - The Hindu from The Hindu
+2026-02-23 17:06:28,679 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/china-to-attain-nuclear-parity-with-us-washington-warns-against-beijings-rapid-nuke-build-up/articleshow/128713342.cms
+2026-02-23 17:06:28,679 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:28,730 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/hospitals-cannot-treat-doctors-like-workmen-in-a-factory-madras-high-court/article70667691.ece
+2026-02-23 17:06:28,730 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:29,959 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:29,975 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:30,075 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (846 words).
+2026-02-23 17:06:30,170 - INFO - Saved article: Hospitals cannot treat doctors like workmen in a factory: Madras High Court - The Hindu from The Hindu
+2026-02-23 17:06:30,185 - INFO - [Times of India] Success with 'selenium_browser'. Found content (304 words).
+2026-02-23 17:06:30,334 - INFO - Duplicate article skipped: China to attain nuclear parity with US? Washington warns against Beijing's ‘rapid’ nuke build-up - The Times of India from Times of India
+2026-02-23 17:06:31,180 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-government-shutdown-again-why-these-crises-keep-happening-and-what-they-really-mean/articleshow/128712706.cms
+2026-02-23 17:06:31,180 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:31,353 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/telangana/residents-flood-hydraa-with-complaints-about-encroachment-on-parks-and-open-spaces-during-prajavani-programme/article70667939.ece
+2026-02-23 17:06:31,353 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:32,218 - INFO - [Times of India] Page content loaded.
+2026-02-23 17:06:32,412 - INFO - [Times of India] Success with 'selenium_browser'. Found content (2519 words).
+2026-02-23 17:06:32,543 - INFO - Duplicate article skipped: US government ‘shutdown’ again: Why these crises keep happening and what they really mean? - The Times of India from Times of India
+2026-02-23 17:06:32,656 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:32,886 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (357 words).
+2026-02-23 17:06:33,020 - INFO - Saved article: Residents flood HYDRAA with complaints about encroachment on parks and open spaces during Prajavani programme - The Hindu from The Hindu
+2026-02-23 17:06:34,027 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-23 17:06:34,079 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/tamil-nadu-electorate-stands-at-567-crore-after-special-intensive-revision/article70666904.ece
+2026-02-23 17:06:34,079 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:34,154 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-02-23 17:06:34,867 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:34,908 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (514 words).
+2026-02-23 17:06:35,008 - INFO - Saved article: Tamil Nadu electorate stands at 5.67 crore after Special Intensive Revision - The Hindu from The Hindu
+2026-02-23 17:06:35,934 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/telangana-housing-boards-plot-in-gachibowli-attracts-176-lakh-per-square-yard/article70668122.ece
+2026-02-23 17:06:35,934 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-23 17:06:36,706 - INFO - [The Hindu] Page content loaded.
+2026-02-23 17:06:36,749 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (189 words).
+2026-02-23 17:06:36,802 - INFO - Saved article: Telangana Housing Board’s plot in Gachibowli attracts ₹1.76 lakh per square yard - The Hindu from The Hindu
+2026-02-23 17:06:37,467 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-23 17:06:37,591 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-02-23 17:06:37,591 - INFO - Shutting down thread pool (wait=False)...
+2026-02-23 17:06:37,592 - INFO - Scraped: 6 Times of India, 0 The Guardian, 1 BBC, 10 The Hindu articles. (Total saved: 17)
+2026-02-23 17:06:37,592 - INFO - --- Scraping job finished ---
+2026-02-23 17:06:37,597 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-02-23 17:06:37,597 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
