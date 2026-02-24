@@ -1,0 +1,290 @@
+2026-02-24 14:57:43,025 - INFO - Initializing database connection at: news_articles.db
+2026-02-24 14:57:43,025 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-02-24 14:57:43,025 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-02-24 14:57:43,025 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-02-24 14:57:43,026 - INFO - Proxy is DISABLED.
+2026-02-24 14:57:43,027 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-02-24 14:57:43,027 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-02-24 14:57:43,027 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-24 14:57:43,028 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-02-24 14:57:43,031 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-02-24 14:57:43,031 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-02-24 14:57:43,031 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-02-24 14:57:43,303 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-02-24 14:57:43,303 - INFO - [The Guardian] Article: https://www.theguardian.com/uk-news/2026/feb/24/royal-artillery-access-looted-asante-treasure-ghana
+2026-02-24 14:57:43,303 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:43,371 - INFO - Found 43 articles in BBC RSS feed. Processing up to 10.
+2026-02-24 14:57:43,371 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cz7gw3l395ro?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:43,371 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:43,484 - INFO - [The Guardian] Success with 'requests_browser'. Found content (770 words).
+2026-02-24 14:57:43,556 - INFO - Saved article: Royal Artillery under fire after denying access to looted Asante treasure | Military | The Guardian from The Guardian
+2026-02-24 14:57:43,657 - INFO - [BBC] Success with 'requests_browser'. Found content (2051 words).
+2026-02-24 14:57:43,708 - INFO - Duplicate article skipped: Russia soldiers tell BBC they saw fellow troops in Ukraine war executed on commanders' orders from BBC
+2026-02-24 14:57:44,248 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/robert-mugabe-son-bellarmine-mugabe-charged-with-crimes
+2026-02-24 14:57:44,248 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:44,280 - INFO - [The Guardian] Success with 'requests_browser'. Found content (504 words).
+2026-02-24 14:57:44,321 - INFO - Duplicate article skipped: Robert Mugabe’s son charged with attempted murder over Johannesburg shooting | Zimbabwe | The Guardian from The Guardian
+2026-02-24 14:57:44,468 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx289g1yw97o?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:44,468 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:44,516 - INFO - [BBC] Success with 'requests_browser'. Found content (839 words).
+2026-02-24 14:57:44,555 - INFO - Duplicate article skipped: More than 5,000 flights cancelled as US east coast digs out of record snow from BBC
+2026-02-24 14:57:45,513 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/19/rsf-siege-el-fasher-sudan-hallmarks-of-genocide-un-mission-north-darfur
+2026-02-24 14:57:45,513 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:45,551 - INFO - [The Guardian] Success with 'requests_browser'. Found content (711 words).
+2026-02-24 14:57:45,600 - INFO - Duplicate article skipped: RSF siege of El Fasher in Sudan has ‘hallmarks of genocide’, UN mission finds | Sudan | The Guardian from The Guardian
+2026-02-24 14:57:45,834 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c07jpx7kkvpo?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:45,834 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:45,877 - INFO - [BBC] Success with 'requests_browser'. Found content (451 words).
+2026-02-24 14:57:45,918 - INFO - Saved article: Mexico hunts 23 inmates sprung from jail during wave of violence from BBC
+2026-02-24 14:57:46,912 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/19/kenyan-soldiers-russia-ukraine-war-intelligence-report
+2026-02-24 14:57:46,912 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:47,077 - INFO - [The Guardian] Success with 'requests_browser'. Found content (601 words).
+2026-02-24 14:57:47,120 - INFO - Duplicate article skipped: More than 1,000 Kenyans lured to fight for Russia in Ukraine war, report says | Kenya | The Guardian from The Guardian
+2026-02-24 14:57:47,314 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8d5eg5pl34o?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:47,314 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:47,495 - INFO - [BBC] Success with 'requests_browser'. Found content (379 words).
+2026-02-24 14:57:47,532 - INFO - Duplicate article skipped: French minister moves to block US envoy Kushner from government access from BBC
+2026-02-24 14:57:48,117 - INFO - [The Guardian] Article: https://www.theguardian.com/politics/2026/feb/18/countries-do-not-embrace-ai-left-behind-george-osborne
+2026-02-24 14:57:48,118 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:48,171 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cy0dqpjjprno?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:48,171 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:48,210 - INFO - [BBC] Success with 'requests_browser'. Found content (488 words).
+2026-02-24 14:57:48,272 - INFO - Duplicate article skipped: Robert Carradine: Hilary Duff pays tribute to Lizzie McGuire star after his death aged 71 from BBC
+2026-02-24 14:57:48,318 - INFO - [The Guardian] Success with 'requests_browser'. Found content (736 words).
+2026-02-24 14:57:48,362 - INFO - Duplicate article skipped: Countries that do not embrace AI could be left behind, says OpenAI’s George Osborne | George Osborne | The Guardian from The Guardian
+2026-02-24 14:57:49,296 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/el-mencho-mexican-drug-cartel-boss-killing-violence
+2026-02-24 14:57:49,297 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:49,338 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1354 words).
+2026-02-24 14:57:49,385 - INFO - Duplicate article skipped: Mexican drug cartel boss ‘El Mencho’ tracked through romantic partner | Mexico | The Guardian from The Guardian
+2026-02-24 14:57:49,522 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cwy95ln0ynyo?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:49,522 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:49,559 - INFO - [BBC] Success with 'requests_browser'. Found content (478 words).
+2026-02-24 14:57:49,591 - INFO - Duplicate article skipped: Celebrity doctor Peter Attia steps down from CBS over Epstein links from BBC
+2026-02-24 14:57:50,865 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/openai-tumber-ridge-shooter-account-suspended
+2026-02-24 14:57:50,865 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:51,023 - INFO - [The Guardian] Success with 'requests_browser'. Found content (529 words).
+2026-02-24 14:57:51,059 - INFO - Duplicate article skipped: Canada seeks answers from OpenAI for failing to alert police after suspending school shooter’s account | Tumbler Ridge school shooting | The Guardian from The Guardian
+2026-02-24 14:57:51,088 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly833zjp4po?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:51,088 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:51,126 - INFO - [BBC] Success with 'requests_browser'. Found content (496 words).
+2026-02-24 14:57:51,164 - INFO - Duplicate article skipped: Thailand: Authorities investigate death of 72 tigers due to virus from BBC
+2026-02-24 14:57:52,419 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/mexico-trump-cartel-boss-killing
+2026-02-24 14:57:52,419 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:52,449 - INFO - [The Guardian] Success with 'requests_browser'. Found content (808 words).
+2026-02-24 14:57:52,490 - INFO - Duplicate article skipped: Mexico faces uphill battle to appease kingpin Trump after cartel boss’s killing | Mexico | The Guardian from The Guardian
+2026-02-24 14:57:52,573 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cdr2kej4j8go?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:52,573 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:52,616 - INFO - [BBC] Success with 'requests_browser'. Found content (356 words).
+2026-02-24 14:57:52,654 - INFO - Duplicate article skipped: Nancy Guthrie: Suspect seen at doorstep before disappearance from BBC
+2026-02-24 14:57:52,719 - INFO - Selenium driver initialized successfully.
+2026-02-24 14:57:52,719 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-02-24 14:57:52,719 - INFO - Selenium driver initialized successfully.
+2026-02-24 14:57:52,719 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-02-24 14:57:52,881 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-02-24 14:57:52,882 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/suresh-gopi-made-a-mockery-of-electoral-process-alleges-dcc-president-joseph-tajet/article70672009.ece
+2026-02-24 14:57:52,882 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:57:53,048 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-02-24 14:57:53,048 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/new-york-snowstorm-chaos-nypd-officers-hit-with-snowballs-at-washington-square-park-cuomo-slams-mamdani/articleshow/128752897.cms
+2026-02-24 14:57:53,048 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:57:53,394 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/23/who-was-el-mencho-drug-cartel-boss-killed-mexico
+2026-02-24 14:57:53,394 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:53,431 - INFO - [The Guardian] Success with 'requests_browser'. Found content (619 words).
+2026-02-24 14:57:53,486 - INFO - Duplicate article skipped: Who was El Mencho, the former police officer who co-founded an ultraviolent cartel in Mexico? | Mexico | The Guardian from The Guardian
+2026-02-24 14:57:54,034 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c178n9yxk10o?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:54,035 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:54,109 - INFO - [BBC] Success with 'requests_browser'. Found content (495 words).
+2026-02-24 14:57:54,179 - INFO - Duplicate article skipped: Ghana drops coup leader Kotoka's name from main airport on putsch anniversary from BBC
+2026-02-24 14:57:54,754 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/22/mexican-security-forces-reportedly-kill-drug-cartel-boss-el-mencho
+2026-02-24 14:57:54,754 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:54,823 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1132 words).
+2026-02-24 14:57:54,923 - INFO - Duplicate article skipped: Mexican security forces kill drug cartel boss ‘El Mencho’ | Mexico | The Guardian from The Guardian
+2026-02-24 14:57:55,067 - INFO - [BBC] Article: https://www.bbc.com/news/articles/czx4pyx9g46o?at_medium=RSS&at_campaign=rss
+2026-02-24 14:57:55,067 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-02-24 14:57:55,120 - INFO - [BBC] Success with 'requests_browser'. Found content (352 words).
+2026-02-24 14:57:55,186 - INFO - Duplicate article skipped: Moscow rail hub explosion was suicide bomb, Russian officials say from BBC
+2026-02-24 14:58:52,902 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/kerala/suresh-gopi-made-a-mockery-of-electoral-process-alleges-dcc-president-joseph-tajet/article70672009.ece: Message: timeout: Timed out receiving message from renderer: 59.857
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x5569c63004ba <unknown>
+#1 0x5569c5d69492 <unknown>
+#2 0x5569c5d50b47 <unknown>
+#3 0x5569c5d50756 <unknown>
+#4 0x5569c5d4e271 <unknown>
+#5 0x5569c5d4ebff <unknown>
+#6 0x5569c5d5e150 <unknown>
+#7 0x5569c5d78147 <unknown>
+#8 0x5569c5d7f34b <unknown>
+#9 0x5569c5d4f369 <unknown>
+#10 0x5569c5d77eda <unknown>
+#11 0x5569c5e07a78 <unknown>
+#12 0x5569c5db06a2 <unknown>
+#13 0x5569c5db1491 <unknown>
+#14 0x5569c62c6479 <unknown>
+#15 0x5569c62c9391 <unknown>
+#16 0x5569c62b2a89 <unknown>
+#17 0x5569c62c9f4e <unknown>
+#18 0x5569c6299070 <unknown>
+#19 0x5569c62edca8 <unknown>
+#20 0x5569c62ede78 <unknown>
+#21 0x5569c62ff828 <unknown>
+#22 0x7f596389caa4 <unknown>
+#23 0x7f5963929c6c <unknown>
+
+2026-02-24 14:58:52,903 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/kerala/suresh-gopi-made-a-mockery-of-electoral-process-alleges-dcc-president-joseph-tajet/article70672009.ece. Falling back to RSS description.
+2026-02-24 14:58:52,905 - INFO - Saved article: Suresh Gopi made a mockery of electoral process, alleges DCC president Joseph Tajet from The Hindu
+2026-02-24 14:58:53,076 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/new-york-snowstorm-chaos-nypd-officers-hit-with-snowballs-at-washington-square-park-cuomo-slams-mamdani/articleshow/128752897.cms: Message: timeout: Timed out receiving message from renderer: 59.914
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x5583394c34ba <unknown>
+#1 0x558338f2c492 <unknown>
+#2 0x558338f13b47 <unknown>
+#3 0x558338f13756 <unknown>
+#4 0x558338f11271 <unknown>
+#5 0x558338f11bff <unknown>
+#6 0x558338f21150 <unknown>
+#7 0x558338f3b147 <unknown>
+#8 0x558338f4234b <unknown>
+#9 0x558338f12369 <unknown>
+#10 0x558338f3aeda <unknown>
+#11 0x558338fcaa78 <unknown>
+#12 0x558338f736a2 <unknown>
+#13 0x558338f74491 <unknown>
+#14 0x558339489479 <unknown>
+#15 0x55833948c391 <unknown>
+#16 0x558339475a89 <unknown>
+#17 0x55833948cf4e <unknown>
+#18 0x55833945c070 <unknown>
+#19 0x5583394b0ca8 <unknown>
+#20 0x5583394b0e78 <unknown>
+#21 0x5583394c2828 <unknown>
+#22 0x7fef8e89caa4 <unknown>
+#23 0x7fef8e929c6c <unknown>
+
+2026-02-24 14:58:53,076 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/new-york-snowstorm-chaos-nypd-officers-hit-with-snowballs-at-washington-square-park-cuomo-slams-mamdani/articleshow/128752897.cms. Falling back to RSS description.
+2026-02-24 14:58:53,079 - INFO - Saved article: Watch: NYPD officers hit with snowballs during NYC storm chaos at Washington Square Park; Cuomo blasts Mamdani from Times of India
+2026-02-24 14:58:53,825 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/collector-takes-serious-note-of-maternal-deaths-in-chittoor/article70671820.ece
+2026-02-24 14:58:53,825 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:58:54,494 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/ice-deports-pregnant-woman-who-was-held-for-three-months-with-her-two-children-joaquin-castro-claims/articleshow/128751800.cms
+2026-02-24 14:58:54,494 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:58:56,413 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:58:56,843 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (220 words).
+2026-02-24 14:58:57,099 - INFO - Saved article: Collector takes serious note of maternal deaths in Chittoor - The Hindu from The Hindu
+2026-02-24 14:58:57,643 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/teaser-of-actor-mohanlal-interviewing-pinarayi-generates-buzz/article70671943.ece
+2026-02-24 14:58:57,643 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:58:59,034 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:58:59,296 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (193 words).
+2026-02-24 14:58:59,413 - INFO - Saved article: Teaser of actor Mohanlal interviewing Pinarayi generates buzz - The Hindu from The Hindu
+2026-02-24 14:59:00,673 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/resilience-is-the-new-benchmark-shashi-tharoor-tells-spice-exporters/article70671272.ece
+2026-02-24 14:59:00,673 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:03,784 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:04,059 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (261 words).
+2026-02-24 14:59:04,171 - INFO - Saved article: Resilience is the new benchmark, Shashi Tharoor tells spice exporters - The Hindu from The Hindu
+2026-02-24 14:59:04,877 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/job-aspirants-put-up-a-massive-protest-in-dharwad/article70671496.ece
+2026-02-24 14:59:04,877 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:06,180 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:06,237 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (521 words).
+2026-02-24 14:59:06,316 - INFO - Saved article: Job aspirants put up a massive protest in Dharwad - The Hindu from The Hindu
+2026-02-24 14:59:07,472 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/telangana-prisons-department-organises-salary-package-mela-to-extend-financial-benefits-to-staff/article70670650.ece
+2026-02-24 14:59:07,472 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:10,398 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:10,505 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (232 words).
+2026-02-24 14:59:10,613 - INFO - Saved article: Telangana Prisons department organises Salary Package Mela to extend financial benefits to staff - The Hindu from The Hindu
+2026-02-24 14:59:12,102 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/grand-procession-marks-tirupatis-896th-birth-anniversary/article70671831.ece
+2026-02-24 14:59:12,102 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:14,713 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:14,925 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (202 words).
+2026-02-24 14:59:15,023 - INFO - Saved article: Grand procession marks Tirupati’s 896th birth anniversary - The Hindu from The Hindu
+2026-02-24 14:59:15,685 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/kerala/cag-finds-lapses-in-jal-jeevan-mission-implementation-in-kerala/article70671855.ece
+2026-02-24 14:59:15,685 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:16,334 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:16,381 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (601 words).
+2026-02-24 14:59:16,461 - INFO - Saved article: CAG finds lapses in Jal Jeevan Mission implementation in Kerala - The Hindu from The Hindu
+2026-02-24 14:59:17,303 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/mysuru-mounted-police-shine-at-national-equestrian-championship/article70672051.ece
+2026-02-24 14:59:17,303 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:18,345 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:18,389 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (250 words).
+2026-02-24 14:59:18,465 - INFO - Saved article: Mysuru Mounted Police shine at National Equestrian Championship - The Hindu from The Hindu
+2026-02-24 14:59:19,528 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/andhra-pradesh/20-crore-tirumala-laddus-made-with-adulterated-ghee-naidu-tells-assembly/article70671756.ece
+2026-02-24 14:59:19,528 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:21,477 - INFO - [The Hindu] Page content loaded.
+2026-02-24 14:59:21,540 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (479 words).
+2026-02-24 14:59:21,605 - INFO - Saved article: 20 crore Tirumala laddus made with adulterated ghee, Naidu tells Assembly - The Hindu from The Hindu
+2026-02-24 14:59:22,177 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-24 14:59:22,367 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-02-24 14:59:54,511 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/ice-deports-pregnant-woman-who-was-held-for-three-months-with-her-two-children-joaquin-castro-claims/articleshow/128751800.cms: Message: timeout: Timed out receiving message from renderer: 59.842
+  (Session info: chrome=144.0.7559.109)
+Stacktrace:
+#0 0x5583394c34ba <unknown>
+#1 0x558338f2c492 <unknown>
+#2 0x558338f13b47 <unknown>
+#3 0x558338f13756 <unknown>
+#4 0x558338f11271 <unknown>
+#5 0x558338f11bff <unknown>
+#6 0x558338f21150 <unknown>
+#7 0x558338f3b147 <unknown>
+#8 0x558338f4234b <unknown>
+#9 0x558338f12369 <unknown>
+#10 0x558338f3aeda <unknown>
+#11 0x558338fcaa78 <unknown>
+#12 0x558338f736a2 <unknown>
+#13 0x558338f74491 <unknown>
+#14 0x558339489479 <unknown>
+#15 0x55833948c391 <unknown>
+#16 0x558339475a89 <unknown>
+#17 0x55833948cf4e <unknown>
+#18 0x55833945c070 <unknown>
+#19 0x5583394b0ca8 <unknown>
+#20 0x5583394b0e78 <unknown>
+#21 0x5583394c2828 <unknown>
+#22 0x7fef8e89caa4 <unknown>
+#23 0x7fef8e929c6c <unknown>
+
+2026-02-24 14:59:54,511 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/ice-deports-pregnant-woman-who-was-held-for-three-months-with-her-two-children-joaquin-castro-claims/articleshow/128751800.cms. Falling back to RSS description.
+2026-02-24 14:59:54,514 - INFO - Saved article: ICE deports pregnant woman who was held for three months with her two children, Joaquin Castro claims from Times of India
+2026-02-24 14:59:55,851 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/dont-tell-me-these-are-it-crowd-fresh-row-over-old-video-of-fans-celebrating-pawan-kalyans-movie-in-us/articleshow/128752736.cms
+2026-02-24 14:59:55,851 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:56,797 - INFO - [Times of India] Page content loaded.
+2026-02-24 14:59:56,941 - INFO - [Times of India] Success with 'selenium_browser'. Found content (307 words).
+2026-02-24 14:59:57,029 - INFO - Saved article: 'Don't tell me these are IT crowd': Fresh row over old video of fans celebrating Pawan Kalyan's movie in US - The Times of India from Times of India
+2026-02-24 14:59:58,121 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/why-indian-origin-jay-bhattacharyas-dual-health-roles-has-washington-worried/articleshow/128751483.cms
+2026-02-24 14:59:58,121 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 14:59:58,969 - INFO - [Times of India] Page content loaded.
+2026-02-24 14:59:59,086 - INFO - [Times of India] Success with 'selenium_browser'. Found content (509 words).
+2026-02-24 14:59:59,221 - INFO - Duplicate article skipped: Why Indian-origin Jay Bhattacharya's dual health roles has Washington worried | World News - The Times of India from Times of India
+2026-02-24 14:59:59,744 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/the-boston-globe-calls-off-printing-for-the-first-time-in-153-years-but-why/articleshow/128751158.cms
+2026-02-24 14:59:59,744 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 15:00:00,381 - INFO - [Times of India] Page content loaded.
+2026-02-24 15:00:00,509 - INFO - [Times of India] Success with 'selenium_browser'. Found content (276 words).
+2026-02-24 15:00:00,599 - INFO - Duplicate article skipped: The Boston Globe calls off printing for the first time in 153 years — but why? - The Times of India from Times of India
+2026-02-24 15:00:01,224 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/not-sure-how-they-did-it-nyc-clears-20-inches-of-snow-after-historic-blizzard-netizens-praise-citys-resilience/articleshow/128751009.cms
+2026-02-24 15:00:01,224 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 15:00:01,753 - INFO - [Times of India] Page content loaded.
+2026-02-24 15:00:01,894 - INFO - [Times of India] Success with 'selenium_browser'. Found content (571 words).
+2026-02-24 15:00:01,950 - INFO - Duplicate article skipped: ‘Not sure how they did it’: NYC clears 20 inches of snow after historic blizzard; netizens praise city’s resilience - The Times of India from Times of India
+2026-02-24 15:00:03,077 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/lovebir-singh-arshdeep-singh-canada-deports-two-indians-over-involvement-in-extortion-arson-shooting/articleshow/128750957.cms
+2026-02-24 15:00:03,077 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 15:00:03,868 - INFO - [Times of India] Page content loaded.
+2026-02-24 15:00:03,994 - INFO - [Times of India] Success with 'selenium_browser'. Found content (406 words).
+2026-02-24 15:00:04,061 - INFO - Duplicate article skipped: Lovebir Singh, Arshdeep Singh: Canada deports two Indians over involvement in extortion, arson, shooting - The Times of India from Times of India
+2026-02-24 15:00:04,681 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/pakistan/5-pakistani-cops-killed-in-coordinated-militant-attack-in-khyber-pakhtunkhwa/articleshow/128750596.cms
+2026-02-24 15:00:04,681 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 15:00:05,249 - INFO - [Times of India] Page content loaded.
+2026-02-24 15:00:05,386 - INFO - [Times of India] Success with 'selenium_browser'. Found content (327 words).
+2026-02-24 15:00:05,462 - INFO - Duplicate article skipped: 5 Pakistani cops killed in coordinated militant attack in Khyber Pakhtunkhwa - The Times of India from Times of India
+2026-02-24 15:00:06,125 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/uae-announces-new-pharmaceutical-rule-to-break-medicine-monopolies-and-lower-drug-costs/articleshow/128750605.cms
+2026-02-24 15:00:06,125 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 15:00:06,881 - INFO - [Times of India] Page content loaded.
+2026-02-24 15:00:07,040 - INFO - [Times of India] Success with 'selenium_browser'. Found content (573 words).
+2026-02-24 15:00:07,100 - INFO - Duplicate article skipped: Uae Pharmaceutical Monopoly Reform: UAE announces new pharmaceutical rule to break medicine monopolies and lower drug costs | World News - The Times of India from Times of India
+2026-02-24 15:00:08,600 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/saudi-arabia-opens-domestic-hajj-2026-registration-eligibility-dates-and-steps-you-need-to-know/articleshow/128750314.cms
+2026-02-24 15:00:08,600 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-02-24 15:00:09,126 - INFO - [Times of India] Page content loaded.
+2026-02-24 15:00:09,256 - INFO - [Times of India] Success with 'selenium_browser'. Found content (404 words).
+2026-02-24 15:00:09,314 - INFO - Duplicate article skipped: Hajj 2026 Registration Saudi Arabia: Saudi Arabia opens domestic Hajj 2026 registration: Eligibility, dates and steps you need to know | World News - The Times of India from Times of India
+2026-02-24 15:00:10,671 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-02-24 15:00:10,898 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-02-24 15:00:10,898 - INFO - Shutting down thread pool (wait=False)...
+2026-02-24 15:00:10,898 - INFO - Scraped: 1 The Guardian, 3 Times of India, 1 BBC, 10 The Hindu articles. (Total saved: 15)
+2026-02-24 15:00:10,898 - INFO - --- Scraping job finished ---
+2026-02-24 15:00:10,905 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-02-24 15:00:10,905 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
