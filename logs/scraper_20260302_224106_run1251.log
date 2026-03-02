@@ -1,0 +1,316 @@
+2026-03-02 22:36:06,679 - INFO - Initializing database connection at: news_articles.db
+2026-03-02 22:36:06,680 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-03-02 22:36:06,680 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-03-02 22:36:06,680 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-03-02 22:36:06,680 - INFO - Proxy is DISABLED.
+2026-03-02 22:36:06,681 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-03-02 22:36:06,681 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-03-02 22:36:06,681 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-03-02 22:36:06,681 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-03-02 22:36:06,682 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-03-02 22:36:06,682 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-03-02 22:36:06,682 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-03-02 22:36:06,763 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-03-02 22:36:06,763 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/27/ghana-men-killed-fight-russia-ukraine
+2026-03-02 22:36:06,763 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:06,809 - INFO - Found 34 articles in BBC RSS feed. Processing up to 10.
+2026-03-02 22:36:06,809 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c5y4v8g13wxo?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:06,809 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:06,818 - INFO - [The Guardian] Success with 'requests_browser'. Found content (401 words).
+2026-03-02 22:36:06,863 - INFO - Duplicate article skipped: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine | Ukraine | The Guardian from The Guardian
+2026-03-02 22:36:07,099 - INFO - [BBC] Success with 'requests_browser'. Found content (1498 words).
+2026-03-02 22:36:07,144 - INFO - Duplicate article skipped: Israel strikes Lebanon after Hezbollah rocket fire as Iran conflict widens from BBC
+2026-03-02 22:36:07,651 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/27/rising-anger-over-lop-sided-immoral-us-health-funding-pacts-africa-countries
+2026-03-02 22:36:07,652 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:07,813 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1145 words).
+2026-03-02 22:36:07,851 - INFO - Duplicate article skipped: Rising anger over ‘lop-sided’ and ‘immoral’ US health funding pacts with African countries | Global development | The Guardian from The Guardian
+2026-03-02 22:36:08,624 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2jyv3jp01o?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:08,624 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:08,656 - INFO - [BBC] Success with 'requests_browser'. Found content (425 words).
+2026-03-02 22:36:08,673 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/26/women-arrested-uganda-kissing-public-lgbtq-laws
+2026-03-02 22:36:08,673 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:08,691 - INFO - Duplicate article skipped: 'The house was shaking': Iranians describe impact of US-Israel attacks from BBC
+2026-03-02 22:36:08,872 - INFO - [The Guardian] Success with 'requests_browser'. Found content (645 words).
+2026-03-02 22:36:08,924 - INFO - Duplicate article skipped: Two women arrested in Uganda for allegedly kissing in public could face life sentence | Global development | The Guardian from The Guardian
+2026-03-02 22:36:09,546 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cj4zlnezrl7o?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:09,546 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:09,577 - INFO - [BBC] Success with 'requests_browser'. Found content (556 words).
+2026-03-02 22:36:09,614 - INFO - Duplicate article skipped: France to boost nuclear arsenal and extend deterrence to European allies from BBC
+2026-03-02 22:36:09,780 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/26/recent-mediterranean-storms-tragedies-spain-portugal-morocco
+2026-03-02 22:36:09,781 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:09,952 - INFO - [The Guardian] Success with 'requests_browser'. Found content (991 words).
+2026-03-02 22:36:10,001 - INFO - Duplicate article skipped: ‘A devastating force’: how recent storms turned to tragedies across the western Mediterranean | Extreme weather | The Guardian from The Guardian
+2026-03-02 22:36:10,580 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/25/zambia-us-health-aid-deal-exploitation-mining-concessions-data-sharing-targets
+2026-03-02 22:36:10,580 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:10,616 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx24gl7jrgno?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:10,617 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:10,654 - INFO - [BBC] Success with 'requests_browser'. Found content (813 words).
+2026-03-02 22:36:10,696 - INFO - Duplicate article skipped: India and Canada reset ties with 'landmark' nuclear energy deal from BBC
+2026-03-02 22:36:10,739 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1111 words).
+2026-03-02 22:36:10,779 - INFO - Duplicate article skipped: US accused of ‘shameless exploitation’ over proposed Zambian health aid deal | Global health | The Guardian from The Guardian
+2026-03-02 22:36:11,357 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0mgkvy4wr8o?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:11,358 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:11,394 - INFO - [BBC] Success with 'requests_browser'. Found content (641 words).
+2026-03-02 22:36:11,458 - INFO - Duplicate article skipped: South Sudan attack in Ruweng kills at least 169 people from BBC
+2026-03-02 22:36:11,492 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/28/miami-exiled-cubans-speedboat-shootout
+2026-03-02 22:36:11,492 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:11,525 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1105 words).
+2026-03-02 22:36:11,572 - INFO - Duplicate article skipped: ‘Adventurism has had its day’: speedboat shootout leaves Miami’s exiled Cubans bewildered | Cuba | The Guardian from The Guardian
+2026-03-02 22:36:12,114 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/28/at-least-15-killed-as-cash-laden-military-cargo-plane-crashes-in-bolivia
+2026-03-02 22:36:12,114 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:12,314 - INFO - [The Guardian] Success with 'requests_browser'. Found content (428 words).
+2026-03-02 22:36:12,351 - INFO - Duplicate article skipped: At least 20 killed as cash-laden military cargo plane crashes in Bolivia | Bolivia | The Guardian from The Guardian
+2026-03-02 22:36:12,446 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1kgln0yg3po?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:12,446 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:12,478 - INFO - [BBC] Success with 'requests_browser'. Found content (517 words).
+2026-03-02 22:36:12,517 - INFO - Duplicate article skipped: Rembrandt's Vision of Zacharias in the Temple rediscovered after 65 years from BBC
+2026-03-02 22:36:12,958 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/feb/27/trump-cuba-regime-change
+2026-03-02 22:36:12,958 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:12,980 - INFO - [The Guardian] Success with 'requests_browser'. Found content (708 words).
+2026-03-02 22:36:13,024 - INFO - Duplicate article skipped: Trump suggests US could carry out ‘friendly takeover’ of Cuba | Donald Trump | The Guardian from The Guardian
+2026-03-02 22:36:13,148 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c8r137lkj5zo?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:13,148 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:13,187 - INFO - [BBC] Success with 'requests_browser'. Found content (1009 words).
+2026-03-02 22:36:13,226 - INFO - Duplicate article skipped: Balen Shah: Rap star hopes to unseat former PM Oli in Nepal's Gen Z election from BBC
+2026-03-02 22:36:13,917 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c75evve6l63o?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:13,917 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:13,956 - INFO - [BBC] Success with 'requests_browser'. Found content (874 words).
+2026-03-02 22:36:13,995 - INFO - Duplicate article skipped: Oil and gas prices jump and shares fall as conflict escalates from BBC
+2026-03-02 22:36:14,346 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/feb/27/cbp-border-drone-military-democrats
+2026-03-02 22:36:14,346 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:14,508 - INFO - [The Guardian] Success with 'requests_browser'. Found content (503 words).
+2026-03-02 22:36:14,558 - INFO - Duplicate article skipped: Democrats outraged at US military’s downing of CBP drone near Mexico border | US military | The Guardian from The Guardian
+2026-03-02 22:36:15,215 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c05v0ln6nq3o?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:15,215 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:15,252 - INFO - [BBC] Success with 'requests_browser'. Found content (734 words).
+2026-03-02 22:36:15,292 - INFO - Duplicate article skipped: Saturday Night Live criticised by charity for 'hurtful' Tourette's sketch from BBC
+2026-03-02 22:36:15,434 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/27/argentina-labor-law-overhaul
+2026-03-02 22:36:15,434 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:15,926 - INFO - [The Guardian] Success with 'requests_browser'. Found content (639 words).
+2026-03-02 22:36:15,961 - INFO - Duplicate article skipped: ‘More exploitation, fewer rights’: Argentina braces for sweeping overhaul of labor laws | Argentina | The Guardian from The Guardian
+2026-03-02 22:36:16,643 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cgjznzgly0po?at_medium=RSS&at_campaign=rss
+2026-03-02 22:36:16,644 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-02 22:36:16,678 - INFO - [BBC] Success with 'requests_browser'. Found content (890 words).
+2026-03-02 22:36:16,722 - INFO - Duplicate article skipped: Two victims identified in deadly Texas bar shooting FBI says could have terrorism links from BBC
+2026-03-02 22:36:17,517 - INFO - Selenium driver initialized successfully.
+2026-03-02 22:36:17,517 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-03-02 22:36:17,518 - INFO - Selenium driver initialized successfully.
+2026-03-02 22:36:17,518 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-03-02 22:36:17,643 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-03-02 22:36:17,643 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/preparations-started-for-the-by-election-in-tripura-assembly-seat/article70696035.ece
+2026-03-02 22:36:17,643 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:36:17,678 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-03-02 22:36:17,678 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/she-votes-for-herself-becomes-mayor-and-approves-her-own-liquor-licence-inside-americas-town-of-one/articleshow/128954870.cms
+2026-03-02 22:36:17,678 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:17,670 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/preparations-started-for-the-by-election-in-tripura-assembly-seat/article70696035.ece: Message: timeout: Timed out receiving message from renderer: 59.948
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x5630c2309b6a <unknown>
+#1 0x5630c1d1ca32 <unknown>
+#2 0x5630c1d04007 <unknown>
+#3 0x5630c1d03c16 <unknown>
+#4 0x5630c1d01731 <unknown>
+#5 0x5630c1d020bf <unknown>
+#6 0x5630c1d11560 <unknown>
+#7 0x5630c1d2b707 <unknown>
+#8 0x5630c1d328db <unknown>
+#9 0x5630c1d02829 <unknown>
+#10 0x5630c1d2b49c <unknown>
+#11 0x5630c1dba6e1 <unknown>
+#12 0x5630c1d63c0f <unknown>
+#13 0x5630c1d649d1 <unknown>
+#14 0x5630c22ce6b9 <unknown>
+#15 0x5630c22d15c1 <unknown>
+#16 0x5630c22bae29 <unknown>
+#17 0x5630c22d217e <unknown>
+#18 0x5630c22a14b0 <unknown>
+#19 0x5630c22f6578 <unknown>
+#20 0x5630c22f674b <unknown>
+#21 0x5630c23081a3 <unknown>
+#22 0x7fb5f809caa4 <unknown>
+#23 0x7fb5f8129c6c <unknown>
+
+2026-03-02 22:37:17,670 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/preparations-started-for-the-by-election-in-tripura-assembly-seat/article70696035.ece. Falling back to RSS description.
+2026-03-02 22:37:17,671 - INFO - Duplicate article skipped: Preparations started for the by-election in Tripura Assembly seat from The Hindu
+2026-03-02 22:37:17,712 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/us/she-votes-for-herself-becomes-mayor-and-approves-her-own-liquor-licence-inside-americas-town-of-one/articleshow/128954870.cms: Message: timeout: Timed out receiving message from renderer: 59.905
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x55f5db848b6a <unknown>
+#1 0x55f5db25ba32 <unknown>
+#2 0x55f5db243007 <unknown>
+#3 0x55f5db242c16 <unknown>
+#4 0x55f5db240731 <unknown>
+#5 0x55f5db2410bf <unknown>
+#6 0x55f5db250560 <unknown>
+#7 0x55f5db26a707 <unknown>
+#8 0x55f5db2718db <unknown>
+#9 0x55f5db241829 <unknown>
+#10 0x55f5db26a49c <unknown>
+#11 0x55f5db2f96e1 <unknown>
+#12 0x55f5db2a2c0f <unknown>
+#13 0x55f5db2a39d1 <unknown>
+#14 0x55f5db80d6b9 <unknown>
+#15 0x55f5db8105c1 <unknown>
+#16 0x55f5db7f9e29 <unknown>
+#17 0x55f5db81117e <unknown>
+#18 0x55f5db7e04b0 <unknown>
+#19 0x55f5db835578 <unknown>
+#20 0x55f5db83574b <unknown>
+#21 0x55f5db8471a3 <unknown>
+#22 0x7fccb489caa4 <unknown>
+#23 0x7fccb4929c6c <unknown>
+
+2026-03-02 22:37:17,712 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/us/she-votes-for-herself-becomes-mayor-and-approves-her-own-liquor-licence-inside-americas-town-of-one/articleshow/128954870.cms. Falling back to RSS description.
+2026-03-02 22:37:17,715 - INFO - Saved article: She votes for herself, becomes mayor and approves her own liquor licence: Inside America’s town of one from Times of India
+2026-03-02 22:37:18,478 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/entertainment/english/hollywood/is-that-really-jim-carrey-actor-breaks-silence-after-hyper-realistic-makeup-artist-mask-post-goes-viral/articleshow/128954460.cms
+2026-03-02 22:37:18,478 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:18,606 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/bihar/race-heats-up-for-bihars-five-rs-seats-with-rjd-entry/article70695528.ece
+2026-03-02 22:37:18,606 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:21,055 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:21,312 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1380 words).
+2026-03-02 22:37:21,497 - INFO - Duplicate article skipped: Jim Carrey: Is that really Jim Carrey? Actor breaks silence after hyper-realistic makeup artist mask post goes viral | - The Times of India from Times of India
+2026-03-02 22:37:22,149 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/nri/dubai-born-indian-founder-trolled-for-long-live-uae-post-mocking-nris-isnt-going-to-help/articleshow/128954730.cms
+2026-03-02 22:37:22,149 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:24,737 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:24,913 - INFO - [Times of India] Success with 'selenium_browser'. Found content (309 words).
+2026-03-02 22:37:24,985 - INFO - Duplicate article skipped: Dubai-born Indian founder trolled for 'long live UAE' post: 'Mocking NRIs isn't going to help' - The Times of India from Times of India
+2026-03-02 22:37:25,754 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/high-level-updates-from-middle-east-indian-origin-investor-says-she-spent-2-hours-with-trump-before-us-struck-iran/articleshow/128953894.cms
+2026-03-02 22:37:25,754 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:26,523 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:26,629 - INFO - [Times of India] Success with 'selenium_browser'. Found content (334 words).
+2026-03-02 22:37:26,686 - INFO - Duplicate article skipped: Asha Jadeja Motwani: High-level updates from Middle East: Indian-origin investor says she spent 2 hours with Trump before US struck Iran - The Times of India from Times of India
+2026-03-02 22:37:27,666 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/dont-drink-too-much-nancy-mace-says-her-heart-goes-out-to-ilhan-omar-as-khamenei-is-killed/articleshow/128952193.cms
+2026-03-02 22:37:27,667 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:29,239 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:29,376 - INFO - [Times of India] Success with 'selenium_browser'. Found content (341 words).
+2026-03-02 22:37:29,481 - INFO - Duplicate article skipped: Don't drink too much: Nancy Mace says her heart goes out to Ilhan Omar as Khamenei is killed - The Times of India from Times of India
+2026-03-02 22:37:30,060 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/usisrael-war-with-iran-did-iranian-state-media-post-ayatollah-ali-khamenei-in-heaven-with-72-virgins/articleshow/128951877.cms
+2026-03-02 22:37:30,060 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:30,990 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:31,155 - INFO - [Times of India] Success with 'selenium_browser'. Found content (493 words).
+2026-03-02 22:37:31,247 - INFO - Duplicate article skipped: US–Israel war with Iran: Did Iranian state media post Ayatollah Ali Khamenei in ‘heaven’ with 72 virgins? | World News - The Times of India from Times of India
+2026-03-02 22:37:31,867 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/dog-bless-barron-satire-website-calls-for-presidents-son-barron-trump-to-go-to-war/articleshow/128951176.cms
+2026-03-02 22:37:31,867 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:33,007 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:33,151 - INFO - [Times of India] Success with 'selenium_browser'. Found content (342 words).
+2026-03-02 22:37:33,239 - INFO - Duplicate article skipped: 'Dog bless Barron': Satire website calls for President's son Barron Trump to go to war - The Times of India from Times of India
+2026-03-02 22:37:33,787 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/us-israel-war-with-iran-a-beginners-guide-to-how-hamas-terror-attack-on-oct-7-changed-the-middle-east/articleshow/128951093.cms
+2026-03-02 22:37:33,787 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:34,775 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:34,933 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1683 words).
+2026-03-02 22:37:35,025 - INFO - Duplicate article skipped: US-Israel War with Iran: A beginner's guide to how Hamas terror attack on Oct 7 changed the Middle East | World News - The Times of India from Times of India
+2026-03-02 22:37:35,628 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/right-time-to-stay-in-india-h-1b-redditor-asks-if-people-working-in-india-are-saving-more-than-those-in-us/articleshow/128950576.cms
+2026-03-02 22:37:35,628 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:36,557 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:36,697 - INFO - [Times of India] Success with 'selenium_browser'. Found content (369 words).
+2026-03-02 22:37:36,762 - INFO - Duplicate article skipped: 'Right time to stay in India': H-1B Redditor asks if people working in India are saving more than those in US - The Times of India from Times of India
+2026-03-02 22:37:37,488 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/pakistani-connection-of-texas-medical-board-members-on-radar-dual-role-advising-foreign-students/articleshow/128949204.cms
+2026-03-02 22:37:37,488 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:37:38,477 - INFO - [Times of India] Page content loaded.
+2026-03-02 22:37:38,632 - INFO - [Times of India] Success with 'selenium_browser'. Found content (323 words).
+2026-03-02 22:37:38,695 - INFO - Duplicate article skipped: Pakistani connection of Texas Medical Board members on radar: Dual role, advising foreign students - The Times of India from Times of India
+2026-03-02 22:37:39,209 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-03-02 22:37:39,456 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-03-02 22:38:18,624 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/bihar/race-heats-up-for-bihars-five-rs-seats-with-rjd-entry/article70695528.ece: Message: timeout: Timed out receiving message from renderer: 59.932
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x5630c2309b6a <unknown>
+#1 0x5630c1d1ca32 <unknown>
+#2 0x5630c1d04007 <unknown>
+#3 0x5630c1d03c16 <unknown>
+#4 0x5630c1d01731 <unknown>
+#5 0x5630c1d020bf <unknown>
+#6 0x5630c1d11560 <unknown>
+#7 0x5630c1d2b707 <unknown>
+#8 0x5630c1d328db <unknown>
+#9 0x5630c1d02829 <unknown>
+#10 0x5630c1d2b49c <unknown>
+#11 0x5630c1dba6e1 <unknown>
+#12 0x5630c1d63c0f <unknown>
+#13 0x5630c1d649d1 <unknown>
+#14 0x5630c22ce6b9 <unknown>
+#15 0x5630c22d15c1 <unknown>
+#16 0x5630c22bae29 <unknown>
+#17 0x5630c22d217e <unknown>
+#18 0x5630c22a14b0 <unknown>
+#19 0x5630c22f6578 <unknown>
+#20 0x5630c22f674b <unknown>
+#21 0x5630c23081a3 <unknown>
+#22 0x7fb5f809caa4 <unknown>
+#23 0x7fb5f8129c6c <unknown>
+
+2026-03-02 22:38:18,624 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/bihar/race-heats-up-for-bihars-five-rs-seats-with-rjd-entry/article70695528.ece. Falling back to RSS description.
+2026-03-02 22:38:18,625 - INFO - Duplicate article skipped: Race heats up for Bihar’s five Rajya Sabha seats with RJD entry from The Hindu
+2026-03-02 22:38:19,452 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/jharkhand/jharkhand-cm-urges-pm-to-ensure-safe-return-of-stranded-indians-from-gulf-nations/article70696981.ece
+2026-03-02 22:38:19,452 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:39:19,470 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/jharkhand/jharkhand-cm-urges-pm-to-ensure-safe-return-of-stranded-indians-from-gulf-nations/article70696981.ece: Message: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x5630c2309b6a <unknown>
+#1 0x5630c1d1ca32 <unknown>
+#2 0x5630c1d04007 <unknown>
+#3 0x5630c1d03c16 <unknown>
+#4 0x5630c1d01731 <unknown>
+#5 0x5630c1d020bf <unknown>
+#6 0x5630c1d11560 <unknown>
+#7 0x5630c1d2b707 <unknown>
+#8 0x5630c1d328db <unknown>
+#9 0x5630c1d02829 <unknown>
+#10 0x5630c1d2b49c <unknown>
+#11 0x5630c1dba22b <unknown>
+#12 0x5630c1d63c0f <unknown>
+#13 0x5630c1d649d1 <unknown>
+#14 0x5630c22ce6b9 <unknown>
+#15 0x5630c22d15c1 <unknown>
+#16 0x5630c22bae29 <unknown>
+#17 0x5630c22d217e <unknown>
+#18 0x5630c22a14b0 <unknown>
+#19 0x5630c22f6578 <unknown>
+#20 0x5630c22f674b <unknown>
+#21 0x5630c23081a3 <unknown>
+#22 0x7fb5f809caa4 <unknown>
+#23 0x7fb5f8129c6c <unknown>
+
+2026-03-02 22:39:19,470 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/jharkhand/jharkhand-cm-urges-pm-to-ensure-safe-return-of-stranded-indians-from-gulf-nations/article70696981.ece. Falling back to RSS description.
+2026-03-02 22:39:19,470 - INFO - Duplicate article skipped: Jharkhand CM urges PM to ensure safe return of stranded Indians from Gulf nations from The Hindu
+2026-03-02 22:39:20,751 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/chennai/super-tree-getting-ready-at-kalaignar-poonga/article70696409.ece
+2026-03-02 22:39:20,751 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:40:20,767 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/cities/chennai/super-tree-getting-ready-at-kalaignar-poonga/article70696409.ece: Message: timeout: Timed out receiving message from renderer: 60.000
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x5630c2309b6a <unknown>
+#1 0x5630c1d1ca32 <unknown>
+#2 0x5630c1d04007 <unknown>
+#3 0x5630c1d03c16 <unknown>
+#4 0x5630c1d01731 <unknown>
+#5 0x5630c1d020bf <unknown>
+#6 0x5630c1d11560 <unknown>
+#7 0x5630c1d2b707 <unknown>
+#8 0x5630c1d328db <unknown>
+#9 0x5630c1d02829 <unknown>
+#10 0x5630c1d2b49c <unknown>
+#11 0x5630c1dba22b <unknown>
+#12 0x5630c1d63c0f <unknown>
+#13 0x5630c1d649d1 <unknown>
+#14 0x5630c22ce6b9 <unknown>
+#15 0x5630c22d15c1 <unknown>
+#16 0x5630c22bae29 <unknown>
+#17 0x5630c22d217e <unknown>
+#18 0x5630c22a14b0 <unknown>
+#19 0x5630c22f6578 <unknown>
+#20 0x5630c22f674b <unknown>
+#21 0x5630c23081a3 <unknown>
+#22 0x7fb5f809caa4 <unknown>
+#23 0x7fb5f8129c6c <unknown>
+
+2026-03-02 22:40:20,767 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/chennai/super-tree-getting-ready-at-kalaignar-poonga/article70696409.ece. Falling back to RSS description.
+2026-03-02 22:40:20,767 - INFO - Duplicate article skipped: Super tree getting ready at Kalaignar Poonga from The Hindu
+2026-03-02 22:40:22,058 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/palaniswami-meets-shah-in-delhi-discusses-seat-sharing/article70696839.ece
+2026-03-02 22:40:22,058 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-02 22:41:06,682 - CRITICAL - --- TIMEOUT: 1 scrape jobs did not complete in 300s. ---
+2026-03-02 22:41:06,682 - ERROR - A thread has timed out and will be abandoned.
+2026-03-02 22:41:06,682 - INFO - Shutting down thread pool (wait=False)...
+2026-03-02 22:41:06,683 - INFO - Scraped: 1 Times of India, 0 The Guardian, 0 BBC, 1 Timed_Out_Jobs articles. (Total saved: 1)
+2026-03-02 22:41:06,683 - INFO - --- Scraping job finished ---
+2026-03-02 22:41:06,683 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-03-02 22:41:06,683 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
