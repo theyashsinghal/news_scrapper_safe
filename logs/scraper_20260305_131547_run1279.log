@@ -1,0 +1,236 @@
+2026-03-05 13:14:22,627 - INFO - Initializing database connection at: news_articles.db
+2026-03-05 13:14:22,627 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-03-05 13:14:22,628 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-03-05 13:14:22,628 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-03-05 13:14:22,628 - INFO - Proxy is DISABLED.
+2026-03-05 13:14:22,629 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-03-05 13:14:22,629 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-03-05 13:14:22,629 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-03-05 13:14:22,630 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-03-05 13:14:22,630 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-03-05 13:14:22,630 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-03-05 13:14:22,630 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-03-05 13:14:22,888 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-03-05 13:14:22,888 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/03/south-sudan-risks-return-civil-war-violence-escalates
+2026-03-05 13:14:22,888 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:22,927 - INFO - [The Guardian] Success with 'requests_browser'. Found content (754 words).
+2026-03-05 13:14:22,960 - INFO - Duplicate article skipped: South Sudan risks return to full-blown civil war as violence escalates | South Sudan | The Guardian from The Guardian
+2026-03-05 13:14:22,966 - INFO - Found 35 articles in BBC RSS feed. Processing up to 10.
+2026-03-05 13:14:22,967 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c2k88y1147jo?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:22,967 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:23,263 - INFO - [BBC] Success with 'requests_browser'. Found content (699 words).
+2026-03-05 13:14:23,304 - INFO - Duplicate article skipped: Iran targets headquarters of Iranian Kurdish forces in Iraq from BBC
+2026-03-05 13:14:23,641 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/03/global-south-condemns-us-israeli-war-with-iran
+2026-03-05 13:14:23,641 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:23,670 - INFO - [The Guardian] Success with 'requests_browser'. Found content (892 words).
+2026-03-05 13:14:23,704 - INFO - Duplicate article skipped: ‘Imperialist undertones’: global south condemns US-Israeli war with Iran | US-Israel war on Iran | The Guardian from The Guardian
+2026-03-05 13:14:24,459 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/27/ghana-men-killed-fight-russia-ukraine
+2026-03-05 13:14:24,459 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:24,596 - INFO - [The Guardian] Success with 'requests_browser'. Found content (401 words).
+2026-03-05 13:14:24,664 - INFO - Duplicate article skipped: Ghana says at least 55 of its people killed after Russia ‘lured’ them to fight Ukraine | Ukraine | The Guardian from The Guardian
+2026-03-05 13:14:24,669 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c4gq33ynl07o?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:24,670 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:24,723 - INFO - [BBC] Success with 'requests_browser'. Found content (741 words).
+2026-03-05 13:14:24,771 - INFO - Duplicate article skipped: Pentagon identifies six US soldiers killed in Iran conflict from BBC
+2026-03-05 13:14:24,892 - INFO - Selenium driver initialized successfully.
+2026-03-05 13:14:24,893 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-03-05 13:14:24,895 - INFO - Selenium driver initialized successfully.
+2026-03-05 13:14:24,895 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-03-05 13:14:24,987 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-03-05 13:14:24,988 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-conflict-middle-east-crisis-drone-ballistic-missile-attacks-explosions-dubai-uae-qatar-tehran-gulf-donald-trump-netanyahu-khamenei/liveblog/129061702.cms
+2026-03-05 13:14:24,988 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:25,087 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-03-05 13:14:25,088 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/bengaluru-airport-ranked-best-at-arrivals-globally-for-fourth-consecutive-year/article70707440.ece
+2026-03-05 13:14:25,088 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:25,286 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/27/rising-anger-over-lop-sided-immoral-us-health-funding-pacts-africa-countries
+2026-03-05 13:14:25,286 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:25,323 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1145 words).
+2026-03-05 13:14:25,394 - INFO - Duplicate article skipped: Rising anger over ‘lop-sided’ and ‘immoral’ US health funding pacts with African countries | Global development | The Guardian from The Guardian
+2026-03-05 13:14:26,224 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c79550jrye8o?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:26,226 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:26,306 - INFO - [BBC] Success with 'requests_browser'. Found content (861 words).
+2026-03-05 13:14:26,405 - INFO - Saved article: Nepal election: Millions vote in first ballot since Gen Z uprising for change from BBC
+2026-03-05 13:14:26,877 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/feb/26/women-arrested-uganda-kissing-public-lgbtq-laws
+2026-03-05 13:14:26,877 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:26,928 - INFO - [The Guardian] Success with 'requests_browser'. Found content (645 words).
+2026-03-05 13:14:26,981 - INFO - Duplicate article skipped: Two women arrested in Uganda for allegedly kissing in public could face life sentence | Global development | The Guardian from The Guardian
+2026-03-05 13:14:27,738 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/04/blackout-cuba-us-oil
+2026-03-05 13:14:27,738 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:27,854 - INFO - [The Guardian] Success with 'requests_browser'. Found content (506 words).
+2026-03-05 13:14:27,899 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c0e55g03v2zo?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:27,907 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:28,060 - INFO - Duplicate article skipped: Blackout in Cuba leaves millions without power amid US oil chokehold | Cuba | The Guardian from The Guardian
+2026-03-05 13:14:28,103 - INFO - [BBC] Success with 'requests_browser'. Found content (625 words).
+2026-03-05 13:14:28,192 - INFO - Duplicate article skipped: US sub sinks Iranian warship in Indian Ocean, Hegseth says from BBC
+2026-03-05 13:14:28,950 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/04/cuba-charges-six-exiles-terrorism-speedboat-attack
+2026-03-05 13:14:28,951 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:29,001 - INFO - [The Guardian] Success with 'requests_browser'. Found content (403 words).
+2026-03-05 13:14:29,082 - INFO - Duplicate article skipped: Cuba charges six exiles with terrorism in wake of deadly speedboat attack | Cuba | The Guardian from The Guardian
+2026-03-05 13:14:29,220 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cqxddwl93qjo?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:29,220 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:29,338 - INFO - [BBC] Success with 'requests_browser'. Found content (854 words).
+2026-03-05 13:14:29,479 - INFO - Duplicate article skipped: China sets lowest economic growth target since 1991 from BBC
+2026-03-05 13:14:29,677 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/mar/04/us-military-action-operation-ecuador
+2026-03-05 13:14:29,677 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:29,749 - INFO - [The Guardian] Success with 'requests_browser'. Found content (304 words).
+2026-03-05 13:14:29,795 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:29,919 - INFO - Duplicate article skipped: US military launches operation in Ecuador to combat drug trafficking | Ecuador | The Guardian from The Guardian
+2026-03-05 13:14:30,137 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1d66k5r1x4o?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:30,137 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:30,257 - INFO - [BBC] Success with 'requests_browser'. Found content (409 words).
+2026-03-05 13:14:30,317 - INFO - Duplicate article skipped: Trade court orders tariff refunds in setback for Trump from BBC
+2026-03-05 13:14:30,441 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (294 words).
+2026-03-05 13:14:30,579 - INFO - Saved article: Bengaluru airport ranked best at arrivals globally for fourth consecutive year - The Hindu from The Hindu
+2026-03-05 13:14:31,336 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/28/miami-exiled-cubans-speedboat-shootout
+2026-03-05 13:14:31,336 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:31,358 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/special-trains-for-sani-peyarchi-festival-at-thirunallar/article70707530.ece
+2026-03-05 13:14:31,358 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:31,438 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1105 words).
+2026-03-05 13:14:31,549 - INFO - Duplicate article skipped: ‘Adventurism has had its day’: speedboat shootout leaves Miami’s exiled Cubans bewildered | Cuba | The Guardian from The Guardian
+2026-03-05 13:14:31,617 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c7955g70jgjo?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:31,617 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:31,805 - INFO - [BBC] Success with 'requests_browser'. Found content (534 words).
+2026-03-05 13:14:31,894 - INFO - Saved article: DR Congo government says over 200 killed after landslide at rebel-held mine from BBC
+2026-03-05 13:14:32,629 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/feb/28/at-least-15-killed-as-cash-laden-military-cargo-plane-crashes-in-bolivia
+2026-03-05 13:14:32,630 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:32,667 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c7433dz4ykwo?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:32,667 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:32,783 - INFO - [The Guardian] Success with 'requests_browser'. Found content (428 words).
+2026-03-05 13:14:33,018 - INFO - Duplicate article skipped: At least 20 killed as cash-laden military cargo plane crashes in Bolivia | Bolivia | The Guardian from The Guardian
+2026-03-05 13:14:33,037 - INFO - [BBC] Success with 'requests_browser'. Found content (770 words).
+2026-03-05 13:14:33,188 - INFO - Duplicate article skipped: Musk tells jury 'people read too much' into his posts from BBC
+2026-03-05 13:14:34,567 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2ggpq1742o?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:34,568 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:34,751 - INFO - [BBC] Success with 'requests_browser'. Found content (427 words).
+2026-03-05 13:14:34,961 - INFO - Duplicate article skipped: Cuba: Millions plunged into darkness as fuel crisis deepens from BBC
+2026-03-05 13:14:35,175 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:35,434 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (142 words).
+2026-03-05 13:14:35,634 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr5ll27z52do?at_medium=RSS&at_campaign=rss
+2026-03-05 13:14:35,634 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-05 13:14:36,008 - INFO - Saved article: Special trains for ‘Sani Peyarchi’ festival at Thirunallar - The Hindu from The Hindu
+2026-03-05 13:14:36,084 - INFO - [BBC] Success with 'requests_browser'. Found content (529 words).
+2026-03-05 13:14:36,220 - INFO - Duplicate article skipped: Russia blames Ukrainian naval drones as tanker sinks in Mediterranean from BBC
+2026-03-05 13:14:37,110 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/ksic-land-row-intensifies-farmers-stage-protest-in-mysuru-against-stadium-plan/article70706912.ece
+2026-03-05 13:14:37,110 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:39,184 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:39,393 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (460 words).
+2026-03-05 13:14:39,562 - INFO - Saved article: KSIC land row intensifies: Farmers stage protest in Mysuru against stadium plan - The Hindu from The Hindu
+2026-03-05 13:14:40,667 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/karnataka/young-indians-host-discussion-with-mp-on-mysurus-development/article70706760.ece
+2026-03-05 13:14:40,667 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:42,146 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:42,490 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (186 words).
+2026-03-05 13:14:42,748 - INFO - Saved article: Young Indians host discussion with MP on Mysuru’s development - The Hindu from The Hindu
+2026-03-05 13:14:43,621 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/haryana/haryana-rajya-sabha-poll-satish-nandal-enters-race-for-two-seats-as-third-candidate-to-contest-as-independent/article70706861.ece
+2026-03-05 13:14:43,624 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:48,875 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:49,153 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (225 words).
+2026-03-05 13:14:49,321 - INFO - Saved article: Haryana Rajya Sabha poll: Satish Nandal enters race for two seats as third candidate; to contest as Independent - The Hindu from The Hindu
+2026-03-05 13:14:50,032 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/arunachal-pradesh/arunachal-monastery-pardons-west-bengal-tourist-caught-stealing-religious-items/article70706792.ece
+2026-03-05 13:14:50,032 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:54,185 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:54,320 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (250 words).
+2026-03-05 13:14:54,418 - INFO - Saved article: Arunachal monastery pardons West Bengal tourist caught stealing religious items - The Hindu from The Hindu
+2026-03-05 13:14:55,385 - INFO - [The Hindu] Article: https://www.thehindu.com/videos/shows/watch-ed-dossier-to-hc-fir-order-what-it-means-for-kn-nehru-and-dmk/article70707412.ece
+2026-03-05 13:14:55,385 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:14:56,894 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:14:57,182 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (187 words).
+2026-03-05 13:14:57,351 - INFO - Saved article: Watch | ED dossier to Madras High Court’s FIR order: What it means for K.N. Nehru and DMK - The Hindu from The Hindu
+2026-03-05 13:14:58,825 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Coimbatore/coffee-table-book-featuring-foods-of-adivasi-communities-in-the-nilgiris-released/article70707125.ece
+2026-03-05 13:14:58,825 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:00,867 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:15:00,931 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (284 words).
+2026-03-05 13:15:01,093 - INFO - Saved article: Coffee table book featuring foods of Adivasi communities in The Nilgiris released - The Hindu from The Hindu
+2026-03-05 13:15:01,665 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/Hyderabad/two-workers-killed-after-falling-from-under-construction-building-in-tolichowki/article70707334.ece
+2026-03-05 13:15:01,665 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:03,844 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:15:04,277 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (121 words).
+2026-03-05 13:15:04,326 - INFO - Saved article: Two workers killed after falling from under-construction building in Tolichowki - The Hindu from The Hindu
+2026-03-05 13:15:05,002 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/how-a-library-became-a-popular-learning-spot-in-a-chengalpattu-village/article70704602.ece
+2026-03-05 13:15:05,002 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:06,823 - INFO - [The Hindu] Page content loaded.
+2026-03-05 13:15:06,902 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (500 words).
+2026-03-05 13:15:06,951 - INFO - Saved article: How a library became a popular learning spot in a Chengalpattu village - The Hindu from The Hindu
+2026-03-05 13:15:08,279 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-03-05 13:15:08,421 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-03-05 13:15:25,010 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-conflict-middle-east-crisis-drone-ballistic-missile-attacks-explosions-dubai-uae-qatar-tehran-gulf-donald-trump-netanyahu-khamenei/liveblog/129061702.cms: Message: timeout: Timed out receiving message from renderer: 59.959
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x5602a3df4b6a <unknown>
+#1 0x5602a3807a32 <unknown>
+#2 0x5602a37ef007 <unknown>
+#3 0x5602a37eec16 <unknown>
+#4 0x5602a37ec731 <unknown>
+#5 0x5602a37ed0bf <unknown>
+#6 0x5602a37fc560 <unknown>
+#7 0x5602a3816707 <unknown>
+#8 0x5602a381d8db <unknown>
+#9 0x5602a37ed829 <unknown>
+#10 0x5602a381649c <unknown>
+#11 0x5602a38a56e1 <unknown>
+#12 0x5602a384ec0f <unknown>
+#13 0x5602a384f9d1 <unknown>
+#14 0x5602a3db96b9 <unknown>
+#15 0x5602a3dbc5c1 <unknown>
+#16 0x5602a3da5e29 <unknown>
+#17 0x5602a3dbd17e <unknown>
+#18 0x5602a3d8c4b0 <unknown>
+#19 0x5602a3de1578 <unknown>
+#20 0x5602a3de174b <unknown>
+#21 0x5602a3df31a3 <unknown>
+#22 0x7fef36c9caa4 <unknown>
+#23 0x7fef36d29c6c <unknown>
+
+2026-03-05 13:15:25,010 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-conflict-middle-east-crisis-drone-ballistic-missile-attacks-explosions-dubai-uae-qatar-tehran-gulf-donald-trump-netanyahu-khamenei/liveblog/129061702.cms. Falling back to RSS description.
+2026-03-05 13:15:25,010 - INFO - Duplicate article skipped: US-Israel-Iran War Live Updates: Tanker hit by ‘large explosion’ off Kuwait, causing oil spill; Iran launches missiles at Israel from Times of India
+2026-03-05 13:15:25,624 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/rest-of-world/mysterious-fireball-sonic-boom-experienced-in-vancouver-western-washington-was-indeed-a-meteor-traveling-at-33-km-per-second-speed-confirms-nasa/articleshow/129091004.cms
+2026-03-05 13:15:25,624 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:29,052 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:29,501 - INFO - [Times of India] Success with 'selenium_browser'. Found content (333 words).
+2026-03-05 13:15:29,621 - INFO - Saved article: Mysterious fireball, sonic boom experienced in Vancouver, Western Washington was indeed a meteor traveling at 33 kmps, confirms Nasa - The Times of India from Times of India
+2026-03-05 13:15:30,984 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/former-marines-anti-iran-war-protest-sparks-clash-did-senator-tim-sheehy-break-brian-mcginnis-arm/articleshow/129088711.cms
+2026-03-05 13:15:30,984 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:31,927 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:32,077 - INFO - [Times of India] Success with 'selenium_browser'. Found content (410 words).
+2026-03-05 13:15:32,134 - INFO - Saved article: Former Marine’s anti-Iran war protest sparks clash: Did Senator Tim Sheehy break Brian McGinnis’ arm? - The Times of India from Times of India
+2026-03-05 13:15:33,433 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/since-he-is-an-indian-laura-loomer-says-kash-patel-is-owned-by-muslims-over-austin-bar-shooting/articleshow/129090150.cms
+2026-03-05 13:15:33,433 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:34,210 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:34,396 - INFO - [Times of India] Success with 'selenium_browser'. Found content (451 words).
+2026-03-05 13:15:34,514 - INFO - Saved article: 'Since he is an Indian…’: Laura Loomer says Kash Patel is ‘owned by Muslims’ over Austin bar shooting - The Times of India from Times of India
+2026-03-05 13:15:35,322 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/science-behind-the-lab-grown-diamonds-how-centuries-of-failed-experiments-led-to-affordable-gems/articleshow/129090781.cms
+2026-03-05 13:15:35,322 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:35,972 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:36,089 - INFO - [Times of India] Success with 'selenium_browser'. Found content (533 words).
+2026-03-05 13:15:36,140 - INFO - Saved article: Lab Grown Diamonds: Science behind the lab-grown diamonds: How centuries of failed experiments led to affordable gems | - The Times of India from Times of India
+2026-03-05 13:15:37,446 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/uk/us-israel-war-with-iran-why-various-gulf-countries-are-angry-with-the-uk-and-keir-starmer/articleshow/129082094.cms
+2026-03-05 13:15:37,446 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:38,402 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:38,551 - INFO - [Times of India] Success with 'selenium_browser'. Found content (741 words).
+2026-03-05 13:15:38,598 - INFO - Duplicate article skipped: US-Israel war with Iran: Why various Gulf countries are angry with the UK and Keir Starmer | World News - The Times of India from Times of India
+2026-03-05 13:15:40,062 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/nasa-seeks-cost-effective-solution-for-the-artemis-moon-mission-with-boeing-lockheed-component/articleshow/129076033.cms
+2026-03-05 13:15:40,062 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:40,928 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:41,137 - INFO - [Times of India] Success with 'selenium_browser'. Found content (596 words).
+2026-03-05 13:15:41,177 - INFO - Duplicate article skipped: Artemis Moon Mission: NASA seeks cost-effective solution for the Artemis Moon mission with Boeing-Lockheed component | - The Times of India from Times of India
+2026-03-05 13:15:41,926 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/science/spacex-rocket-launch-creates-space-jellyfish-effect-in-florida-sky-during-falcon-9-mission-carrying-29-starlink-satellites/articleshow/129075417.cms
+2026-03-05 13:15:41,926 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:43,065 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:43,222 - INFO - [Times of India] Success with 'selenium_browser'. Found content (600 words).
+2026-03-05 13:15:43,269 - INFO - Duplicate article skipped: Space Jellyfish: SpaceX rocket launch creates ‘space jellyfish’ effect in Florida sky during Falcon 9 mission carrying 29 Starlink satellites | - The Times of India from Times of India
+2026-03-05 13:15:43,832 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/rockets-missiles-and-drones-fly-across-iran-and-israel-middle-east-remains-tense-how-the-war-is-unfolding/articleshow/129063666.cms
+2026-03-05 13:15:43,832 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:44,438 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:44,632 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1196 words).
+2026-03-05 13:15:44,752 - INFO - Duplicate article skipped: Middle East News: Rockets, missiles and drones fly across Iran and Israel; Middle East remains tense — how the war is unfolding - The Times of India from Times of India
+2026-03-05 13:15:45,348 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/watch-ex-marine-injured-as-iran-war-protest-sparks-scuffle-at-senate-hearing/articleshow/129064376.cms
+2026-03-05 13:15:45,348 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-05 13:15:46,214 - INFO - [Times of India] Page content loaded.
+2026-03-05 13:15:46,385 - INFO - [Times of India] Success with 'selenium_browser'. Found content (383 words).
+2026-03-05 13:15:46,450 - INFO - Duplicate article skipped: Iran War Protest Us: Watch: Ex-Marine injured as Iran war protest sparks scuffle at Senate hearing - The Times of India from Times of India
+2026-03-05 13:15:47,483 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-03-05 13:15:47,681 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-03-05 13:15:47,681 - INFO - Shutting down thread pool (wait=False)...
+2026-03-05 13:15:47,681 - INFO - Scraped: 4 Times of India, 10 The Hindu, 2 BBC, 0 The Guardian articles. (Total saved: 16)
+2026-03-05 13:15:47,681 - INFO - --- Scraping job finished ---
+2026-03-05 13:15:47,688 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-03-05 13:15:47,688 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
