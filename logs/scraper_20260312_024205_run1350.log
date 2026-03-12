@@ -1,0 +1,291 @@
+2026-03-12 02:39:23,166 - INFO - Initializing database connection at: news_articles.db
+2026-03-12 02:39:23,167 - INFO - --- Scraper service started (CI Mode: Run Once) ---
+2026-03-12 02:39:23,167 - INFO - --- Starting new scraping job (Parallel Mode) ---
+2026-03-12 02:39:23,167 - INFO - Creating new robust session with 3 retries on 5xx/connection/read errors.
+2026-03-12 02:39:23,167 - INFO - Proxy is DISABLED.
+2026-03-12 02:39:23,168 - INFO - Starting scrape for BBC RSS feed: http://feeds.bbci.co.uk/news/world/rss.xml
+2026-03-12 02:39:23,168 - INFO - [Times of India] (Thread) requires Selenium. Initializing driver...
+2026-03-12 02:39:23,168 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-03-12 02:39:23,168 - INFO - Starting scrape for The Guardian RSS feed: https://www.theguardian.com/world/rss
+2026-03-12 02:39:23,169 - INFO - [The Hindu] (Thread) requires Selenium. Initializing driver...
+2026-03-12 02:39:23,169 - INFO - Initializing headless Selenium Chrome driver (using SeleniumManager)...
+2026-03-12 02:39:23,169 - INFO - Submitted 4 jobs to thread pool. Waiting up to 300s for completion...
+2026-03-12 02:39:23,391 - INFO - Found 33 articles in BBC RSS feed. Processing up to 10.
+2026-03-12 02:39:23,391 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cn0znx4xrl9o?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:23,391 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:23,484 - INFO - Found 45 articles in The Guardian RSS feed. Processing up to 10.
+2026-03-12 02:39:23,484 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/11/at-least-17-killed-after-drone-strikes-school-in-sudan
+2026-03-12 02:39:23,484 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:23,575 - INFO - [The Guardian] Success with 'requests_browser'. Found content (363 words).
+2026-03-12 02:39:23,619 - INFO - Duplicate article skipped: At least 17 killed after drone strikes school in Sudan | Sudan | The Guardian from The Guardian
+2026-03-12 02:39:23,677 - INFO - [BBC] Success with 'requests_browser'. Found content (1619 words).
+2026-03-12 02:39:23,723 - INFO - Duplicate article skipped: Jeremy Bowen: Trump has called for an Iran uprising but the lessons from Iraq in 1991 loom large from BBC
+2026-03-12 02:39:24,356 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/11/drone-attack-goma-eastern-democratic-republic-of-the-congo-m23-rebels
+2026-03-12 02:39:24,357 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:24,505 - INFO - [The Guardian] Success with 'requests_browser'. Found content (551 words).
+2026-03-12 02:39:24,550 - INFO - Duplicate article skipped: French aid worker among three killed in drone strike in east DRC, M23 rebels say | Democratic Republic of the Congo | The Guardian from The Guardian
+2026-03-12 02:39:25,013 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cr4576v66kno?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:25,013 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:25,059 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/11/nigerian-soldiers-killed-jihadist-raids-north-east
+2026-03-12 02:39:25,059 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:25,081 - INFO - [BBC] Success with 'requests_browser'. Found content (1807 words).
+2026-03-12 02:39:25,133 - INFO - Saved article: Epstein used modelling agent to recruit girls, Brazilian women tell BBC from BBC
+2026-03-12 02:39:25,145 - INFO - [The Guardian] Success with 'requests_browser'. Found content (428 words).
+2026-03-12 02:39:25,181 - INFO - Duplicate article skipped: At least 65 Nigerian soldiers killed in jihadist raids in country’s north-east | Nigeria | The Guardian from The Guardian
+2026-03-12 02:39:26,418 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvg80pedxeyo?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:26,418 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:26,465 - INFO - [The Guardian] Article: https://www.theguardian.com/us-news/2026/mar/11/rfk-vaccine-trials-guinea-bissau
+2026-03-12 02:39:26,465 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:26,475 - INFO - [BBC] Success with 'requests_browser'. Found content (1088 words).
+2026-03-12 02:39:26,518 - INFO - Saved article: National People's Congress: China's biggest political meeting is ending - what have we learned? from BBC
+2026-03-12 02:39:26,552 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1242 words).
+2026-03-12 02:39:26,591 - INFO - Duplicate article skipped: Experts fear ‘unethical’ vaccine trial in Africa is ‘prototype’ for US studies under RFK Jr | US healthcare | The Guardian from The Guardian
+2026-03-12 02:39:27,362 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cly093xxlzzo?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:27,362 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:27,411 - INFO - [BBC] Success with 'requests_browser'. Found content (523 words).
+2026-03-12 02:39:27,449 - INFO - Duplicate article skipped: Countries agree to record release of emergency oil reserves as prices surge from BBC
+2026-03-12 02:39:27,778 - INFO - [The Guardian] Article: https://www.theguardian.com/global-development/2026/mar/11/prison-sentences-attacked-gay-men-hope-kenya-lgbtq-community
+2026-03-12 02:39:27,778 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:27,852 - INFO - [The Guardian] Success with 'requests_browser'. Found content (930 words).
+2026-03-12 02:39:27,891 - INFO - Duplicate article skipped: Prison sentences for pair who attacked gay men hailed as sign of hope for Kenya’s LGBTQ+ community | Global development | The Guardian from The Guardian
+2026-03-12 02:39:28,324 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c1mj1pyrzryo?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:28,324 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:28,375 - INFO - [BBC] Success with 'requests_browser'. Found content (907 words).
+2026-03-12 02:39:28,448 - INFO - Duplicate article skipped: 'Even under missiles we carry on living' - how young Iranians are coping with war from BBC
+2026-03-12 02:39:28,978 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c620vwl97vyo?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:28,978 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:29,027 - INFO - [BBC] Success with 'requests_browser'. Found content (751 words).
+2026-03-12 02:39:29,067 - INFO - Duplicate article skipped: EU and UK demand Israel stop surge in West Bank settler violence from BBC
+2026-03-12 02:39:29,332 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/11/el-salvador-mass-incarceration-crimes-against-humanity-study
+2026-03-12 02:39:29,332 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:29,478 - INFO - [The Guardian] Success with 'requests_browser'. Found content (594 words).
+2026-03-12 02:39:29,513 - INFO - Duplicate article skipped: El Salvador’s mass arrest policy may have led to crimes against humanity, study shows | El Salvador | The Guardian from The Guardian
+2026-03-12 02:39:30,120 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/11/argentina-asylum-brasil-elections
+2026-03-12 02:39:30,120 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:30,189 - INFO - [The Guardian] Success with 'requests_browser'. Found content (685 words).
+2026-03-12 02:39:30,231 - INFO - Duplicate article skipped: Argentina grants asylum to Brasília rioter in move that may sway Brazil vote | Argentina | The Guardian from The Guardian
+2026-03-12 02:39:30,420 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c62g90w8dkko?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:30,420 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:30,468 - INFO - [BBC] Success with 'requests_browser'. Found content (716 words).
+2026-03-12 02:39:30,512 - INFO - Saved article: Kanye West ordered to pay $140K in Malibu mansion renovation case from BBC
+2026-03-12 02:39:31,430 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/11/jose-antonio-kast-pinochet-fan-chile-far-right
+2026-03-12 02:39:31,430 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:31,504 - INFO - [The Guardian] Success with 'requests_browser'. Found content (1085 words).
+2026-03-12 02:39:31,543 - INFO - Duplicate article skipped: José Antonio Kast, the Pinochet fan about to swerve Chile to the far right | Chile | The Guardian from The Guardian
+2026-03-12 02:39:31,694 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cx2grl7lrrmo?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:31,694 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:31,737 - INFO - [BBC] Success with 'requests_browser'. Found content (338 words).
+2026-03-12 02:39:31,773 - INFO - Duplicate article skipped: Three brothers arrested after explosion at US embassy in Oslo from BBC
+2026-03-12 02:39:32,089 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/10/haiti-president-jovenel-moise-trial
+2026-03-12 02:39:32,089 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:32,170 - INFO - [The Guardian] Success with 'requests_browser'. Found content (720 words).
+2026-03-12 02:39:32,205 - INFO - Duplicate article skipped: Haiti president’s assassination driven by greed and power, US prosecutors say | Haiti | The Guardian from The Guardian
+2026-03-12 02:39:32,953 - INFO - [BBC] Article: https://www.bbc.com/news/articles/c14m1vzmxz3o?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:32,953 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:33,002 - INFO - [BBC] Success with 'requests_browser'. Found content (427 words).
+2026-03-12 02:39:33,046 - INFO - Duplicate article skipped: South Africa: New US ambassador criticised over racial controversy from BBC
+2026-03-12 02:39:33,395 - INFO - [The Guardian] Article: https://www.theguardian.com/world/2026/mar/10/shots-fired-canada-consulate-toronto
+2026-03-12 02:39:33,395 - INFO - [The Guardian] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:33,720 - INFO - Selenium driver initialized successfully.
+2026-03-12 02:39:33,720 - INFO - Starting scrape for Times of India RSS feed: https://timesofindia.indiatimes.com/rssfeeds/296589292.cms
+2026-03-12 02:39:33,721 - INFO - Selenium driver initialized successfully.
+2026-03-12 02:39:33,721 - INFO - Starting scrape for The Hindu RSS feed: https://www.thehindu.com/news/national/feeder/default.rss
+2026-03-12 02:39:33,733 - INFO - [The Guardian] Success with 'requests_browser'. Found content (414 words).
+2026-03-12 02:39:33,768 - INFO - Duplicate article skipped: Shots fired at US consulate in Canada in what police call ‘national security incident’ | Toronto | The Guardian from The Guardian
+2026-03-12 02:39:33,927 - INFO - Found 20 articles in Times of India RSS feed. Processing up to 10.
+2026-03-12 02:39:33,927 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-middle-east-crisis-conflict-drone-ballistic-missile-attacks-explosions-gulf-countries-dubai-flights-news-status-donald-trump-netanyahu-mojtaba-khamenei/liveblog/129485596.cms
+2026-03-12 02:39:33,927 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:39:34,019 - INFO - Found 100 articles in The Hindu RSS feed. Processing up to 10.
+2026-03-12 02:39:34,020 - INFO - [The Hindu] Article: https://www.thehindu.com/news/cities/bangalore/25-qubit-quantum-computing-system-installed-at-iiit-dharwad-raichur/article70732224.ece
+2026-03-12 02:39:34,020 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:39:34,337 - INFO - [BBC] Article: https://www.bbc.com/news/articles/cvgj8veg0gno?at_medium=RSS&at_campaign=rss
+2026-03-12 02:39:34,337 - INFO - [BBC] Attempt 1/1: Trying with 'requests_browser' strategy...
+2026-03-12 02:39:34,397 - INFO - [BBC] Success with 'requests_browser'. Found content (659 words).
+2026-03-12 02:39:34,450 - INFO - Duplicate article skipped: UN aid worker Karine Buisset and two others killed in DR Congo’s M23-held Goma city from BBC
+2026-03-12 02:39:42,511 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:39:42,723 - WARNING - [The Hindu] FAILED with 'selenium_browser' (content was too short: 66 words).
+2026-03-12 02:39:42,723 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/cities/bangalore/25-qubit-quantum-computing-system-installed-at-iiit-dharwad-raichur/article70732224.ece. Falling back to RSS description.
+2026-03-12 02:39:42,738 - INFO - Saved article: 25-qubit quantum computing system installed at IIIT-Dharwad, Raichur from The Hindu
+2026-03-12 02:39:43,310 - INFO - [The Hindu] Article: https://www.thehindu.com/sci-tech/energy-and-environment/lpg-crisis-india-needs-electrify-heat-solar-thermal-independence/article70731490.ece
+2026-03-12 02:39:43,310 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:39:46,757 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:39:47,110 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1206 words).
+2026-03-12 02:39:47,307 - INFO - Saved article: LPG crisis: India needs to electrify heat and win thermal independence - The Hindu from The Hindu
+2026-03-12 02:39:48,718 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/uttar-pradesh/congress-criticises-bjp-for-gas-shortages-highlighting-public-suffering-amid-viral-videos-of-long-queues-in-uttar-pradesh/article70731750.ece
+2026-03-12 02:39:48,718 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:33,944 - ERROR - [Times of India] Request failed for strategy 'selenium_browser' on URL https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-middle-east-crisis-conflict-drone-ballistic-missile-attacks-explosions-gulf-countries-dubai-flights-news-status-donald-trump-netanyahu-mojtaba-khamenei/liveblog/129485596.cms: Message: timeout: Timed out receiving message from renderer: 59.419
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x55837ddc8b6a <unknown>
+#1 0x55837d7dba32 <unknown>
+#2 0x55837d7c3007 <unknown>
+#3 0x55837d7c2c16 <unknown>
+#4 0x55837d7c0731 <unknown>
+#5 0x55837d7c10bf <unknown>
+#6 0x55837d7d0560 <unknown>
+#7 0x55837d7ea707 <unknown>
+#8 0x55837d7f18db <unknown>
+#9 0x55837d7c1829 <unknown>
+#10 0x55837d7ea49c <unknown>
+#11 0x55837d8796e1 <unknown>
+#12 0x55837d822c0f <unknown>
+#13 0x55837d8239d1 <unknown>
+#14 0x55837dd8d6b9 <unknown>
+#15 0x55837dd905c1 <unknown>
+#16 0x55837dd79e29 <unknown>
+#17 0x55837dd9117e <unknown>
+#18 0x55837dd604b0 <unknown>
+#19 0x55837ddb5578 <unknown>
+#20 0x55837ddb574b <unknown>
+#21 0x55837ddc71a3 <unknown>
+#22 0x7f512a29caa4 <unknown>
+#23 0x7f512a329c6c <unknown>
+
+2026-03-12 02:40:33,944 - ERROR - [Times of India] All scrape strategies failed for https://timesofindia.indiatimes.com/world/middle-east/us-israel-iran-war-news-live-udates-middle-east-crisis-conflict-drone-ballistic-missile-attacks-explosions-gulf-countries-dubai-flights-news-status-donald-trump-netanyahu-mojtaba-khamenei/liveblog/129485596.cms. Falling back to RSS description.
+2026-03-12 02:40:33,947 - INFO - Saved article: US-Israel-Iran War News Live Updates: Saudi intercepts drone headed to Shaybah oil field; Israeli strikes 10 Hezbollah targets in Beirut from Times of India
+2026-03-12 02:40:34,755 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/indian-embassy-teams-up-with-jazeera-airways-arranges-travel-relief-for-stranded-nationals-amid-flight-disruptions-across-the-gulf-due-to-iran-vs-us-israel-war/articleshow/129487277.cms
+2026-03-12 02:40:34,755 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:35,700 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:35,919 - INFO - [Times of India] Success with 'selenium_browser'. Found content (711 words).
+2026-03-12 02:40:36,040 - INFO - Saved article: Indian Embassy teams up with Jazeera Airways, arranges travel relief for stranded nationals in Kuwait amid flight disruptions across the Gulf due to Iran vs US-Israel war - The Times of India from Times of India
+2026-03-12 02:40:37,287 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/claviculars-daily-looksmaxxing-drg-stack-sparks-alarm-as-doctor-warns-of-serious-health-risks/articleshow/129486785.cms
+2026-03-12 02:40:37,287 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:38,068 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:38,200 - INFO - [Times of India] Success with 'selenium_browser'. Found content (387 words).
+2026-03-12 02:40:38,260 - INFO - Saved article: Clavicular’s daily looksmaxxing dr*g stack sparks alarm as doctor warns of serious health risks - The Times of India from Times of India
+2026-03-12 02:40:38,809 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/charlie-was-appointed-candace-owens-erika-kirk-criticism-backfires-as-linda-yaccarino-and-laura-loomer-turn-on-her/articleshow/129486042.cms
+2026-03-12 02:40:38,809 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:39,977 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:40,119 - INFO - [Times of India] Success with 'selenium_browser'. Found content (536 words).
+2026-03-12 02:40:40,185 - INFO - Saved article: “Charlie was appointed”: Candace Owens’ Erika Kirk criticism backfires as Linda Yaccarino and Laura Loomer turn on her - The Times of India from Times of India
+2026-03-12 02:40:41,606 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/who-is-celestium-twitch-bans-pink-haired-vtuber-streamer-for-hateful-conduct-as-she-claims-mass-reports-and-fights-suspension/articleshow/129483519.cms
+2026-03-12 02:40:41,606 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:42,859 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:42,989 - INFO - [Times of India] Success with 'selenium_browser'. Found content (523 words).
+2026-03-12 02:40:43,065 - INFO - Saved article: Who is Celestium? Twitch bans pink haired VTuber streamer for hateful conduct as she claims mass reports and fights suspension - The Times of India from Times of India
+2026-03-12 02:40:44,228 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us-streamers/what-is-claviculars-mog-world-order-date-time-miami-penthouse-venue-and-kick-subathon-details-explored/articleshow/129480480.cms
+2026-03-12 02:40:44,228 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:45,066 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:45,218 - INFO - [Times of India] Success with 'selenium_browser'. Found content (499 words).
+2026-03-12 02:40:45,289 - INFO - Saved article: What is Clavicular’s Mog World Order? Date, time, Miami penthouse venue and Kick subathon details explored - The Times of India from Times of India
+2026-03-12 02:40:46,588 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/explosions-at-omans-salalah-port-iran-drones-hit-fuel-storage-oil-tanks-tehran-denies-role-as-war-with-us-israel-engulfs-middle-east/articleshow/129485462.cms
+2026-03-12 02:40:46,588 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:47,769 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:47,909 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1296 words).
+2026-03-12 02:40:47,981 - INFO - Saved article: Explosions at Oman's Salalah port: Iran drones hit fuel storage oil tanks? Tehran denies role as war with US-Israel engulfs Middle East - The Times of India from Times of India
+2026-03-12 02:40:48,747 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/uttar-pradesh/congress-criticises-bjp-for-gas-shortages-highlighting-public-suffering-amid-viral-videos-of-long-queues-in-uttar-pradesh/article70731750.ece: Message: timeout: Timed out receiving message from renderer: 58.508
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x557f8ae73b6a <unknown>
+#1 0x557f8a886a32 <unknown>
+#2 0x557f8a86e007 <unknown>
+#3 0x557f8a86dc16 <unknown>
+#4 0x557f8a86b731 <unknown>
+#5 0x557f8a86c0bf <unknown>
+#6 0x557f8a87b560 <unknown>
+#7 0x557f8a895707 <unknown>
+#8 0x557f8a89c8db <unknown>
+#9 0x557f8a86c829 <unknown>
+#10 0x557f8a89549c <unknown>
+#11 0x557f8a9246e1 <unknown>
+#12 0x557f8a8cdc0f <unknown>
+#13 0x557f8a8ce9d1 <unknown>
+#14 0x557f8ae386b9 <unknown>
+#15 0x557f8ae3b5c1 <unknown>
+#16 0x557f8ae24e29 <unknown>
+#17 0x557f8ae3c17e <unknown>
+#18 0x557f8ae0b4b0 <unknown>
+#19 0x557f8ae60578 <unknown>
+#20 0x557f8ae6074b <unknown>
+#21 0x557f8ae721a3 <unknown>
+#22 0x7f7be4c9caa4 <unknown>
+#23 0x7f7be4d29c6c <unknown>
+
+2026-03-12 02:40:48,747 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/uttar-pradesh/congress-criticises-bjp-for-gas-shortages-highlighting-public-suffering-amid-viral-videos-of-long-queues-in-uttar-pradesh/article70731750.ece. Falling back to RSS description.
+2026-03-12 02:40:48,749 - INFO - Saved article: Congress criticises BJP for gas shortages, highlighting public suffering amid viral videos of long queues in Uttar Pradesh from The Hindu
+2026-03-12 02:40:49,120 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/indian-expat-turns-overnight-millionaire-in-uae-takes-home-1-million-prize-after-big-win-in-dubai-duty-free-draw/articleshow/129481585.cms
+2026-03-12 02:40:49,120 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:49,355 - INFO - [The Hindu] Article: https://www.thehindu.com/sci-tech/energy-and-environment/groups-to-prevent-human-elephant-conflict-linked-to-more-elephant-deaths/article70721975.ece
+2026-03-12 02:40:49,355 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:50,567 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:40:50,811 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (1666 words).
+2026-03-12 02:40:50,925 - INFO - Saved article: Groups to prevent human-elephant conflict linked to more elephant deaths - The Hindu from The Hindu
+2026-03-12 02:40:51,053 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:51,224 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1155 words).
+2026-03-12 02:40:51,318 - INFO - Saved article: Indian expat turns overnight millionaire in UAE: Takes home $1 million prize after big win in Dubai Duty Free draw - The Times of India from Times of India
+2026-03-12 02:40:52,348 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-govt-directs-collectors-to-review-lpg-supply-arrangements-prevent-black-marketing/article70732043.ece
+2026-03-12 02:40:52,348 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:52,782 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/middle-east/expats-alert-dubai-tightens-housing-rules-shared-apartment-violations-may-cost-dh1-million-fines/articleshow/129480800.cms
+2026-03-12 02:40:52,782 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:40:59,272 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:40:59,573 - INFO - [Times of India] Success with 'selenium_browser'. Found content (1195 words).
+2026-03-12 02:40:59,761 - INFO - Duplicate article skipped: Expats alert: Dubai tightens housing rules, shared apartment violations may cost Dh1 million fines - The Times of India from Times of India
+2026-03-12 02:41:00,613 - INFO - [Times of India] Article: https://timesofindia.indiatimes.com/world/us/ex-doge-engineer-had-access-to-private-information-of-millions-of-americans-claims-whistleblower-wanted-to-sanitize-data/articleshow/129479945.cms
+2026-03-12 02:41:00,613 - INFO - [Times of India] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:41:01,331 - INFO - [Times of India] Page content loaded.
+2026-03-12 02:41:01,497 - INFO - [Times of India] Success with 'selenium_browser'. Found content (538 words).
+2026-03-12 02:41:01,595 - INFO - Duplicate article skipped: Ex-DOGE engineer had access to private information of millions of Americans, claims whistleblower: 'Wanted to sanitize data' - The Times of India from Times of India
+2026-03-12 02:41:03,019 - INFO - [Times of India] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-03-12 02:41:03,402 - INFO - [Times of India] (Thread) driver.quit() successful.
+2026-03-12 02:41:52,368 - ERROR - [The Hindu] Request failed for strategy 'selenium_browser' on URL https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-govt-directs-collectors-to-review-lpg-supply-arrangements-prevent-black-marketing/article70732043.ece: Message: timeout: Timed out receiving message from renderer: 58.893
+  (Session info: chrome=145.0.7632.116)
+Stacktrace:
+#0 0x557f8ae73b6a <unknown>
+#1 0x557f8a886a32 <unknown>
+#2 0x557f8a86e007 <unknown>
+#3 0x557f8a86dc16 <unknown>
+#4 0x557f8a86b731 <unknown>
+#5 0x557f8a86c0bf <unknown>
+#6 0x557f8a87b560 <unknown>
+#7 0x557f8a895707 <unknown>
+#8 0x557f8a89c8db <unknown>
+#9 0x557f8a86c829 <unknown>
+#10 0x557f8a89549c <unknown>
+#11 0x557f8a9246e1 <unknown>
+#12 0x557f8a8cdc0f <unknown>
+#13 0x557f8a8ce9d1 <unknown>
+#14 0x557f8ae386b9 <unknown>
+#15 0x557f8ae3b5c1 <unknown>
+#16 0x557f8ae24e29 <unknown>
+#17 0x557f8ae3c17e <unknown>
+#18 0x557f8ae0b4b0 <unknown>
+#19 0x557f8ae60578 <unknown>
+#20 0x557f8ae6074b <unknown>
+#21 0x557f8ae721a3 <unknown>
+#22 0x7f7be4c9caa4 <unknown>
+#23 0x7f7be4d29c6c <unknown>
+
+2026-03-12 02:41:52,368 - ERROR - [The Hindu] All scrape strategies failed for https://www.thehindu.com/news/national/madhya-pradesh/madhya-pradesh-govt-directs-collectors-to-review-lpg-supply-arrangements-prevent-black-marketing/article70732043.ece. Falling back to RSS description.
+2026-03-12 02:41:52,370 - INFO - Saved article: Madhya Pradesh govt directs Collectors to review LPG supply arrangements, prevent black marketing from The Hindu
+2026-03-12 02:41:53,618 - INFO - [The Hindu] Article: https://www.thehindu.com/sci-tech/science/tamil-nadu-needs-more-basic-science-funding-to-create-green-technology/article70727179.ece
+2026-03-12 02:41:53,618 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:41:54,526 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:41:54,665 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (865 words).
+2026-03-12 02:41:54,766 - INFO - Saved article: Tamil Nadu needs more basic science funding to create green technology - The Hindu from The Hindu
+2026-03-12 02:41:55,936 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/rather-than-navodaya-schools-cooperate-in-running-existing-model-schools-tn-tells-centre-in-sc/article70732211.ece
+2026-03-12 02:41:55,936 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:41:57,188 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:41:57,324 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (350 words).
+2026-03-12 02:41:57,423 - INFO - Saved article: Rather than Navodaya schools, cooperate in running existing model schools, TN tells Centre in SC - The Hindu from The Hindu
+2026-03-12 02:41:58,443 - INFO - [The Hindu] Article: https://www.thehindu.com/news/international/india-joins-30-un-member-states-to-express-deep-alarm-at-escalation-of-hostilities-in-lebanon/article70733558.ece
+2026-03-12 02:41:58,443 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:41:59,383 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:41:59,518 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (716 words).
+2026-03-12 02:41:59,600 - INFO - Saved article: India joins 30 UN Member States to express deep alarm at escalation of hostilities in Lebanon - The Hindu from The Hindu
+2026-03-12 02:42:00,600 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/punjab/three-northern-states-chandigarh-review-fuel-supply-anti-hoarding-measures-amid-west-asia-conflict/article70731686.ece
+2026-03-12 02:42:00,600 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:42:01,516 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:42:01,640 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (445 words).
+2026-03-12 02:42:01,733 - INFO - Saved article: Three northern States, Chandigarh review fuel supply, anti-hoarding measures amid West Asia conflict - The Hindu from The Hindu
+2026-03-12 02:42:03,172 - INFO - [The Hindu] Article: https://www.thehindu.com/news/national/tamil-nadu/srmist-signs-mou-with-naval-academy-to-collaborate-in-technical-education-and-research/article70731646.ece
+2026-03-12 02:42:03,173 - INFO - [The Hindu] Attempt 1/1: Trying with 'selenium_browser' strategy...
+2026-03-12 02:42:04,142 - INFO - [The Hindu] Page content loaded.
+2026-03-12 02:42:04,272 - INFO - [The Hindu] Success with 'selenium_browser'. Found content (169 words).
+2026-03-12 02:42:04,351 - INFO - Saved article: SRMIST signs MoU with Naval Academy to collaborate in technical education and research - The Hindu from The Hindu
+2026-03-12 02:42:05,583 - INFO - [The Hindu] (Thread) Finished. Attempting to shut down its Selenium driver.
+2026-03-12 02:42:05,732 - INFO - [The Hindu] (Thread) driver.quit() successful.
+2026-03-12 02:42:05,732 - INFO - Shutting down thread pool (wait=False)...
+2026-03-12 02:42:05,732 - INFO - Scraped: 10 The Hindu, 8 Times of India, 0 The Guardian, 3 BBC articles. (Total saved: 21)
+2026-03-12 02:42:05,732 - INFO - --- Scraping job finished ---
+2026-03-12 02:42:05,738 - INFO - --- Scraper service stopped and database connection closed. ---
+2026-03-12 02:42:05,738 - INFO - --- Main thread finished. Forcing process exit to kill zombie threads. ---
